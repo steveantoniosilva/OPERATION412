@@ -26,9 +26,7 @@ function Navbar() {
   };
 
   const navLinks = [
-    { href: '/about', label: 'about' },
     { href: '/books', label: 'books' },
-    { href: '/three', label: '3' },
   ];
 
   return (

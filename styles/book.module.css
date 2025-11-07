@@ -1,0 +1,64 @@
+.bookWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 11rem auto;
+    width: 90%;
+    max-width: 600px;
+}
+
+.book {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 180 / 260;
+    perspective: 800px;
+    transition: transform 0.3s ease;
+}
+
+.book:hover {
+    transform: scale(1.03) rotateY(-5deg);
+}
+
+.cover {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 11px;
+    overflow: hidden;
+}
+
+.cover::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(222, 111, 55, 0.9);
+    mix-blend-mode: overlay;
+    /* blends with whatever is below */
+    pointer-events: none;
+    /* allows clicks through */
+    z-index: 2;
+}
+
+.image {
+    object-fit: cover;
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+}
+
+.info {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.info h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: oldlace;
+}
+
+.info p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+}
