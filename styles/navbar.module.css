@@ -1,0 +1,146 @@
+.verticalNav {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 111;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: transform 1s cubic-bezier(0.85, 0, 0.15, 1);
+    transform: translateX(0);
+    background-color: #000;
+}
+
+.verticalNav a {
+    text-decoration: none;
+    z-index: 2;
+    color: oldlace;
+}
+
+
+.verticalNav.isClosed {
+    transform: translateX(100vw);
+}
+
+.verticalNav::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera */
+}
+
+
+.hamburger {
+    position: fixed;
+    z-index: 111111;
+    top: 37px;
+    right: 30.5px;
+    border-radius: 11px;
+    backdrop-filter: blur(11px);
+}
+
+.hamburger::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+.ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8vh;
+}
+
+.li {
+    font-size: 1.6rem;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+
+@media (min-width: 768px) {
+    .li {}
+}
+
+
+/* New desktop nav container */
+.desktopNav {
+    display: none;
+}
+
+@media screen and (min-width: 888px) {
+
+    .hamburger,
+    .verticalNav {
+        display: none !important;
+    }
+
+    .desktopNav {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: fixed;
+        top: 35px;
+        height: 75px;
+        width: 100%;
+        padding-left: 5%;
+        z-index: 1111;
+    }
+
+    .desktopNavLink {
+        backdrop-filter: blur(5px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.25rem;
+        font-weight: 100;
+        text-decoration: none;
+        letter-spacing: 3px;
+        padding: 10px 18px;
+        font-weight: bold;
+        color: oldlace;
+        text-shadow: none;
+        border-bottom: 1px solid transparent;
+    }
+
+    .desktopNavLink:hover {
+        border-bottom: 1px solid white;
+    }
+
+    .desktopNavLink.active {
+        color: #2e2e2e;
+        border-radius: 5px;
+        background-color: oldlace;
+        border: 1px solid oldlace;
+    }
+}
+
+/* Match your existing breakpoints */
+@media (min-width: 1444px) {
+    .desktopNavLink {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 1640px) {
+    .desktopNavLink {
+        font-size: 1.35rem;
+    }
+
+    .desktopNav {
+        padding-left: 8em;
+        padding-right: 6em;
+    }
+}
