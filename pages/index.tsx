@@ -1,9 +1,8 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import { Neonderthaw } from 'next/font/google';
+import { Playwrite_MX_Guides } from 'next/font/google';
 
-const titleText = Neonderthaw({
-  subsets: ['latin'],
+const titleText = Playwrite_MX_Guides({
   weight: ['400'],
 });
 
@@ -20,12 +19,12 @@ const Home = () => {
       <div
         style={{
           backgroundImage: 'url(fire.avif)',
-          backgroundPosition: '55% 5%',
-          backgroundColor: 'rgba(1,1,1,.875)',
+          backgroundPosition: '55% 93%',
+          backgroundColor: 'rgba(1,1,1,.8)',
         }}
         className='main'>
         <div className={styles.container}>
-          <h3 className={styles.title}>Burning Bush Encounters</h3>
+          <h3 className={`${styles.title} ${titleText.className}`}>Burning Bush Encounters</h3>
         </div>
       </div>
     </>
