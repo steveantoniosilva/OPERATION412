@@ -5,7 +5,6 @@ const Shepherd = () => {
   return (
     <>
       <Head>
-        <title>Books</title>
         <meta
           name='description'
           content='Shepherd of our Faith'
@@ -21,16 +20,29 @@ const Shepherd = () => {
       <div className='main'>
         <div className='container'>
           <Book
-            title='Prophets Hiding in Caves'
+            title='Called to Be A Prophet'
+            subtitle='A Call To Come Out of Hiding'
             img='/cave.avif'
           />
           <Book
-            title='Watchman Asleep On the Wall'
+            title='Called to Be A Watchman'
+            subtitle='A Call to Wake Up & Watch'
             img='/eagle.avif'
           />
           <Book
-            title='Every Marriage Needs A Quarterback'
+            title='Called to Be A Quarterback'
+            subtitle='A Call to Help Men in Marriage'
             img='/q.avif'
+          />
+          <Book
+            title='Called into Business'
+            subtitle='A Call to Be Aware of the Snare'
+            img='/city.avif'
+          />
+          <Book
+            title='Called by An Encounter'
+            subtitle='Stories of Encounters with God'
+            img='/encounter.avif'
           />
           <div style={{ marginBottom: '333px' }}></div>
         </div>

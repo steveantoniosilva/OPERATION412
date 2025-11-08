@@ -21,7 +21,7 @@ const Home = () => {
         style={{
           backgroundImage: 'url(fire.avif)',
           backgroundPosition: '55% 5%',
-          backgroundColor: 'rgba(1,1,1,.8)',
+          backgroundColor: 'rgba(1,1,1,.875)',
         }}
         className='main'>
         <div className={styles.container}>

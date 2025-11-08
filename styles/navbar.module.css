@@ -111,16 +111,16 @@
         font-weight: bold;
         color: oldlace;
         text-shadow: none;
-        border-bottom: 1px solid transparent;
+        background-color: rgba(1,1,1,.75);
+        border-radius: 11px;
     }
 
     .desktopNavLink:hover {
-        border-bottom: 1px solid white;
+        
     }
 
     .desktopNavLink.active {
-        color: #333;
-        border-bottom: 1px solid #333;
+        
     }
 }
 

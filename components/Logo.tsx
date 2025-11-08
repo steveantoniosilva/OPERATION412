@@ -15,9 +15,9 @@ const Logo = () => {
       passHref>
       <div className={styles.logoContainer}>
         <h1
-          style={{ color: 'silver' }}
+          style={{ color: '#000' }}
           className={`${logoText.className}`}>
-          Y
+          B
         </h1>
       </div>
     </Link>
