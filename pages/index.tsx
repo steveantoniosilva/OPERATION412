@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import { Grey_Qo } from 'next/font/google';
+import { Neonderthaw } from 'next/font/google';
 
-const titleText = Grey_Qo({
+const titleText = Neonderthaw({
   subsets: ['latin'],
   weight: ['400'],
 });
@@ -19,16 +19,13 @@ const Home = () => {
       </Head>
       <div
         style={{
-          backgroundImage: 'url(burningbush.avif)',
-          backgroundPosition: '55% 50%',
-          backgroundColor: 'rgba(44,44,44,.5)',
+          backgroundImage: 'url(fire.avif)',
+          backgroundPosition: '55% 5%',
+          backgroundColor: 'rgba(1,1,1,.8)',
         }}
         className='main'>
         <div className={styles.container}>
-          <h4 className={styles.title}>
-            <span className={`${titleText.className} ${styles.b}`}>b</span>
-            urning bush encounters
-          </h4>
+          <h3 className={styles.title}>Burning Bush Encounters</h3>
         </div>
       </div>
     </>

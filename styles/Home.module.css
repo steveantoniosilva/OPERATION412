@@ -14,19 +14,16 @@
 
 .title {
     text-shadow: 0 0 11px #000;
+    color: silver;
 }
 
 .b {
-    font-size: clamp(12rem, 1vw, 15rem);
-    margin-right: .025em;
-}
+font-size: clamp(8rem, 6.6rem + 7vw, 15rem);}
 
 .moreInfo {
     margin-top: 250px;
 }
 
-@media (min-width: 768px) {
-}
+@media (min-width: 768px) {}
 
-@media (min-width: 1200px) {
-}
+@media (min-width: 1200px) {}

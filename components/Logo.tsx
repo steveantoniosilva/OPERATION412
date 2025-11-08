@@ -1,9 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
 import styles from '../styles/logo.module.css';
-import { Grey_Qo } from 'next/font/google';
+import { Playfair_Display_SC } from 'next/font/google';
 
-const logoText = Grey_Qo({
+const logoText = Playfair_Display_SC({
   subsets: ['latin'],
   weight: ['400'],
 });
@@ -15,9 +15,9 @@ const Logo = () => {
       passHref>
       <div className={styles.logoContainer}>
         <h1
-          style={{ color: 'red' }}
+          style={{ color: 'silver' }}
           className={`${logoText.className}`}>
-          b
+          Y
         </h1>
       </div>
     </Link>

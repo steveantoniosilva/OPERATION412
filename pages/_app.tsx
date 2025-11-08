@@ -3,9 +3,9 @@ import Navbar from '../components/Navbar';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import Logo from '@/components/Logo';
-import { Playfair_Display } from 'next/font/google';
+import { Playfair_Display_SC } from 'next/font/google';
 
-const siteText = Playfair_Display({
+const siteText = Playfair_Display_SC({
   subsets: ['latin'],
   weight: ['400'],
 });

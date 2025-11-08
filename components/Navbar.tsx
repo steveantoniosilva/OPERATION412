@@ -40,7 +40,7 @@ function Navbar() {
               toggle={setOpen}
               size={30}
               duration={0.75}
-              color='oldlace'
+              color='silver'
               rounded={true}
               distance='sm'
               direction='right'

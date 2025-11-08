@@ -14,30 +14,25 @@ const Shepherd = () => {
       <div
         style={{
           backgroundImage: 'url()',
-          backgroundPosition: '38% 0%',
-          backgroundColor: 'rgba(1,1,1,.5)',
+          backgroundColor: 'white',
         }}
         className='backgroundImage'
       />
       <div className='main'>
         <div className='container'>
-          <div style={{ marginTop: '222px' }}></div>
           <Book
             title='Prophets Hiding in Caves'
             img='/cave.avif'
-            by='by Burning Bush Encounters'
           />
           <Book
             title='Watchman Asleep On the Wall'
-            img='/asleep.webp'
-            by='by Burning Bush Encounters'
+            img='/eagle.avif'
           />
           <Book
             title='Every Marriage Needs A Quarterback'
             img='/q.avif'
-            by='by Burning Bush Encounters'
           />
-          <div style={{ marginTop: '222px' }}></div>
+          <div style={{ marginBottom: '333px' }}></div>
         </div>
       </div>
     </>
