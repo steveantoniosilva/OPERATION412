@@ -31,7 +31,7 @@ const Shepherd = () => {
           />
           <Book
             title='Called to Be A Quarterback'
-            subtitle='A Call to Help Men in Marriage'
+            subtitle='A Call to Inspire Men in Marriage'
             img='/q.avif'
           />
           <Book
@@ -40,9 +40,19 @@ const Shepherd = () => {
             img='/city.avif'
           />
           <Book
-            title='Called by An Encounter'
-            subtitle='Stories of Encounters with God'
+            title='Called In A Moment'
+            subtitle='A Call to Turn Aside'
             img='/encounter.avif'
+          />
+          <Book
+            title='Called to Go On A Quest'
+            subtitle='A Call into the Unknown'
+            img='/stars.avif'
+          />
+          <Book
+            title="Called to Guard God's Sheep"
+            subtitle='A Call to Study Wolves'
+            img='/wolf.webp'
           />
           <div style={{ marginBottom: '333px' }}></div>
         </div>
