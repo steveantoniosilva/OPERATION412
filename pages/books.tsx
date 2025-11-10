@@ -51,7 +51,7 @@ const Shepherd = () => {
           />
           <Book
             title="Called to Guard God's Sheep"
-            subtitle='A Call to Study Wolves'
+            subtitle='A Call to Discern Wolves'
             img='/wolf.webp'
           />
           <div style={{ marginBottom: '333px' }}></div>
