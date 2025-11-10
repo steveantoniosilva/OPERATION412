@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import { Playwrite_MX_Guides } from 'next/font/google';
+import { Quicksand } from 'next/font/google';
 
-const titleText = Playwrite_MX_Guides({
+const titleText = Quicksand({
   weight: ['400'],
 });
 
@@ -24,7 +24,7 @@ const Home = () => {
         }}
         className='main'>
         <div className={styles.container}>
-          <h3 className={`${styles.title} ${titleText.className}`}>Burning Bush Encounters</h3>
+          <h3 className={`${styles.title} ${titleText.className}`}>burning bush encounters</h3>
         </div>
       </div>
     </>

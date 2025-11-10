@@ -13,47 +13,27 @@ const Shepherd = () => {
       <div
         style={{
           backgroundImage: 'url()',
-          backgroundColor: 'white',
+          backgroundColor: '#000',
         }}
         className='backgroundImage'
       />
       <div className='main'>
         <div className='container'>
-          <Book
-            title='Called to Be A Prophet'
-            subtitle='A Call To Come Out of Hiding'
-            img='/cave.avif'
-          />
-          <Book
-            title='Called to Be A Watchman'
-            subtitle='A Call to Wake Up & Watch'
-            img='/eagle.avif'
-          />
-          <Book
-            title='Called to Be A Quarterback'
-            subtitle='A Call to Inspire Men in Marriage'
-            img='/q.avif'
-          />
-          <Book
-            title='Called into Business'
-            subtitle='A Call to Be Aware of the Snare'
-            img='/city.avif'
-          />
-          <Book
-            title='Called In A Moment'
-            subtitle='A Call to Turn Aside'
-            img='/encounter.avif'
-          />
-          <Book
-            title='Called to Go On A Quest'
-            subtitle='A Call into the Unknown'
-            img='/stars.avif'
-          />
-          <Book
-            title="Called to Guard God's Sheep"
-            subtitle='A Call to Discern Wolves'
-            img='/wolf.webp'
-          />
+            <Book
+              title='Every Marriage Needs A Quarterback'
+              subtitle='A Playbook for Men in Marriage'
+              img='/q.avif'
+            />
+              <Book
+                title='Prophets Hiding in Caves'
+                subtitle='A Call To Come Out of the Cave'
+                img='/cave.avif'
+              />
+            <Book
+              title='The Calling of A Watchman'
+              subtitle='God is Calling His Watchmen in this Hour'
+              img='/eagle.avif'
+            />
           <div style={{ marginBottom: '333px' }}></div>
         </div>
       </div>
