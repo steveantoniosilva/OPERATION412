@@ -21,8 +21,8 @@ const ComingSoon = () => {
       <div className='main'>
         <div className='container'>
           <Book
-            title='Call My Prophets Out of the Caves'
-            subtitle='A Call to Come Out of Hiding'
+            title='Call My Prophets Out of Their Caves'
+            subtitle='A Clarion Call to Come Out of Hiding'
             img='/cave.avif'
           />
           <div style={{ marginBottom: '333px' }}></div>

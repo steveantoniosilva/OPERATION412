@@ -18,9 +18,8 @@ const Home = () => {
       </Head>
       <div
         style={{
-          backgroundImage: 'url(fire.avif)',
-          backgroundPosition: '55% 93%',
-          backgroundColor: 'rgba(139, 35, 0, 0.85)',
+          backgroundPosition: '55% 60%',
+          backgroundImage: 'linear-gradient(to bottom, black, rgba(139, 35, 0, 0.25)), url(fire.avif)',
         }}
         className='main'>
         <div className={styles.container}>
