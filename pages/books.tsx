@@ -26,14 +26,9 @@ const Shepherd = () => {
             />
               <Book
                 title='Prophets Hiding in Caves'
-                subtitle='A Call To Come Out of the Cave'
+                subtitle='A Call To Prophets in Caves'
                 img='/cave.avif'
               />
-            <Book
-              title='The Calling of A Watchman'
-              subtitle='God is Calling His Watchmen in this Hour'
-              img='/eagle.avif'
-            />
           <div style={{ marginBottom: '333px' }}></div>
         </div>
       </div>
