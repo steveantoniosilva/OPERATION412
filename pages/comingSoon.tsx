@@ -22,7 +22,7 @@ const ComingSoon = () => {
         <div className='container'>
           <Book
             title='Call My Prophets Out of Their Caves'
-            subtitle='A Clarion Call to Come Out of Hiding'
+            subtitle='A Call to Come Out of Hiding'
             img='/cave.avif'
           />
           <div style={{ marginBottom: '333px' }}></div>
