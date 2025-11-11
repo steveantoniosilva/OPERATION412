@@ -1,13 +1,14 @@
 import Head from 'next/head';
 import Book from '@/components/Book';
 
-const Shepherd = () => {
+const Books = () => {
   return (
     <>
       <Head>
+        <title>Books by Burning Bush Encounters</title>
         <meta
           name='description'
-          content='Shepherd of our Faith'
+          content='Books by Burning Bush Encounters'
         />
       </Head>
       <div
@@ -19,16 +20,11 @@ const Shepherd = () => {
       />
       <div className='main'>
         <div className='container'>
-            <Book
-              title='Every Marriage Needs A Quarterback'
-              subtitle='A Playbook for Men in Marriage'
-              img='/q.avif'
-            />
-              <Book
-                title='Prophets Hiding in Caves'
-                subtitle='A Call To Prophets in Caves'
-                img='/cave.avif'
-              />
+          <Book
+            title='Every Marriage Needs A Quarterback'
+            subtitle='A Playbook to Help Men Win in Marriage'
+            img='/q.avif'
+          />
           <div style={{ marginBottom: '333px' }}></div>
         </div>
       </div>
@@ -36,4 +32,4 @@ const Shepherd = () => {
   );
 };
 
-export default Shepherd;
+export default Books;

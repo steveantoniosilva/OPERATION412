@@ -4,11 +4,11 @@ import { Twirl as Hamburger } from 'hamburger-react';
 import { useClickAway } from 'react-use';
 import styles from '../styles/navbar.module.css';
 import { useRouter } from 'next/router';
-import { Montserrat } from 'next/font/google';
+import { Lexend } from 'next/font/google';
 
-const linkText = Montserrat({
+const linkText = Lexend({
   subsets: ['latin'],
-  weight: ['400'],
+  weight: ['100'],
 });
 
 function Navbar() {
@@ -26,7 +26,8 @@ function Navbar() {
   };
 
   const navLinks = [
-    { href: '/books', label: 'books' },
+    { href: '/currentBooks', label: 'current books' },
+    { href: '/comingSoon', label: 'coming soon' },
   ];
 
   return (
