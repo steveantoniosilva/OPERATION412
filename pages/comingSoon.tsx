@@ -25,6 +25,11 @@ const ComingSoon = () => {
             subtitle='A Call to Come Out of Hiding'
             img='/cave.avif'
           />
+          <Book
+            title='Call My Watchmen Out of Their Sleep'
+            subtitle='A Call to Wake Up, Watch and Pray'
+            img='/watchman.jpg'
+          />
           <div style={{ marginBottom: '333px' }}></div>
         </div>
       </div>
