@@ -20,19 +20,19 @@ const ComingSoon = () => {
       <div className='main'>
         <div className='container'>
           <Book
-            title='Call My Prophets Out of Their Caves'
-            subtitle='A Call to Come Out of Hiding'
-            img='/torch.avif'
+            title='A Call to Prophets to Come Out of Their Caves'
+            subtitle="It's Time to Come Out of Hiding"
+            img='/cave.png'
           />
           <Book
-            title='Call My Watchmen Out of Their Sleep'
-            subtitle='A Call to Wake Up, Watch and Pray'
-            img='/eagle.avif'
+            title='A Call to Watchmen to Come Out of Their Sleep'
+            subtitle="It's Time to Wake Up, Watch and Pray"
+            img='/eagle.png'
           />
           <Book
-            title='Encounters with Wolves in the Church'
-            subtitle='Discerning the Tactics of Wolves'
-            img='/wolfsheep.webp'
+            title='A Call to Confront Wolves in The Church'
+            subtitle="The Devil Doesn't Wear Prada, He Wears Wool"
+            img='/wolf.png'
           />
           <div style={{ marginBottom: '333px' }}></div>
         </div>
