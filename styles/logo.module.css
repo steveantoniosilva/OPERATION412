@@ -1,8 +1,8 @@
 .logoContainer {
     display: block;
     position: absolute;
-    top: 2em;
-    left: 1.5em;
+    top: 35px;
+    left: 25px;
     z-index: 111111;
 }
 

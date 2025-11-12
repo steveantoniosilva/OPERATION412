@@ -29,6 +29,11 @@ const ComingSoon = () => {
             subtitle='A Call to Wake Up, Watch and Pray'
             img='/eagle.avif'
           />
+          <Book
+            title='Encounters with Wolves in the Church'
+            subtitle='Discerning the Tactics of Wolves'
+            img='/wolfsheep.webp'
+          />
           <div style={{ marginBottom: '333px' }}></div>
         </div>
       </div>

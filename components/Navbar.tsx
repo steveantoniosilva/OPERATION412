@@ -35,6 +35,7 @@ function Navbar() {
       {/* Hamburger Menu for Mobile */}
       <>
         <div ref={navbarRef}>
+          <div className={styles.topMobileBanner}></div>
           <div className={styles.hamburger}>
             <Hamburger
               toggled={isOpen}
@@ -55,6 +56,7 @@ function Navbar() {
                   key={href}
                   className={styles.li}>
                   <Link
+                    className={`${styles.mobileNavLink} ${router.pathname === href ? styles.active : ''}`}
                     href={href}
                     onClick={() => isOpen && handleClick()}>
                     {label}

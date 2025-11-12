@@ -2,62 +2,62 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 15rem auto;
+    margin: 22em auto;
     width: 90%;
     max-width: 600px;
+
 }
 
 .book {
     position: relative;
     width: 100%;
     aspect-ratio: 180 / 260;
-    perspective: 800px;
-    transition: transform 0.3s ease;
+    perspective: 1000px;
+    /* stronger 3D effect */
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
 .book:hover {
-    transform: scale(1.03) rotateY(-5deg);
+    transform: scale(1.05) rotateY(-8deg);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
 .cover {
     position: relative;
     width: 100%;
     height: 100%;
-    border-radius: 11px;
+    border-radius: 12px;
     overflow: hidden;
+    /* softer than ridge */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to bottom right, #333, #111);
+    transform-style: preserve-3d;
 }
 
-.cover::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background-color: rgba(222, 111, 55, 0.9);
-    mix-blend-mode: overlay;
-    /* blends with whatever is below */
-    pointer-events: none;
-    /* allows clicks through */
-    z-index: 2;
-}
 
+/* image inside cover */
 .image {
     object-fit: cover;
     position: absolute;
     inset: 0;
     z-index: 1;
     cursor: pointer;
+    border-radius: 12px;
 }
 
-
+/* text */
 .title {
-    color: rgba(255, 255, 255, 1);
-    text-shadow: 0 0 5px #000;
+    color: #fff;
+    text-shadow: 0 0 8px #000;
     text-align: center;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5em;
+    font-weight: 700;
 }
 
 .subtitle {
-    color: rgba(255, 255, 255, .8);
-    text-shadow: 0 0 5px #000;
+    color: rgba(255, 255, 255, 0.85);
+    text-shadow: 0 0 6px #000;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3em;
+    font-weight: 500;
 }
