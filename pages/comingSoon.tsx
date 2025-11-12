@@ -13,7 +13,6 @@ const ComingSoon = () => {
       </Head>
       <div
         style={{
-          backgroundImage: 'url()',
           backgroundColor: '#000',
         }}
         className='backgroundImage'
@@ -23,12 +22,12 @@ const ComingSoon = () => {
           <Book
             title='Call My Prophets Out of Their Caves'
             subtitle='A Call to Come Out of Hiding'
-            img='/cave.avif'
+            img='/torch.avif'
           />
           <Book
             title='Call My Watchmen Out of Their Sleep'
             subtitle='A Call to Wake Up, Watch and Pray'
-            img='/watchman.jpg'
+            img='/eagle.avif'
           />
           <div style={{ marginBottom: '333px' }}></div>
         </div>

@@ -10,7 +10,7 @@ const Logo = () => {
       <div className={styles.logoContainer}>
         <AiOutlineFire
           size={44}
-          fill='indianred'
+          fill='rgba(255, 111, 0, 1)'
         />
       </div>
     </Link>

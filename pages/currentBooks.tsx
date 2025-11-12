@@ -21,8 +21,8 @@ const Books = () => {
       <div className='main'>
         <div className='container'>
           <Book
-            title='Called to Quarterback Your Marriage'
-            subtitle='Strategies for Men to Win the Game That Matters Most'
+            title='Every Marriage Needs A Quarterback'
+            subtitle='Strategies Every Man Needs to Win the Game That Matters Most'
             img='/q.avif'
           />
           <div style={{ marginBottom: '333px' }}></div>
