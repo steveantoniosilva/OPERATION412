@@ -47,8 +47,8 @@
 .hamburger {
     position: fixed;
     z-index: 111111;
-    top: 37px;
-    right: 30.5px;
+    top: 28px;
+    right: 28px;
     border-radius: 11px;
 }
 
