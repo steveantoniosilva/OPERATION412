@@ -41,7 +41,7 @@ const Books = () => {
             img='/wolf.png'
           />
           <Book
-            title='A Call to Dreamers to Study Dreams in the Bible'
+            title='A Call to Dreamers Who See & Hear in the Night'
             subtitle='Calling Dreamers to Discern the Voice of God in Dreams'
             img='/dream.jpg'
           />
