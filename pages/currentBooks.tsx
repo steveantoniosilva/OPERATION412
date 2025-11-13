@@ -41,8 +41,8 @@ const Books = () => {
             img='/wolf.png'
           />
           <Book
-            title='A Call to Dreamers Who See & Hear in the Night'
-            subtitle='Calling Dreamers to Discern the Voice of God in Dreams'
+            title='A Call to Explore Dreams and Visions in the Bible'
+            subtitle='Calling on God to Pour Out His Spirit'
             img='/dream.jpg'
           />
           <div style={{ marginBottom: '333px' }}></div>
