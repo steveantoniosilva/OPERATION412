@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import styles from '../styles/logo.module.css';
-import { AiOutlineFire } from 'react-icons/ai';
+import { GiSmallFire } from 'react-icons/gi';
 
 const Logo = () => {
   return (
@@ -8,7 +8,7 @@ const Logo = () => {
       href='/'
       passHref>
       <div className={styles.logoContainer}>
-        <AiOutlineFire
+        <GiSmallFire
           size={44}
           fill='rgba(255, 111, 0, 1)'
         />
