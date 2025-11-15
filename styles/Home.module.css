@@ -25,9 +25,6 @@
     font-size: clamp(8rem, 6.6rem + 7vw, 15rem);
 }
 
-.moreInfo {
-    margin-top: 250px;
-}
 
 @media (min-width: 768px) {}
 

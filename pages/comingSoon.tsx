@@ -5,7 +5,7 @@ const ComingSoon = () => {
   return (
     <>
       <Head>
-        <title>Books Coming Soon</title>
+        <title>Coming Soon</title>
         <meta
           name='description'
           content='Books Coming Soon by Burning Bush Encounters'
@@ -20,24 +20,29 @@ const ComingSoon = () => {
       <div className='main'>
         <div className='container'>
           <Book
-            title='A Call to Prophets to Come Out of Their Caves'
-            subtitle="Calling God's Prophets Out of Hiding"
+            title="It's Time to Quarterback Your Marriage"
+            subtitle='Calling Men to Win the Game That Matters Most'
+            img='/quarterback.png'
+          />
+          <Book
+            title="It's Time to Come Out of the Caves"
+            subtitle='Calling Prophets to Come Out of Hiding'
             img='/cave.png'
           />
           <Book
-            title='A Call to Watchmen to Come Out of Their Sleep'
-            subtitle="Calling God's Watchmen to Wake Up, Watch and Pray"
+            title="It's Time to Wake Up Out of Your Sleep"
+            subtitle='Calling Watchmen to Wake Up, Watch and Pray'
             img='/eagle.png'
           />
           <Book
-            title='A Call to Wolves to Come Out of the Church'
-            subtitle='Calling Sheep to Become as Wise as Serpents'
+            title="It's Time to Hunt Wolves Out of the Church"
+            subtitle='Calling the Church to Discern Wolves'
             img='/wolf.png'
           />
           <Book
-            title='A Call to  the Prophetic Language of Dreams'
-            subtitle='Calling Dreamers to Meditate on Every Dream in the Bible'
-            img='/dream.jpg'
+            title="It's Time to Dream Dreams from God"
+            subtitle="Calling Dreamers to know God's Language of Dreams"
+            img='/jacobs-ladder.png'
           />
           <div style={{ marginBottom: '333px' }}></div>
         </div>
