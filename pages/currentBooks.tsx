@@ -36,8 +36,8 @@ const Books = () => {
             img='/eagle.png'
           />
           <Book
-            title="It's Time for Sheep to Discern Wolves"
-            subtitle='Calling Sheep to Identify Wolves in the Church'
+            title="It's Time to Call Out Wolves in the Church"
+            subtitle='Calling Sheep to Learn the Tactics of Wolves'
             img='/wolf.png'
           />
           <Book
