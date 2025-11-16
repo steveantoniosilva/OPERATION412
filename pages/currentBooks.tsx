@@ -36,14 +36,19 @@ const Books = () => {
             img='/eagle.png'
           />
           <Book
-            title="It's Time for Sheep to Hunt Wolves"
-            subtitle='Calling Sheep to Confront Wolves in the Church'
+            title="It's Time for Sheep to Discern Wolves"
+            subtitle='Calling Sheep to Identify Wolves in the Church'
             img='/wolf.png'
           />
           <Book
-            title="It's Time for An Outpouring of Dreams"
-            subtitle="Calling Dreamers to Meditate on Every Dream in the Bible"
+            title="It's Time to Receive Revelation in Dreams"
+            subtitle="Calling Dreamers to Meditate on Dreams in the Bible"
             img='/statue.png'
+          />
+          <Book
+            title="It's Time to Receive Revelation in Visions"
+            subtitle="Calling Seers to Meditate on Visions in the Bible"
+            img='/leopard.png'
           />
           <div style={{ marginBottom: '333px' }}></div>
         </div>
