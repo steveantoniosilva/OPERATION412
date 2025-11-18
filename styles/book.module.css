@@ -30,7 +30,6 @@
     overflow: hidden;
     /* softer than ridge */
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-    background: linear-gradient(to bottom right, #333, #111);
     transform-style: preserve-3d;
 }
 

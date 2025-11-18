@@ -4,6 +4,12 @@ import { Twirl as Hamburger } from 'hamburger-react';
 import { useClickAway } from 'react-use';
 import styles from '../styles/navbar.module.css';
 import { useRouter } from 'next/router';
+import { Lexend } from 'next/font/google';
+
+const navText = Lexend({
+  subsets: ['latin'],
+  weight: ['100'],
+});
 
 function Navbar() {
   const router = useRouter();
@@ -20,8 +26,8 @@ function Navbar() {
   };
 
   const navLinks = [
-    { href: '/books', label: 'Books' },
-    { href: '/comingSoon', label: 'Coming Soon' },
+    { href: '/books', label: 'books' },
+    { href: '/comingSoon', label: 'coming soon' },
   ];
 
   return (
@@ -50,7 +56,7 @@ function Navbar() {
                   key={href}
                   className={styles.li}>
                   <Link
-                    className={`${styles.mobileNavLink} ${router.pathname === href ? styles.active : ''}`}
+                    className={`${styles.mobileNavLink} ${navText.className} ${router.pathname === href ? styles.active : ''}`}
                     href={href}
                     onClick={() => isOpen && handleClick()}>
                     {label}
@@ -68,7 +74,7 @@ function Navbar() {
           <Link
             key={href}
             href={href}
-            className={`${styles.desktopNavLink} ${router.pathname === href ? styles.active : ''}`}>
+            className={`${styles.desktopNavLink} ${navText.className} ${router.pathname === href ? styles.active : ''}`}>
             {label}
           </Link>
         ))}
