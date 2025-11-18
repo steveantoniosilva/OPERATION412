@@ -5,7 +5,7 @@ const Books = () => {
   return (
     <>
       <Head>
-        <title>Current Books</title>
+        <title>Books</title>
         <meta
           name='description'
           content='Burning Bush Encounters'
@@ -26,7 +26,7 @@ const Books = () => {
             img='/quarterback.png'
           />
           <Book
-            title="Chosen to Come Out of the Caves"
+            title="Chosen to Be A Prophet &"
             subtitle='Calling Prophets to Come Out of Hiding'
             img='/cave.png'
           />
@@ -36,18 +36,18 @@ const Books = () => {
             img='/eagle.png'
           />
           <Book
-            title="Chosen to Call Out Wolves in the Church"
-            subtitle='Calling Sheep to Learn the Tactics of Wolves'
+            title="Chosen to Confront Wolves in the Church"
+            subtitle='Calling Sheep to Discern Wolves in Wool'
             img='/wolf.png'
           />
           <Book
-            title="Chosen to Receive Revelation in Dreams"
-            subtitle="Calling Dreamers to Meditate on Dreams in the Bible"
+            title="Chosen to Receive & Interpret Dreams"
+            subtitle="Calling Dreamers to Understand the Language of Dreams"
             img='/statue.png'
           />
           <Book
-            title="Chosen to Receive Revelation in Visions"
-            subtitle="Calling Seers to Meditate on Visions in the Bible"
+            title="Chosen to Receive & Interpret Visions"
+            subtitle="Calling Seers to Understand the Language of Visions"
             img='/leopard.png'
           />
           <div style={{ marginBottom: '333px' }}></div>

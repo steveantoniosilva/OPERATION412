@@ -1,10 +1,5 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import { Quicksand } from 'next/font/google';
-
-const titleText = Quicksand({
-  weight: ['400'],
-});
 
 const Home = () => {
   return (
@@ -23,7 +18,7 @@ const Home = () => {
         }}
         className='main'>
         <div className={styles.container}>
-          <h3 className={`${styles.title} ${titleText.className}`}>burning bush encounters</h3>
+          <h1 className={styles.title}>Burning Bush Encounters</h1>
         </div>
       </div>
     </>

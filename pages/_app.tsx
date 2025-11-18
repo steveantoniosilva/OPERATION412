@@ -3,11 +3,11 @@ import Navbar from '../components/Navbar';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import Logo from '@/components/Logo';
-import { Lexend } from 'next/font/google';
+import { EB_Garamond } from 'next/font/google';
 
-const siteText = Lexend({
+const siteText = EB_Garamond({
   subsets: ['latin'],
-  weight: ['100'],
+  weight: ['400'],
 });
 
 export default function App({ Component, pageProps }: AppProps) {
