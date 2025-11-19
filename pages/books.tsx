@@ -23,22 +23,22 @@ const Books = () => {
           <Book
             title='CALLED TO QUARTERBACK YOUR MARRIAGE'
             subtitle='Calling Men to Win the Game That Matters Most'
-            img='/q.png'
+            img='/qb.png'
           />
           <Book
             title='CALLED TO BE A PROPHET'
-            subtitle='Calling Prophets Out of the Caves'
+            subtitle='Calling Prophets Out of Caves'
             img='/cave.png'
           />
           <Book
             title='CALLED TO BE A WATCHMAN'
-            subtitle='Calling Watchmen to Wake Up'
+            subtitle='Calling Watchmen Out of Sleep'
             img='/e.png'
           />
           <Book
             title='CALLED TO CONFRONT WOLVES IN THE CHURCH'
             subtitle='Calling Sheep to Discern Wolves in Wool'
-            img='/w.png'
+            img='/wolf.png'
           />
           <Book
             title='CALLED TO SEE INTO THE REALM OF DREAMS'
