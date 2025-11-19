@@ -21,34 +21,34 @@ const Books = () => {
       <div className='main'>
         <div className='container'>
           <Book
-            title='Called to Quarterback Your Marriage'
+            title='CALLED TO QUARTERBACK YOUR MARRIAGE'
             subtitle='Calling Men to Win the Game That Matters Most'
-            img='/quarterback.png'
+            img='/q.png'
           />
           <Book
-            title='Called to Be A Prophet'
-            subtitle='Calling Prophets to Come Out of Hiding'
+            title='CALLED TO BE A PROPHET'
+            subtitle='Calling Prophets Out of the Caves'
             img='/cave.png'
           />
           <Book
-            title='Called to Be a Watchman'
-            subtitle='Calling Watchmen to Wake Up, Watch and Pray'
-            img='/eagle.png'
+            title='CALLED TO BE A WATCHMAN'
+            subtitle='Calling Watchmen to Wake Up'
+            img='/e.png'
           />
           <Book
-            title='Called to Confront Wolves in the Church'
+            title='CALLED TO CONFRONT WOLVES IN THE CHURCH'
             subtitle='Calling Sheep to Discern Wolves in Wool'
-            img='/wolf.png'
+            img='/w.png'
           />
           <Book
-            title='Called to See & Interpret Dreams'
-            subtitle='Calling Dreamers to Understand the Language of Dreams'
-            img='/daniels-statue.png'
+            title='CALLED TO SEE INTO THE REALM OF DREAMS'
+            subtitle='Calling Dreamers to Meditate on Dreams in the Bible'
+            img='/lion.png'
           />
           <Book
-            title='Called to See & Interpret Visions'
-            subtitle='Calling Seers to Understand the Language of Visions'
-            img='/leopard.png'
+            title='CALLED TO SEE INTO THE REALM OF VISIONS'
+            subtitle='Calling Seers to Meditate on Visions in the Bible'
+            img='/four-heads.png'
           />
           <div style={{ marginBottom: '333px' }}></div>
         </div>

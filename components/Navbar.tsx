@@ -26,8 +26,8 @@ function Navbar() {
   };
 
   const navLinks = [
-    { href: '/books', label: 'books' },
-    { href: '/comingSoon', label: 'coming soon' },
+    { href: '/books', label: 'forged' },
+    { href: '/comingSoon', label: 'in the fire' },
   ];
 
   return (

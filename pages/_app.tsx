@@ -26,7 +26,7 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
 
       <div className={siteText.className}>
-        <Logo />
+        {/* <Logo /> */}
         <Navbar />
         <Component {...pageProps} />
       </div>
