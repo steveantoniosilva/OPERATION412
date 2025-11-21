@@ -21,7 +21,8 @@ function Navbar() {
   };
 
   const navLinks = [
-    { href: '/forged', label: 'forged in the fire' },
+    { href: '/forged', label: 'forged' },
+    { href: '/in-the-fire', label: 'in the fire' },
   ];
 
   return (

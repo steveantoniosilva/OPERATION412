@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import { Cormorant_Garamond } from 'next/font/google';
+import Image from 'next/image';
 
 const titleText = Cormorant_Garamond({
   subsets: ['latin'],
@@ -27,6 +28,12 @@ const Home = () => {
         className='main'>
         <div className={styles.container}>
           <h1 className={`${styles.title} ${titleText.className}`}>Burning Bush Encounters</h1>
+          <Image
+            height={111}
+            width={111}
+            src={'/burning-bush-logo.png'}
+            alt='Burning Bush Logo'
+          />
         </div>
       </div>
     </>

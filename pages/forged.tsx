@@ -14,8 +14,8 @@ const Forged = () => {
       <div className='main'>
         <div className='container'>
           <Book
-            title="WHEN GOD CALLS US OUT OF SLEEP"
-            subtitle='A Journey Through the Dreams of the Bible'
+            title="WHEN GOD CALLS IN THE NIGHT"
+            subtitle='A Journey Through Dreams in the Bible'
             img='/dreams.png'
           />
         </div>
