@@ -130,6 +130,7 @@
         padding-bottom: 22px;
         border-bottom: 1px solid transparent;
         color: tan;
+        font-weight: 100;
     }
 
     .desktopNavLink:hover {

@@ -11,21 +11,13 @@ const Forged = () => {
           content='Burning Bush Encounters'
         />
       </Head>
-      <div
-        style={{
-          backgroundImage: 'url()',
-          backgroundColor: '#000',
-        }}
-        className='backgroundImage'
-      />
       <div className='main'>
         <div className='container'>
           <Book
-            title="HE'S BEEN SPEAKING TO US IN DREAMS"
-            subtitle='When We Know Him, We Recognize His Voice'
-            img='/lion.png'
+            title="WHEN GOD CALLS US OUT OF SLEEP"
+            subtitle='A Journey Through the Dreams of the Bible'
+            img='/dreams.png'
           />
-          <div style={{ marginBottom: '333px' }}></div>
         </div>
       </div>
     </>

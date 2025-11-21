@@ -11,19 +11,13 @@ const InTheFire = () => {
           content='Books Coming Soon by Burning Bush Encounters'
         />
       </Head>
-      <div
-        style={{
-          backgroundColor: '#000',
-        }}
-        className='backgroundImage'
-      />
       <div className='main'>
         <div className='container'>
-            <Book
-              title='WHEN GOD VISITS US WITH VISIONS'
-              subtitle='Calling Seers to Meditate on Visions in the Bible'
-              img='/four-heads.png'
-            />
+          <Book
+            title='WHEN GOD SPEAKS TO US IN VISIONS'
+            subtitle='A Journey Through the Visions of the Bible'
+            img='/four-heads.png'
+          />
           <Book
             title='CALLED TO QUARTERBACK YOUR MARRIAGE'
             subtitle='A Guide for Men on How to Play Quarterback'
@@ -34,23 +28,18 @@ const InTheFire = () => {
             subtitle='God is Calling You Out of That Dark Place'
             img='/cave.png'
           />
-          <Book
-            title='CALLED TO BE A WATCHMAN'
-            subtitle='Calling Watchmen Out of Sleep'
-            img='/e.png'
-          />
+            <Book
+              title='WE WERE CALLED BY AN INVESTOR'
+              subtitle='Investment Principles for Followers of Christ'
+              img='/hidden.png'
+            />
           <Book
             title='CALLED TO CONFRONT WOLVES IN THE CHURCH'
             subtitle='Calling Sheep to Discern Wolves in Wool'
             img='/wolf.png'
           />
           <Book
-            title='CALLED BY AN INVESTOR'
-            subtitle='Calling His followers to become investor'
-            img='/hidden.png'
-          />
-          <Book
-            title="CALLED INTO MY FATHER'S BUSINESS"
+            title="CALLED BY MY FATHER INTO HIS BUSINESS"
             subtitle='Calling His followers into Business?'
             img='/hidden.png'
           />
@@ -65,7 +54,7 @@ const InTheFire = () => {
             img='/hidden.png'
           />
           <Book
-            title='WHAT ARE ANGELS & DEMONS?'
+            title='WHO ARE ANGELS & DEMONS?'
             subtitle='Calling ...'
             img='/hidden.png'
           />
