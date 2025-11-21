@@ -2,12 +2,12 @@ import '@/styles/globals.css';
 import Navbar from '../components/Navbar';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
-import Logo from '@/components/Logo';
-import { Lexend } from 'next/font/google';
+// import Logo from '@/components/Logo';
+import { Cormorant_Garamond } from 'next/font/google';
 
-const siteText = Lexend({
+const siteText = Cormorant_Garamond({
   subsets: ['latin'],
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+  weight: ['300', '400', '500', '600', '700'],
 });
 
 export default function App({ Component, pageProps }: AppProps) {

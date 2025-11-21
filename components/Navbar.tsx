@@ -1,3 +1,4 @@
+// components/Navbar.jsx
 import Link from 'next/link';
 import { useState, useRef } from 'react';
 import { Twirl as Hamburger } from 'hamburger-react';
@@ -5,77 +6,55 @@ import { useClickAway } from 'react-use';
 import styles from '../styles/navbar.module.css';
 import { useRouter } from 'next/router';
 
-
-function Navbar() {
+export default function Navbar() {
   const router = useRouter();
-
   const [isOpen, setOpen] = useState(false);
-  const navbarRef = useRef(null);
+  const navRef = useRef(null);
 
-  useClickAway(navbarRef, () => {
+  useClickAway(navRef, () => {
     if (isOpen) setOpen(false);
   });
 
-  const handleClick = () => {
-    setOpen(prevState => !prevState);
-  };
-
   const navLinks = [
-    { href: '/forged', label: 'forged' },
-    { href: '/in-the-fire', label: 'in the fire' },
+    { href: '/forged', label: 'FORGED', className: styles.forged },
+    { href: '/in-the-fire', label: 'IN THE FIRE', className: styles.inTheFire },
   ];
 
   return (
     <>
-      {/* Hamburger Menu for Mobile */}
-      <>
-        <div ref={navbarRef}>
-          <div className={styles.topMobileBanner}></div>
-          <div className={styles.hamburger}>
-            <Hamburger
-              toggled={isOpen}
-              toggle={setOpen}
-              size={30}
-              duration={0.75}
-              color='silver'
-              rounded={true}
-              distance='sm'
-              direction='right'
-            />
-          </div>
-          {/* Mobile Nav */}
-          <nav className={`${styles.verticalNav} ${!isOpen ? styles.isClosed : ''}`}>
-            <ul className={styles.ul}>
-              {navLinks.map(({ href, label }) => (
-                <li
-                  key={href}
-                  className={styles.li}>
-                  <Link
-                    className={`${styles.mobileNavLink} ${router.pathname === href ? styles.active : ''}`}
-                    href={href}
-                    onClick={() => isOpen && handleClick()}>
-                    {label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </nav>
-        </div>
-      </>
+      {/* Hamburger Button */}
+      <div className={styles.hamburger}>
+        <Hamburger
+          toggled={isOpen}
+          toggle={setOpen}
+          size={30}
+          duration={0.75}
+          color='silver'
+          rounded
+          distance='sm'
+          direction='right'
+        />
+      </div>
 
-      {/* Desktop Nav */}
-      <nav className={styles.desktopNav}>
-        {navLinks.map(({ href, label }) => (
-          <Link
-            key={href}
-            href={href}
-            className={`${styles.desktopNavLink}  ${router.pathname === href ? styles.active : ''}`}>
-            {label}
-          </Link>
-        ))}
+      {/* Slide-out Nav */}
+      <nav
+        ref={navRef}
+        className={`${styles.nav} ${isOpen ? styles.open : ''}`}>
+        <ul className={styles.ul}>
+          {navLinks.map(({ href, label, className }) => (
+            <li
+              key={href}
+              className={styles.li}>
+              <Link
+                href={href}
+                className={`${styles.navLink} ${className} ${router.pathname === href ? styles.active : ''}`}
+                onClick={() => setOpen(false)}>
+                {label}
+              </Link>
+            </li>
+          ))}
+        </ul>
       </nav>
     </>
   );
 }
-
-export default Navbar;
