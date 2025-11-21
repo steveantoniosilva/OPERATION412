@@ -12,10 +12,6 @@ const Book: React.FC<BookProps> = ({ title, img, subtitle }) => {
   return (
     <div className={styles.bookWrapper}>
       <div className={styles.book}>
-        <div>
-          <h6 className={styles.title}>{title}</h6>
-          <h6 className={styles.subtitle}>{subtitle}</h6>
-        </div>
         <div className={styles.cover}>
           <Image
             src={img}

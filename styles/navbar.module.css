@@ -136,9 +136,9 @@
     .desktopNavLink:hover {
         border-bottom: 1px solid rgba(210, 180, 140, .4);
     }
-
+    
     .desktopNavLink.active {
-        border-bottom: 1px solid oldlace;
+        border-bottom: 1px solid rgba(210, 180, 140, .4);
 
     }
 }
