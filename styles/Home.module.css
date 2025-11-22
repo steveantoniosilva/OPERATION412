@@ -9,17 +9,29 @@
 }
 
 
-.title {
+.burningBush {
+    padding: 0 1em;
+    font-weight: 100;
     letter-spacing: 2px;
-    margin: 0;
-    padding: 0;
-    font-weight: 800;
+    text-shadow: 1px 1px 0 black;
 }
 
-@media (min-width: 999px) {
-    .container {
-        flex-direction: row;
+.books {
+    font-weight: 600;
+    letter-spacing: 2px; 
+}
 
+.desktop {
+    display: none;
+}
+
+
+@media (min-width: 888px) {
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;;
     }
 }
-

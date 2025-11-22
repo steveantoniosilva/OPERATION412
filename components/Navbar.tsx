@@ -17,8 +17,8 @@ export default function Navbar() {
   });
 
   const navLinks = [
-    { href: '/forged', label: 'FORGED', className: styles.forged },
-    { href: '/in-the-fire', label: 'IN THE FIRE', className: styles.inTheFire },
+    { href: '/forged', label: 'FORGED' },
+    { href: '/in-the-fire', label: 'IN THE FIRE' },
   ];
 
   return (
@@ -30,7 +30,7 @@ export default function Navbar() {
           toggle={() => setOpen(prev => !prev)} // 👈 explicit toggle
           size={30}
           duration={0.75}
-          color='silver'
+          color='white'
           rounded
           distance='sm'
           direction='right'
@@ -40,13 +40,13 @@ export default function Navbar() {
       {/* Slide-out Nav */}
       <nav className={`${styles.nav} ${isOpen ? styles.open : ''}`}>
         <ul className={styles.ul}>
-          {navLinks.map(({ href, label, className }) => (
+          {navLinks.map(({ href, label }) => (
             <li
               key={href}
               className={styles.li}>
               <Link
                 href={href}
-                className={`${styles.navLink} ${className} ${router.pathname === href ? styles.active : ''}`}
+                className={`${styles.navLink} ${router.pathname === href ? styles.active : ''}`}
                 onClick={() => setOpen(false)}>
                 {label}
               </Link>

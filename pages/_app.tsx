@@ -2,13 +2,14 @@ import '@/styles/globals.css';
 import Navbar from '../components/Navbar';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
-// import Logo from '@/components/Logo';
-import { Poppins } from 'next/font/google';
+import Logo from '@/components/Logo';
+import { Vollkorn } from 'next/font/google';
 
-const siteText = Poppins({
-  subsets: ['latin'],
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+const vollkorn = Vollkorn({
+    subsets: ['latin'],
+    weight: ['400', '500', '600', '700', '800', '900'],
 });
+
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -25,8 +26,8 @@ export default function App({ Component, pageProps }: AppProps) {
         />
       </Head>
 
-      <div className={siteText.className}>
-        {/* <Logo /> */}
+      <div className={vollkorn.className}>
+        <Logo />
         <Navbar />
         <Component {...pageProps} />
       </div>
