@@ -1,5 +1,12 @@
 import Image from 'next/image';
 import styles from '../styles/book.module.css';
+import { Cormorant_Garamond } from 'next/font/google';
+
+const subtitleText = Cormorant_Garamond({
+  subsets: ['latin'],
+  weight: ['300'],
+  style: ['normal', 'italic'],
+});
 
 interface BookProps {
   title: string;
@@ -9,12 +16,11 @@ interface BookProps {
 
 const Book: React.FC<BookProps> = ({ title, subtitle, img }) => {
   return (
-      <div className={styles.bookWrapper}>
+    <div className={styles.bookWrapper}>
       <div className={styles.book}>
         <h6 className={styles.title}>{title}</h6>
-        {subtitle && <h6 className={styles.subtitle}>{subtitle}</h6>}
+        <h5 className={`${styles.subtitle} ${subtitleText.className}`}>{subtitle}</h5>
         <div className={styles.cover}>
-
           <Image
             src={img}
             alt={title}

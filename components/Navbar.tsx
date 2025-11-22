@@ -11,8 +11,9 @@ export default function Navbar() {
   const [isOpen, setOpen] = useState(false);
   const navRef = useRef(null);
 
+  // 👇 Now navRef wraps BOTH hamburger + nav
   useClickAway(navRef, () => {
-    if (isOpen) setOpen(false);
+    setOpen(false);
   });
 
   const navLinks = [
@@ -21,12 +22,12 @@ export default function Navbar() {
   ];
 
   return (
-    <>
+    <div ref={navRef}>
       {/* Hamburger Button */}
       <div className={styles.hamburger}>
         <Hamburger
           toggled={isOpen}
-          toggle={setOpen}
+          toggle={() => setOpen(prev => !prev)} // 👈 explicit toggle
           size={30}
           duration={0.75}
           color='silver'
@@ -37,9 +38,7 @@ export default function Navbar() {
       </div>
 
       {/* Slide-out Nav */}
-      <nav
-        ref={navRef}
-        className={`${styles.nav} ${isOpen ? styles.open : ''}`}>
+      <nav className={`${styles.nav} ${isOpen ? styles.open : ''}`}>
         <ul className={styles.ul}>
           {navLinks.map(({ href, label, className }) => (
             <li
@@ -55,6 +54,6 @@ export default function Navbar() {
           ))}
         </ul>
       </nav>
-    </>
+    </div>
   );
 }
