@@ -14,28 +14,28 @@ const InTheFire = () => {
       <div className='main'>
         <div className='container'>
           <Book
-            title='WHEN GOD VISITS US WITH VISIONS'
+            title='CALLED BY A VISITS US WITH VISIONS'
             subtitle='A Journey Through Visions in the Bible'
             img='/four-heads.png'
           />
           <Book
-            title='A CALL TO QUARTERBACK YOUR MARRIAGE'
-            subtitle='A Playbook for Men to Win in Marriage'
+            title='CALLED TO QUARTERBACK YOUR MARRIAGE'
+            subtitle='Calling Men to '
             img='/qb.png'
           />
 
           <Book
-            title='WHEN PROPHETS HIDE IN CAVES'
-            subtitle='God is Calling His Prophets Out of Dark Places'
+            title='CALLED TO COME OUT OF THE CAVES'
+            subtitle='Calling Prophets Out of Hiding'
             img='/cave.png'
           />
           <Book
-            title='WE WERE CALLED BY AN INVESTOR'
+            title='CALLED BY AN INVESTOR'
             subtitle='Investment Principles for Followers of Christ'
             img='/hidden.png'
           />
           <Book
-            title='WHEN WOLVES ENTER THE CHURCH'
+            title='CALLED TO CONFRONT WOLVES'
             subtitle="The Devil Doesn't Wear Prada - he Wears Wool"
             img='/wolf.png'
           />

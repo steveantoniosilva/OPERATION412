@@ -9,16 +9,28 @@
 }
 
 
-.burningBush {
+.burningBushMobile {
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: clamp(3rem, 6vw, 3.25rem);
+}
+
+.booksMobile {
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.burningBushDesktop {
     padding: 0 1em;
     font-weight: 100;
     letter-spacing: 2px;
     text-shadow: 1px 1px 0 black;
+    font-size: clamp(2rem, 5vw, 3.5rem);
 }
 
-.books {
+.booksDesktop {
     font-weight: 600;
-    letter-spacing: 2px; 
+    letter-spacing: 2px;
 }
 
 .desktop {
@@ -32,6 +44,7 @@
     }
 
     .desktop {
-        display: block;;
+        display: block;
+        ;
     }
 }

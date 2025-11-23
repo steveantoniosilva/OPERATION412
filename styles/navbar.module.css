@@ -21,6 +21,20 @@
     align-items: center;
 
     transition: right 0.65s cubic-bezier(0.85, 0, 0.15, 1);
+
+    /* 🔥 SIMPLEST WAY — background image */
+    background-image: url('/fire.avif');
+    /* ADD THIS */
+    background-size: cover;
+    /* fill */
+    background-position: center;
+    /* center */
+    background-repeat: no-repeat;
+    /* no tile */
+
+    /* Optional: dark overlay WITHOUT hiding the image */
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: overlay;
 }
 
 /* When open */
@@ -37,16 +51,17 @@
 }
 
 .li {
-    font-size: clamp(1.25rem, 0.8vw + 0.5rem, 1.5rem);
+    font-size: clamp(1rem, 0.8vw + 0.5rem, 1.25rem);
     letter-spacing: 2px;
     font-weight: 100;
     color: white;
     border-bottom: 1px solid transparent;
     padding-bottom: 5px;
+    text-shadow: 0 0 11px #000;
 }
 
 .li:hover {
-border-bottom: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 .navLink {
@@ -56,3 +71,12 @@ border-bottom: 1px solid white;
     border-bottom: transparent;
 }
 
+.forged {
+    letter-spacing: 10px;
+    padding-left: 10px;
+}
+
+.inTheFire {
+    padding-left: 11px;
+    padding-right: 11px;
+}

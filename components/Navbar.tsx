@@ -17,8 +17,8 @@ export default function Navbar() {
   });
 
   const navLinks = [
-    { href: '/forged', label: 'FORGED' },
-    { href: '/in-the-fire', label: 'IN THE FIRE' },
+    { href: '/forged', label: 'FORGED', className: 'forged' },
+    { href: '/in-the-fire', label: 'IN THE FIRE', className: 'inTheFire' },
   ];
 
   return (
@@ -40,13 +40,13 @@ export default function Navbar() {
       {/* Slide-out Nav */}
       <nav className={`${styles.nav} ${isOpen ? styles.open : ''}`}>
         <ul className={styles.ul}>
-          {navLinks.map(({ href, label }) => (
+          {navLinks.map(({ href, label, className }) => (
             <li
               key={href}
               className={styles.li}>
               <Link
                 href={href}
-                className={`${styles.navLink} ${router.pathname === href ? styles.active : ''}`}
+                className={`${styles.navLink} ${styles[className]} ${router.pathname === href ? styles.active : ''}`}
                 onClick={() => setOpen(false)}>
                 {label}
               </Link>
