@@ -11,7 +11,7 @@
 
 .burningBushMobile {
     font-weight: 100;
-    letter-spacing: 2px;
+    letter-spacing: 11px;
     font-size: clamp(1rem, 6vw, 2rem);
     text-transform: uppercase;
 }
@@ -22,9 +22,9 @@
 }
 
 .burningBushDesktop {
+    letter-spacing: 11px;
     padding: 0 1em;
     font-weight: 100;
-    letter-spacing: 2px;
     text-shadow: 1px 1px 0 black;
     font-size: clamp(1.5rem, 5vw, 2rem);
     text-transform: uppercase;

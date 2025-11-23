@@ -21,20 +21,6 @@
     align-items: center;
 
     transition: right 0.65s cubic-bezier(0.85, 0, 0.15, 1);
-
-    /* 🔥 SIMPLEST WAY — background image */
-    background-image: url('/fire.avif');
-    /* ADD THIS */
-    background-size: cover;
-    /* fill */
-    background-position: center;
-    /* center */
-    background-repeat: no-repeat;
-    /* no tile */
-
-    /* Optional: dark overlay WITHOUT hiding the image */
-    background-color: rgba(0, 0, 0, 0.9);
-    background-blend-mode: overlay;
 }
 
 /* When open */
@@ -55,19 +41,18 @@
     letter-spacing: 2px;
     font-weight: 100;
     color: white;
-    border-bottom: 1px solid transparent;
-    padding-bottom: 5px;
+    border-bottom: .25px solid transparent;
+    padding-bottom: 11px;
     text-shadow: 0 0 11px #000;
 }
 
 .li:hover {
-    border-bottom: 1px solid white;
+    border-bottom: .25px solid rgba(255, 255, 255,.25);
 }
 
 .navLink {
     text-decoration: none;
     color: oldlace;
-    padding-bottom: 11px;
     border-bottom: transparent;
 }
 
@@ -77,6 +62,7 @@
 }
 
 .inTheFire {
-    padding-left: 11px;
+    padding-left: 15px;
     padding-right: 11px;
+    letter-spacing: 4px;
 }
