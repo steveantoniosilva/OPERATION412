@@ -1,11 +1,11 @@
 .logoContainer {
     position: absolute;
-    top: 20px;
+    top: -8px;
     left: 15px;
     z-index: 111111;
 }
 
 .logoContainer h1 {
     font-size: clamp(6rem, 5vw, 9rem);
-    font-weight: 400;
+    font-weight: 100;
 }

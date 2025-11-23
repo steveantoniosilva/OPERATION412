@@ -4,7 +4,7 @@ import { Poppins } from 'next/font/google';
 
 const poppins = Poppins({
   subsets: ['latin'],
-  weight: ['100', '600'],
+  weight: ['100', '600', '700', '800'],
 });
 
 const Home = () => {
@@ -20,16 +20,18 @@ const Home = () => {
       <div className={styles.container}>
         <div className={styles.mobile}>
           <h1 className={`${styles.burningBushMobile} ${poppins.className}`}>
-            Burning
+            Flint
             <br />
-            Bush
+            &
+            <br />
+            Steel
             <br />
             <span className={styles.booksMobile}>Books</span>
           </h1>
         </div>
         <div className={styles.desktop}>
           <h1 className={`${styles.burningBushDesktop} ${poppins.className}`}>
-            Burning Bush <span className={styles.booksDesktop}>Books</span>
+            Flint & Steel <span className={styles.booksDesktop}>Books</span>
           </h1>
         </div>
       </div>

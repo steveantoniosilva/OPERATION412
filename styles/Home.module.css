@@ -12,11 +12,12 @@
 .burningBushMobile {
     font-weight: 100;
     letter-spacing: 2px;
-    font-size: clamp(3rem, 6vw, 3.25rem);
+    font-size: clamp(1rem, 6vw, 2rem);
+    text-transform: uppercase;
 }
 
 .booksMobile {
-    font-weight: 600;
+    font-weight: 800;
     letter-spacing: 2px;
 }
 
@@ -25,11 +26,12 @@
     font-weight: 100;
     letter-spacing: 2px;
     text-shadow: 1px 1px 0 black;
-    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-size: clamp(1.5rem, 5vw, 2rem);
+    text-transform: uppercase;
 }
 
 .booksDesktop {
-    font-weight: 600;
+    font-weight: 800;
     letter-spacing: 2px;
 }
 

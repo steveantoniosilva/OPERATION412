@@ -33,7 +33,7 @@
     /* no tile */
 
     /* Optional: dark overlay WITHOUT hiding the image */
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
     background-blend-mode: overlay;
 }
 

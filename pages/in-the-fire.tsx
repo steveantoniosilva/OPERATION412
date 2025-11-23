@@ -14,13 +14,18 @@ const InTheFire = () => {
       <div className='main'>
         <div className='container'>
           <Book
+            title='CALLED TO BE A WATCHMAN'
+            subtitle='A Call to Wake, Watch and Pray'
+            img='/e.png'
+          />
+          <Book
             title='CALLED BY A VISITS US WITH VISIONS'
             subtitle='A Journey Through Visions in the Bible'
             img='/four-heads.png'
           />
           <Book
             title='CALLED TO QUARTERBACK YOUR MARRIAGE'
-            subtitle='Calling Men to '
+            subtitle='I had to learn what it means to be a husband'
             img='/qb.png'
           />
 
@@ -29,6 +34,11 @@ const InTheFire = () => {
             subtitle='Calling Prophets Out of Hiding'
             img='/cave.png'
           />
+            <Book
+              title="CALLED TO INHERIT OUR FATHER'S BUSINESS"
+              subtitle='An Apprenticeship in Business'
+              img='/hidden.png'
+            />
           <Book
             title='CALLED BY AN INVESTOR'
             subtitle='Investment Principles for Followers of Christ'
@@ -40,23 +50,18 @@ const InTheFire = () => {
             img='/wolf.png'
           />
           <Book
-            title='CALLED BY MY FATHER INTO HIS BUSINESS'
-            subtitle='Calling His followers into Business?'
-            img='/hidden.png'
-          />
-          <Book
             title='WHO WERE THE SADDUCEES & PHARISEES?'
             subtitle=''
             img='/hidden.png'
           />
           <Book
-            title='WHAT IS DIVINATION, WITCHCRAFT & IDOLATRY?'
+            title='WHAT by DIVINATION, WITCHCRAFT & IDOLATRY?'
             subtitle='Calling ...'
             img='/hidden.png'
           />
           <Book
-            title='WHO ARE ANGELS & DEMONS?'
-            subtitle='Calling ...'
+            title='CALLED TO UNDERSTAND ANGELS & DEMONS?'
+            subtitle='A Call to see into another realm.'
             img='/hidden.png'
           />
           <div style={{ marginBottom: '333px' }}></div>
