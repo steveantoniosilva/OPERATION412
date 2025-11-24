@@ -19,7 +19,7 @@ const InTheFire = () => {
             img='/e.png'
           />
           <Book
-            title='CALLED BY A VISITS US WITH VISIONS'
+            title='CALLED TO SEE & UNDERSTAND VISIONS'
             subtitle='A Journey Through Visions in the Bible'
             img='/four-heads.png'
           />
@@ -34,14 +34,14 @@ const InTheFire = () => {
             subtitle='Calling Prophets Out of Hiding'
             img='/cave.png'
           />
-            <Book
-              title="CALLED TO INHERIT OUR FATHER'S BUSINESS"
-              subtitle='An Apprenticeship in Business'
-              img='/hidden.png'
-            />
+          <Book
+            title="CALLED TO INHERIT OUR FATHER'S BUSINESS"
+            subtitle='A Call to Apprentice Under the Master'
+            img='/hidden.png'
+          />
           <Book
             title='CALLED BY AN INVESTOR'
-            subtitle='Investment Principles for Followers of Christ'
+            subtitle='A Call to Understand Investment Principles'
             img='/hidden.png'
           />
           <Book

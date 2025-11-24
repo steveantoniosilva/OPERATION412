@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Burning Bush Books</title>
+        <title>Flint & Steel Books</title>
         <meta
           name='description'
           content='Home'

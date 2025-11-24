@@ -20,7 +20,7 @@
     justify-content: center;
     align-items: center;
 
-    transition: right 0.65s cubic-bezier(0.85, 0, 0.15, 1);
+    transition: right 1s cubic-bezier(0.85, 0, 0.15, 1);
 }
 
 /* When open */
@@ -41,19 +41,21 @@
     letter-spacing: 2px;
     font-weight: 100;
     color: white;
-    border-bottom: .25px solid transparent;
-    padding-bottom: 11px;
-    text-shadow: 0 0 11px #000;
 }
 
 .li:hover {
-    border-bottom: .25px solid rgba(255, 255, 255,.25);
 }
 
 .navLink {
     text-decoration: none;
     color: oldlace;
     border-bottom: transparent;
+    padding-bottom: 11px;
+    border-bottom: .25px solid transparent;
+}
+
+.navLink:hover {
+    border-bottom: .25px solid rgba(255, 255, 255,.25);
 }
 
 .forged {
