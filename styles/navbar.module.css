@@ -1,3 +1,11 @@
+.topNavBanner {
+    position: fixed;
+    width: 100vw;
+    height: 155px;
+    background-color: #000;
+    z-index: 111;
+}
+
 /* HAMBURGER BUTTON */
 .hamburger {
     position: fixed;

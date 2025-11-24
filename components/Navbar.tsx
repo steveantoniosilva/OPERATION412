@@ -23,6 +23,7 @@ export default function Navbar() {
 
   return (
     <div ref={navRef}>
+      <div className={styles.topNavBanner}></div>
       {/* Hamburger Button */}
       <div className={styles.hamburger}>
         <Hamburger
