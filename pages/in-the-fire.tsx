@@ -8,7 +8,7 @@ const InTheFire = () => {
         <title>In the Fire</title>
         <meta
           name='description'
-          content='Books Coming Soon by Burning Bush Encounters'
+          content='Books Coming Soon by Flint & Steel Books'
         />
       </Head>
       <div className='main'>
@@ -21,7 +21,7 @@ const InTheFire = () => {
           <Book
             title='CALLED TO SEE & UNDERSTAND VISIONS'
             subtitle='A Journey Through Visions in the Bible'
-            img='/four-heads.png'
+            img='/b-w-leopard.png'
           />
           <Book
             title='CALLED TO QUARTERBACK YOUR MARRIAGE'

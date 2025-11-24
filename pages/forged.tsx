@@ -5,18 +5,18 @@ const Forged = () => {
   return (
     <>
       <Head>
-        <title>Forged by Fire</title>
+        <title>Forged</title>
         <meta
           name='description'
-          content='Burning Bush Encounters'
+          content='Flint & Steel Books'
         />
       </Head>
       <div className='main'>
         <div className='container'>
           <Book
             title="CALLED TO SEE & INTERPRET DREAMS"
-            subtitle='A Journey Through Dreams in the Bible'
-            img='/dreams.png'
+            subtitle='Meditate on Every Dream in the Bible'
+            img='/b-w-lion.png'
           />
         </div>
       </div>
