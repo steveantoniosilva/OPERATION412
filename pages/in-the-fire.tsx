@@ -64,6 +64,31 @@ const InTheFire = () => {
             subtitle='A Call to see into another realm.'
             img='/hidden.png'
           />
+          <Book
+            title='CALLED TO PLAY IT WHERE IT LANDS'
+            subtitle='I Wanted to learn to adapt to change - stories of people who stood up and stood for something'
+            img='/hidden.png'
+          />
+          <Book
+            title='CALLED TO CARRY A TRUMPET & A TORCH'
+            subtitle='I Wanted to learn to adapt to change - '
+            img='/hidden.png'
+          />
+          <Book
+            title='CALLED TO STAND 10 TOES DOWN'
+            subtitle='I Wanted to STAND FOR SOMETHING - stories of people who stood up and stood for something'
+            img='/hidden.png'
+          />
+          <Book
+            title='CALLED TO RUN THE RACE'
+            subtitle='how to develop endurance in your walk with God'
+            img='/hidden.png'
+          />
+          <Book
+            title='CALLED TO STEP OUT OF THE BOAT'
+            subtitle='stories of people who got out of the boat'
+            img='/hidden.png'
+          />
           <div style={{ marginBottom: '333px' }}></div>
         </div>
       </div>

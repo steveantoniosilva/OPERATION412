@@ -32,8 +32,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-
-    padding: 1.5em;
     z-index: 1;
 }
 
@@ -41,7 +39,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(1, 1, 1, 0.45);
+    background: rgba(1, 1, 1, 0.25);
     z-index: 1;
     pointer-events: none;
 }
@@ -75,4 +73,5 @@
     font-style: italic;
     letter-spacing: 0.5px;
     margin-bottom: 1.75em;
+    padding: 0 33px;
 }
