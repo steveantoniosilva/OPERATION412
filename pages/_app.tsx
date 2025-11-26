@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Burning Bush Encounters</title>
+        <title>HAMMER & FORGE BOOKS</title>
         <meta
           name='viewport'
           content='width=device-width, initial-scale=1'

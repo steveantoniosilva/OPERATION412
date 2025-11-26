@@ -9,29 +9,27 @@
 }
 
 
-.mannaForSheepMobile {
+.hammerAndForgeMobile {
     font-weight: 100;
     letter-spacing: 11px;
     font-size: clamp(1rem, 6vw, 2rem);
 }
 
-.mannaMobile {
+.booksMobile {
     font-weight: 800;
     letter-spacing: 11px;
-    margin-right: 4px;
 }
 
-.mannaForSheepDesktop {
+.hammerAndForgeDesktop {
     letter-spacing: 11px;
     padding: 0 1em;
     font-weight: 100;
-    text-shadow: 1px 1px 0 black;
     font-size: clamp(1.5rem, 5vw, 2rem);
 }
 
-.mannaDesktop {
+.booksDesktop {
     font-weight: 800;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
 }
 
 .desktop {

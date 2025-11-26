@@ -11,7 +11,6 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Flint & Steel Books</title>
         <meta
           name='description'
           content='Home'
@@ -19,17 +18,19 @@ const Home = () => {
       </Head>
       <div className={styles.container}>
         <div className={styles.mobile}>
-          <h1 className={`${styles.mannaForSheepMobile} ${poppins.className}`}>
-            MANNA
+          <h1 className={`${styles.hammerAndForgeMobile} ${poppins.className}`}>
+            HAMMER
             <br />
-            FOR
+            &
             <br />
-            <span className={styles.mannaMobile}>SHEEP</span>
+            FORGE
+            <br />
+            <span className={styles.booksMobile}>BOOKS</span>
           </h1>
         </div>
         <div className={styles.desktop}>
-          <h1 className={`${styles.mannaForSheepDesktop} ${poppins.className}`}>
-            MANNA FOR <span className={styles.mannaDesktop}>SHEEP</span>
+          <h1 className={`${styles.hammerAndForgeDesktop} ${poppins.className}`}>
+            HAMMER & FORGE <span className={styles.booksDesktop}>BOOKS</span>
           </h1>
         </div>
       </div>

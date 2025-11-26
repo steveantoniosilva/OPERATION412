@@ -13,8 +13,3 @@
 .logo {
     letter-spacing: 3px;
 }
-
-.emphasis {
-    font-weight: 700;
-    font-size: clamp(2rem, 2vw, 3rem);
-}
