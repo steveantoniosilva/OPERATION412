@@ -19,19 +19,17 @@ const Home = () => {
       </Head>
       <div className={styles.container}>
         <div className={styles.mobile}>
-          <h1 className={`${styles.burningBushMobile} ${poppins.className}`}>
-            Flint
+          <h1 className={`${styles.mannaForSheepMobile} ${poppins.className}`}>
+            MANNA
             <br />
-            &
+            FOR
             <br />
-            Steel
-            <br />
-            <span className={styles.booksMobile}>Books</span>
+            <span className={styles.mannaMobile}>SHEEP</span>
           </h1>
         </div>
         <div className={styles.desktop}>
-          <h1 className={`${styles.burningBushDesktop} ${poppins.className}`}>
-            Flint & Steel <span className={styles.booksDesktop}>Books</span>
+          <h1 className={`${styles.mannaForSheepDesktop} ${poppins.className}`}>
+            MANNA FOR <span className={styles.mannaDesktop}>SHEEP</span>
           </h1>
         </div>
       </div>

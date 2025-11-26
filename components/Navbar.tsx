@@ -17,8 +17,8 @@ export default function Navbar() {
   });
 
   const navLinks = [
-    { href: '/forged', label: 'FORGED', className: 'forged' },
-    { href: '/in-the-fire', label: 'IN THE FIRE', className: 'inTheFire' },
+    { href: '/manna', label: 'MANNA', className: 'manna' },
+
   ];
 
   return (

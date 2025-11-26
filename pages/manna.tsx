@@ -5,7 +5,7 @@ const Forged = () => {
   return (
     <>
       <Head>
-        <title>Forged</title>
+        <title>Forged Books</title>
         <meta
           name='description'
           content='Flint & Steel Books'
@@ -14,8 +14,8 @@ const Forged = () => {
       <div className='main'>
         <div className='container'>
           <Book
-            title="CALLED IN THE NIGHT BY A DREAM FROM GOD"
-            subtitle='A Journey Through Every Dream in the Bible'
+            title="WHEN GOD SPEAKS TO US IN DREAMS"
+            subtitle='A Journey Through the Dreams of the Bible'
             img='/b-w-lion.png'
           />
         </div>
