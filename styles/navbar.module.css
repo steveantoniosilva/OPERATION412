@@ -51,8 +51,7 @@
     color: white;
 }
 
-.li:hover {
-}
+.li:hover {}
 
 .navLink {
     text-decoration: none;
@@ -63,11 +62,15 @@
 }
 
 .navLink:hover {
-    border-bottom: .25px solid rgba(255, 255, 255,.25);
+    border-bottom: .25px solid rgba(255, 255, 255, .25);
 }
 
-.manna {
+.forged {
     letter-spacing: 10px;
     padding-left: 10px;
 }
 
+.inTheFire {
+    letter-spacing: 4px;
+    padding-left: 10px;
+}

@@ -1,13 +1,14 @@
 import Head from 'next/head';
 import Book from '@/components/Book';
 
-const Books = () => {
+const Forged = () => {
   return (
     <>
       <Head>
+        <title>Forged</title>
         <meta
           name='description'
-          content='Books'
+          content='Forged'
         />
       </Head>
       <div className='main'>
@@ -15,7 +16,7 @@ const Books = () => {
           <Book
             title='WHEN GOD SPEAKS TO US IN DREAMS'
             subtitle='A Journey Through the Dreams of the Bible'
-            img='/b-w-lion.png'
+            img='/blank-book-cover.png'
           />
         </div>
       </div>
@@ -23,4 +24,4 @@ const Books = () => {
   );
 };
 
-export default Books;
+export default Forged;

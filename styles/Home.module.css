@@ -15,9 +15,16 @@
     font-size: clamp(1rem, 6vw, 2rem);
 }
 
+.hammer {}
+
+.forge {
+    letter-spacing: 21px;
+    padding-left: 5px;
+}
+
 .booksMobile {
     font-weight: 800;
-    letter-spacing: 11px;
+    letter-spacing: 16px;
 }
 
 .hammerAndForgeDesktop {
@@ -30,6 +37,9 @@
 .booksDesktop {
     font-weight: 800;
     letter-spacing: 5px;
+}
+
+.mobile {
 }
 
 .desktop {

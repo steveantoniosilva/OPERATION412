@@ -5,7 +5,7 @@ import Head from 'next/head';
 import Logo from '@/components/Logo';
 import { Poppins } from 'next/font/google';
 
-const vollkorn = Poppins({
+const poppins = Poppins({
     subsets: ['latin'],
     weight: ['400', '500', '600', '700', '800', '900'],
 });
@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>HAMMER & FORGE BOOKS</title>
+        <title>Hammer & Forge Books</title>
         <meta
           name='viewport'
           content='width=device-width, initial-scale=1'
@@ -26,7 +26,7 @@ export default function App({ Component, pageProps }: AppProps) {
         />
       </Head>
 
-      <div className={vollkorn.className}>
+      <div className={poppins.className}>
         <Logo />
         <Navbar />
         <Component {...pageProps} />
