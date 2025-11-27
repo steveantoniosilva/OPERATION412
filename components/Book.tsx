@@ -12,14 +12,16 @@ interface BookProps {
   title: string;
   subtitle: string;
   img: string;
+  text?: string;
 }
 
-const Book: React.FC<BookProps> = ({ title, subtitle, img }) => {
+const Book: React.FC<BookProps> = ({ title, subtitle, text, img }) => {
   return (
     <div className={styles.bookWrapper}>
       <div className={styles.book}>
         <h6 className={styles.title}>{title}</h6>
-        <h5 className={`${styles.subtitle} ${subtitleText.className}`}>{subtitle}</h5>
+              <h5 className={`${styles.subtitle} ${subtitleText.className}`}>{subtitle}</h5>
+        <h6 className={styles.text}>{text}</h6>
         <div className={styles.cover}>
           <Image
             src={img}

@@ -14,9 +14,9 @@ const InTheFire = () => {
       <div className='main'>
         <div className='container'>
           <Book
-            title='An Army of Soldiers Arrayed for Battle'
-            subtitle='What It Means to Be a Soldier'
-            img='/blank-book-cover.png'
+            title="The Church is Called to Be an Army"
+            subtitle="What It Means to Be a Soldier in an army - the church is the only army that doesn't prepare its soldiers for war - the church is the only army that leaves its soldiers behind - looking for a few good men"
+            img='/gideon.png'
           />
           {/* <Book
             title='CALLED TO QUARTERBACK YOUR MARRIAGE'
@@ -48,11 +48,6 @@ const InTheFire = () => {
               subtitle='A Call to Wake, Watch and Pray'
               img='/e.png'
             /> */}
-          {/* <Book
-                title='WHEN LIONS & WOLVES ENTER THE CHURCH?'
-                subtitle="How LIONS & Wolves Hunt Sheep"
-                img='/wolf.png'
-              /> */}
           {/* <Book
                 title='MODERN SADDUCEES & PHARISEES?'
                 subtitle=''
@@ -91,6 +86,11 @@ const InTheFire = () => {
           {/* <Book
             title='THEY CAUGHT NOTHING ALL NIGHT'
             subtitle='stories of people who caught nothing & found God'
+            img='/blank-book-cover.png'
+          /> */}
+          {/* <Book
+            title='BE LIKE THE ANT YOU SLUGGARD'
+            subtitle='exploring the ant'
             img='/blank-book-cover.png'
           /> */}
           {/* <h1>make it an audio book?</h1> */}

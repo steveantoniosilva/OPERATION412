@@ -14,9 +14,10 @@ const Forged = () => {
       <div className='main'>
         <div className='container'>
           <Book
-            title='WHEN GOD SPEAKS TO US IN DREAMS'
-            subtitle='A Journey Through the Dreams of the Bible'
-            img='/blank-book-cover.png'
+            title='The Church is Called to Be an Army'
+            subtitle="What It Means to Be a Soldier in an army"
+                      img='/gideon.png'
+                      text='W'
           />
           <div style={{ marginBottom: '333px' }}></div>
         </div>
