@@ -14,13 +14,19 @@ const InTheFire = () => {
       <div className='main'>
         <div className='container'>
           <Book
-            title="The Church is Called to Be an Army"
-            subtitle="What It Means to Be a Soldier in an army - the church is the only army that doesn't prepare its soldiers for war - the church is the only army that leaves its soldiers behind - looking for a few good men"
-            img='/gideon.png'
+            title='A GOOD SOLDIER OF JESUS CHRIST'
+            subtitle='When Sheep Become Soldiers'
+            href='/army'
+            img='/soldier.png'
           />
           {/* <Book
             title='CALLED TO QUARTERBACK YOUR MARRIAGE'
             subtitle='I had to learn what it means to be a husband'
+            img='/qb.png'
+            /> */}
+          {/* <Book
+            title='CREATED TO BE AN INSTRUMENT'
+            subtitle='DISCOVERING YOU GIFTS & CALLINGS'
             img='/qb.png'
             /> */}
           {/* <Book
@@ -92,6 +98,11 @@ const InTheFire = () => {
             title='BE LIKE THE ANT YOU SLUGGARD'
             subtitle='exploring the ant'
             img='/blank-book-cover.png'
+          /> */}
+          {/* <Book
+            title='HE LEFT THE 99 TO FIND THE 1'
+            subtitle='Stories of Wanderers Who Found their Way - Brothers, if any among you wanders from the truth and someone turns him back, 20 let him know that he who turns a sinner from the error of his way will save a soul from death and will cover a multitude of sins.'
+            img='/wolf.png'
           /> */}
           {/* <h1>make it an audio book?</h1> */}
           <div style={{ marginBottom: '333px' }}></div>
