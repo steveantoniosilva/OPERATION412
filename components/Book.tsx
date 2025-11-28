@@ -20,8 +20,7 @@ const Book: React.FC<BookProps> = ({ title, subtitle, text, img }) => {
     <div className={styles.bookWrapper}>
       <div className={styles.book}>
         <h6 className={styles.title}>{title}</h6>
-              <h5 className={`${styles.subtitle} ${subtitleText.className}`}>{subtitle}</h5>
-        <h6 className={styles.text}>{text}</h6>
+        <h5 className={`${styles.subtitle} ${subtitleText.className}`}>{subtitle}</h5>
         <div className={styles.cover}>
           <Image
             src={img}
@@ -31,6 +30,7 @@ const Book: React.FC<BookProps> = ({ title, subtitle, text, img }) => {
             priority
           />
         </div>
+          <h6 className={styles.text}>{text}</h6>
       </div>
     </div>
   );

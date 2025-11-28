@@ -57,11 +57,14 @@
     text-decoration: none;
     color: oldlace;
     border-bottom: transparent;
+    padding-top: 18px;
     padding-bottom: 18px;
+    border-top: .25px solid transparent;
     border-bottom: .25px solid transparent;
 }
 
 .navLink:hover {
+    border-top: .25px solid rgba(230,100,50);
     border-bottom: .25px solid rgba(230,100,50);
 }
 
