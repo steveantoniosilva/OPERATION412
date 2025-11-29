@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Book from '@/components/Book';
+import BookMoreInfo from '@/components/BookMoreInfo';
 
 const Forged = () => {
   return (
@@ -13,7 +13,7 @@ const Forged = () => {
       </Head>
       <div className='main'>
         <div className='container'>
-          <Book
+          <BookMoreInfo
             title='RECRUITING SHEEP INTO BASIC TRAINING'
             subtitle="What It Means to Be a Soldier in God's Army"
             href='/'

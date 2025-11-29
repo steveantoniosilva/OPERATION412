@@ -4,15 +4,20 @@
     height: 155px;
     background-color: #000;
     z-index: 111;
+    pointer-events: none;
+    /* ← THIS IS THE FIX */
 }
+
 
 /* HAMBURGER BUTTON */
 .hamburger {
     position: fixed;
-    z-index: 99999;
+    z-index: 111111111;
     top: 50px;
     right: 35px;
+    cursor: pointer;
 }
+
 
 /* MOBILE NAV — USED AT ALL SIZES */
 .nav {
@@ -27,7 +32,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     transition: right 1s cubic-bezier(0.85, 0, 0.15, 1);
 }
 

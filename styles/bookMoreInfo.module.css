@@ -5,7 +5,6 @@
     margin: 15em auto;
     width: 90%;
     max-width: 550px;
-    background-color: red;
 }
 
 .book {
@@ -15,10 +14,10 @@
     transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
-.book:hover {
+/* .book:hover {
     transform: scale(1.05) rotateY(-8deg);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-}
+} */
 
 .cover {
     position: relative;
