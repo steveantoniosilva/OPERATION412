@@ -18,13 +18,14 @@
 .hammer {}
 
 .forge {
-    letter-spacing: 21px;
+    letter-spacing: 20px;
     padding-left: 5px;
 }
 
 .booksMobile {
     font-weight: 800;
     letter-spacing: 16px;
+    padding-left: 5px;
 }
 
 .hammerAndForgeDesktop {

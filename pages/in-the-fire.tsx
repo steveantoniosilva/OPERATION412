@@ -14,8 +14,8 @@ const InTheFire = () => {
       <div className='main'>
         <div className='container'>
           <Book
-            title='A GOOD SOLDIER OF JESUS CHRIST'
-            subtitle='When Sheep Become Soldiers'
+            title='Boot Camp for Sheep'
+            subtitle='What it Takes to Be a Soldier'
             href='/army'
             img='/soldier.png'
           />
