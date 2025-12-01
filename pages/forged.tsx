@@ -14,9 +14,9 @@ const Forged = () => {
       <div className='main'>
         <div className='container'>
           <Book
-            title='WHEN GOD SPEAKS TO US IN DREAMS'
-                      subtitle='A Journey Through the Dreams of the Bible'
-                      href='/dreams'
+            title='Encounters with God in the Night'
+            subtitle='A Journey Through the Dreams of the Bible'
+            href='/dreams'
             img='/b-w-lion.png'
           />
           <div style={{ marginBottom: '333px' }}></div>

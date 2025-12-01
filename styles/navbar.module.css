@@ -51,7 +51,7 @@
 .li {
     font-size: clamp(1rem, 0.8vw + 0.5rem, 1.25rem);
     letter-spacing: 2px;
-    font-weight: 100;
+    font-weight: 300;
     color: white;
 }
 
@@ -59,7 +59,6 @@
 
 .navLink {
     text-decoration: none;
-    color: oldlace;
     border-bottom: transparent;
     padding-top: 18px;
     padding-bottom: 18px;
@@ -73,7 +72,7 @@
 }
 
 .forged {
-    letter-spacing: 10px;
+    letter-spacing: 11px;
     padding-left: 10px;
 }
 
