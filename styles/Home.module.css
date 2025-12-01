@@ -8,39 +8,27 @@
     padding-bottom: 1em;
 }
 
-
-.hammerAndForgeMobile {
+.container .mobile h1 {
     font-weight: 100;
     letter-spacing: 11px;
     font-size: clamp(1rem, 6vw, 2rem);
 }
 
-.hammer {}
-
-.forge {
-    letter-spacing: 20px;
-    padding-left: 5px;
+.four {
+    font-weight: 500;
+    letter-spacing: 33px;
+    padding-left: 25px;
 }
 
-.booksMobile {
-    font-weight: 800;
-    letter-spacing: 16px;
-    padding-left: 3px;
+.twelve {
+    letter-spacing: 15px;
+    padding-left: 9px;
 }
 
-.hammerAndForgeDesktop {
-    letter-spacing: 11px;
-    padding: 0 1em;
+.container .desktop h1 {
     font-weight: 100;
-    font-size: clamp(1.5rem, 5vw, 2rem);
-}
-
-.booksDesktop {
-    font-weight: 800;
-    letter-spacing: 5px;
-}
-
-.mobile {
+    letter-spacing: 11px;
+    font-size: clamp(1rem, 6vw, 2rem);
 }
 
 .desktop {

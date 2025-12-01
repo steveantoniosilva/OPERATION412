@@ -1,14 +1,14 @@
 import Head from 'next/head';
 import Book from '@/components/Book';
 
-const Forged = () => {
+const Books = () => {
   return (
     <>
       <Head>
-        <title>Forged</title>
+        <title>Books</title>
         <meta
           name='description'
-          content='Forged'
+          content='Books'
         />
       </Head>
       <div className='main'>
@@ -26,4 +26,4 @@ const Forged = () => {
   );
 };
 
-export default Forged;
+export default Books;

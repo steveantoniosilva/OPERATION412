@@ -1,11 +1,11 @@
 import Head from 'next/head';
 import Book from '@/components/Book';
 
-const InTheFire = () => {
+const ComingSoon = () => {
   return (
     <>
       <Head>
-        <title>In The Fire</title>
+        <title>Coming Soon</title>
         <meta
           name='description'
           content='Books Coming Soon by Flint & Steel Books'
@@ -112,4 +112,4 @@ const InTheFire = () => {
   );
 };
 
-export default InTheFire;
+export default ComingSoon;

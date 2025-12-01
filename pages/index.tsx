@@ -18,19 +18,17 @@ const Home = () => {
       </Head>
       <div className={styles.container}>
         <div className={styles.mobile}>
-          <h1 className={`${styles.hammerAndForgeMobile} ${poppins.className}`}>
-            <span className={styles.hammer}>FIRE</span>
+          <h1>
+            <span className={styles.mission}>MISSION</span>
             <br />
-            &
+            <span className={styles.four}>FOUR</span>
             <br />
-            <span className={styles.forge}>HAMMER</span>
-            <br />
-            <span className={styles.booksMobile}>BOOKS</span>
+            <span className={styles.twelve}>TWELVE</span>
           </h1>
         </div>
         <div className={styles.desktop}>
-          <h1 className={`${styles.hammerAndForgeDesktop} ${poppins.className}`}>
-            FIRE & HAMMER <span className={styles.booksDesktop}>BOOKS</span>
+          <h1>
+            MISSION <span className={styles.four}>FOUR</span> TWELVE
           </h1>
         </div>
       </div>

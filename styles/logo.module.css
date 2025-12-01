@@ -1,15 +1,12 @@
 .logoContainer {
     position: fixed;
-    top: 5px;
-    left: 15px;
+    top: 0;
+    left: 25px;
     z-index: 111111;
 }
 
 .logoContainer h1 {
-    font-size: clamp(5rem, 5vw, 9rem);
+    font-size: clamp(5.25rem, 5vw, 9rem);
     font-weight: 100;
-}
-
-.logo {
-    letter-spacing: 3px;
+    letter-spacing: 11px;
 }

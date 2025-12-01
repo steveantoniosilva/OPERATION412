@@ -7,7 +7,7 @@ const Logo = () => {
       href='/'
       passHref>
       <div className={styles.logoContainer}>
-        <h1 className={styles.logo}>F & H</h1>
+        <h1 className={styles.logo}>4 1 2</h1>
       </div>
     </Link>
   );

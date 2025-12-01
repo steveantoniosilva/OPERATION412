@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Fire & Hammer Books</title>
+        <title>Mission Four Twelve</title>
         <meta
           name='viewport'
           content='width=device-width, initial-scale=1'
