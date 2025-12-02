@@ -1,14 +1,10 @@
 .title {
     font-weight: 300;
-    line-height: 2;
     margin-top: 222px;
 }
 
 .subtitle {
     font-weight: 300;
-    line-height: 2;
-    margin-top: 2em;
     padding-left: 2em;
     padding-right: 2em;
-    white-space: pre-line;
 }
