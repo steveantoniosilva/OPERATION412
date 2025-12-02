@@ -8,7 +8,7 @@
 .logoContainer h1 {
     font-size: clamp(4rem, 5vw, 6rem);
     font-weight: 100;
-    letter-spacing: 11px;
+    letter-spacing: 33px;
 }
 
 @media (min-width: 888px) {

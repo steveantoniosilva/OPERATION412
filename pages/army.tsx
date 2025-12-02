@@ -1,30 +1,28 @@
 import Head from 'next/head';
 import BookMoreInfo from '@/components/BookMoreInfo';
 
-const Forged = () => {
+const Dreams = () => {
   return (
     <>
       <Head>
-        <title>Forged</title>
+        <title>When Sheep Become Soldiers</title>
         <meta
           name='description'
-          content='Forged'
+          content='Dreams'
         />
       </Head>
       <div className='main'>
-        <div className='container'>
+        <div
+          style={{ paddingTop: '222px' }}
+          className='container'>
           <BookMoreInfo
-            title='RECRUITING SHEEP INTO BASIC TRAINING'
-            subtitle="What It Means to Be a Soldier in God's Army"
-            href='/'
-            img='/soldier.png'
-            text='description.'
+            title='Dear Soldier,'
+            text={`...`}
           />
-          <h1 style={{ paddingBottom: '555px' }}></h1>
         </div>
       </div>
     </>
   );
 };
 
-export default Forged;
+export default Dreams;

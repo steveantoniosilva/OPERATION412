@@ -5,7 +5,7 @@ const Dreams = () => {
   return (
     <>
       <Head>
-        <title>Dreams</title>
+        <title>Dreams of the Bible</title>
         <meta
           name='description'
           content='Dreams'
