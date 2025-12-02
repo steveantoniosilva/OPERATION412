@@ -23,19 +23,18 @@ const About = () => {
         <h5
           style={{ padding: '.5em 6em' }}
           className={`${styles.subtitle} ${textFont.className}`}>
-          I write books "the{' '}
-          <span style={{ fontStyle: 'italic', fontWeight: 'bold' }}>equipping</span> of the saints for the work of
-          ministry, for the building up of the body of Christ…"
+          I write books "to <span style={{ fontStyle: 'italic', fontWeight: 'bold' }}>equip</span> the saints for works
+          of ministry and to build up the body of Christ."
         </h5>
         <br />
         <h6 style={{ fontWeight: '100', letterSpacing: '11px', paddingLeft: '22px' }}>EPHESIANS</h6>
         <h1 style={{ fontWeight: '700', letterSpacing: '33px', paddingLeft: '45px' }}>4:12</h1>
         <br />
-        <p>( NLT )</p>
+        <p>( BSB )</p>
         <br />
         <br />
         <h5 className={` ${styles.text} ${textFont.className}`}>
-          Equipping is translated from <span style={{ fontStyle: 'italic', fontWeight: 'bold' }}>katartismos</span>.
+          Equipping in Greek is <span style={{ fontStyle: 'italic', fontWeight: 'bold' }}>katartismos</span>.
           <br />
           It can be used in various contexts, like:
         </h5>
