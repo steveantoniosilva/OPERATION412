@@ -17,7 +17,8 @@ const Dreams = () => {
           className='container'>
                   <BookMoreInfo
                       url='/'
-            title='Dear Dreamer,'
+                      title='Encounters with God in the Night'
+                      subtitle='A Journey Through the Drreams of the Bible'
             text={`Dreams sent by God have determined destinies, shifted nations, warned kings, protected families, directed prophets, turned ordinary people toward extraordinary callings, and shaped the very course of human history and what you and I now call the present.
             
             When God Speaks to Us in Dreams invites you to explore every dream in the Bible—one by one—lingering over the language of dreams and meditating on the messages God hand-delivered in the night.

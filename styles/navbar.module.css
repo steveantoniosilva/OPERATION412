@@ -13,8 +13,8 @@
 .hamburger {
     position: fixed;
     z-index: 111111111;
-    top: 50px;
-    right: 35px;
+    top: 45px;
+    right: 55px;
     cursor: pointer;
 }
 

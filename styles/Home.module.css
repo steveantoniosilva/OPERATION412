@@ -24,7 +24,7 @@
 .fourMobile {
     font-weight: 500;
     padding-left: 20px;
-    letter-spacing: 31px;
+    letter-spacing: 30px;
 }
 
 .twelveMobile {
@@ -41,6 +41,12 @@
     display: none;
 }
 
+
+@media (min-width: 444px) {
+    .fourMobile {
+        letter-spacing: 33px;
+    }
+}
 
 @media (min-width: 888px) {
     .mobile {
