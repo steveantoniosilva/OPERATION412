@@ -60,8 +60,7 @@
 .navLink {
     text-decoration: none;
     border-bottom: transparent;
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding: 18px;
     border-top: .25px solid transparent;
     border-bottom: .25px solid transparent;
 }

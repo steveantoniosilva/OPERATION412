@@ -1,12 +1,24 @@
 .logoContainer {
     position: fixed;
-    top: 0;
+    top: 20px;
     left: 25px;
     z-index: 111111;
 }
 
 .logoContainer h1 {
-    font-size: clamp(5.25rem, 5vw, 9rem);
+    font-size: clamp(4rem, 5vw, 6rem);
     font-weight: 100;
     letter-spacing: 11px;
+}
+
+@media (min-width: 888px) {
+    .logoContainer {
+        top: 18px;
+    }
+}
+
+@media (min-width: 1111px) {
+    .logoContainer {
+        top: 15;
+    }
 }

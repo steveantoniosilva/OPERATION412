@@ -60,6 +60,11 @@ const ComingSoon = () => {
                 img='/blank-book-cover.png'
               /> */}
           {/* <Book
+            title='THE 9 SPIRITUAL GIFTS'
+            subtitle='..'
+            img='/blank-book-cover.png'
+          /> */}
+          {/* <Book
             title='MODERN DIVINATION, WITCHCRAFT & IDOLATRY?'
             subtitle='..'
             img='/blank-book-cover.png'

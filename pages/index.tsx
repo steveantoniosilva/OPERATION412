@@ -19,16 +19,16 @@ const Home = () => {
       <div className={styles.container}>
         <div className={styles.mobile}>
           <h1>
-            <span className={styles.mission}>MISSION</span>
+            MISSION
             <br />
-            <span className={styles.four}>FOUR</span>
+            <span className={styles.fourMobile}>FOUR</span>
             <br />
-            <span className={styles.twelve}>TWELVE</span>
+            <span className={styles.twelveMobile}>TWELVE</span>
           </h1>
         </div>
         <div className={styles.desktop}>
           <h1>
-            MISSION <span className={styles.four}>FOUR</span> TWELVE
+            MISSION <span className={styles.fourDesktop}> FOUR </span> TWELVE
           </h1>
         </div>
       </div>

@@ -17,8 +17,8 @@ export default function Navbar() {
   });
 
   const navLinks = [
-    { href: '/books', label: 'BOOKS', className: 'books' },
-    { href: '/in-the-fire', label: 'coming soon', className: 'comingSoon' },
+    { href: '/books', label: 'PUBLISHED BOOKS', className: 'books' },
+    { href: '/in-the-fire', label: 'COMING SOON', className: 'comingSoon' },
   ];
 
   return (

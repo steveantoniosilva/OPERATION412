@@ -1,8 +1,7 @@
-import Image from 'next/image';
 import styles from '../styles/bookMoreInfo.module.css';
 import { Cormorant_Garamond } from 'next/font/google';
 
-const subtitleText = Cormorant_Garamond({
+const font = Cormorant_Garamond({
   subsets: ['latin'],
   weight: ['300'],
   style: ['normal', 'italic'],
@@ -10,28 +9,15 @@ const subtitleText = Cormorant_Garamond({
 
 interface BookProps {
   title: string;
-  subtitle: string;
-  img: string;
-  text?: string;
-  href: string; // <<— new!
+  text: string;
 }
 
-const BookMoreInfo: React.FC<BookProps> = ({ title, subtitle, text, img, href }) => {
+const BookMoreInfo: React.FC<BookProps> = ({ text, title }) => {
   return (
-    <div className={styles.bookWrapper}>
-      <div className={styles.book}>
-        <div className={styles.cover}>
-          <Image
-            src={img}
-            alt={title}
-            fill
-            className={styles.image}
-            priority
-          />
-        </div>
-        <h5 className={styles.title}>{title}</h5>
-        <h5 className={`${styles.subtitle} ${subtitleText.className}`}>{subtitle}</h5>
-        <h6 className={styles.text}>{text}</h6>
+    <div className='main'>
+      <div className='container'>
+        <h2 className={`${styles.text} ${font.className}`}>{title}</h2>
+        <h5 className={`${styles.text} ${font.className}`}>{text}</h5>
       </div>
     </div>
   );
