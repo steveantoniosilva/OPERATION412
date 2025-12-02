@@ -17,9 +17,9 @@ export default function Navbar() {
   });
 
   const navLinks = [
-    { href: '/about', label: 'THE MISSION' },
-    { href: '/books', label: 'PUBLISHED BOOKS', className: 'books' },
-    { href: '/comingSoon', label: 'COMING SOON' },
+    { href: '/about', label: 'ON MY HEART' },
+    { href: '/books', label: 'ON MY TABLE' },
+    { href: '/comingSoon', label: 'ON THE FIRE' },
   ];
 
   return (
@@ -42,7 +42,7 @@ export default function Navbar() {
       {/* Slide-out Nav */}
       <nav className={`${styles.nav} ${isOpen ? styles.open : ''}`}>
         <ul className={styles.ul}>
-          {navLinks.map(({ href, label, className }) => (
+          {navLinks.map(({ href, label }) => (
             <li
               key={href}
               className={styles.li}>
