@@ -17,9 +17,9 @@ export default function Navbar() {
   });
 
   const navLinks = [
-    { href: '/about', label: 'MY MISSION' },
-    { href: '/books', label: 'MY BOOKS' },
-    { href: '/comingSoon', label: 'COMING SOON' },
+    { href: '/about', label: 'MISSION FOUR TWELVE' },
+    { href: '/books', label: 'FOUR TWELVE BOOKS' },
+    { href: '/comingSoon', label: 'CURRENTLY WRITING' },
   ];
 
   return (

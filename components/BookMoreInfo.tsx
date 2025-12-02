@@ -19,8 +19,8 @@ const BookMoreInfo: React.FC<BookProps> = ({ title, subtitle, description, amazo
   return (
     <div className='main'>
       <div className='container'>
-        <h2 className={`${styles.title} ${font.className}`}>{title}</h2>
-        <h3 className={`${styles.subtitle} ${font.className}`}>{subtitle}</h3>
+        <h4 className={`${styles.title} ${font.className}`}>{title}</h4>
+        <h4 className={`${styles.subtitle} ${font.className}`}>{subtitle}</h4>
         <h5 className={`${styles.text} ${font.className}`}>{description}</h5>
 
         {/* BUTTON AT THE BOTTOM */}

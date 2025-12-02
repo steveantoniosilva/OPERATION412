@@ -8,6 +8,7 @@ const Soldier = () => {
   return (
     <>
       <Head>
+        <title>When Sheep Become Soldiers</title>
         <meta
           name='description'
           content={book.subtitle}
