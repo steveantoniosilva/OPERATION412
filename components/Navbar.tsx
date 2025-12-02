@@ -17,8 +17,9 @@ export default function Navbar() {
   });
 
   const navLinks = [
+    { href: '/about', label: 'THE MISSION' },
     { href: '/books', label: 'PUBLISHED BOOKS', className: 'books' },
-    { href: '/comingSoon', label: 'COMING SOON', className: 'comingSoon' },
+    { href: '/comingSoon', label: 'COMING SOON' },
   ];
 
   return (
@@ -47,7 +48,7 @@ export default function Navbar() {
               className={styles.li}>
               <Link
                 href={href}
-                className={`${styles.navLink} ${styles[className]} ${router.pathname === href ? styles.active : ''}`}
+                className={`${styles.navLink} ${router.pathname === href ? styles.active : ''}`}
                 onClick={() => setOpen(false)}>
                 {label}
               </Link>

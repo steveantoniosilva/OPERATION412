@@ -16,6 +16,7 @@ const Dreams = () => {
           style={{ paddingTop: '222px' }}
           className='container'>
           <BookMoreInfo
+            url='/'
             title='Dear Soldier,'
             text={`...`}
           />

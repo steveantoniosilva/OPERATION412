@@ -35,8 +35,6 @@ const Book: React.FC<BookProps> = ({ title, subtitle, text, img, href }) => {
             />
           </div>
         </Link>
-
-        <h6 className={styles.text}>{text}</h6>
       </div>
     </div>
   );

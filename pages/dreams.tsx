@@ -15,7 +15,8 @@ const Dreams = () => {
         <div
           style={{ paddingTop: '222px' }}
           className='container'>
-          <BookMoreInfo
+                  <BookMoreInfo
+                      url='/'
             title='Dear Dreamer,'
             text={`Dreams sent by God have determined destinies, shifted nations, warned kings, protected families, directed prophets, turned ordinary people toward extraordinary callings, and shaped the very course of human history and what you and I now call the present.
             

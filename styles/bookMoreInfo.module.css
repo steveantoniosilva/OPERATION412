@@ -12,3 +12,21 @@
     padding-right: 2em;
     white-space: pre-line;
 }
+
+.button {
+    display: inline-block;
+    margin-top: 111px;
+    margin-bottom: 175px;
+    padding: 12px 28px;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    background: transparent;
+    transition: all 0.25s ease;
+}
+
+.button:hover {
+    background: rgba(255, 255, 255, .1);
+}
