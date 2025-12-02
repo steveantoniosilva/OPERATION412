@@ -1,10 +1,14 @@
 .title {
-    font-weight: 300;
-    margin-top: 222px;
+    font-weight: 700;
+    margin-bottom: .5em;
 }
 
 .subtitle {
     font-weight: 300;
     padding-left: 2em;
     padding-right: 2em;
+}
+
+.text {
+    font-weight: 100;
 }

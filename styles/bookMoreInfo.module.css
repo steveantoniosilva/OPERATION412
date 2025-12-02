@@ -4,6 +4,12 @@
 
 }
 
+.subtitle {
+    font-style: italic;
+    margin-bottom: 2em;
+    padding: 0 1em;
+}
+
 .text {
     font-weight: 300;
     line-height: 2;

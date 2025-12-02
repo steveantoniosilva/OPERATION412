@@ -1,7 +1,10 @@
 import Head from 'next/head';
 import BookMoreInfo from '@/components/BookMoreInfo';
+import { books } from '../data/books';
 
 const Dreams = () => {
+  const book = books.dreamBook;
+
   return (
     <>
       <Head>
@@ -15,10 +18,10 @@ const Dreams = () => {
         <div
           style={{ paddingTop: '222px' }}
           className='container'>
-                  <BookMoreInfo
-                      url='/'
-                      title='Encounters with God in the Night'
-                      subtitle='A Journey Through the Drreams of the Bible'
+          <BookMoreInfo
+            url='/'
+            title={book.title}
+            subtitle={book.subtitle}
             text={`Dreams sent by God have determined destinies, shifted nations, warned kings, protected families, directed prophets, turned ordinary people toward extraordinary callings, and shaped the very course of human history and what you and I now call the present.
             
             When God Speaks to Us in Dreams invites you to explore every dream in the Bible—one by one—lingering over the language of dreams and meditating on the messages God hand-delivered in the night.

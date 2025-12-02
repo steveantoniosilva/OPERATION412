@@ -17,8 +17,8 @@ const Dreams = () => {
           className='container'>
           <BookMoreInfo
             url='/'
-                      title='Dear Soldier,'
-                      subtitle='When Sheep Become Soldiers'
+            title='Dear Soldier,'
+            subtitle='When Sheep Become Soldiers'
             text={`...`}
           />
         </div>

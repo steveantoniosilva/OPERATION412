@@ -1,11 +1,13 @@
 import Head from 'next/head';
 import Book from '@/components/Book';
+import { books } from '../data/books';
 
 const Books = () => {
+  const book = books.dreamBook;
   return (
     <>
       <Head>
-        <title>Books</title>
+        <title>Finished Books</title>
         <meta
           name='description'
           content='Books'
@@ -14,8 +16,8 @@ const Books = () => {
       <div className='main'>
         <div className='container'>
           <Book
-            title='Encounters with God in the Night'
-            subtitle='A Journey Through the Dreams of the Bible'
+            title={book.title}
+            subtitle={book.subtitle}
             href='/dreams'
             img='/b-w-lion.png'
           />

@@ -18,53 +18,45 @@ const About = () => {
   return (
     <div className='main'>
       <div className='container'>
-        <h2 className={styles.title}>The Mission</h2>
-
-        <br />
-        <br />
-
-        <h5 className={`${styles.subtitle} ${textFont.className}`}>
-          "…the <span style={{ fontStyle: 'italic', fontWeight: 'bold' }}>equipping</span> of the saints…"
+        <div style={{ paddingTop: '222px' }}></div>
+        <h2 className={styles.title}>OUR MISSION</h2>
+        <h5
+          style={{ padding: '.5em 6em' }}
+          className={`${styles.subtitle} ${textFont.className}`}>
+          Our mission is to write books for "the{' '}
+          <span style={{ fontStyle: 'italic', fontWeight: 'bold' }}>equipping</span> of the saints for the work of
+          ministry, for the building up of the body of Christ…"
         </h5>
-
+        <br />
+        <h6 style={{ fontWeight: '100', letterSpacing: '11px', paddingLeft: '22px' }}>EPHESIANS</h6>
+        <h1 style={{ fontWeight: '700', letterSpacing: '33px', paddingLeft: '45px' }}>4:12</h1>
+        <br />
+        <p>(N A S B)</p>
         <br />
         <br />
-
-        <p style={{ fontWeight: '100' }}>Ephesians</p>
-        <h1 style={{ fontWeight: '700', letterSpacing: '9px' }}>4:12</h1>
-
-        <br />
-        <br />
-
-        <h5 className={`${styles.subtitle} ${textFont.className}`}>
-          The word for <span style={{ fontStyle: 'italic' }}>equipping</span> in Greek is{' '}
-          <span style={{ fontStyle: 'italic', fontWeight: 'bold' }}>katartismos</span>.
-          <br />
+        <h5 className={` ${styles.text} ${textFont.className}`}>
+          Equipping is translated from <span style={{ fontStyle: 'italic', fontWeight: 'bold' }}>katartismos</span>.
           <br />
           It can be used in various contexts, like:
         </h5>
-
         <br />
-
-        <h5>supplying an army</h5>
+        <h4>supplying an army</h4>
         <br />
-        <h5>training soldiers</h5>
+        <h4>training soldiers</h4>
         <br />
-        <h5>preparing a ship</h5>
+        <h4>preparing a ship</h4>
         <br />
-        <h5>setting a bone</h5>
+        <h4>setting a bone</h4>
         <br />
-        <h5>mending nets</h5>
+        <h4>mending nets</h4>
         <br />
-        <h5>restoring what's broken</h5>
+        <h4>restoring what's broken</h4>
         <br />
-        <h5>reconciling what's separated</h5>
+        <h4>reconciling what's separated</h4>
         <br />
         <br />
-
         <h5 className={`${styles.subtitle} ${textFont.className}`}>I write to:</h5>
-
-        <h5
+        <h3
           style={{ fontStyle: 'italic' }}
           className={`${styles.subtitle} ${textFont.className}`}>
           supply His army.
@@ -83,23 +75,15 @@ const About = () => {
           <br />
           <br />
           <br />
-        </h5>
-
+        </h3>
+        <h1>
+          MISSION <span style={{ letterSpacing: '5px' }}>412</span>
+        </h1>
         <h5
-          style={{ padding: '0 5em' }}
-          className={`${styles.subtitle} ${textFont.className}`}>
-          "…the <span style={{ fontStyle: 'italic', fontWeight: 'bold' }}>katartismos</span> of the saints for the work
-          of ministry, for the building up of the body of Christ…"
+          style={{ fontStyle: 'italic' }}
+          className={` ${styles.text} ${textFont.className}`}>
+          …the katartismos of the saints…
         </h5>
-
-        <br />
-        <br />
-        <br />
-
-        <h6 style={{ fontWeight: '100' }}>Ephesians</h6>
-        <h1 style={{ fontWeight: '700', letterSpacing: '9px' }}>4:12</h1>
-        <h6 style={{ fontWeight: '100', letterSpacing: '3px' }}>NASB</h6>
-
         <div style={{ paddingBottom: '175px' }}></div>
       </div>
     </div>
