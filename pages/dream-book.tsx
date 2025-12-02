@@ -11,7 +11,7 @@ const Dreams = () => {
         <title>Dreams of the Bible</title>
         <meta
           name='description'
-          content='Dreams'
+          content={book.subtitle}
         />
       </Head>
       <div className='main'>
@@ -19,10 +19,10 @@ const Dreams = () => {
           style={{ paddingTop: '222px' }}
           className='container'>
           <BookMoreInfo
-            url='/'
+            amazonUrl='/'
             title={book.title}
             subtitle={book.subtitle}
-            text={`Dreams sent by God have determined destinies, shifted nations, warned kings, protected families, directed prophets, turned ordinary people toward extraordinary callings, and shaped the very course of human history and what you and I now call the present.
+            description={`Dreams sent by God have determined destinies, shifted nations, warned kings, protected families, directed prophets, turned ordinary people toward extraordinary callings, and shaped the very course of human history and what you and I now call the present.
             
             When God Speaks to Us in Dreams invites you to explore every dream in the Bible—one by one—lingering over the language of dreams and meditating on the messages God hand-delivered in the night.
 

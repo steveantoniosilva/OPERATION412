@@ -1,23 +1,25 @@
 import Head from 'next/head';
 import Book from '@/components/Book';
+import { books } from '../data/books';
 
 const ComingSoon = () => {
+  const book = books.soldierBook;
   return (
     <>
       <Head>
-        <title>Coming Soon</title>
+        <title>Books Coming Soon</title>
         <meta
           name='description'
-          content='Books Coming Soon by Flint & Steel Books'
+          content='Explore our next book coming soon from Mission Four Twelve.'
         />
       </Head>
       <div className='main'>
         <div className='container'>
           <Book
-            title='From Bleating to Battle Ready'
-            subtitle='When Sheep Become Soldiers'
-            href='/army'
-            img='/soldier.png'
+            title={book.title}
+            subtitle={book.subtitle}
+            moreInfoUrl={book.moreInfoUrl}
+            bookImageUrl={book.bookImageUrl}
           />
           {/* <Book
             title='CALLED TO QUARTERBACK YOUR MARRIAGE'
@@ -110,7 +112,6 @@ const ComingSoon = () => {
             img='/wolf.png'
           /> */}
           {/* <h1>make it an audio book?</h1> */}
-          <div style={{ marginBottom: '333px' }}></div>
         </div>
       </div>
     </>

@@ -7,10 +7,9 @@ const Books = () => {
   return (
     <>
       <Head>
-        <title>Finished Books</title>
         <meta
           name='description'
-          content='Books'
+          content='Explore our books at Mission Four Twelve.'
         />
       </Head>
       <div className='main'>
@@ -18,8 +17,8 @@ const Books = () => {
           <Book
             title={book.title}
             subtitle={book.subtitle}
-            href='/dreams'
-            img='/b-w-lion.png'
+            moreInfoUrl={book.moreInfoUrl}
+            bookImageUrl={book.bookImageUrl}
           />
           <div style={{ marginBottom: '333px' }}></div>
         </div>

@@ -1,11 +1,5 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import { Poppins } from 'next/font/google';
-
-const poppins = Poppins({
-  subsets: ['latin'],
-  weight: ['100', '600', '700', '800'],
-});
 
 const Home = () => {
   return (
@@ -28,7 +22,7 @@ const Home = () => {
         </div>
         <div className={styles.desktop}>
           <h1>
-            MISSION <span className={styles.fourDesktop}> FOUR </span> TWELVE
+            <span className={styles.fourDesktop}> MISSION </span> FOUR TWELVE
           </h1>
         </div>
       </div>

@@ -19,11 +19,11 @@ const About = () => {
     <div className='main'>
       <div className='container'>
         <div style={{ paddingTop: '222px' }}></div>
-        <h2 className={styles.title}>OUR MISSION</h2>
+        <h2 className={styles.title}>MY MISSION</h2>
         <h5
           style={{ padding: '.5em 6em' }}
           className={`${styles.subtitle} ${textFont.className}`}>
-          Our mission is to write books for "the{' '}
+          I write books "the{' '}
           <span style={{ fontStyle: 'italic', fontWeight: 'bold' }}>equipping</span> of the saints for the work of
           ministry, for the building up of the body of Christ…"
         </h5>
@@ -31,7 +31,7 @@ const About = () => {
         <h6 style={{ fontWeight: '100', letterSpacing: '11px', paddingLeft: '22px' }}>EPHESIANS</h6>
         <h1 style={{ fontWeight: '700', letterSpacing: '33px', paddingLeft: '45px' }}>4:12</h1>
         <br />
-        <p>(N A S B)</p>
+        <p>( NLT )</p>
         <br />
         <br />
         <h5 className={` ${styles.text} ${textFont.className}`}>

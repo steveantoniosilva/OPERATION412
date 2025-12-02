@@ -11,21 +11,21 @@ const font = Cormorant_Garamond({
 interface BookProps {
   title: string;
   subtitle: string;
-  text: string;
-  url: string; // ← NEW
+  description: string;
+  amazonUrl: string; 
 }
 
-const BookMoreInfo: React.FC<BookProps> = ({ title, subtitle, text, url }) => {
+const BookMoreInfo: React.FC<BookProps> = ({ title, subtitle, description, amazonUrl }) => {
   return (
     <div className='main'>
       <div className='container'>
         <h2 className={`${styles.title} ${font.className}`}>{title}</h2>
         <h3 className={`${styles.subtitle} ${font.className}`}>{subtitle}</h3>
-        <h5 className={`${styles.text} ${font.className}`}>{text}</h5>
+        <h5 className={`${styles.text} ${font.className}`}>{description}</h5>
 
         {/* BUTTON AT THE BOTTOM */}
         <Link
-          href={url}
+          href={amazonUrl}
           className={styles.button}>
           BUY ON AMAZON
         </Link>

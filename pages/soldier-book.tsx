@@ -1,14 +1,16 @@
 import Head from 'next/head';
 import BookMoreInfo from '@/components/BookMoreInfo';
+import { books } from '../data/books';
 
-const Dreams = () => {
+const Soldier = () => {
+  const book = books.soldierBook;
+
   return (
     <>
       <Head>
-        <title>When Sheep Become Soldiers</title>
         <meta
           name='description'
-          content='Dreams'
+          content={book.subtitle}
         />
       </Head>
       <div className='main'>
@@ -16,10 +18,10 @@ const Dreams = () => {
           style={{ paddingTop: '222px' }}
           className='container'>
           <BookMoreInfo
-            url='/'
-            title='Dear Soldier,'
-            subtitle='When Sheep Become Soldiers'
-            text={`...`}
+            amazonUrl='/'
+            title={book.title}
+            subtitle={book.subtitle}
+            description={book.description}
           />
         </div>
       </div>
@@ -27,4 +29,4 @@ const Dreams = () => {
   );
 };
 
-export default Dreams;
+export default Soldier;

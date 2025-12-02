@@ -12,22 +12,21 @@ const subtitleText = Cormorant_Garamond({
 interface BookProps {
   title: string;
   subtitle: string;
-  img: string;
-  text?: string;
-  href: string; // <<— new!
+  bookImageUrl: string;
+  moreInfoUrl: string; // <<— new!
 }
 
-const Book: React.FC<BookProps> = ({ title, subtitle, text, img, href }) => {
+const Book: React.FC<BookProps> = ({ title, subtitle, bookImageUrl, moreInfoUrl }) => {
   return (
     <div className={styles.bookWrapper}>
       <h5 className={styles.title}>{title}</h5>
       <h5 className={`${styles.subtitle} ${subtitleText.className}`}>{subtitle}</h5>
 
       <div className={styles.book}>
-        <Link href={href}>
+        <Link href={moreInfoUrl}>
           <div className={styles.cover}>
             <Image
-              src={img}
+              src={bookImageUrl}
               alt={title}
               fill
               className={styles.image}
