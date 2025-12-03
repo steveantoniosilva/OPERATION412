@@ -11,7 +11,7 @@
 
 .container .mobile h1 {
     font-weight: 700;
-    letter-spacing: 11px;
+    letter-spacing: 12px;
     font-size: clamp(1rem, 6vw, 2rem);
     padding-left: 22px;
 }
@@ -28,18 +28,8 @@
     font-size: clamp(1rem, 6vw, 2rem);
 }
 
-.fourMobile {
-    font-weight: 500;
-    padding-left: 20px;
-    letter-spacing: 30px;
-}
 
-.twelveMobile {
-    letter-spacing: 15px;
-    padding-left: 5px;
-}
-
-.fourDesktop {
+.missionDesktop {
     font-weight: 700;
 }
 

@@ -17,7 +17,7 @@ const Home = () => {
         </div>
         <div className={styles.desktop}>
           <h1>
-            <span className={styles.fourDesktop}> MISSION </span> FOUR TWELVE
+            <span className={styles.missionDesktop}> MISSION </span> FOUR TWELVE
           </h1>
         </div>
       </div>
