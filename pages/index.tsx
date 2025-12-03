@@ -12,13 +12,8 @@ const Home = () => {
       </Head>
       <div className={styles.container}>
         <div className={styles.mobile}>
-          <h1>
-            MISSION
-            <br />
-            <span className={styles.fourMobile}>FOUR</span>
-            <br />
-            <span className={styles.twelveMobile}>TWELVE</span>
-          </h1>
+          <h1>MISSION</h1>
+          <h2>FOUR TWELVE</h2>
         </div>
         <div className={styles.desktop}>
           <h1>

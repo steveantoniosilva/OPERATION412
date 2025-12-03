@@ -20,69 +20,85 @@ const About = () => {
       <div className='container'>
         <div style={{ paddingTop: '222px' }}></div>
         <h2 className={styles.title}>MY MISSION</h2>
-        <h5
-          style={{ padding: '.5em 6em' }}
-          className={`${styles.subtitle} ${textFont.className}`}>
-          I write books "to <span style={{ fontStyle: 'italic', fontWeight: 'bold' }}>equip</span> the saints for works
-          of ministry and to build up the body of Christ."
+        <h5 className={`${styles.subtitle} ${textFont.className}`}>
+          I write books “for the <span style={{ fontStyle: 'italic', fontWeight: 'bold' }}>EQUIPPING</span> of the
+          saints for the work of ministry, for the building up of the body of Christ.”
         </h5>
+
         <br />
         <h6 style={{ fontWeight: '100', letterSpacing: '11px', paddingLeft: '22px' }}>EPHESIANS</h6>
         <h1 style={{ fontWeight: '700', letterSpacing: '33px', paddingLeft: '45px' }}>4:12</h1>
         <br />
-        <p>( BSB )</p>
+        <p>( NASB )</p>
         <br />
         <br />
         <h5 className={` ${styles.text} ${textFont.className}`}>
-          Equipping in Greek is <span style={{ fontStyle: 'italic', fontWeight: 'bold' }}>katartismos</span>.
+          <span style={{ fontStyle: 'italic', fontWeight: 'bold' }}>EQUIPPING</span> in Greek is{' '}
+          <span style={{ fontStyle: 'italic', fontWeight: 'bold' }}>katartismos</span>.
           <br />
-          It can be used in various contexts, like:
+          Historically, it spoke of:
         </h5>
         <br />
-        <h4>supplying an army</h4>
+        <h5>preparing gathering places</h5>
         <br />
-        <h4>training soldiers</h4>
+        <h5>thoroughly training disciples</h5>
         <br />
-        <h4>preparing a ship</h4>
+        <h5>mending torn fishing nets</h5>
         <br />
-        <h4>setting a bone</h4>
+        <h5>resetting dislocated bones</h5>
         <br />
-        <h4>mending nets</h4>
+        <h5>restoring those caught in sin</h5>
         <br />
-        <h4>restoring what's broken</h4>
+        <h5>reconciling relationships</h5>
         <br />
-        <h4>reconciling what's separated</h4>
+        <h5>readying for military campaigns</h5>
+        <br />
+        <h5>fitting out naval warships</h5>
+        <br />
+        <h5>fashioning weapons and war machines</h5>
+        <br />
+        <h5>training soldiers for combat</h5>
+        <br />
+        <h5>positioning troops in battle array</h5>
+        <br />
         <br />
         <br />
         <h5 className={`${styles.subtitle} ${textFont.className}`}>I write to:</h5>
         <h3
           style={{ fontStyle: 'italic' }}
           className={`${styles.subtitle} ${textFont.className}`}>
-          supply His army.
+          create a gathering place.
           <br />
-          train His soldiers.
+          devote myself to discipleship.
           <br />
-          prepare His vessels.
+          mend His fishing nets.
           <br />
           align His Body.
           <br />
-          mend His nets.
+          restore the fallen.
           <br />
-          restore the broken.
+          reconcile the estranged.
           <br />
-          reconcile the lost.
+          ready His military.
+          <br />
+          outfit His warships.
+          <br />
+          fashion war machines.
+          <br />
+          train His soldiers.
+          <br />
+          and position His troops.
           <br />
           <br />
           <br />
         </h3>
-        <h1>
-          MISSION <span style={{ letterSpacing: '5px' }}>412</span>
-        </h1>
+        <h1 style={{ letterSpacing: '9px', paddingLeft: '22px' }}>MISSION</h1>
         <h5
           style={{ fontStyle: 'italic' }}
           className={` ${styles.text} ${textFont.className}`}>
-          …the katartismos of the saints…
+          …the EQUIPPING of the saints…
         </h5>
+        <h1 style={{ fontWeight: '100' }}>FOUR TWELVE</h1>
         <div style={{ paddingBottom: '175px' }}></div>
       </div>
     </div>

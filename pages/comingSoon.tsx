@@ -37,6 +37,16 @@ const ComingSoon = () => {
               img='/b-w-leopard.png'
             /> */}
           {/* <Book
+              title='THE 9 SPIRITUAL GIFTS'
+              subtitle='A Journey Through Spiritual Gifts in the Bible'
+              img='/b-w-leopard.png'
+            /> */}
+          {/* <Book
+              title='The Equipping of the Saints'
+              subtitle='What the word equipping actually means'
+              img='/b-w-leopard.png'
+            /> */}
+          {/* <Book
             title='CALLED BY AN INVESTOR'
             subtitle='A Call to Understand Investment Principles'
             img='/blank-book-cover.png'
@@ -57,22 +67,12 @@ const ComingSoon = () => {
               img='/e.png'
             /> */}
           {/* <Book
-                title='MODERN SADDUCEES & PHARISEES?'
-                subtitle=''
-                img='/blank-book-cover.png'
-              /> */}
-          {/* <Book
-            title='THE 9 SPIRITUAL GIFTS'
+            title='what is DIVINATION, WITCHCRAFT & IDOLATRY?'
             subtitle='..'
             img='/blank-book-cover.png'
           /> */}
           {/* <Book
-            title='MODERN DIVINATION, WITCHCRAFT & IDOLATRY?'
-            subtitle='..'
-            img='/blank-book-cover.png'
-          /> */}
-          {/* <Book
-            title='UNDERSTANDing ANGELS & DEMONS?'
+            title='what are ANGELS & DEMONS?'
             subtitle='A Call to see into another realm.'
             img='/blank-book-cover.png'
           /> */}
@@ -82,18 +82,8 @@ const ComingSoon = () => {
             img='/blank-book-cover.png'
           /> */}
           {/* <Book
-            title='CALLED TO TAKE A STAND'
-            subtitle='I Wanted to STAND FOR SOMETHING - stories of people who stood up and stood for something'
-            img='/blank-book-cover.png'
-          /> */}
-          {/* <Book
             title='CALLED TO RUN THE RACE'
             subtitle='how to develop endurance in your walk with God'
-            img='/blank-book-cover.png'
-          /> */}
-          {/* <Book
-            title='CALLED TO STEP OUT OF THE BOAT'
-            subtitle='stories of people who got out of the boat'
             img='/blank-book-cover.png'
           /> */}
           {/* <Book
@@ -102,13 +92,13 @@ const ComingSoon = () => {
             img='/blank-book-cover.png'
           /> */}
           {/* <Book
-            title='BE LIKE THE ANT YOU SLUGGARD'
-            subtitle='exploring the ant'
+            title='PURSUE GOD LIKE AN ANT'
+            subtitle='GOD POINTS TO THE ANT AS OUR EXAMPLE'
             img='/blank-book-cover.png'
           /> */}
           {/* <Book
             title='HE LEFT THE 99 TO FIND THE 1'
-            subtitle='Stories of Wanderers Who Found their Way - Brothers, if any among you wanders from the truth and someone turns him back, 20 let him know that he who turns a sinner from the error of his way will save a soul from death and will cover a multitude of sins.'
+            subtitle='Stories of Wanderers Who Found their Way - PODCAST'
             img='/wolf.png'
           /> */}
           {/* <h1>make it an audio book?</h1> */}
