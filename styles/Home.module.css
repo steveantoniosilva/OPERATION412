@@ -9,17 +9,9 @@
     background-color: #000;
 }
 
-.container .mobile h1 {
-    font-weight: 700;
-    letter-spacing: 12px;
-    font-size: clamp(1rem, 6vw, 2rem);
-    padding-left: 22px;
-}
-
 .container .mobile h2 {
-    font-weight: 100;
-    letter-spacing: 3px;
-    font-size: clamp(1rem, 6vw, 2rem);
+    font-weight: 700;
+    letter-spacing: 9px;
 }
 
 .container .desktop h1 {
