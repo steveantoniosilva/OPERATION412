@@ -49,12 +49,12 @@ const ComingSoon = () => {
           {/* <Book
             title='CALLED BY AN INVESTOR'
             subtitle='A Call to Understand Investment Principles'
-            img='/blank-book-cover.png'
+            img='/book-cover-blank.png'
           /> */}
           {/* <Book
               title="CALLED TO BE ABOUT MY FATHER'S BUSINESS"
               subtitle='An Apprenticeship Under the Master'
-              img='/blank-book-cover.png'
+              img='/book-cover-blank.png'
               /> */}
           {/* <Book
             title='CALLED TO COME OUT OF HIDING'
@@ -69,32 +69,32 @@ const ComingSoon = () => {
           {/* <Book
             title='what is DIVINATION, WITCHCRAFT & IDOLATRY?'
             subtitle='..'
-            img='/blank-book-cover.png'
+            img='/book-cover-blank.png'
           /> */}
           {/* <Book
             title='what are ANGELS & DEMONS?'
             subtitle='A Call to see into another realm.'
-            img='/blank-book-cover.png'
+            img='/book-cover-blank.png'
           /> */}
           {/* <Book
             title='CALLED TO PLAY IT WHERE IT LANDS'
             subtitle='I Wanted to learn to adapt to change? use the game of golf somehow?'
-            img='/blank-book-cover.png'
+            img='/book-cover-blank.png'
           /> */}
           {/* <Book
             title='CALLED TO RUN THE RACE'
             subtitle='how to develop endurance in your walk with God'
-            img='/blank-book-cover.png'
+            img='/book-cover-blank.png'
           /> */}
           {/* <Book
             title='THEY CAUGHT NOTHING ALL NIGHT'
             subtitle='stories of people who caught nothing & found God'
-            img='/blank-book-cover.png'
+            img='/book-cover-blank.png'
           /> */}
           {/* <Book
             title='PURSUE GOD LIKE AN ANT'
             subtitle='GOD POINTS TO THE ANT AS OUR EXAMPLE'
-            img='/blank-book-cover.png'
+            img='/book-cover-blank.png'
           /> */}
           {/* <Book
             title='HE LEFT THE 99 TO FIND THE 1'

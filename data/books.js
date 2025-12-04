@@ -1,8 +1,8 @@
 export const books = {
   dreamBook: {
     id: 'dream-book',
-    title: 'REVELATION FROM GOD IN THE NIGHT',
-    subtitle: 'Equipping You to Understand and Interpret Dreams',
+    title: 'DISCOVER THE PURPOSE OF DREAMS',
+    subtitle: 'A Field Manual to Understand & Interpret Dreams',
     bookImageUrl: '/b-w-lion.png',
     moreInfoUrl: 'dream-book',
     amazonUrl: '/',

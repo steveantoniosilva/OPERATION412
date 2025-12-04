@@ -1,12 +1,5 @@
 import styles from '../styles/about.module.css';
 import { Cormorant_Garamond } from 'next/font/google';
-import { Poppins } from 'next/font/google';
-
-const titleFont = Poppins({
-  subsets: ['latin'],
-  weight: ['700'],
-  style: ['normal', 'italic'],
-});
 
 const textFont = Cormorant_Garamond({
   subsets: ['latin'],
@@ -33,34 +26,159 @@ const About = () => {
         <p>( NASB )</p>
         <br />
         <br />
-        <h5 className={` ${styles.text} ${textFont.className}`}>
-          <span style={{ fontStyle: 'italic', fontWeight: 'bold' }}>EQUIPPING</span> in Greek is{' '}
-          <span style={{ fontStyle: 'italic', fontWeight: 'bold' }}>katartismos</span>.
+        <h5 className={styles.oneHundred}>
+          <span
+            className={` 
+            ${styles.italic} 
+            ${styles.sevenHundred} 
+            `}>
+            EQUIPPING
+          </span>{' '}
+          in Greek is{' '}
+          <span
+            className={` 
+          ${styles.oneHundred}
+          ${styles.italic}
+            `}>
+            katartismos
+          </span>
+          .
+          <br />
           <br />
           Historically, it spoke of:
         </h5>
         <br />
-        <h5>preparing gathering places</h5>
+        <h5 className={styles.oneHundred}>
+          <span
+            className={` 
+            ${styles.italic} 
+            ${styles.sevenHundred} 
+            `}>
+            FURNISHING
+          </span>{' '}
+          a courtyard
+        </h5>
         <br />
-        <h5>thoroughly training disciples</h5>
+        <h5 className={styles.oneHundred}>
+          <span
+            className={` 
+            ${styles.italic} 
+            ${styles.sevenHundred} 
+            `}>
+            DISCIPLING
+          </span>{' '}
+          His disciples
+        </h5>
         <br />
-        <h5>mending torn fishing nets</h5>
+        <h5 className={styles.oneHundred}>
+          <span
+            className={` 
+            ${styles.italic} 
+            ${styles.sevenHundred} 
+            `}>
+            MENDING
+          </span>{' '}
+          torn fishing nets
+        </h5>
         <br />
-        <h5>resetting dislocated bones</h5>
+        <h5 className={styles.oneHundred}>
+          <span
+            className={` 
+            ${styles.italic} 
+            ${styles.sevenHundred} 
+            `}>
+            RESETTING
+          </span>{' '}
+          dislocated bones
+        </h5>
         <br />
-        <h5>restoring those caught in sin</h5>
+        <h5 className={styles.oneHundred}>
+          <span
+            className={` 
+            ${styles.italic} 
+            ${styles.sevenHundred} 
+            `}>
+            RESTORING
+          </span>{' '}
+          those caught in sin
+        </h5>
         <br />
-        <h5>reconciling relationships</h5>
+        <h5 className={styles.oneHundred}>
+          <span
+            className={` 
+            ${styles.italic} 
+            ${styles.sevenHundred} 
+            `}>
+            RECONCILING
+          </span>{' '}
+          relationships
+        </h5>
         <br />
-        <h5>readying for military campaigns</h5>
+        <h5 className={styles.oneHundred}>
+          <span
+            className={` 
+            ${styles.italic} 
+            ${styles.sevenHundred} 
+            `}>
+            PREPARING
+          </span>{' '}
+          for military campaigns
+        </h5>
         <br />
-        <h5>fitting out naval warships</h5>
+        <h5 className={styles.oneHundred}>
+          <span
+            className={` 
+            ${styles.italic} 
+            ${styles.sevenHundred} 
+            `}>
+            FITTING OUT
+          </span>{' '}
+          a naval warship
+        </h5>
         <br />
-        <h5>fashioning weapons and war machines</h5>
+        <h5 className={styles.oneHundred}>
+          <span
+            className={` 
+            ${styles.italic} 
+            ${styles.sevenHundred} 
+            `}>
+            FASHIONING
+          </span>{' '}
+          a weapon for war
+        </h5>
         <br />
-        <h5>training soldiers for combat</h5>
+        <h5 className={styles.oneHundred}>
+          <span
+            className={` 
+            ${styles.italic} 
+            ${styles.sevenHundred} 
+            `}>
+            CONSTRUCTING
+          </span>{' '}
+          a war machine
+        </h5>
         <br />
-        <h5>positioning troops in battle array</h5>
+        <h5 className={styles.oneHundred}>
+          <span
+            className={` 
+            ${styles.italic} 
+            ${styles.sevenHundred} 
+            `}>
+            TRAINING
+          </span>{' '}
+          soldiers for combat
+        </h5>
+        <br />
+        <h5 className={styles.oneHundred}>
+          <span
+            className={` 
+            ${styles.italic} 
+            ${styles.sevenHundred} 
+            `}>
+            POSITIONING
+          </span>{' '}
+          troops in battle array
+        </h5>
         <br />
         <br />
         <br />
@@ -68,7 +186,7 @@ const About = () => {
         <h3
           style={{ fontStyle: 'italic' }}
           className={`${styles.subtitle} ${textFont.className}`}>
-          create gathering places.
+          create a gathering place.
           <br />
           commit to discipleship.
           <br />
@@ -76,17 +194,19 @@ const About = () => {
           <br />
           realign His Body.
           <br />
-          restore the fallen.
+          restore fallen soldiers.
           <br />
           reconcile the estranged.
           <br />
-          ready His military.
+          prepare His military.
           <br />
           outfit His warships.
           <br />
           fashion weapons of war.
           <br />
-          train His soldiers.
+          construct war machines.
+          <br />
+          train His infantry.
           <br />
           and position His troops.
           <br />
