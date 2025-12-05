@@ -1,6 +1,6 @@
 .logoContainer {
     position: fixed;
-    top: 42px;
+    top: 22px;
     left: 35px;
     z-index: 111111;
 }
@@ -13,24 +13,24 @@
 
 @media (min-width: 555px) {
     .logoContainer {
-        top: 50px;
+        top: 20px;
     }
 }
 
 @media (min-width: 888px) {
     .logoContainer {
-        top: 50px;
+        top: 20px;
     }
 }
 
 @media (min-width: 1111px) {
     .logoContainer {
-        top: 50px;
+        top: 20px;
     }
 }
 
 @media (min-width: 1444px) {
     .logoContainer {
-        top: 40px;
+        top: 20px;
     }
 }

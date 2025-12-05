@@ -64,6 +64,15 @@ body::-webkit-scrollbar {
     /* Firefox */
 }
 
+hr {
+    border: 0;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+    margin: 0 auto;
+    width: 50%;
+    max-width: 777px;
+}
+
 
 a {
     text-decoration: none;

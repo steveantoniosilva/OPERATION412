@@ -11,12 +11,14 @@
 }
 
 .text {
-    font-weight: 300;
+    font-weight: 100;
     line-height: 2;
     margin-top: 1em;
     padding-left: 2em;
     padding-right: 2em;
     white-space: pre-line;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .button {

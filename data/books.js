@@ -1,8 +1,8 @@
 export const books = {
   dreamBook: {
     id: 'dream-book',
-    title: 'DISCOVER THE PURPOSE OF DREAMS',
-    subtitle: 'A Field Manual to Understand & Interpret Dreams',
+    title: 'Understanding & Interpreting Dreams',
+    subtitle: 'Equipping You with a Biblical Perspective on Dreams',
     bookImageUrl: '/b-w-lion.png',
     moreInfoUrl: 'dream-book',
     amazonUrl: '/',

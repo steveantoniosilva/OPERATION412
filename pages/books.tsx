@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Book from '@/components/Book';
 import { books } from '../data/books';
 
+
 const Books = () => {
   const book = books.dreamBook;
   return (
@@ -9,7 +10,7 @@ const Books = () => {
       <Head>
         <meta
           name='description'
-          content='Explore our books at Mission Four Twelve.'
+          content='Explore my bookshelf at 412 Books.'
         />
       </Head>
       <div className='main'>

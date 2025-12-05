@@ -48,12 +48,12 @@ const ComingSoon = () => {
             /> */}
           {/* <Book
             title='CALLED BY AN INVESTOR'
-            subtitle='A Call to Understand Investment Principles'
+            subtitle='Equipping You to Understand Investment Principles'
             img='/book-cover-blank.png'
           /> */}
           {/* <Book
               title="CALLED TO BE ABOUT MY FATHER'S BUSINESS"
-              subtitle='An Apprenticeship Under the Master'
+              subtitle='Equipping You to Apprentice Under the Master'
               img='/book-cover-blank.png'
               /> */}
           {/* <Book

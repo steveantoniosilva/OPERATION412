@@ -1,0 +1,9 @@
+.title {
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}

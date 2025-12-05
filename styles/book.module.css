@@ -52,29 +52,6 @@
     z-index: 0;
 }
 
-/* TITLE */
-.title {
-    position: relative;
-    z-index: 3;
-    color: #fff;
-    text-align: center;
-    font-weight: 600;
-    letter-spacing: 1px;
-}
-
-/* SUBTITLE */
-.subtitle {
-    position: relative;
-    z-index: 3;
-    color: rgba(255, 255, 255, 0.85);
-    text-align: center;
-    font-weight: 100;
-    font-style: italic;
-    letter-spacing: 0.5px;
-    padding: 0 33px;
-    margin-bottom: 1.75em;
-}
-
 .text {
     font-weight: 100;
     margin: 2em auto;

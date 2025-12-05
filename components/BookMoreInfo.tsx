@@ -1,29 +1,30 @@
 import Link from 'next/link';
 import styles from '../styles/bookMoreInfo.module.css';
-import { Cormorant_Garamond } from 'next/font/google';
-
-const font = Cormorant_Garamond({
-  subsets: ['latin'],
-  weight: ['300'],
-  style: ['normal', 'italic'],
-});
+import BookTitle from '@/components/BookTitle';
+import BookSubtitle from './BookSubtitle';
 
 interface BookProps {
   title: string;
   subtitle: string;
   description: string;
-  amazonUrl: string; 
+  amazonUrl: string;
 }
 
 const BookMoreInfo: React.FC<BookProps> = ({ title, subtitle, description, amazonUrl }) => {
   return (
     <div className='main'>
       <div className='container'>
-        <h4 className={`${styles.title} ${font.className}`}>{title}</h4>
-        <h4 className={`${styles.subtitle} ${font.className}`}>{subtitle}</h4>
-        <h5 className={`${styles.text} ${font.className}`}>{description}</h5>
-
-        {/* BUTTON AT THE BOTTOM */}
+        <BookTitle title={title} />
+        <BookSubtitle subtitle={subtitle} />
+        <br />
+        <br />
+        <hr />
+        <br />
+        <br />
+        <br />
+        <h6 className={styles.text}>{description}</h6>
+        <br />
+        <br />
         <Link
           href={amazonUrl}
           className={styles.button}>
