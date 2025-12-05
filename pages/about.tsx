@@ -65,20 +65,9 @@ const About = () => {
             ${styles.italic} 
             ${styles.sevenHundred} 
             `}>
-            DISCIPLING
-          </span>{' '}
-          His disciples
-        </h5>
-        <br />
-        <h5 className={styles.oneHundred}>
-          <span
-            className={` 
-            ${styles.italic} 
-            ${styles.sevenHundred} 
-            `}>
             MENDING
           </span>{' '}
-          torn fishing nets
+          a fishing net
         </h5>
         <br />
         <h5 className={styles.oneHundred}>
@@ -87,9 +76,9 @@ const About = () => {
             ${styles.italic} 
             ${styles.sevenHundred} 
             `}>
-            RESETTING
+            SETTING
           </span>{' '}
-          dislocated bones
+          a dislocated bone
         </h5>
         <br />
         <h5 className={styles.oneHundred}>
@@ -100,7 +89,7 @@ const About = () => {
             `}>
             RESTORING
           </span>{' '}
-          those caught in sin
+          one caught in sin
         </h5>
         <br />
         <h5 className={styles.oneHundred}>
@@ -111,7 +100,7 @@ const About = () => {
             `}>
             RECONCILING
           </span>{' '}
-          relationships
+          a relationship
         </h5>
         <br />
         <h5 className={styles.oneHundred}>
@@ -122,7 +111,7 @@ const About = () => {
             `}>
             PREPARING
           </span>{' '}
-          for military campaigns
+          for a military campaign
         </h5>
         <br />
         <h5 className={styles.oneHundred}>
@@ -144,7 +133,7 @@ const About = () => {
             `}>
             FASHIONING
           </span>{' '}
-          a weapon for war
+          a weapon of war
         </h5>
         <br />
         <h5 className={styles.oneHundred}>
@@ -166,7 +155,7 @@ const About = () => {
             `}>
             TRAINING
           </span>{' '}
-          soldiers for combat
+          a soldier for combat
         </h5>
         <br />
         <h5 className={styles.oneHundred}>
@@ -186,25 +175,23 @@ const About = () => {
         <h3
           style={{ fontStyle: 'italic' }}
           className={`${styles.subtitle} ${textFont.className}`}>
-          create a gathering place.
+          gather His people.
           <br />
-          commit to discipleship.
+          mend His nets.
           <br />
-          mend His fishing nets.
+          align His Body.
           <br />
-          realign His Body.
+          restore His soldiers.
           <br />
-          restore fallen soldiers.
-          <br />
-          reconcile the estranged.
+          reconcile His estranged.
           <br />
           prepare His military.
           <br />
           outfit His warships.
           <br />
-          fashion weapons of war.
+          fashion His weapons.
           <br />
-          construct war machines.
+          build His Church.
           <br />
           train His infantry.
           <br />

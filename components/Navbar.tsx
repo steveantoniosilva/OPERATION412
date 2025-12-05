@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import { useState, useRef } from 'react';
 import { Twirl as Hamburger } from 'hamburger-react';
-import { useClickAway } from 'react-use';
+// import { useClickAway } from 'react-use';
 import styles from '../styles/navbar.module.css';
 import { useRouter } from 'next/router';
 
@@ -11,10 +11,10 @@ export default function Navbar() {
   const [isOpen, setOpen] = useState(false);
   const navRef = useRef(null);
 
-  // 👇 Now navRef wraps BOTH hamburger + nav
-  useClickAway(navRef, () => {
-    setOpen(false);
-  });
+//   // 👇 Now navRef wraps BOTH hamburger + nav
+//   useClickAway(navRef, () => {
+//     setOpen(false);
+//   });
 
   const navLinks = [
     { href: '/about', label: 'MISSION' },
