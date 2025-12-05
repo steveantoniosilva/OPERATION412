@@ -1,30 +1,8 @@
-.title {
-    font-weight: 300;
-    line-height: 2;
-
-}
-
-.subtitle {
-    font-style: italic;
-    margin-bottom: 2em;
-    padding: 0 1em;
-}
-
-.text {
-    font-weight: 100;
-    line-height: 2;
-    margin-top: 1em;
-    padding-left: 2em;
-    padding-right: 2em;
-    white-space: pre-line;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
 
 .button {
     display: inline-block;
-    margin-top: 111px;
-    margin-bottom: 175px;
+    margin-top: 55px;
+    margin-bottom: 75px;
     padding: 12px 28px;
     font-size: 0.9rem;
     letter-spacing: 2px;

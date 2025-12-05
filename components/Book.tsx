@@ -6,23 +6,23 @@ import BookSubtitle from './BookSubtitle';
 
 
 interface BookProps {
-  title: string;
-  subtitle: string;
+  bookTitle: string;
+  bookSubtitle: string;
   bookImageUrl: string;
   moreInfoUrl: string; // <<— new!
 }
 
-const Book: React.FC<BookProps> = ({ title, subtitle, bookImageUrl, moreInfoUrl }) => {
+const Book: React.FC<BookProps> = ({ bookTitle, bookSubtitle, bookImageUrl, moreInfoUrl }) => {
   return (
     <div className={styles.bookWrapper}>
-      <BookTitle title={title} />
-      <BookSubtitle subtitle={subtitle} />
+      <BookTitle bookTitle={bookTitle} />
+      <BookSubtitle bookSubtitle={bookSubtitle} />
       <div className={styles.book}>
         <Link href={moreInfoUrl}>
           <div className={styles.cover}>
             <Image
               src={bookImageUrl}
-              alt={title}
+              alt={bookTitle}
               fill
               className={styles.image}
               priority

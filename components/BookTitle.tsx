@@ -1,9 +1,9 @@
 import styles from '../styles/bookTitle.module.css';
 
 interface BookTitleProps {
-  title: string;
+  bookTitle: string;
 }
 
-export default function BookTitle({ title }: BookTitleProps) {
-  return <h5 className={styles.title}>{title}</h5>;
+export default function BookTitle({ bookTitle }: BookTitleProps) {
+  return <h5 className={styles.bookTitle}>{bookTitle}</h5>;
 }

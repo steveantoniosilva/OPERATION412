@@ -16,8 +16,8 @@ const ComingSoon = () => {
       <div className='main'>
         <div className='container'>
           <Book
-            title={book.title}
-            subtitle={book.subtitle}
+            bookTitle={book.bookTitle}
+            bookSubtitle={book.bookSubtitle}
             moreInfoUrl={book.moreInfoUrl}
             bookImageUrl={book.bookImageUrl}
           />

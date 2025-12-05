@@ -1,21 +1,9 @@
-import React from 'react';
+import styles from '../styles/paragraph.module.css';
 
 interface ParagraphProps {
-  text: string;
+  paragraph: string;
 }
 
-const Paragraph: React.FC<ParagraphProps> = ({ text }) => {
-  return (
-    <h5
-      style={{
-        maxWidth: '777px',
-        marginLeft: 'auto',
-        marginRight: 'auto',
-        marginBottom: '5em',
-      }}>
-      {text}
-    </h5>
-  );
-};
-
-export default Paragraph;
+export default function Paragraph({ paragraph }: ParagraphProps) {
+  return <p className={styles.paragraph}>{paragraph}</p>;
+}

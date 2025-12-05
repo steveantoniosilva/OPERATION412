@@ -1,24 +1,25 @@
 import styles from '../styles/about.module.css';
-import { Cormorant_Garamond } from 'next/font/google';
-
-const textFont = Cormorant_Garamond({
-  subsets: ['latin'],
-  weight: ['300', '700'],
-  style: ['normal', 'italic'],
-});
+import Paragraph from '@/components/Paragraph';
+import ParagraphCentered from '@/components/ParagraphCentered';
+import SiteTitle from '@/components/SiteTitle';
+import WordPair from '@/components/WordPair';
 
 const About = () => {
   return (
     <div className='main'>
       <div className='container'>
         <div style={{ paddingTop: '222px' }}></div>
-        <h1>
-          4 1 2<span style={{ fontWeight: '100', letterSpacing: '3px' }}> BOOKS</span>
-        </h1>
-        <h5 className={`${styles.subtitle} ${textFont.className}`}>
-          I write books “for the <span style={{ fontStyle: 'italic', fontWeight: 'bold' }}>EQUIPPING</span> of the
-          saints for the work of ministry, for the building up of the body of Christ.”
-        </h5>
+        <SiteTitle />
+        <br />
+        <Paragraph paragraph='I read that when Jesus saw the crowds, He was moved with compassion for them, because they were harassed and helpless, like sheep without a shepherd.' />
+        <Paragraph
+          paragraph='When I look at the modern Church I find myself moved with compassion for them, they are like an ill-trained army - starving,
+          poor weapons, missing armor, lacking leadership, disorganized, disoriented and defeated. I SEE WARRIORS DISTRACTED BY WIDGETS. SOLDIERS SUBSISTING AS SLAVES & like an army without a general.'
+        />
+        <ParagraphCentered
+          paragraph='Books “for the EQUIPPING of the saints for
+          the work of ministry, for the building up of the body of Christ.”'
+        />
         <br />
         <h6 style={{ fontWeight: '100', letterSpacing: '11px', paddingLeft: '22px' }}>EPHESIANS</h6>
         <h1 style={{ fontWeight: '700', letterSpacing: '33px', paddingLeft: '45px' }}>4:12</h1>
@@ -26,186 +27,92 @@ const About = () => {
         <p>( NASB )</p>
         <br />
         <br />
-        <h5 className={styles.oneHundred}>
-          <span
-            className={` 
-            ${styles.italic} 
-            ${styles.sevenHundred} 
-            `}>
-            EQUIPPING
-          </span>{' '}
-          in Greek is{' '}
-          <span
-            className={` 
-          ${styles.oneHundred}
-          ${styles.italic}
-            `}>
-            katartismos
-          </span>
-          .
-          <br />
-          <br />
-          Historically, it spoke of:
-        </h5>
+        <ParagraphCentered
+          paragraph='The Greek word-family associated with “equipping” conveyed either making something and someone completely ready for their purpose through restoration, preparation, and/or positioning
+          In a historical context, it was used to describe:'
+        />
         <br />
-        <h5 className={styles.oneHundred}>
-          <span
-            className={` 
-            ${styles.italic} 
-            ${styles.sevenHundred} 
-            `}>
-            FURNISHING
-          </span>{' '}
-          a courtyard
-        </h5>
-        <br />
-        <h5 className={styles.oneHundred}>
-          <span
-            className={` 
-            ${styles.italic} 
-            ${styles.sevenHundred} 
-            `}>
-            MENDING
-          </span>{' '}
-          a fishing net
-        </h5>
-        <br />
-        <h5 className={styles.oneHundred}>
-          <span
-            className={` 
-            ${styles.italic} 
-            ${styles.sevenHundred} 
-            `}>
-            SETTING
-          </span>{' '}
-          a dislocated bone
-        </h5>
-        <br />
-        <h5 className={styles.oneHundred}>
-          <span
-            className={` 
-            ${styles.italic} 
-            ${styles.sevenHundred} 
-            `}>
-            RESTORING
-          </span>{' '}
-          one caught in sin
-        </h5>
-        <br />
-        <h5 className={styles.oneHundred}>
-          <span
-            className={` 
-            ${styles.italic} 
-            ${styles.sevenHundred} 
-            `}>
-            RECONCILING
-          </span>{' '}
-          a relationship
-        </h5>
-        <br />
-        <h5 className={styles.oneHundred}>
-          <span
-            className={` 
-            ${styles.italic} 
-            ${styles.sevenHundred} 
-            `}>
-            PREPARING
-          </span>{' '}
-          for a military campaign
-        </h5>
-        <br />
-        <h5 className={styles.oneHundred}>
-          <span
-            className={` 
-            ${styles.italic} 
-            ${styles.sevenHundred} 
-            `}>
-            FITTING OUT
-          </span>{' '}
-          a naval warship
-        </h5>
-        <br />
-        <h5 className={styles.oneHundred}>
-          <span
-            className={` 
-            ${styles.italic} 
-            ${styles.sevenHundred} 
-            `}>
-            FASHIONING
-          </span>{' '}
-          a weapon of war
-        </h5>
-        <br />
-        <h5 className={styles.oneHundred}>
-          <span
-            className={` 
-            ${styles.italic} 
-            ${styles.sevenHundred} 
-            `}>
-            CONSTRUCTING
-          </span>{' '}
-          a war machine
-        </h5>
-        <br />
-        <h5 className={styles.oneHundred}>
-          <span
-            className={` 
-            ${styles.italic} 
-            ${styles.sevenHundred} 
-            `}>
-            TRAINING
-          </span>{' '}
-          a soldier for combat
-        </h5>
-        <br />
-        <h5 className={styles.oneHundred}>
-          <span
-            className={` 
-            ${styles.italic} 
-            ${styles.sevenHundred} 
-            `}>
-            POSITIONING
-          </span>{' '}
-          troops in battle array
-        </h5>
+        <WordPair
+          wordPairTitle='FURNISHING'
+          wordPairSubtitle='a courtyard'
+        />
+
+        <WordPair
+          wordPairTitle='MENDING'
+          wordPairSubtitle='fishing nets'
+        />
+
+        <WordPair
+          wordPairTitle='SETTING'
+          wordPairSubtitle='a dislocated bone'
+        />
+
+        <WordPair
+          wordPairTitle='RESTORING'
+          wordPairSubtitle='fallen brothers'
+        />
+
+        <WordPair
+          wordPairTitle='RECONCILING'
+          wordPairSubtitle='relationships'
+        />
+
+        <WordPair
+          wordPairTitle='PREPARING'
+          wordPairSubtitle='military campaigns'
+        />
+
+        <WordPair
+          wordPairTitle='FITTING OUT'
+          wordPairSubtitle='warships'
+        />
+
+        <WordPair
+          wordPairTitle='FASHIONING'
+          wordPairSubtitle='weapons'
+        />
+
+        <WordPair
+          wordPairTitle='CONSTRUCTING'
+          wordPairSubtitle='war machines'
+        />
+
+        <WordPair
+          wordPairTitle='TRAINING'
+          wordPairSubtitle='soldiers'
+        />
+
+        <WordPair
+          wordPairTitle='POSITIONING'
+          wordPairSubtitle='troops'
+        />
+
+        <WordPair
+          wordPairTitle='EQUIPPING'
+          wordPairSubtitle='the saints'
+        />
+
         <br />
         <br />
         <br />
-        <h5 className={`${styles.subtitle} ${textFont.className}`}>I write to:</h5>
-        <h3
-          style={{ fontStyle: 'italic' }}
-          className={`${styles.subtitle} ${textFont.className}`}>
-          gather His people.
-          <br />
-          mend His nets.
-          <br />
-          align His Body.
-          <br />
-          restore His soldiers.
-          <br />
-          reconcile His estranged.
-          <br />
-          prepare His military.
-          <br />
-          outfit His warships.
-          <br />
-          fashion His weapons.
-          <br />
-          build His Church.
-          <br />
-          train His infantry.
-          <br />
-          and position His troops.
-          <br />
-          <br />
-          <br />
-        </h3>
-        <h2 className={styles.title}>
-          4 1 2 <span style={{ fontWeight: '100', letterSpacing: '3px' }}> BOOKS</span>
-        </h2>
+        <ParagraphCentered paragraph='I WRITE TO:' />
+        <ParagraphCentered paragraph='gather His people.' />
+        <ParagraphCentered paragraph='mend His nets.' />
+        <ParagraphCentered paragraph='align His Body.' />
+        <ParagraphCentered paragraph='restore His soldiers.' />
+        <ParagraphCentered paragraph='reconcile His estranged.' />
+        <ParagraphCentered paragraph='prepare His military.' />
+        <ParagraphCentered paragraph='outfit His warships.' />
+        <ParagraphCentered paragraph='fashion His weapons.' />
+        <ParagraphCentered paragraph='build His Church.' />
+        <ParagraphCentered paragraph='train His infantry.' />
+        <ParagraphCentered paragraph='position His troops.' />
+        <ParagraphCentered paragraph='and equip His saints.' />
+
+        <SiteTitle />
         <h5
           style={{ fontStyle: 'italic' }}
-          className={` ${styles.text} ${textFont.className}`}>
+          className={` ${styles.text}`}>
           …the EQUIPPING of the saints…
         </h5>
         <div style={{ paddingBottom: '175px' }}></div>

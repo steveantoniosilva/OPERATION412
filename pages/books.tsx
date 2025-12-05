@@ -10,14 +10,14 @@ const Books = () => {
       <Head>
         <meta
           name='description'
-          content='Explore my bookshelf at 412 Books.'
+          content='412BOOKS.COM — Books on EQUIPPING the saints.'
         />
       </Head>
       <div className='main'>
         <div className='container'>
           <Book
-            title={book.title}
-            subtitle={book.subtitle}
+            bookTitle={book.bookTitle}
+            bookSubtitle={book.bookSubtitle}
             moreInfoUrl={book.moreInfoUrl}
             bookImageUrl={book.bookImageUrl}
           />

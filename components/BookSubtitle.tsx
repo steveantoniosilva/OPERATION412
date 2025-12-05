@@ -8,9 +8,9 @@ const subtitleFont = Cormorant_Garamond({
 });
 
 interface BookSubtitleProps {
-  subtitle: string;
+  bookSubtitle: string;
 }
 
-export default function BookSubtitle({ subtitle }: BookSubtitleProps) {
-  return <h5 className={`${styles.subtitle} ${subtitleFont.className}`}>{subtitle}</h5>;
+export default function BookSubtitle({ bookSubtitle }: BookSubtitleProps) {
+  return <h5 className={`${styles.bookSubtitle} ${subtitleFont.className}`}>{bookSubtitle}</h5>;
 }

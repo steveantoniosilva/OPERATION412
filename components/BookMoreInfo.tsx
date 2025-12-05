@@ -2,29 +2,24 @@ import Link from 'next/link';
 import styles from '../styles/bookMoreInfo.module.css';
 import BookTitle from '@/components/BookTitle';
 import BookSubtitle from './BookSubtitle';
+import Paragraph from './Paragraph'
 
 interface BookProps {
-  title: string;
-  subtitle: string;
-  description: string;
+  bookTitle: string;
+  bookSubtitle: string;
+  paragraph: string;
   amazonUrl: string;
 }
 
-const BookMoreInfo: React.FC<BookProps> = ({ title, subtitle, description, amazonUrl }) => {
+const BookMoreInfo: React.FC<BookProps> = ({ bookTitle, bookSubtitle, paragraph, amazonUrl }) => {
   return (
     <div className='main'>
       <div className='container'>
-        <BookTitle title={title} />
-        <BookSubtitle subtitle={subtitle} />
-        <br />
-        <br />
+        <BookTitle bookTitle={bookTitle} />
+        <BookSubtitle bookSubtitle={bookSubtitle} />
         <hr />
         <br />
-        <br />
-        <br />
-        <h6 className={styles.text}>{description}</h6>
-        <br />
-        <br />
+        <Paragraph paragraph={paragraph} />
         <Link
           href={amazonUrl}
           className={styles.button}>

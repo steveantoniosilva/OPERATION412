@@ -2,7 +2,7 @@ import Head from 'next/head';
 import BookMoreInfo from '@/components/BookMoreInfo';
 import { books } from '../data/books';
 
-const Soldier = () => {
+const SoldierBook = () => {
   const book = books.soldierBook;
 
   return (
@@ -10,8 +10,8 @@ const Soldier = () => {
       <Head>
         <title>When Sheep Become Soldiers</title>
         <meta
-          name='description'
-          content={book.subtitle}
+          name='paragraph'
+          content={book.bookSubtitle}
         />
       </Head>
       <div className='main'>
@@ -20,9 +20,9 @@ const Soldier = () => {
           className='container'>
           <BookMoreInfo
             amazonUrl='/'
-            title={book.title}
-            subtitle={book.subtitle}
-            description={book.description}
+            bookTitle={book.bookTitle}
+            bookSubtitle={book.bookSubtitle}
+            paragraph={book.paragraph}
           />
         </div>
       </div>
@@ -30,4 +30,4 @@ const Soldier = () => {
   );
 };
 
-export default Soldier;
+export default SoldierBook;

@@ -1,0 +1,15 @@
+.paragraph {
+    font-weight: 100;
+    line-height: 1.8;
+    margin: 1.75em auto;
+    max-width: 444px;
+
+    text-align: center;
+
+    letter-spacing: 1px;
+
+    white-space: normal;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-style: italic;
+}

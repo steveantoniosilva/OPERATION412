@@ -1,25 +1,25 @@
 export const books = {
   dreamBook: {
     id: 'dream-book',
-    title: 'Understanding & Interpreting Dreams',
-    subtitle: 'Equipping You with a Biblical Perspective on Dreams',
+    bookTitle: 'Understanding & Interpreting Dreams',
+    bookSubtitle: 'Equipping You with a Biblical Perspective on Dreams',
     bookImageUrl: '/b-w-lion.png',
     moreInfoUrl: 'dream-book',
     amazonUrl: '/',
-    description: `
-      Dreams sent by God determined destinies, shifted nations,
+    paragraph: `
+    Dreams sent by God determined destinies, shifted nations,
       warned kings, protected families, directed prophets, and shaped
       human history. This book explores every dream in the Bible—one by one—
-      to equip you to understand your own.
-    `,
+      to equip you to understand your own.`,
   },
   soldierBook: {
     id: 'soldier-book',
-    title: 'FROM BLEATING TO BATTLE READY',
-    subtitle: 'Equipping Sheep to Become Soldiers',
+    bookTitle: 'FROM BLEATING TO BATTLE READY',
+    bookSubtitle: 'Equipping Sheep to Become Soldiers',
     bookImageUrl: '/soldier.png',
     moreInfoUrl: 'soldier-book',
     amazonUrl: '/',
-    description: `...`,
+    paragraph: `“For the LORD of Hosts cares for His flock, the house of Judah;
+and He will make them like His majestic horse in battle.”`,
   },
 };

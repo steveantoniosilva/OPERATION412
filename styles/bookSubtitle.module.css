@@ -1,4 +1,4 @@
-.subtitle {
+.bookSubtitle {
     position: relative;
     z-index: 3;
     color: rgba(255, 255, 255, 0.85);
@@ -6,6 +6,7 @@
     font-weight: 100;
     font-style: italic;
     letter-spacing: 0.5px;
-    padding: 0 33px;
-    margin-bottom: 1.75em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 2em;
 }
