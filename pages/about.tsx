@@ -11,21 +11,10 @@ const About = () => {
         <div style={{ paddingTop: '222px' }}></div>
         <SiteTitle />
         <br />
-        <Paragraph paragraph='I read that when Jesus saw the crowds, He was moved with compassion for them, because they were harassed and helpless, like sheep without a shepherd.' />
-        <Paragraph
-          paragraph='When I look at the modern Church I find myself moved with compassion for them, they are like an ill-trained army - starving,
-          poor weapons, missing armor, lacking leadership, disorganized, disoriented and defeated. I SEE WARRIORS DISTRACTED BY WIDGETS. SOLDIERS SUBSISTING AS SLAVES & like an army without a general.'
-        />
-        <ParagraphCentered
-          paragraph='Books “for the EQUIPPING of the saints for
-          the work of ministry, for the building up of the body of Christ.”'
-        />
+        <ParagraphCentered paragraph='I write books to equip the saints for works of ministry and to build up the body of Christ”' />
         <br />
         <h6 style={{ fontWeight: '100', letterSpacing: '11px', paddingLeft: '22px' }}>EPHESIANS</h6>
         <h1 style={{ fontWeight: '700', letterSpacing: '33px', paddingLeft: '45px' }}>4:12</h1>
-        <br />
-        <p>( NASB )</p>
-        <br />
         <br />
         <ParagraphCentered
           paragraph='The Greek word-family associated with “equipping” conveyed either making something and someone completely ready for their purpose through restoration, preparation, and/or positioning
@@ -86,12 +75,6 @@ const About = () => {
           wordPairTitle='POSITIONING'
           wordPairSubtitle='troops'
         />
-
-        <WordPair
-          wordPairTitle='EQUIPPING'
-          wordPairSubtitle='the saints'
-        />
-
         <br />
         <br />
         <br />
@@ -110,11 +93,11 @@ const About = () => {
         <ParagraphCentered paragraph='and equip His saints.' />
 
         <SiteTitle />
-        <h5
+        <h4
           style={{ fontStyle: 'italic' }}
           className={` ${styles.text}`}>
-          …the EQUIPPING of the saints…
-        </h5>
+          EQUIPPING THE SAINTS
+        </h4>
         <div style={{ paddingBottom: '175px' }}></div>
       </div>
     </div>
