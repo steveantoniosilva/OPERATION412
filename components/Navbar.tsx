@@ -28,7 +28,6 @@ export default function Navbar() {
           size={30}
           duration={0.75}
           color='white'
-          rounded
           distance='sm'
           direction='right'
         />

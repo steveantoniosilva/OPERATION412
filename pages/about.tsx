@@ -1,6 +1,6 @@
 import styles from '../styles/about.module.css';
 import Paragraph from '@/components/Paragraph';
-import ParagraphCentered from '@/components/ParagraphCentered';
+import ParagraphCentered from '@/components/ParagraphSpecialFont';
 import SiteTitle from '@/components/SiteTitle';
 import WordPair from '@/components/WordPair';
 
