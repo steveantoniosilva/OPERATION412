@@ -7,7 +7,7 @@ const ComingSoon = () => {
   return (
     <>
       <Head>
-        <title>Books Coming Soon</title>
+        <title>Coming Soon</title>
         <meta
           name='description'
           content='Explore our next book coming soon from Mission Four Twelve.'
@@ -57,8 +57,8 @@ const ComingSoon = () => {
               img='/book-cover-blank.png'
               /> */}
           {/* <Book
-            title='CALLED TO COME OUT OF HIDING'
-            subtitle='Calling Prophets Out of Hiding'
+            title='HE TURNED MY DARKNESS INTO DESTINY'
+            subtitle='When God equips us to Come Out of Hiding'
             img='/cave.png'
           /> */}
           {/* <Book

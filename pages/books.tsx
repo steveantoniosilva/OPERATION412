@@ -7,7 +7,8 @@ const Books = () => {
   const book = books.dreamBook;
   return (
     <>
-      <Head>
+          <Head>
+              <title>Books</title>
         <meta
           name='description'
           content='412BOOKS.COM — Books on EQUIPPING the saints.'

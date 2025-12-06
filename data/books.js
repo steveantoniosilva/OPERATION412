@@ -1,8 +1,8 @@
 export const books = {
   dreamBook: {
     id: 'dream-book',
-    bookTitle: 'From Mystery to Meaning',
-    bookSubtitle: 'Equipping Dreamers to Become Discerners',
+    bookTitle: 'HE TURNS OUR DREAMING INTO DISCERNMENT',
+    bookSubtitle: 'When God Equips Sleepers to Become Seers',
     bookImageUrl: '/b-w-lion.png',
     moreInfoUrl: 'dream-book',
     amazonUrl: '/',
@@ -14,8 +14,8 @@ export const books = {
   },
   soldierBook: {
     id: 'soldier-book',
-    bookTitle: 'FROM BLEATING TO BATTLE READY',
-    bookSubtitle: 'Equipping Sheep to Become Soldiers',
+    bookTitle: 'HE TURNS OUR BLEATING INTO A BATTLE-CRY',
+    bookSubtitle: 'When God Equips Sheep to Become Soldiers',
     bookImageUrl: '/soldier.png',
     moreInfoUrl: 'soldier-book',
     amazonUrl: '/',
