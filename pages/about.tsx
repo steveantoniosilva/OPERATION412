@@ -11,7 +11,7 @@ const About = () => {
         <div style={{ paddingTop: '222px' }}></div>
         <SiteTitle />
         <br />
-        <ParagraphCentered paragraph='I write books to equip the saints for works of ministry and to build up the body of Christ”' />
+        <ParagraphCentered paragraph='I write books to equip the saints for works of ministry and to build up the body of Christ.' />
         <br />
         <h6 style={{ fontWeight: '100', letterSpacing: '11px', paddingLeft: '22px' }}>EPHESIANS</h6>
         <h1 style={{ fontWeight: '700', letterSpacing: '33px', paddingLeft: '45px' }}>4:12</h1>
@@ -91,13 +91,6 @@ const About = () => {
         <ParagraphCentered paragraph='train His infantry.' />
         <ParagraphCentered paragraph='position His troops.' />
         <ParagraphCentered paragraph='and equip His saints.' />
-
-        <SiteTitle />
-        <h4
-          style={{ fontStyle: 'italic' }}
-          className={` ${styles.text}`}>
-          EQUIPPING THE SAINTS
-        </h4>
         <div style={{ paddingBottom: '175px' }}></div>
       </div>
     </div>
