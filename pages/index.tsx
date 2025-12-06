@@ -14,7 +14,6 @@ const Home = () => {
       </Head>
       <div className={styles.container}>
               <SiteTitle />
-              <ParagraphSpecialFont paragraph='…equipping the saints…' />
       </div>
     </>
   );

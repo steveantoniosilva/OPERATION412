@@ -65,18 +65,26 @@
     border-top: .25px solid transparent;
     border-bottom: .25px solid transparent;
     padding: 11px;
+    font-weight: 200;
+    text-transform: uppercase;
 }
 
 .navLink:hover {
     border-bottom: .25px solid rgba(255, 255, 255, .25);
 }
 
-.forged {
-    letter-spacing: 11px;
-    padding-left: 10px;
+.home {
+    letter-spacing: 15px;
 }
 
-.inTheFire {
-    letter-spacing: 4px;
-    padding-left: 10px;
+.equip {
+    letter-spacing: 12px;
+}
+
+.books {
+    letter-spacing: 10px;
+}
+
+.writing {
+    letter-spacing: 6px;
 }

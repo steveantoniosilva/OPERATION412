@@ -1,6 +1,7 @@
 import styles from '../styles/about.module.css';
+import paragraphSpecialFontStyles from '../styles/paragraphSpecialFont.module.css';
 import Paragraph from '@/components/Paragraph';
-import ParagraphCentered from '@/components/ParagraphSpecialFont';
+import ParagraphSpecialFont from '@/components/ParagraphSpecialFont';
 import SiteTitle from '@/components/SiteTitle';
 import WordPair from '@/components/WordPair';
 
@@ -11,86 +12,99 @@ const About = () => {
         <div style={{ paddingTop: '222px' }}></div>
         <SiteTitle />
         <br />
-        <ParagraphCentered paragraph='I write books to equip the saints for works of ministry and to build up the body of Christ.' />
+        <br />
         <br />
         <h6 style={{ fontWeight: '100', letterSpacing: '11px', paddingLeft: '22px' }}>EPHESIANS</h6>
         <h1 style={{ fontWeight: '700', letterSpacing: '33px', paddingLeft: '45px' }}>4:12</h1>
-        <br />
-        <ParagraphCentered
-          paragraph='The Greek word-family associated with “equipping” conveyed either making something and someone completely ready for their purpose through restoration, preparation, and/or positioning
-          In a historical context, it was used to describe:'
+        <ParagraphSpecialFont
+          paragraph={
+            <>
+              <span className={paragraphSpecialFontStyles.span}>“</span>
+              <br />
+              I write books
+              <br />
+              to Equip the saints
+              <br />
+              for works of ministry
+              <br />
+              and to build up
+              <br />
+              the body of Christ.
+              <br />
+              <br />
+              <span className={paragraphSpecialFontStyles.span}>“</span>
+            </>
+          }
         />
+        <Paragraph paragraph='The Greek words for EQUIPPING and TO EQUIP were historically used to described:' />
         <br />
         <WordPair
           wordPairTitle='FURNISHING'
           wordPairSubtitle='a courtyard'
         />
-
         <WordPair
           wordPairTitle='MENDING'
-          wordPairSubtitle='fishing nets'
+          wordPairSubtitle='A fishing net'
         />
-
         <WordPair
           wordPairTitle='SETTING'
           wordPairSubtitle='a dislocated bone'
         />
-
-        <WordPair
-          wordPairTitle='RESTORING'
-          wordPairSubtitle='fallen brothers'
-        />
-
         <WordPair
           wordPairTitle='RECONCILING'
-          wordPairSubtitle='relationships'
+          wordPairSubtitle='A RELATIONSHIP'
         />
 
         <WordPair
-          wordPairTitle='PREPARING'
-          wordPairSubtitle='military campaigns'
+          wordPairTitle='STRENGTHENING'
+          wordPairSubtitle='through exercise'
         />
 
         <WordPair
-          wordPairTitle='FITTING OUT'
-          wordPairSubtitle='warships'
+          wordPairTitle='OUTFITTING'
+          wordPairSubtitle='A navel warships'
         />
-
         <WordPair
-          wordPairTitle='FASHIONING'
-          wordPairSubtitle='weapons'
+          wordPairTitle='READYING'
+          wordPairSubtitle='a sling'
         />
-
         <WordPair
-          wordPairTitle='CONSTRUCTING'
-          wordPairSubtitle='war machines'
+          wordPairTitle='RESTORING'
+          wordPairSubtitle='A FALLEN SINNER'
         />
-
         <WordPair
-          wordPairTitle='TRAINING'
-          wordPairSubtitle='soldiers'
+          wordPairTitle='FRAMING'
+          wordPairSubtitle='OF THE UNIVERSE'
         />
-
+        <WordPair
+          wordPairTitle='BRINGING'
+          wordPairSubtitle='ORDER TO A CITY'
+        />
+        <WordPair
+          wordPairTitle='EQUIPPING'
+          wordPairSubtitle='A SHIP WITH ROWERS'
+        />
         <WordPair
           wordPairTitle='POSITIONING'
-          wordPairSubtitle='troops'
+          wordPairSubtitle='troops in battle array'
         />
         <br />
         <br />
         <br />
-        <ParagraphCentered paragraph='I WRITE TO:' />
-        <ParagraphCentered paragraph='gather His people.' />
-        <ParagraphCentered paragraph='mend His nets.' />
-        <ParagraphCentered paragraph='align His Body.' />
-        <ParagraphCentered paragraph='restore His soldiers.' />
-        <ParagraphCentered paragraph='reconcile His estranged.' />
-        <ParagraphCentered paragraph='prepare His military.' />
-        <ParagraphCentered paragraph='outfit His warships.' />
-        <ParagraphCentered paragraph='fashion His weapons.' />
-        <ParagraphCentered paragraph='build His Church.' />
-        <ParagraphCentered paragraph='train His infantry.' />
-        <ParagraphCentered paragraph='position His troops.' />
-        <ParagraphCentered paragraph='and equip His saints.' />
+        <p>I write to:</p>
+        <Paragraph paragraph='gather His people.' />
+        <Paragraph paragraph='mend His nets.' />
+        <Paragraph paragraph='align His Body.' />
+        <Paragraph paragraph='reconcile His estranged.' />
+        <Paragraph paragraph='train His infantry.' />
+        <Paragraph paragraph='outfit His warships.' />
+        <Paragraph paragraph='ready His weapons.' />
+        <Paragraph paragraph='restore His soldiers.' />
+        <Paragraph paragraph='prepare His military.' />
+        <Paragraph paragraph='position His troops.' />
+        <Paragraph paragraph='equip His saints.' />
+        <Paragraph paragraph='AND build His Church.' />
+
         <div style={{ paddingBottom: '175px' }}></div>
       </div>
     </div>

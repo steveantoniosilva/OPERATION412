@@ -1,14 +1,14 @@
-import styles from '../styles/paragraphCentered.module.css';
+import styles from '../styles/paragraphSpecialFont.module.css';
 import { Cormorant_Garamond } from 'next/font/google';
 
 const paragraphSpecialFont = Cormorant_Garamond({
   subsets: ['latin'],
-  weight: ['300', '700'],
-  style: ['normal', 'italic'],
+  weight: ['700'],
+  style: ['italic'],
 });
 
 interface ParagraphProps {
-  paragraph: string;
+  paragraph: React.ReactNode; // <-- key change
 }
 
 export default function ParagraphSpecialFont({ paragraph }: ParagraphProps) {

@@ -11,10 +11,10 @@ export default function Navbar() {
   const navRef = useRef(null);
 
   const navLinks = [
-    { href: '/', label: 'HOME' },
-    { href: '/about', label: 'MISSION' },
-    { href: '/books', label: 'BOOKS' },
-    { href: '/comingSoon', label: 'WRITING' },
+    { href: '/', label: 'HOME', className: 'home' },
+    { href: '/about', label: 'EQUIP', className: 'equip' },
+    { href: '/books', label: 'BOOKS', className: 'books' },
+    { href: '/comingSoon', label: 'WRITING', className: 'writing' },
   ];
 
   return (
@@ -36,13 +36,13 @@ export default function Navbar() {
       {/* Slide-out Nav */}
       <nav className={`${styles.nav} ${isOpen ? styles.open : ''}`}>
         <ul className={styles.ul}>
-          {navLinks.map(({ href, label }) => (
+          {navLinks.map(({ href, label, className }) => (
             <li
               key={href}
               className={styles.li}>
               <Link
                 href={href}
-                className={`${styles.navLink} ${router.pathname === href ? styles.active : ''}`}
+                className={`${styles.navLink} ${styles[className]} ${router.pathname === href ? styles.active : ''}`}
                 onClick={() => setOpen(false)}>
                 {label}
               </Link>

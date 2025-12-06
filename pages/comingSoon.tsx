@@ -48,7 +48,7 @@ const ComingSoon = () => {
             /> */}
           {/* <Book
             title='CALLED BY AN INVESTOR'
-            subtitle='Equipping You to Understand Investment Principles'
+            subtitle='Equipping You to Understand Investment Principles - '
             img='/book-cover-blank.png'
           /> */}
           {/* <Book
