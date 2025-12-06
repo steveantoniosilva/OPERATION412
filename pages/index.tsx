@@ -13,7 +13,7 @@ const Home = () => {
         />
       </Head>
       <div className={styles.container}>
-              <SiteTitle />
+        <SiteTitle />
       </div>
     </>
   );

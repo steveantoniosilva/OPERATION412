@@ -65,6 +65,7 @@
     border-top: .25px solid transparent;
     border-bottom: .25px solid transparent;
     padding: 11px;
+    padding-bottom: 14px;
     font-weight: 200;
     text-transform: uppercase;
 }
@@ -74,17 +75,22 @@
 }
 
 .home {
-    letter-spacing: 15px;
+    letter-spacing: 5px;
+    font-size: clamp(1rem, 0.8vw + 0.5rem, 1.25rem);
 }
 
 .equip {
-    letter-spacing: 12px;
+    letter-spacing: 5px;
+    font-size: clamp(3rem, 0.8vw + 0.5rem, 3.25rem);
+    font-weight: 700;
 }
 
 .books {
-    letter-spacing: 10px;
+    letter-spacing: 5px;
+    font-size: clamp(2rem, 0.8vw + 0.5rem, 2.5rem);
 }
 
 .writing {
-    letter-spacing: 6px;
+    letter-spacing: 5px;
+    font-size: clamp(1rem, 0.8vw + 0.5rem, 1.25rem);
 }

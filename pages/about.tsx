@@ -9,21 +9,20 @@ const About = () => {
   return (
     <div className='main'>
       <div className='container'>
-        <div style={{ paddingTop: '222px' }}></div>
+        <div style={{ paddingTop: '175px' }}></div>
         <SiteTitle />
         <br />
         <br />
         <br />
         <h6 style={{ fontWeight: '100', letterSpacing: '11px', paddingLeft: '22px' }}>EPHESIANS</h6>
         <h1 style={{ fontWeight: '700', letterSpacing: '33px', paddingLeft: '45px' }}>4:12</h1>
+        <br />
         <ParagraphSpecialFont
           paragraph={
             <>
               <span className={paragraphSpecialFontStyles.span}>“</span>
               <br />
-              I write books
-              <br />
-              to Equip the saints
+              to equip the saints
               <br />
               for works of ministry
               <br />
@@ -36,7 +35,7 @@ const About = () => {
             </>
           }
         />
-        <Paragraph paragraph='The Greek words for EQUIPPING and TO EQUIP were historically used to described:' />
+        {/* <Paragraph paragraph='The Greek words for EQUIPPING AND TO EQUIP ARE RICH IN historical MEANING:' />
         <br />
         <WordPair
           wordPairTitle='FURNISHING'
@@ -87,24 +86,7 @@ const About = () => {
         <WordPair
           wordPairTitle='POSITIONING'
           wordPairSubtitle='troops in battle array'
-        />
-        <br />
-        <br />
-        <br />
-        <p>I write to:</p>
-        <Paragraph paragraph='gather His people.' />
-        <Paragraph paragraph='mend His nets.' />
-        <Paragraph paragraph='align His Body.' />
-        <Paragraph paragraph='reconcile His estranged.' />
-        <Paragraph paragraph='train His infantry.' />
-        <Paragraph paragraph='outfit His warships.' />
-        <Paragraph paragraph='ready His weapons.' />
-        <Paragraph paragraph='restore His soldiers.' />
-        <Paragraph paragraph='prepare His military.' />
-        <Paragraph paragraph='position His troops.' />
-        <Paragraph paragraph='equip His saints.' />
-        <Paragraph paragraph='AND build His Church.' />
-
+        /> */}
         <div style={{ paddingBottom: '175px' }}></div>
       </div>
     </div>

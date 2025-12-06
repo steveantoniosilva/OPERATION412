@@ -14,8 +14,8 @@ export const books = {
   },
   soldierBook: {
     id: 'soldier-book',
-    bookTitle: 'HE TURNS OUR BLEATING INTO A BATTLE-CRY',
-    bookSubtitle: 'When God Equips Sheep to Become Soldiers',
+    bookTitle: 'TURN YOUR BLEATING INTO A BATTLE-CRY',
+    bookSubtitle: 'A bootcamp for sheep enlisted in His army',
     bookImageUrl: '/soldier.png',
     moreInfoUrl: 'soldier-book',
     amazonUrl: '/',
