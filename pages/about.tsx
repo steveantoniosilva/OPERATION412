@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div className='main'>
       <div className='container'>
-        <div style={{ paddingTop: '175px' }}></div>
+        <div style={{ paddingTop: '125px' }}></div>
         <SiteTitle />
         <br />
         <br />
@@ -22,11 +22,15 @@ const About = () => {
             <>
               <span className={paragraphSpecialFontStyles.span}>“</span>
               <br />
-              to equip the saints
+              equip believers
               <br />
               for works of ministry
               <br />
-              and to build up
+              <br />
+              <span className='and'>&</span>
+              <br />
+              <br />
+              build up
               <br />
               the body of Christ.
               <br />
@@ -35,58 +39,96 @@ const About = () => {
             </>
           }
         />
-        {/* <Paragraph paragraph='The Greek words for EQUIPPING AND TO EQUIP ARE RICH IN historical MEANING:' />
+
+        {/* EQUIP  */}
+
+        <Paragraph paragraph='The Greek WORD FOR “EQUIP“ WAS historicaLLY USED TO DESCRIBE:' />
         <br />
         <WordPair
-          wordPairTitle='FURNISHING'
-          wordPairSubtitle='a courtyard'
-        />
-        <WordPair
           wordPairTitle='MENDING'
-          wordPairSubtitle='A fishing net'
+          wordPairSubtitle='FISHING NETS'
         />
         <WordPair
           wordPairTitle='SETTING'
-          wordPairSubtitle='a dislocated bone'
+          wordPairSubtitle='DISLOCATED BONES'
         />
         <WordPair
           wordPairTitle='RECONCILING'
-          wordPairSubtitle='A RELATIONSHIP'
+          wordPairSubtitle='RELATIONSHIPS'
+        />
+        <WordPair
+          wordPairTitle='STRENGTHENING'
+          wordPairSubtitle='BY EXERCISING'
+        />
+        <WordPair
+          wordPairTitle='PREPARING'
+          wordPairSubtitle='HOUSEHOLD COURTYARDS'
+        />
+        <WordPair
+          wordPairTitle='OUTFITTING'
+          wordPairSubtitle='NAVAL WARSHIPS'
+        />
+        <WordPair
+          wordPairTitle='READYING'
+          wordPairSubtitle='SLINGS'
+        />
+        <WordPair
+          wordPairTitle='RESTORING'
+          wordPairSubtitle='FALLEN SINNERS'
+        />
+        <WordPair
+          wordPairTitle='FRAMING'
+          wordPairSubtitle='THE UNIVERSE'
+        />
+        <WordPair
+          wordPairTitle='BRINGING'
+          wordPairSubtitle='ORDER TO CITIES'
+        />
+        <WordPair
+          wordPairTitle='EQUIPPING'
+          wordPairSubtitle='SHIPS WITH ROWERS'
+        />
+        <WordPair
+          wordPairTitle='POSITIONING'
+          wordPairSubtitle='ARMIES FOR BATTLE'
+        />
+
+        <br />
+        <br />
+        <br />
+        <span className='and'>&</span>
+        <br />
+        <br />
+        <br />
+
+        {/* BUILD UP */}
+
+        <Paragraph paragraph='The Greek WORD FOR “BUILD UP“ WAS historicaLLY USED TO DESCRIBE:' />
+        <WordPair
+          wordPairTitle='FORTIFYING'
+          wordPairSubtitle='CITY WALLS'
+        />
+
+        <WordPair
+          wordPairTitle='REPAIRING'
+          wordPairSubtitle='TEMPLE STONES'
+        />
+
+        <WordPair
+          wordPairTitle='EXPANDING'
+          wordPairSubtitle='A HOUSEHOLD'
+        />
+
+        <WordPair
+          wordPairTitle='RESTORING'
+          wordPairSubtitle='A COLLAPSED STRUCTURE'
         />
 
         <WordPair
           wordPairTitle='STRENGTHENING'
-          wordPairSubtitle='through exercise'
+          wordPairSubtitle='A FOUNDATION'
         />
 
-        <WordPair
-          wordPairTitle='OUTFITTING'
-          wordPairSubtitle='A navel warships'
-        />
-        <WordPair
-          wordPairTitle='READYING'
-          wordPairSubtitle='a sling'
-        />
-        <WordPair
-          wordPairTitle='RESTORING'
-          wordPairSubtitle='A FALLEN SINNER'
-        />
-        <WordPair
-          wordPairTitle='FRAMING'
-          wordPairSubtitle='OF THE UNIVERSE'
-        />
-        <WordPair
-          wordPairTitle='BRINGING'
-          wordPairSubtitle='ORDER TO A CITY'
-        />
-        <WordPair
-          wordPairTitle='EQUIPPING'
-          wordPairSubtitle='A SHIP WITH ROWERS'
-        />
-        <WordPair
-          wordPairTitle='POSITIONING'
-          wordPairSubtitle='troops in battle array'
-        /> */}
         <div style={{ paddingBottom: '175px' }}></div>
       </div>
     </div>

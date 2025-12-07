@@ -53,12 +53,12 @@ const ComingSoon = () => {
           /> */}
           {/* <Book
               title="CALLED TO BE ABOUT MY FATHER'S BUSINESS"
-              subtitle='Equipping You to Apprentice Under the Master'
+              subtitle='I hear a trumpet calling me to leave the marketplace and enter the ministry????? Equipping You to Apprentice Under the Master'
               img='/book-cover-blank.png'
               /> */}
           {/* <Book
-            title='HE TURNED MY DARKNESS INTO DESTINY'
-            subtitle='When God equips us to Come Out of Hiding'
+            title='TURNING POINT: When God transforms our darkness into our destiny'
+            subtitle='I hear the sound of a trumpet calling Prophets to come out of the caves'
             img='/cave.png'
           /> */}
           {/* <Book
@@ -73,7 +73,7 @@ const ComingSoon = () => {
           /> */}
           {/* <Book
             title='what are ANGELS & DEMONS?'
-            subtitle='A Call to see into another realm.'
+            subtitle='chapter 1 - transformed - these are 2 different names in greek.'
             img='/book-cover-blank.png'
           /> */}
           {/* <Book
@@ -87,18 +87,13 @@ const ComingSoon = () => {
             img='/book-cover-blank.png'
           /> */}
           {/* <Book
-            title='THEY CAUGHT NOTHING ALL NIGHT'
-            subtitle='stories of people who caught nothing & found God'
-            img='/book-cover-blank.png'
-          /> */}
-          {/* <Book
             title='PURSUE GOD LIKE AN ANT'
             subtitle='GOD POINTS TO THE ANT AS OUR EXAMPLE'
             img='/book-cover-blank.png'
           /> */}
           {/* <Book
             title='HE LEFT THE 99 TO FIND THE 1'
-            subtitle='Stories of Wanderers Who Found their Way - PODCAST'
+            subtitle='PODCAST?????Stories of Wanderers Who Found their Way'
             img='/wolf.png'
           /> */}
           {/* <h1>make it an audio book?</h1> */}
