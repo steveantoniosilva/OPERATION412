@@ -4,11 +4,12 @@ import { books } from '../data/books';
 
 
 const Books = () => {
-  const book = books.dreamBook;
+  const dreamBook = books.dreamBook;
+  const soldierBook = books.soldierBook;
   return (
     <>
-          <Head>
-              <title>Books</title>
+      <Head>
+        <title>Books</title>
         <meta
           name='description'
           content='412BOOKS.COM — Books on EQUIPPING the saints.'
@@ -17,10 +18,16 @@ const Books = () => {
       <div className='main'>
         <div className='container'>
           <Book
-            bookTitle={book.bookTitle}
-            bookSubtitle={book.bookSubtitle}
-            moreInfoUrl={book.moreInfoUrl}
-            bookImageUrl={book.bookImageUrl}
+            bookTitle={dreamBook.bookTitle}
+            bookSubtitle={dreamBook.bookSubtitle}
+            moreInfoUrl={dreamBook.moreInfoUrl}
+            bookImageUrl={dreamBook.bookImageUrl}
+          />
+          <Book
+            bookTitle={soldierBook.bookTitle}
+            bookSubtitle={soldierBook.bookSubtitle}
+            moreInfoUrl={soldierBook.moreInfoUrl}
+            bookImageUrl={soldierBook.bookImageUrl}
           />
           <div style={{ marginBottom: '333px' }}></div>
         </div>

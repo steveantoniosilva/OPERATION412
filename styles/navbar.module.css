@@ -34,7 +34,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: right 1s cubic-bezier(0.85, 0, 0.15, 1);
+    transition: right 1.5s cubic-bezier(0.85, 0, 0.15, 1);
 }
 
 /* When open */
