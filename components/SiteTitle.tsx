@@ -3,15 +3,7 @@ import styles from '../styles/siteTitle.module.css';
 export default function SiteTitle() {
   return (
     <h2 className={styles.siteTitle}>
-      BOOKS
-      <br />
-      TO
-      <br />
-      <span className={styles.span}>EQUIP</span>
-      <br />
-      THE
-      <br />
-      SAINTS
+      <span className={styles.span}>412</span> BOOKS
     </h2>
   );
 }

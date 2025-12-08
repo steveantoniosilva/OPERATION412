@@ -1,28 +1,23 @@
 .title {
-    font-weight: 700;
-    margin-bottom: .5em;
-    letter-spacing: 11px;
-}
-
-.subtitle {
-    font-weight: 300;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-top: .25em;
-}
-
-.text {
     font-weight: 100;
+    padding: 0 44px;
 }
 
-.oneHundred {
+.ephesians {
     font-weight: 100;
+    letter-spacing: 13px;
+    padding-left: 22px;
 }
 
-.sevenHundred {
+.fourTwelve {
     font-weight: 700;
+    letter-spacing: 33px;
+    padding-left: 44px;
 }
 
-.italic {
-    font-style: italic;
+.equipTheSaints {
+    font-weight: 100;
+    letter-spacing: 5px;
+    letter-spacing: clamp(2px, .5vw, 11px);
+    padding: 0 44px;
 }

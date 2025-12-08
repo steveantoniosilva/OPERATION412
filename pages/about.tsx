@@ -1,21 +1,19 @@
-import Paragraph from '@/components/Paragraph';
-import ParagraphSpecialFont from '@/components/ParagraphSpecialFont';
+import styles from '../styles/about.module.css';
 
 const About = () => {
   return (
     <div className='main'>
       <div className='containerFlexCentered'>
-        <h1 style={{ fontWeight: '100' }}>THE HEARTBEAT 412 BOOKS</h1>
+        <h1 className={styles.title}>THE HEARTBEAT OF 412 BOOKS</h1>
         <br />
         <br />
-        <h6 style={{ fontWeight: '100', letterSpacing: '11px', paddingLeft: '11px' }}>EPHESIANS</h6>
-        <h1 style={{ fontWeight: '700', letterSpacing: '33px', paddingLeft: '33px' }}>4:12</h1>
+        <h6 className={styles.ephesians}>EPHESIANS</h6>
+        <h1 className={styles.fourTwelve}>4:12</h1>
         <br />
-        <Paragraph
-          paragraph='
-              to equip the saints for works of ministry and
-              to build up the body of Christ'
-        />
+        <br />
+        <h5 className={styles.equipTheSaints}>
+          EQUIP THE SAINTS FOR WORKS OF MINISTRY AND BUILD UP THE BODY OF CHRIST
+        </h5>
 
         {/* 
         <Paragraph paragraph='The Greek WORD FOR “EQUIP“ WAS historicaLLY USED TO DESCRIBE:' />
