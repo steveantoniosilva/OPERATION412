@@ -2,7 +2,7 @@ export const books = {
   dreamBook: {
     id: 'dream-book',
     bookTitle: 'I AM A DREAMER',
-    bookImageUrl: '/dreamer.jpg',
+    bookImageUrl: '/dreamer-bc.jpg',
     moreInfoUrl: 'dream-book',
     amazonUrl: '/',
     paragraph: `
@@ -14,7 +14,7 @@ export const books = {
   soldierBook: {
     id: 'soldier-book',
     bookTitle: 'I AM A SOLDIER',
-    bookImageUrl: '/soldier-book-cover.jpg',
+    bookImageUrl: '/soldier.jpg',
     moreInfoUrl: 'soldier-book',
     amazonUrl: '/',
     paragraph: `“For the LORD of Hosts cares for His flock, the house of Judah;

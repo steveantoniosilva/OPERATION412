@@ -1,7 +1,7 @@
 .paragraph {
     line-height: 1.8;
     margin: 1.75em auto;
-    max-width: 444px;
+    max-width: 777px;
     text-align: center;
     letter-spacing: 1px;
     white-space: normal;
@@ -9,20 +9,4 @@
     padding-right: 2em;
     font-style: italic;
     text-transform: uppercase;
-}
-
-.quotation {
-    font-size: 5rem;
-}
-
-.and {
-    font-size: clamp(5rem, 1vw, 6rem);
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 700;
-    display: block;
-}
-
-.equals {
-    font-size: 5rem;
 }

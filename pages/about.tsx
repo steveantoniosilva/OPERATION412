@@ -1,49 +1,23 @@
-import paragraphSpecialFont from '../styles/paragraphSpecialFont.module.css';
 import Paragraph from '@/components/Paragraph';
 import ParagraphSpecialFont from '@/components/ParagraphSpecialFont';
-import WordPair from '@/components/WordPair';
-import AboutTitle from '@/components/AboutTitle';
 
 const About = () => {
   return (
     <div className='main'>
-      <div className='container'>
-        <div style={{ paddingTop: '125px' }}></div>
-        <AboutTitle />
-        <ParagraphSpecialFont
-          paragraph={
-            <h5>
-              was created to <br />
-              fulfill God's call
-              <br />
-              written in
-            </h5>
-          }
-        />
+      <div className='containerFlexCentered'>
+        <h1 style={{ fontWeight: '100' }}>THE HEARTBEAT 412 BOOKS</h1>
         <br />
-        <h6 style={{ fontWeight: '100', letterSpacing: '11px', paddingLeft: '22px' }}>EPHESIANS</h6>
-        <h1 style={{ fontWeight: '700', letterSpacing: '33px', paddingLeft: '45px' }}>4:12</h1>
-        <ParagraphSpecialFont
-          paragraph={
-            <>
-              <span className={paragraphSpecialFont.quotation}>“</span>
-              <br />
-              equip believers
-              <br />
-              for works of ministry
-              <span className={paragraphSpecialFont.and}>+</span>
-              build up
-              <br />
-              the body of Christ
-              <br />
-              <br />
-              <span className={paragraphSpecialFont.quotation}>“</span>
-            </>
-          }
+        <br />
+        <h6 style={{ fontWeight: '100', letterSpacing: '11px', paddingLeft: '11px' }}>EPHESIANS</h6>
+        <h1 style={{ fontWeight: '700', letterSpacing: '33px', paddingLeft: '33px' }}>4:12</h1>
+        <br />
+        <Paragraph
+          paragraph='
+              to equip the saints for works of ministry and
+              to build up the body of Christ'
         />
 
-        {/* EQUIP  */}
-
+        {/* 
         <Paragraph paragraph='The Greek WORD FOR “EQUIP“ WAS historicaLLY USED TO DESCRIBE:' />
         <br />
         <WordPair
@@ -100,7 +74,6 @@ const About = () => {
         <br />
         <br />
 
-        {/* BUILD UP */}
 
         <Paragraph paragraph='The Greek WORD FOR “BUILD UP“ WAS historicaLLY USED TO DESCRIBE:' />
         <WordPair
@@ -126,9 +99,7 @@ const About = () => {
         <WordPair
           wordPairTitle='STRENGTHENING'
           wordPairSubtitle='A FOUNDATION'
-        />
-
-        <div style={{ paddingBottom: '175px' }}></div>
+        /> */}
       </div>
     </div>
   );

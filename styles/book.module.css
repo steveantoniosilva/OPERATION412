@@ -2,20 +2,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 13em auto;
+    margin: 9em auto;
     width: 90%;
     max-width: 550px;
 }
 
 .book {
     width: 100%;
-    aspect-ratio: 180 / 260;
+    aspect-ratio: 2 / 3;
+    max-height: 85vh;
+    max-width: calc(85vh * (2/3));
     perspective: 1000px;
     transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
 .book:hover {
-    transform: scale(1.05) rotateY(-8deg);
+    transform: scale(1.025) rotateY(-8deg);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
@@ -26,46 +28,29 @@
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-
-    /* This makes text sit ON TOP of the image */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     z-index: 1;
+    border: 1px dotted #333;
+    background: #000;
 }
 
 .cover::after {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(1, 1, 1, 0.25);
-    z-index: 1;
+    background: rgba(0, 0, 0, 0.25);
+    z-index: 2;
     pointer-events: none;
 }
 
-/* image */
 .image {
-    object-fit: cover;
     position: absolute;
     inset: 0;
-    z-index: 0;
-}
-
-/* SUBTITLE */
-.subtitle {
-    position: relative;
-    z-index: 3;
-    color: rgba(255, 255, 255, 0.85);
-    text-align: center;
-    font-weight: 100;
-    font-style: italic;
-    letter-spacing: 0.5px;
-    padding: 0 33px;
-    margin-bottom: 1.75em;
-}
-
-.text {
-    font-weight: 100;
-    margin: 2em auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
 }
