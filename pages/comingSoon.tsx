@@ -57,8 +57,8 @@ const ComingSoon = () => {
               img='/book-cover-blank.png'
               /> */}
           {/* <Book
-            title='TURNING POINT: When God transforms our darkness into our destiny'
-            subtitle='I hear the sound of a trumpet calling Prophets to come out of the caves'
+            title='TURNING POINT: When God transforms the darkness of our cave into the destiny of our calling.'
+            subtitle='Compelling Prophets to come out of their cave and into their calling.'
             img='/cave.png'
           /> */}
           {/* <Book

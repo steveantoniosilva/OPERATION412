@@ -1,8 +1,8 @@
 export const books = {
   dreamBook: {
     id: 'dream-book',
-    bookTitle: 'Turning Point: When God Transforms Our Rest into Our Roadmap',
-    bookSubtitle: 'I hear a Trumpet Calling Sleepers to Become Seers',
+    bookTitle: 'Turning Point: When God Begins to visit us in our dreams',
+    bookSubtitle: 'Understanding & interpreting Dreams ',
     bookImageUrl: '/roadmap.png',
     moreInfoUrl: 'dream-book',
     amazonUrl: '/',
@@ -15,7 +15,7 @@ export const books = {
   soldierBook: {
     id: 'soldier-book',
     bookTitle: 'Turning Point: When God Transforms Our Bleating into Our Battle Cry',
-    bookSubtitle: 'Calling Sheep to become soldiers and to file into battle formation.',
+    bookSubtitle: 'Calling sheep to come out of the pasture and into the battlefield.',
     bookImageUrl: '/soldier.png',
     moreInfoUrl: 'soldier-book',
     amazonUrl: '/',
