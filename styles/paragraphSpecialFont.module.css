@@ -11,6 +11,18 @@
     text-transform: uppercase;
 }
 
-.span {
+.quotation {
+    font-size: 5rem;
+}
+
+.and {
+    font-size: clamp(5rem, 1vw, 6rem);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    display: block;
+}
+
+.equals {
     font-size: 5rem;
 }

@@ -119,10 +119,3 @@ h5 {
 h6 {
     font-size: clamp(0.75rem, 0.5vw + 0.75rem, 1.05rem);
 }
-
-.and {
-        font-size: clamp(5rem, 1vw, 6rem);
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: 700;
-}

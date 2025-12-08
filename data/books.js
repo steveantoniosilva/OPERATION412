@@ -14,7 +14,7 @@ export const books = {
   soldierBook: {
     id: 'soldier-book',
     bookTitle: 'I AM A SOLDIER',
-    bookImageUrl: '/soldier.png',
+    bookImageUrl: '/soldier-book-cover.jpg',
     moreInfoUrl: 'soldier-book',
     amazonUrl: '/',
     paragraph: `“For the LORD of Hosts cares for His flock, the house of Judah;

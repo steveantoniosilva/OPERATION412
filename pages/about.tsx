@@ -1,41 +1,43 @@
-import styles from '../styles/about.module.css';
-import paragraphSpecialFontStyles from '../styles/paragraphSpecialFont.module.css';
+import paragraphSpecialFont from '../styles/paragraphSpecialFont.module.css';
 import Paragraph from '@/components/Paragraph';
 import ParagraphSpecialFont from '@/components/ParagraphSpecialFont';
-import SiteTitle from '@/components/SiteTitle';
 import WordPair from '@/components/WordPair';
+import AboutTitle from '@/components/AboutTitle';
 
 const About = () => {
   return (
     <div className='main'>
       <div className='container'>
         <div style={{ paddingTop: '125px' }}></div>
-        <SiteTitle />
-        <br />
-        <br />
+        <AboutTitle />
+        <ParagraphSpecialFont
+          paragraph={
+            <h5>
+              was created to <br />
+              fulfill God's call
+              <br />
+              written in
+            </h5>
+          }
+        />
         <br />
         <h6 style={{ fontWeight: '100', letterSpacing: '11px', paddingLeft: '22px' }}>EPHESIANS</h6>
         <h1 style={{ fontWeight: '700', letterSpacing: '33px', paddingLeft: '45px' }}>4:12</h1>
-        <br />
         <ParagraphSpecialFont
           paragraph={
             <>
-              <span className={paragraphSpecialFontStyles.span}>“</span>
+              <span className={paragraphSpecialFont.quotation}>“</span>
               <br />
               equip believers
               <br />
               for works of ministry
-              <br />
-              <br />
-              <span className='and'>&</span>
-              <br />
-              <br />
+              <span className={paragraphSpecialFont.and}>+</span>
               build up
               <br />
-              the body of Christ.
+              the body of Christ
               <br />
               <br />
-              <span className={paragraphSpecialFontStyles.span}>“</span>
+              <span className={paragraphSpecialFont.quotation}>“</span>
             </>
           }
         />
@@ -57,11 +59,11 @@ const About = () => {
           wordPairSubtitle='RELATIONSHIPS'
         />
         <WordPair
-          wordPairTitle='STRENGTHENING'
+          wordPairTitle='FORMING'
           wordPairSubtitle='BY EXERCISING'
         />
         <WordPair
-          wordPairTitle='PREPARING'
+          wordPairTitle='READYING'
           wordPairSubtitle='HOUSEHOLD COURTYARDS'
         />
         <WordPair
@@ -69,7 +71,7 @@ const About = () => {
           wordPairSubtitle='NAVAL WARSHIPS'
         />
         <WordPair
-          wordPairTitle='READYING'
+          wordPairTitle='PREPARING'
           wordPairSubtitle='SLINGS'
         />
         <WordPair
@@ -94,10 +96,7 @@ const About = () => {
         />
 
         <br />
-        <br />
-        <br />
-        <span className='and'>&</span>
-        <br />
+        <span className={paragraphSpecialFont.and}>&</span>
         <br />
         <br />
 

@@ -11,10 +11,10 @@ export default function Navbar() {
   const navRef = useRef(null);
 
   const navLinks = [
-    { href: '/', label: 'HOME', className: 'home' },
-    { href: '/about', label: 'EQUIP', className: 'equip' },
-    { href: '/books', label: 'BOOKS', className: 'books' },
-    { href: '/comingSoon', label: 'WRITING', className: 'writing' },
+    { href: '/', label: 'OUR HOME', className: 'home' },
+    { href: '/about', label: '412 BOOKS', className: 'fourTwelve' },
+    { href: '/books', label: 'BOOKSHELF', className: 'books' },
+    { href: '/comingSoon', label: "NEXT BOOK", className: 'writing' },
   ];
 
   return (
