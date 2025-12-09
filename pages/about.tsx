@@ -6,7 +6,7 @@ const About = () => {
       <div className='containerFlexCentered'>
         <h1 className={styles.operation}>OPERATION</h1>
         <br />
-        <h1 className={styles.fourTwelve}>4 : 1 2</h1>
+        <h1 className={styles.fourTwelve}>4 1 2</h1>
         <br />
         <br />
         <h4 className={styles.equipTheSaints}>

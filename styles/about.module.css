@@ -10,7 +10,6 @@
     letter-spacing: clamp(2px, .5vw, 11px);
     padding: 0 44px;
     max-width: 833px;
-    font-family: Cormorant_Garamond;
 }
 
 .operation {
@@ -25,8 +24,7 @@
     font-weight: 200;
     letter-spacing: 3px;
     padding-left: 22px;
-    background-color: #111;
     width: 100vw;
     height: 3em;
-    margin-top: 2em;
+    margin-top: 1em;
 }
