@@ -2,9 +2,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 11em auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 90%;
     max-width: 550px;
+}
+
+.bookWrapper:not(:last-child) {
+    padding-bottom: 11em;
+}
+
+.bookWrapper:last-child {
+    padding-bottom: 3.25em;
 }
 
 .book {

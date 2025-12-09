@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import Book from '@/components/Book';
 import { books } from '../data/books';
+import styles from '../styles/books.module.css';
+
 
 const ComingSoon = () => {
   const soldierBook = books.soldierBook;
@@ -11,17 +13,17 @@ const ComingSoon = () => {
         <title>Coming Soon</title>
         <meta
           name='description'
-          content='412BOOKS.COM — Books to EQUIP the saints.'
+          content='412BOOKS.COM — Books to equip the saints.'
         />
       </Head>
       <div className='main'>
         <div className='container'>
+          <div className={styles.topMargin}></div>
           <Book
             alt={soldierBook.bookTitle}
             moreInfoUrl={soldierBook.moreInfoUrl}
             bookImageUrl={soldierBook.bookImageUrl}
           />
-          <div style={{ paddingBottom: '1px' }}></div>
         </div>
       </div>
     </>

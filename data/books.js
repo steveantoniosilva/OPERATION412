@@ -38,7 +38,7 @@ and He will make them like His majestic horse in battle.”`,
   },
   runnerBook: {
     id: 'runner-book',
-    bookTitle: 'I AM A RUNNER',
+    bookTitle: 'I AM A RUNNER - key factor is endurance?',
     bookImageUrl: '/blank.png',
     moreInfoUrl: 'runner-book',
     amazonUrl: '/',
