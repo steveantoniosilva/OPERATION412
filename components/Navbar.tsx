@@ -11,10 +11,10 @@ export default function Navbar() {
   const navRef = useRef(null);
 
   const navLinks = [
-    { href: '/', label: 'HOME', className: 'home' },
-    { href: '/about', label: 'THE 412 HEARTBEAT' },
-    { href: '/books', label: 'OUT OF THE OVEN' },
-    { href: '/comingSoon', label: 'STILL IN THE OVEN' },
+    { href: '/', label: 'THIS IS HQ', className: 'home' },
+    { href: '/about', label: 'OPERATION' },
+    { href: '/books', label: ' 412 BOOKS' },
+    { href: '/comingSoon', label: 'NEXT BOOK' },
   ];
 
   return (
@@ -26,7 +26,7 @@ export default function Navbar() {
           toggled={isOpen}
           toggle={() => setOpen(prev => !prev)} // 👈 explicit toggle
           size={isOpen ? 20 : 22}
-          duration={.75}
+          duration={0.75}
           color='white'
           distance='lg'
           direction='right'
