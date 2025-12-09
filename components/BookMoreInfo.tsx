@@ -32,7 +32,7 @@ const BookMoreInfo: React.FC<BookProps> = ({ bookTitle, bookTitleSpan, paragraph
           FIND ON AMAZON
         </Link>
         <div className={bookCoverStyles.bookWrapper}>
-          <div className={bookCoverStyles.book}>
+          <div className={bookCoverStyles.bookMoreInfo}>
             <div className={bookCoverStyles.cover}>
               <Image
                 alt={alt}

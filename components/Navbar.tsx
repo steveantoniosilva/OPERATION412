@@ -26,10 +26,10 @@ export default function Navbar() {
           toggled={isOpen}
           toggle={() => setOpen(prev => !prev)} // 👈 explicit toggle
           size={isOpen ? 25 : 33}
-          duration={1.1}
+          duration={.75}
           color='white'
           distance='lg'
-          direction='left'
+          direction='right'
           rounded={true}
         />
       </div>

@@ -25,8 +25,21 @@
     transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
+.bookMoreInfo {
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    max-height: 85vh;
+    max-width: calc(85vh * (2/3));
+    perspective: 1000px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
 .book:hover {
     transform: scale(1.025) rotateY(-8deg);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.bookMoreInfo:hover {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
