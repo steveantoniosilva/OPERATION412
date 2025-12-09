@@ -25,9 +25,9 @@ export default function Navbar() {
         <Hamburger
           toggled={isOpen}
           toggle={() => setOpen(prev => !prev)} // 👈 explicit toggle
-          size={isOpen ? 33 : 22}
+          size={isOpen ? 20 : 22}
           duration={.75}
-          color='white'
+          color={isOpen ? 'indianred' : 'white'}
           distance='lg'
           direction='right'
           rounded={true}

@@ -15,11 +15,16 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>412 BOOKS</title>
+        <title>OPERATION 412</title>
         <meta
           name='viewport'
           content='width=device-width, initial-scale=1'
         />
+        <meta
+          name='description'
+          content='Operation 412 — Equip believers for the work of ministry and build up the body of Christ.'
+        />
+
         <link
           rel='icon'
           href='/favicon.ico'

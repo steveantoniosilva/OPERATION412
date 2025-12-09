@@ -1,19 +1,7 @@
-.title {
-    font-weight: 100;
-    padding: 0 44px;
-    letter-spacing: 1px;
-}
-
-.ephesians {
-    font-weight: 100;
-    letter-spacing: 13px;
-    padding-left: 22px;
-}
-
 .fourTwelve {
-    font-weight: 700;
-    letter-spacing: 33px;
-    padding-left: 44px;
+    font-weight: 100;
+    letter-spacing: 11px;
+    padding-left: 33px;
 }
 
 .equipTheSaints {
@@ -21,8 +9,24 @@
     letter-spacing: 5px;
     letter-spacing: clamp(2px, .5vw, 11px);
     padding: 0 44px;
+    max-width: 833px;
+    font-family: Cormorant_Garamond;
 }
 
-.heartbeat {
+.operation {
     font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.ephesians {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 200;
+    letter-spacing: 3px;
+    padding-left: 22px;
+    background-color: #111;
+    width: 100vw;
+    height: 3em;
+    margin-top: 2em;
 }

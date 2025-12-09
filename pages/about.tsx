@@ -4,18 +4,16 @@ const About = () => {
   return (
     <div className='main'>
       <div className='containerFlexCentered'>
-        <h1 className={styles.title}>
-          HIS <span className={styles.heartbeat}>HEARTBEAT</span>
-        </h1>
+        <h1 className={styles.operation}>OPERATION</h1>
+        <br />
+        <h1 className={styles.fourTwelve}>4 : 1 2</h1>
         <br />
         <br />
-        <h6 className={styles.ephesians}>EPHESIANS</h6>
-        <h1 className={styles.fourTwelve}>4:12</h1>
+        <h4 className={styles.equipTheSaints}>
+          EQUIP BELIEVERS FOR THE WORK OF MINISTRY AND BUILD UP THE BODY OF CHRIST
+        </h4>
         <br />
-        <br />
-        <h5 className={styles.equipTheSaints}>
-          EQUIP THE SAINTS FOR WORKS OF MINISTRY AND BUILD UP THE BODY OF CHRIST
-        </h5>
+        <h5 className={styles.ephesians}>EPHESIANS 4:12</h5>
 
         {/* 
         <Paragraph paragraph='The Greek WORD FOR “EQUIP“ WAS historicaLLY USED TO DESCRIBE:' />
