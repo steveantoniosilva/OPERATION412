@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from '../styles/book.module.css';
+import bookCoverStyles from '../styles/book.module.css';
 
 interface BookProps {
   bookImageUrl: string;
@@ -10,15 +10,15 @@ interface BookProps {
 
 const Book: React.FC<BookProps> = ({ bookImageUrl, moreInfoUrl, alt }) => {
   return (
-    <div className={styles.bookWrapper}>
-      <div className={styles.book}>
+    <div className={bookCoverStyles.bookWrapper}>
+      <div className={bookCoverStyles.book}>
         <Link href={moreInfoUrl}>
-          <div className={styles.cover}>
+          <div className={bookCoverStyles.cover}>
             <Image
               alt={alt}
               src={bookImageUrl}
               fill
-              className={styles.image}
+              className={bookCoverStyles.image}
               priority
             />
           </div>

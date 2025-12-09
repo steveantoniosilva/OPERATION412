@@ -1,7 +1,7 @@
 // components/Navbar.jsx
 import Link from 'next/link';
 import { useState, useRef } from 'react';
-import { Twirl as Hamburger } from 'hamburger-react';
+import { Spin as Hamburger } from 'hamburger-react';
 import styles from '../styles/navbar.module.css';
 import { useRouter } from 'next/router';
 
@@ -11,10 +11,10 @@ export default function Navbar() {
   const navRef = useRef(null);
 
   const navLinks = [
-    { href: '/', label: 'OUR HOME', className: 'home' },
-    { href: '/about', label: '412 BOOKS' },
-    { href: '/books', label: 'BOOKSHELF' },
-    { href: '/comingSoon', label: 'NEXT BOOK' },
+    { href: '/', label: 'OUR FRONT DOOR', className: 'home' },
+    { href: '/about', label: '412 IS THE MOTTO' },
+    { href: '/books', label: 'OUT OF THE OVEN' },
+    { href: '/comingSoon', label: 'STILL IN THE OVEN' },
   ];
 
   return (
@@ -26,10 +26,11 @@ export default function Navbar() {
           toggled={isOpen}
           toggle={() => setOpen(prev => !prev)} // 👈 explicit toggle
           size={isOpen ? 25 : 33}
-          duration={0.75}
+          duration={1.1}
           color='white'
-          distance='sm'
-          direction='right'
+          distance='lg'
+          direction='left'
+          rounded={true}
         />
       </div>
 

@@ -1,18 +1,23 @@
 
 .button {
     display: inline-block;
-    margin-top: 55px;
-    margin-bottom: 75px;
-    padding: 12px 28px;
-    font-size: 0.9rem;
-    letter-spacing: 2px;
+    margin-top: 41px;
+    margin-bottom: 90px;
+    padding: 12px 24px;
+    padding-left: 26;
+    font-size: 1rem;
     border: 1px solid #fff;
     color: #fff;
     text-decoration: none;
     background: transparent;
-    transition: all 0.25s ease;
+    transition: all 0.5s ease;
+    font-weight: 200;
+    letter-spacing: 3px;
+    border-radius: 3px;
 }
 
 .button:hover {
-    background: rgba(255, 255, 255, .1);
+    background: whitesmoke;
+    color: black;
+    border-radius: 33px;
 }

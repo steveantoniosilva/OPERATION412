@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import BookMoreInfo from '@/components/BookMoreInfo';
 import { books } from '../data/books';
+import Book from '@/components/Book';
 
 const SoldierBook = () => {
   const book = books.soldierBook;
@@ -8,21 +9,21 @@ const SoldierBook = () => {
   return (
     <>
       <Head>
-        <title>When Sheep Become Soldiers</title>
+        <title>{`${book.bookTitle} ${book.bookTitleSpan}`}</title>
         <meta
           name='paragraph'
-          content={book.bookSubtitle}
+          content={book.bookTitleSpan}
         />
       </Head>
       <div className='main'>
-        <div
-          style={{ paddingTop: '222px' }}
-          className='container'>
+        <div className='container'>
           <BookMoreInfo
             amazonUrl='/'
             bookTitle={book.bookTitle}
-            bookSubtitle={book.bookSubtitle}
+            bookTitleSpan={book.bookTitleSpan}
             paragraph={book.paragraph}
+            alt={book.bookTitle}
+            bookImageUrl={book.bookImageUrl}
           />
         </div>
       </div>

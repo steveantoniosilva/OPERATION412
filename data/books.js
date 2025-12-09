@@ -29,7 +29,8 @@ export const books = {
   },
   soldierBook: {
     id: 'soldier-book',
-    bookTitle: 'I AM A SOLDIER',
+    bookTitle: 'I AM A',
+    bookTitleSpan: 'SOLDIER',
     bookImageUrl: '/soldier.jpg',
     moreInfoUrl: 'soldier-book',
     amazonUrl: '/',

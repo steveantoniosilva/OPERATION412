@@ -1,11 +1,11 @@
 .siteTitle {
     font-weight: 100;
-    letter-spacing: 9px;
+    letter-spacing: 2px;
     font-size: clamp(3rem, 4vw, 6rem);
 }
 
 .span {
-    letter-spacing: 3px;
+    letter-spacing: 11px;
     font-weight: 100;
-    font-size: clamp(8.25rem, 4vw, 8rem);
+    font-size: clamp(6rem, 5vw, 11rem);
 }

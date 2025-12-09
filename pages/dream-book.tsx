@@ -8,7 +8,7 @@ const DreamBook = () => {
   return (
     <>
       <Head>
-        <title>A Book About Dreams</title>
+        <title>{`${book.bookTitle} ${book.bookTitleSpan}`}</title>
         <meta
           name='description'
           content={book.bookTitle}
@@ -23,6 +23,8 @@ const DreamBook = () => {
             bookTitleSpan={book.bookTitleSpan}
             amazonUrl='/'
             paragraph={book.paragraph}
+            alt={book.bookTitle}
+            bookImageUrl={book.bookImageUrl}
           />
         </div>
       </div>
