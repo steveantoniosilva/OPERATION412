@@ -3,8 +3,14 @@
     z-index: 3;
     color: #fff;
     text-align: center;
-    font-weight: 500;
+    font-weight: 200;
     padding-left: 1em;
     padding-right: 1em;
     margin-bottom: 1em;
+    letter-spacing: 5px;
+}
+
+.bookTitleSpan {
+    font-weight: 700;
+    letter-spacing: 2px;
 }

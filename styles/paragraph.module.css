@@ -1,17 +1,12 @@
 .paragraph {
     font-weight: 200;
-    line-height: 3;
+    line-height: 2;
     margin: 1.75em auto;
     max-width: 475px;
-
-    /* Newspaper behavior */
-    text-align: center;
-
-    /* Optional aesthetics you can keep or remove */
+    text-align: justify;
     text-transform: uppercase;
     letter-spacing: 1px;
-
-    white-space: normal;
+    white-space: pre-line;
     padding-left: 2em;
     padding-right: 2em;
 }

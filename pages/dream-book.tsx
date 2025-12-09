@@ -11,7 +11,7 @@ const DreamBook = () => {
         <title>A Book About Dreams</title>
         <meta
           name='description'
-          content={book.bookSubtitle}
+          content={book.bookTitle}
         />
       </Head>
       <div className='main'>
@@ -19,9 +19,9 @@ const DreamBook = () => {
           style={{ paddingTop: '222px' }}
           className='container'>
           <BookMoreInfo
-            amazonUrl='/'
             bookTitle={book.bookTitle}
-            bookSubtitle={book.bookSubtitle}
+            bookTitleSpan={book.bookTitleSpan}
+            amazonUrl='/'
             paragraph={book.paragraph}
           />
         </div>

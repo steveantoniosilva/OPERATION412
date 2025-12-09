@@ -74,7 +74,7 @@ body::-webkit-scrollbar {
 hr {
     border: 0;
     height: 1px;
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.25);
     margin: 0 auto;
     width: 50%;
     max-width: 222px;

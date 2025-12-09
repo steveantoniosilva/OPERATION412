@@ -17,6 +17,7 @@
     right: 20px;
     cursor: pointer;
     backdrop-filter: blur(33px);
+    transform: rotate(90deg);
     border-radius: 5px;
     padding: 11px;
 }
