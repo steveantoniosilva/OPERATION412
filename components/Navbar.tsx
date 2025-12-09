@@ -27,7 +27,7 @@ export default function Navbar() {
           toggle={() => setOpen(prev => !prev)} // 👈 explicit toggle
           size={isOpen ? 20 : 22}
           duration={.75}
-          color={isOpen ? 'indianred' : 'white'}
+          color='white'
           distance='lg'
           direction='right'
           rounded={true}
