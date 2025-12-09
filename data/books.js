@@ -53,22 +53,7 @@ and He will make them like His majestic horse in battle.”`,
     amazonUrl: '/',
     paragraph: `“…”`,
   },
-  runnerBook: {
-    id: 'runner-book',
-    bookTitle: 'I AM A RUNNER - key factor is endurance?',
-    bookImageUrl: '/blank.png',
-    moreInfoUrl: 'runner-book',
-    amazonUrl: '/',
-    paragraph: `“…”`,
-  },
-  watchmanBook: {
-    id: 'watchman-book',
-    bookTitle: 'I AM A WATCHMAN',
-    bookImageUrl: '/blank.png',
-    moreInfoUrl: 'watchman-book',
-    amazonUrl: '/',
-    paragraph: `“…”`,
-  },
+
   businessmanBook: {
     id: 'businessman-book',
     bookTitle: 'I AM A BUSINESSMAN',
@@ -76,45 +61,33 @@ and He will make them like His majestic horse in battle.”`,
     moreInfoUrl: 'businessman-book',
     amazonUrl: '/',
     paragraph: `“…”`,
-  },
-  investorBook: {
-    id: 'investor-book',
-    bookTitle: 'I AM AN INVESTOR',
-    bookImageUrl: '/blank.png',
-    moreInfoUrl: 'investor-book',
-    amazonUrl: '/',
-    paragraph: `“…”`,
-  },
-  giftedBook: {
-    id: 'gifted-book',
-    bookTitle: 'I AM GIFTED',
-    bookImageUrl: '/blank.png',
-    moreInfoUrl: 'gifted-book',
-    amazonUrl: '/',
-    paragraph: `“…”`,
-  },
-  seerBook: {
-    id: 'seer-book',
-    bookTitle: 'I AM A SEER',
-    bookImageUrl: '/blank.png',
-    moreInfoUrl: 'seer-book',
-    amazonUrl: '/',
-    paragraph: `“…”`,
-  },
-  equippedBook: {
-    id: 'equipped-book',
-    bookTitle: 'I AM EQUIPPED',
-    bookImageUrl: '/blank.png',
-    moreInfoUrl: 'equipped-book',
-    amazonUrl: '/',
-    paragraph: `“…”`,
-  },
-  lionBook: {
-    id: 'lion-book',
-    bookTitle: 'I AM A LION',
-    bookImageUrl: '/blank.png',
-    moreInfoUrl: 'lion-book',
-    amazonUrl: '/',
-    paragraph: `“…”`,
-  },
-};
+    },
+  
+  // I Am A Runner
+
+  // I Am A Watchman
+
+  // I Am An Investor
+
+  // I Am Equipped
+
+  // I Am An Alien
+
+  //I Am A MoneyMaker
+
+  // I Am A An Eagle
+
+  // I Am A A Lion
+
+  // I am a Visioner
+
+  // I am An ant
+
+  // I Am a deceiver
+
+  // I Am clay
+
+    // I Am A sheep
+  
+  // I Am An Ambassador
+  };

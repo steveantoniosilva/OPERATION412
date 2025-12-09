@@ -1,12 +1,52 @@
-.siteTitle {
-    font-weight: 100;
-    letter-spacing: 2px;
-    font-size: clamp(3rem, 4vw, 6rem);
+.mobileContainer {
+    display: block;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
 }
 
-.span {
-    padding-left: 12px;
-    letter-spacing: 11px;
+.desktopContainer {
+    display: none;
+    letter-spacing: 5px;
+}
+
+.operationMobile {
     font-weight: 100;
-    font-size: clamp(6rem, 5vw, 11rem);
+    letter-spacing: 3px;
+    font-size: clamp(2rem, 4.75vw, 5rem);
+}
+
+.operationDesktop {
+    font-weight: 700;
+    font-size: clamp(2rem, 4.75vw, 5rem);
+}
+
+.fourTwelveMobile {
+    letter-spacing: 31px;
+    padding-left: 52px;
+    background-color: #111;
+    font-weight: 500;
+    font-size: clamp(1.4rem, 5vw, 2rem);
+    margin: 3em auto;
+    width: 100%;
+}
+
+.fourTwelveDesktop {
+    font-weight: 100;
+    letter-spacing: 11px;
+}
+
+
+@media (min-width: 678px) {
+    .mobileContainer {
+        display: none;
+    }
+
+    .desktopContainer {
+        display: block;
+        font-size: 1.25rem;
+    }
 }

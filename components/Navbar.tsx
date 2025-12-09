@@ -11,7 +11,7 @@ export default function Navbar() {
   const navRef = useRef(null);
 
   const navLinks = [
-    { href: '/', label: 'OPEN FOR READERS', className: 'home' },
+    { href: '/', label: 'HOME', className: 'home' },
     { href: '/about', label: 'THE 412 HEARTBEAT' },
     { href: '/books', label: 'OUT OF THE OVEN' },
     { href: '/comingSoon', label: 'STILL IN THE OVEN' },
@@ -25,7 +25,7 @@ export default function Navbar() {
         <Hamburger
           toggled={isOpen}
           toggle={() => setOpen(prev => !prev)} // 👈 explicit toggle
-          size={isOpen ? 25 : 33}
+          size={isOpen ? 33 : 22}
           duration={.75}
           color='white'
           distance='lg'
