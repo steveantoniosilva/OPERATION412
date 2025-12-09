@@ -11,8 +11,8 @@ export default function Navbar() {
   const navRef = useRef(null);
 
   const navLinks = [
-    { href: '/', label: 'OUR FRONT DOOR', className: 'home' },
-    { href: '/about', label: '412 IS THE MOTTO' },
+    { href: '/', label: 'OPEN FOR READERS', className: 'home' },
+    { href: '/about', label: 'THE 412 HEARTBEAT' },
     { href: '/books', label: 'OUT OF THE OVEN' },
     { href: '/comingSoon', label: 'STILL IN THE OVEN' },
   ];

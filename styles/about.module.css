@@ -1,6 +1,7 @@
 .title {
     font-weight: 100;
     padding: 0 44px;
+    letter-spacing: 1px;
 }
 
 .ephesians {
@@ -20,4 +21,8 @@
     letter-spacing: 5px;
     letter-spacing: clamp(2px, .5vw, 11px);
     padding: 0 44px;
+}
+
+.heartbeat {
+    font-weight: 700;
 }

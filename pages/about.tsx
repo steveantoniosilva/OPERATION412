@@ -4,7 +4,9 @@ const About = () => {
   return (
     <div className='main'>
       <div className='containerFlexCentered'>
-        <h1 className={styles.title}>THE HEARTBEAT OF 412 BOOKS</h1>
+        <h1 className={styles.title}>
+          HIS <span className={styles.heartbeat}>HEARTBEAT</span>
+        </h1>
         <br />
         <br />
         <h6 className={styles.ephesians}>EPHESIANS</h6>
