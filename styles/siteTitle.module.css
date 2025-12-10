@@ -19,11 +19,6 @@
     font-size: clamp(2rem, 4.75vw, 5rem);
 }
 
-.operationDesktop {
-    font-weight: 700;
-    font-size: clamp(2rem, 4.75vw, 5rem);
-}
-
 .fourTwelveMobile {
     letter-spacing: 31px;
     padding-left: 52px;
@@ -34,8 +29,13 @@
     width: 100%;
 }
 
-.fourTwelveDesktop {
+.operationDesktop {
     font-weight: 100;
+    font-size: clamp(2rem, 4.75vw, 5rem);
+}
+
+.fourTwelveDesktop {
+    font-weight: 500;
     letter-spacing: 11px;
 }
 
