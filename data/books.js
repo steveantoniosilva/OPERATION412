@@ -23,9 +23,7 @@ export const books = {
 
     Lastly, I will say that this book is not a traditional book where the author has a lot to say—from the first chapter to the last—it is nothing but the Word of God. Most chapter where a dream is found, I have harvested the entire chapter that the dream is surrounded and nestled in.
 
-    This book is about meditating on His word, not my opinions. I wanted to create space for dreamers, like myself, to seek God, read His word and seek understanding from God Himself on how He chooses to speak to us in dreams.
-
-    Bon apetit.`,
+    This book is about meditating on His word, not my opinions. I wanted to create space for dreamers, like myself, to seek God, read His word and seek understanding from God Himself on how He chooses to speak to us in dreams.`,
   },
   soldierBook: {
     id: 'soldier-book',

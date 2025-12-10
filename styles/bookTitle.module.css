@@ -1,6 +1,4 @@
 .bookTitle {
-    position: relative;
-    z-index: 3;
     color: #fff;
     text-align: center;
     font-weight: 200;
@@ -8,7 +6,7 @@
     padding-right: 1em;
     margin-bottom: 1em;
     letter-spacing: 5px;
-    margin-top: 155px;
+    margin-top: 140px;
 }
 
 .bookTitleSpan {
@@ -17,7 +15,7 @@
 }
 
 
-@media (min-width: 750px) {
+@media (min-width: 675px) {
     .bookTitle {
         margin-top: 65px;
     }

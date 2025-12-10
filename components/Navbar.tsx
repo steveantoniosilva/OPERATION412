@@ -11,9 +11,9 @@ export default function Navbar() {
   const navRef = useRef(null);
 
   const navLinks = [
-    { href: '/', label: 'THIS IS HQ', className: 'home' },
-    { href: '/about', label: 'OPERATION' },
-    { href: '/books', label: ' 412 BOOKS' },
+    { href: '/', label: '4 1 2 HQ', className: 'home' },
+    { href: '/about', label: 'A MISSION' },
+    { href: '/books', label: 'FIELD MANUALS' },
     { href: '/comingSoon', label: 'NEXT BOOK' },
   ];
 

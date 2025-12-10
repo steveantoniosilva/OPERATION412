@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import SiteTitle from '@/components/SiteTitle';
 
 const Home = () => {
   return (
@@ -8,11 +7,19 @@ const Home = () => {
       <Head>
         <meta
           name='description'
-          content='Home'
+          content='Operation 412 — Equip believers for the work of ministry and build up the body of Christ.'
         />
       </Head>
       <div className={styles.container}>
-        <SiteTitle />
+        <div className={styles.bun}></div>
+        <div className={styles.letter}>4</div>
+
+        <div className={styles.bun}></div>
+        <div className={styles.letter}>1</div>
+
+        <div className={styles.bun}></div>
+        <div className={styles.letter}>2</div>
+        <div className={styles.bun}></div>
       </div>
     </>
   );

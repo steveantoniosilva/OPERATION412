@@ -71,13 +71,15 @@ body::-webkit-scrollbar {
     /* Firefox */
 }
 
-hr {
+.hrBookMoreInfo {
     border: 0;
     height: 1px;
-    background: rgba(255, 255, 255, 0.25);
-    margin: 0 auto;
-    width: 50%;
-    max-width: 222px;
+    background: rgba(255, 255, 255, 0.2);
+    margin-top: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 555px;
 }
 
 
@@ -98,7 +100,6 @@ h6 {
     line-height: 2em;
     margin: 0 auto;
     padding: 0 22px;
-    max-width: 888px;
     color: white;
 }
 

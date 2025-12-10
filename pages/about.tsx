@@ -1,20 +1,17 @@
+import SiteTitle from '@/components/SiteTitle';
 import styles from '../styles/about.module.css';
 
 const About = () => {
   return (
     <div className='main'>
       <div className='containerFlexCentered'>
-        <h1 className={styles.operation}>OPERATION</h1>
-        <br />
-        <h1 className={styles.fourTwelve}>4 1 2</h1>
-        <br />
-        <br />
+        <SiteTitle />
         <h4 className={styles.equipTheSaints}>
           EQUIP BELIEVERS FOR THE WORK OF MINISTRY AND BUILD UP THE BODY OF CHRIST
         </h4>
-        <br />
-        <h5 className={styles.ephesians}>EPHESIANS 4:12</h5>
-
+        <h6 className={styles.ephesians}>
+          EPHESIANS <span className={styles.span}>4:12</span>
+        </h6>
         {/* 
         <Paragraph paragraph='The Greek WORD FOR “EQUIP“ WAS historicaLLY USED TO DESCRIBE:' />
         <br />

@@ -11,13 +11,11 @@ const DreamBook = () => {
         <title>{`${book.bookTitle} ${book.bookTitleSpan}`}</title>
         <meta
           name='description'
-          content={book.bookTitle}
+          content={`${book.bookTitle} ${book.bookTitleSpan}`}
         />
       </Head>
       <div className='main'>
-        <div
-          style={{ paddingTop: '222px' }}
-          className='container'>
+        <div className='container'>
           <BookMoreInfo
             bookTitle={book.bookTitle}
             bookTitleSpan={book.bookTitleSpan}

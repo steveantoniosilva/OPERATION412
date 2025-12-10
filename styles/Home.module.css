@@ -1,11 +1,25 @@
 .container {
     width: 100vw;
     height: 100vh;
+    display: grid;
+
+    /* 4 buns + 3 letters = 7 rows
+       buns = 1fr, letters = 9fr */
+    grid-template-rows: 1fr 9fr 1fr 9fr 1fr 9fr 1fr;
+}
+
+.bun {
+    background: transparent;
+    /* lets background show */
+}
+
+.letter {
+    background: rgba(22,22,22, .6);
+    font-weight: 100;
+    font-size: 20vmin;
+    /* scales with both width + height */
+    line-height: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding-bottom: 1em;
-    background-color: #000;
 }
-
