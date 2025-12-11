@@ -5,50 +5,66 @@
 .container {
     width: 100vw;
     height: 100vh;
+
     display: flex;
     flex-direction: column;
-    background-color: rgba(22, 22, 22, .5);
 
-    /* Create striped look */
-    gap: .5vh;
-    /* gap *between* blocks only */
+    gap: 3vh;
+    /* spacing BETWEEN stripes */
+    padding: 3vh 3vw;
+    /* NEW: even spacing on ALL SIDES */
+    background-color: red;
 }
 
 .stripe {
-    width: 100%;
     flex: 1;
-    /* equal-height vertical bands */
-    background: black;
+    width: 100%;
+
+    background-image: url('/soldier.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
     display: flex;
     justify-content: center;
     align-items: center;
 
     font-size: clamp(3rem, 12vmin, 12rem);
     font-weight: 100;
-    line-height: 1;
-    color: #222;
+    border-radius: 55px;
+}
+
+/* Slices */
+.stripe:nth-of-type(1) {
+    background-position: 0% 50%;
+}
+
+.stripe:nth-of-type(2) {
+    background-position: 50% 50%;
+}
+
+.stripe:nth-of-type(3) {
+    background-position: 100% 50%;
 }
 
 
 
 /* ------------------------------------------------ */
-/*   LANDSCAPE: horizontal referee stripes (412)    */
+/*   DESKTOP: horizontal referee stripes (412)       */
 /* ------------------------------------------------ */
 
 @media (min-width: 777px) {
 
     .container {
         flex-direction: row;
-        gap: .5vw;
-        /* keeps gaps BETWEEN stripes */
+
+        gap: 1vw;
+        /* spacing BETWEEN stripes */
+        padding: 1vw 1vh;
+        /* NEW: top, bottom, left, right gaps */
     }
 
     .stripe {
         height: 100%;
-        flex: 1;
-        /* equal-width horizontal bands */
-
-        /* Make text scale better in wide screens */
         font-size: clamp(3rem, 15vmin, 20rem);
     }
 }

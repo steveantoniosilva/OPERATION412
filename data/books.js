@@ -61,6 +61,8 @@ and He will make them like His majestic horse in battle.”`,
     paragraph: `“…”`,
     },
   
+  // I Am A BATTLE HORSE - I WILL TURN SHEEP INTO MY BATTLE STEED
+  
   // I Am A Runner
 
   // I Am A Watchman
