@@ -25,6 +25,7 @@ const ComingSoon = () => {
             bookImageUrl={soldierBook.bookImageUrl}
           />
         </div>
+        <footer className={styles.footer}>&copy; Operation 412</footer>
       </div>
     </>
   );

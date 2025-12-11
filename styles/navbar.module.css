@@ -2,13 +2,14 @@
 .hamburger {
     position: fixed;
     z-index: 111111111;
-    top: 25px;
-    right: 20px;
+    top: 0;
+    right: 0;
     cursor: pointer;
     backdrop-filter: blur(33px);
     transform: rotate(90deg);
     border-radius: 5px;
-    padding: 11px;
+    top: 11px;
+    right: 11px;
 }
 
 
@@ -64,24 +65,4 @@
 
 .navLink:hover {
     border-bottom: .25px solid rgba(255, 255, 255, .25);
-}
-
-.footer {
-    position: absolute;
-    bottom: 2.5vh;
-    /* distance from bottom */
-    left: 50%;
-    /* move to horizontal center */
-    transform: translateX(-50%);
-    /* correct centering */
-
-    text-align: center;
-    width: max-content;
-    /* keeps it tight */
-
-    /* optional styles */
-    font-weight: 300;
-    font-size: 0.9rem;
-    opacity: 0.8;
-    font-style: italic;
 }

@@ -49,7 +49,6 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
-          <footer className={styles.footer}>&copy; Operation 412</footer>
           </nav>
     </div>
   );
