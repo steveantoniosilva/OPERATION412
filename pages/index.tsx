@@ -20,21 +20,33 @@ const Home = () => {
         <div className={styles.desktopContainer}>
           <div className={styles.stripe}>
             <div className={styles.inner}>
-              <div className={styles.operation}>OPE</div>
+              <div className={styles.operation}>
+                <span>O</span>
+                <span>P</span>
+                <span>E</span>
+              </div>
               <div className={styles.fourTwelve}>4</div>
             </div>
           </div>
 
           <div className={styles.stripe}>
             <div className={styles.inner}>
-              <div className={styles.operation}>RAT</div>
+              <div className={styles.operation}>
+                <span>R</span>
+                <span>A</span>
+                <span>T</span>
+              </div>
               <div className={styles.fourTwelve}>1</div>
             </div>
           </div>
 
           <div className={styles.stripe}>
             <div className={styles.inner}>
-              <div className={styles.operation}>ION</div>
+              <div className={styles.operation}>
+                <span>I</span>
+                <span>O</span>
+                <span>N</span>
+              </div>
               <div className={styles.fourTwelve}>2</div>
             </div>
           </div>

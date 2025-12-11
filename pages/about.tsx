@@ -7,13 +7,15 @@ const About = () => {
         <h1 className={styles.operation}>
           OPERATION <span className={styles.fourTwelve}>412</span>
         </h1>
-        <h1 className={styles.verseText}>
-          <span className={styles.emphasis}>EQUIP</span> BELIEVERS FOR THE WORK OF MINISTRY{' '}
-          <span className={styles.emphasis}>AND BUILD</span> UP THE BODY OF CHRIST
+        <h1 className={styles.is}>=</h1>
+        <h1 className={styles.operation}>
+          EPHESIANS <span className={styles.fourTwelve}>4:12</span>
         </h1>
-        <h6 className={styles.verseReference}>
-          EPHESIANS <span className={styles.span}>4:12</span>
-        </h6>
+
+        <h5 className={styles.verseText}>
+          <span className={styles.emphasis}>EQUIP</span> BELIEVERS FOR THE WORK OF MINISTRY and{' '}
+          <span className={styles.emphasis}>BUILD</span> UP THE BODY OF CHRIST.
+        </h5>
         {/* 
         <Paragraph paragraph='The Greek WORD FOR “EQUIP“ WAS historicaLLY USED TO DESCRIBE:' />
         <br />
