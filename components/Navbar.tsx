@@ -1,4 +1,3 @@
-// components/Navbar.jsx
 import Link from 'next/link';
 import { useState, useRef } from 'react';
 import { Spin as Hamburger } from 'hamburger-react';
@@ -50,7 +49,8 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
-      </nav>
+          <footer className={styles.footer}>&copy; Operation 412</footer>
+          </nav>
     </div>
   );
 }

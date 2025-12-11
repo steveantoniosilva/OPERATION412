@@ -1,19 +1,35 @@
-.equipTheSaints {
+.verseText {
     font-weight: 100;
     letter-spacing: 5px;
-    letter-spacing: clamp(2px, .5vw, 11px);
+    letter-spacing: clamp(1px, 2vw, 3px);
     padding: 0 44px;
     margin: 2em auto;
     max-width: 833px;
+    font-size: clamp(1.5em, 2vw, 5em);
+    line-height: 1.75;
 }
 
-.ephesians {
+.verseReference {
     font-weight: 200;
     letter-spacing: 3px;
     width: 100vw;
     font-style: italic;
 }
 
-.span {
+.emphasis {
+    font-size: clamp(2em, 2vw, 3em);
     font-weight: 700;
+}
+
+.operation {
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-size: clamp(2rem, 4vw, 4rem);
+    width: 100vw;
+    line-height: 1.5;
+}
+
+.fourTwelve {
+    font-weight: 100;
+    font-size: clamp(4rem, 4vw, 5rem);
 }

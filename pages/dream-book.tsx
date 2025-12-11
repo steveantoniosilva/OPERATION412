@@ -19,8 +19,9 @@ const DreamBook = () => {
           <BookMoreInfo
             bookTitle={book.bookTitle}
             bookTitleSpan={book.bookTitleSpan}
-            amazonUrl='/'
-            paragraph={book.paragraph}
+            bookAmazonUrl='/'
+            bookDescription={book.bookDescription}
+            bookIntro={book.bookIntro}
             alt={book.bookTitle}
             bookImageUrl={book.bookImageUrl}
           />

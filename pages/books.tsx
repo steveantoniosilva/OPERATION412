@@ -21,12 +21,12 @@ const Books = () => {
           <div className={styles.topMargin}></div>
           <Book
             alt={dreamBook.bookTitle}
-            moreInfoUrl={dreamBook.moreInfoUrl}
+            bookMoreInfoUrl={dreamBook.bookMoreInfoUrl}
             bookImageUrl={dreamBook.bookImageUrl}
           />
           <Book
             alt={soldierBook.bookTitle}
-            moreInfoUrl={soldierBook.moreInfoUrl}
+            bookMoreInfoUrl={soldierBook.bookMoreInfoUrl}
             bookImageUrl={soldierBook.bookImageUrl}
           />
         </div>

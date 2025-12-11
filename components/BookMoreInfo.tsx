@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import styles from '../styles/bookMoreInfo.module.css';
 import BookTitle from '@/components/BookTitle';
-import Paragraph from './Paragraph';
+import BookDescription from './BookDescription';
 import Image from 'next/image';
 import { useEffect, useRef } from 'react';
 import VanillaTilt from 'vanilla-tilt';
@@ -17,13 +17,22 @@ interface TiltHTMLElement extends HTMLDivElement {
 interface BookProps {
   bookTitle: string;
   bookTitleSpan: string;
-  paragraph: string;
-  amazonUrl: string;
+  bookIntro: string;
+  bookDescription: string[];
+  bookAmazonUrl: string;
   alt: string;
   bookImageUrl: string;
 }
 
-const BookMoreInfo: React.FC<BookProps> = ({ bookTitle, bookTitleSpan, paragraph, amazonUrl, alt, bookImageUrl }) => {
+const BookMoreInfo: React.FC<BookProps> = ({
+  bookTitle,
+  bookTitleSpan,
+  bookDescription,
+  bookIntro,
+  bookAmazonUrl,
+  alt,
+  bookImageUrl,
+}) => {
   const tiltRef = useRef<TiltHTMLElement | null>(null);
 
   useEffect(() => {
@@ -52,10 +61,11 @@ const BookMoreInfo: React.FC<BookProps> = ({ bookTitle, bookTitleSpan, paragraph
         <br />
         <hr className='hrBookMoreInfo' />
         <br />
+        <br />
 
-        <Paragraph paragraph={paragraph} />
+        <BookDescription>{bookIntro}</BookDescription>
 
-        <Button href={amazonUrl}>FIND ON AMAZON</Button>
+        <Button href={bookAmazonUrl}>FIND ON AMAZON</Button>
 
         <div className={bookCoverStyles.bookWrapper}>
           <div
@@ -73,6 +83,10 @@ const BookMoreInfo: React.FC<BookProps> = ({ bookTitle, bookTitleSpan, paragraph
           </div>
         </div>
       </div>
+      {bookDescription.map((text, i) => (
+        <BookDescription key={i}>{text}</BookDescription>
+      ))}
+      <Button href={bookAmazonUrl}>FIND ON AMAZON</Button>
     </div>
   );
 };

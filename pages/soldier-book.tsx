@@ -17,10 +17,11 @@ const SoldierBook = () => {
       <div className='main'>
         <div className='container'>
           <BookMoreInfo
-            amazonUrl='/'
+            bookAmazonUrl='/'
             bookTitle={book.bookTitle}
             bookTitleSpan={book.bookTitleSpan}
-            paragraph={book.paragraph}
+            bookDescription={book.bookDescription}
+            bookIntro={book.bookIntro}
             alt={book.bookTitle}
             bookImageUrl={book.bookImageUrl}
           />

@@ -12,9 +12,9 @@ const Home = () => {
       </Head>
 
       <div className={styles.container}>
-        <div className={styles.stripe}>4</div>
-        <div className={styles.stripe}>1</div>
-        <div className={styles.stripe}>2</div>
+        <div className={styles.stripe}></div>
+        <div className={styles.stripe}></div>
+        <div className={styles.stripe}></div>
       </div>
     </>
   );

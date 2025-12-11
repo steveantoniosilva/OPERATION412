@@ -6,11 +6,11 @@ import bookCoverStyles from '../styles/book.module.css';
 
 interface BookProps {
   bookImageUrl: string;
-  moreInfoUrl: string;
+  bookMoreInfoUrl: string;
   alt: string;
 }
 
-const Book: React.FC<BookProps> = ({ bookImageUrl, moreInfoUrl, alt }) => {
+const Book: React.FC<BookProps> = ({ bookImageUrl, bookMoreInfoUrl, alt }) => {
 interface TiltHTMLElement extends HTMLDivElement {
   vanillaTilt?: {
     destroy: () => void;
@@ -40,7 +40,7 @@ useEffect(() => {
       <div
         ref={tiltRef}
         className={bookCoverStyles.book}>
-        <Link href={moreInfoUrl}>
+        <Link href={bookMoreInfoUrl}>
           <div className={bookCoverStyles.cover}>
             <Image
               alt={alt}

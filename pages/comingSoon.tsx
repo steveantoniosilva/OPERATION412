@@ -21,7 +21,7 @@ const ComingSoon = () => {
           <div className={styles.topMargin}></div>
           <Book
             alt={soldierBook.bookTitle}
-            moreInfoUrl={soldierBook.moreInfoUrl}
+            bookMoreInfoUrl={soldierBook.bookMoreInfoUrl}
             bookImageUrl={soldierBook.bookImageUrl}
           />
         </div>
