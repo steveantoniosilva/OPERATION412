@@ -1,25 +1,54 @@
+/* ------------------------------------------------ */
+/*      MOBILE: vertical referee stripes (4/1/2)     */
+/* ------------------------------------------------ */
+
 .container {
     width: 100vw;
     height: 100vh;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(22, 22, 22, .5);
 
-    /* 4 buns + 3 letters = 7 rows
-       buns = 1fr, letters = 9fr */
-    grid-template-rows: 1fr 9fr 1fr 9fr 1fr 9fr 1fr;
+    /* Create striped look */
+    gap: .5vh;
+    /* gap *between* blocks only */
 }
 
-.bun {
-    background: transparent;
-    /* lets background show */
-}
-
-.letter {
-    background: rgba(22,22,22, .6);
-    font-weight: 100;
-    font-size: 20vmin;
-    /* scales with both width + height */
-    line-height: 1;
+.stripe {
+    width: 100%;
+    flex: 1;
+    /* equal-height vertical bands */
+    background: black;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    font-size: clamp(3rem, 12vmin, 12rem);
+    font-weight: 100;
+    line-height: 1;
+    color: #222;
+}
+
+
+
+/* ------------------------------------------------ */
+/*   LANDSCAPE: horizontal referee stripes (412)    */
+/* ------------------------------------------------ */
+
+@media (min-width: 777px) {
+
+    .container {
+        flex-direction: row;
+        gap: .5vw;
+        /* keeps gaps BETWEEN stripes */
+    }
+
+    .stripe {
+        height: 100%;
+        flex: 1;
+        /* equal-width horizontal bands */
+
+        /* Make text scale better in wide screens */
+        font-size: clamp(3rem, 15vmin, 20rem);
+    }
 }

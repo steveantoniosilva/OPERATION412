@@ -10,16 +10,11 @@ const Home = () => {
           content='Operation 412 — Equip believers for the work of ministry and build up the body of Christ.'
         />
       </Head>
+
       <div className={styles.container}>
-        <div className={styles.bun}></div>
-        <div className={styles.letter}>4</div>
-
-        <div className={styles.bun}></div>
-        <div className={styles.letter}>1</div>
-
-        <div className={styles.bun}></div>
-        <div className={styles.letter}>2</div>
-        <div className={styles.bun}></div>
+        <div className={styles.stripe}>4</div>
+        <div className={styles.stripe}>1</div>
+        <div className={styles.stripe}>2</div>
       </div>
     </>
   );
