@@ -22,11 +22,16 @@
 .stripe {
     flex: 1;
     width: 100%;
-    background-image: url('/landing-page.png');
+    background-image:
+        linear-gradient(to bottom,
+            transparent,
+            rgba(111, 111, 111, .25),
+            rgba(1, 1, 1, .1),
+            rgba(1, 1, 1, 1)),
+        url('/lion.png');
     background-repeat: no-repeat;
     border-radius: 33px;
-    background-color: rgba(1, 1, 1, .4);
-    background-blend-mode: overlay;
+    background-color: black;
 
     display: flex;
     justify-content: center;
@@ -104,18 +109,7 @@
         font-weight: 700;
         text-align: center;
         letter-spacing: .1em;
-        color: rgba(255, 255, 255, .2);
-        text-shadow: 1px 1px 0 black;
-        opacity: .6;
-    }
-    
-    .armyAndBody {
-        font-weight: 200;
-        font-size: clamp(2rem, calc(3vw + 3vh), 4rem);
-        letter-spacing: .1em;
-        color: black;
-        text-shadow: 1px 1px 0 white;
-        opacity: .3;
+        color: rgba(255, 255, 255, .9);
     }
 
     .endTimeWarCall {
@@ -128,9 +122,16 @@
         margin-top: 1em;
         margin-bottom: 1.25em;
         letter-spacing: 0.1em;
-        opacity: 1;
+        opacity: .35;
         background: linear-gradient(to bottom, transparent, black, black, transparent);
         font-size: clamp(2rem, calc(2vw + 2vh), 3rem);
+    }
+
+
+    .armyAndBody {
+        font-weight: 200;
+        font-size: clamp(2rem, calc(3vw + 3vh), 4rem);
+        letter-spacing: .1em;
     }
 
     /* LEFT HALF */
