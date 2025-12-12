@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { useState, useRef } from 'react';
+import { FaLock, FaUnlock } from 'react-icons/fa';
 import { Spin as Hamburger } from 'hamburger-react';
 import styles from '../styles/navbar.module.css';
 import { useRouter } from 'next/router';
@@ -18,19 +19,12 @@ export default function Navbar() {
 
   return (
     <div ref={navRef}>
-      <div className={styles.topNavBanner}></div>
       {/* Hamburger Button */}
-      <div className={styles.hamburger}>
-        <Hamburger
-          toggled={isOpen}
-          toggle={() => setOpen(prev => !prev)} // 👈 explicit toggle
-          size={33}
-          duration={0.75}
-          color='white'
-          distance='lg'
-          direction='right'
-          rounded={true}
-        />
+      <div
+        className={styles.hamburger}
+        onClick={() => setOpen(prev => !prev)}
+        aria-label='Toggle navigation'>
+        {!isOpen ? <FaLock size={33} /> : <FaUnlock size={33} />}
       </div>
 
       {/* Slide-out Nav */}
@@ -49,7 +43,7 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
-          </nav>
+      </nav>
     </div>
   );
 }
