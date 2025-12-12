@@ -1,5 +1,5 @@
 /* ------------------------------------------------ */
-/*   CONTAINER                                      */
+/*   CONTAINER                                     */
 /* ------------------------------------------------ */
 
 .container {
@@ -10,30 +10,47 @@
     flex-direction: column;
     /* MOBILE */
 
-    gap: 2vh;
-    padding: 2vh 2vw;
+    gap: 1.5vh;
+    padding: 1.5vh 1.5vw;
 
-    background-image: url('/lion.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: black;
 }
 
 /* ------------------------------------------------ */
-/*   STRIPES                                        */
+/*   STRIPES — IMAGE LIVES HERE                    */
 /* ------------------------------------------------ */
 
 .stripe {
     flex: 1;
+    width: 100%;
+
+    background-image: url('/lion-of-judah.png');
+    background-repeat: no-repeat;
+    background-color: rgba(50, 25, 0, 0.5);
+    background-blend-mode: overlay;
+
     border-radius: 33px;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(255, 255, 255, 0.1);
+
+    /* MOBILE → vertical slicing */
+    background-size: auto 200%;
+}
+
+/* TOP HALF */
+.stripe:nth-of-type(1) {
+    background-position: 50% 0%;
+}
+
+/* BOTTOM HALF */
+.stripe:nth-of-type(2) {
+    background-position: 50% 100%;
 }
 
 /* ------------------------------------------------ */
-/*   INNER CONTENT                                  */
+/*   INNER CONTENT                                 */
 /* ------------------------------------------------ */
 
 .inner {
@@ -50,43 +67,52 @@
     font-size: clamp(4rem, 7vw, 11rem);
     font-weight: 700;
     letter-spacing: 0.1em;
-    color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    color: silver;
+    text-shadow: 0 0 33px #111;
 }
 
 .armyAndBody {
-    margin: 1em 0;
-    margin-bottom: 1.4em;
-    width: 100%;
+    margin: 1em 0 1.4em;
     font-size: clamp(1.5rem, 3vw, 3rem);
-    font-weight: 100;
+    font-weight: 300;
     letter-spacing: 0.1em;
-    opacity: 0.35;
-}
-
-.emphasis {
-    color: indianred;
-    font-weight: 700;
+    text-align: center;
+    color: gray;
+    text-shadow: 0 0 33px #111;
 }
 
 .standAndFight {
     font-size: clamp(2rem, 3vw, 4rem);
     font-weight: 700;
-    letter-spacing: 0.1em;
+    letter-spacing: 1em;
+    margin-left: 1em;
+    text-align: center;
     color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 0 33px #111;
 }
 
 /* ------------------------------------------------ */
-/*   DESKTOP                                        */
+/*   DESKTOP                                      */
 /* ------------------------------------------------ */
 
-@media (min-width: 888px) {
+@media (min-width: 1111px) {
     .container {
         flex-direction: row;
     }
 
     .stripe {
-        background: linear-gradient(to bottom,
-                rgba(77, 77, 77, .5),
-                rgba(100, 50, 0, .1));
+        /* DESKTOP → horizontal slicing */
+        background-size: 260% auto;
+    }
+
+    /* LEFT PANEL */
+    .stripe:nth-of-type(1) {
+        background-position: 22% 30%;
+    }
+
+    /* RIGHT PANEL */
+    .stripe:nth-of-type(2) {
+        background-position: 85% 30%;
     }
 }

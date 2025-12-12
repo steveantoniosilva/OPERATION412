@@ -14,9 +14,9 @@
 .stripe {
     flex: 1;
     width: 100%;
-    background-image: url('/lion-of-judah.png');
+    background-image: url('/lion.png');
     background-blend-mode: overlay;
-    background-color: rgba(100, 50, 0, .5);
+    background-color: rgba(50, 25, 0, .5);
     background-repeat: no-repeat;
     border-radius: 33px;
 
