@@ -52,7 +52,7 @@
 /*   DESKTOP LAYOUT       */
 /* ------------------------------------------------ */
 
-@media (min-width: 777px) {
+@media (min-width: 999px) {
     .mobileContainer {
         display: none;
     }
