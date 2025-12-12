@@ -7,7 +7,7 @@ const Home = () => {
       <Head>
         <meta
           name='description'
-          content='Operation 412 — Equip believers for the work of ministry and build up the body of Christ.'
+          content='Ephesians 4:12 called. Operation 412 answered: equip believers for the work of ministry; build up the Body of Christ.'
         />
       </Head>
 
@@ -31,7 +31,6 @@ const Home = () => {
 
           <div className={styles.stripe}>
             <div className={styles.inner}>
-
               <div className={styles.operation}>
                 <span>R</span>
                 <span>A</span>

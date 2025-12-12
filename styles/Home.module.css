@@ -67,7 +67,7 @@
 /*   DESKTOP LAYOUT       */
 /* ------------------------------------------------ */
 
-@media (min-width: 888px) {
+@media (min-width: 777px) {
     .mobileContainer {
         display: none;
     }
@@ -94,7 +94,7 @@
         font-size: clamp(1rem, calc(5vw + 5vh), 20rem);
 
         /* DESKTOP → left/center/right slicing */
-        background-size: 300% auto;
+        background-size: 333% auto;
     }
 
     .inner {

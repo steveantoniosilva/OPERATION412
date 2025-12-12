@@ -22,7 +22,7 @@ export default function App({ Component, pageProps }: AppProps) {
         />
         <meta
           name='description'
-          content='Operation 412 — Equip believers for the work of ministry and build up the body of Christ.'
+          content='Ephesians 4:12 called. Operation 412 answered: equip believers for the work of ministry; build up the Body of Christ.'
         />
 
         <link

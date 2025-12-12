@@ -13,7 +13,7 @@ const Books = () => {
         <title>Books</title>
         <meta
           name='description'
-          content='412BOOKS.COM — Books to equip the saints.'
+          content='Ephesians 4:12 called. Operation 412 answered: equip believers for the work of ministry; build up the Body of Christ.'
         />
       </Head>
       <div className='main'>

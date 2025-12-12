@@ -90,7 +90,8 @@
         font-size: clamp(1rem, calc(5vw + 5vh), 20rem);
         font-weight: 700;
         text-align: center;
-        color: rgba(255, 255, 255, .2);
+        letter-spacing: .1em;
+        color: rgba(255, 255, 255, .9)
     }
 
     .endTimeWarCall {
@@ -103,13 +104,16 @@
         margin-top: 1em;
         margin-bottom: 1.25em;
         letter-spacing: 0.1em;
-        opacity: .5;
+        opacity: .35;
         background: linear-gradient(to bottom, transparent, black, black, transparent);
+        font-size: clamp(2rem, calc(2vw + 2vh), 3rem);
     }
 
 
     .armyAndBody {
-        font-weight: 700;
+        font-weight: 200;
+        font-size: clamp(2rem, calc(3vw + 3vh), 4rem);
+        letter-spacing: .1em;
     }
 
     /* LEFT HALF */
