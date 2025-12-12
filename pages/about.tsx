@@ -11,47 +11,22 @@ const About = () => {
         />
       </Head>
 
-      {/* MOBILE */}
-      <div className={styles.mobileContainer}>
-        <div className={styles.stripe}>4</div>
-        <div className={styles.stripe}>12</div>
-      </div>
-
-      {/* DESKTOP */}
-      <div className={styles.desktopContainer}>
-        {/* LEFT */}
+      <div className={styles.container}>
+        {/* STRIPE 1 */}
         <div className={styles.stripe}>
           <div className={styles.inner}>
             <div className={styles.equipAndBuild}>EQUIP</div>
-            <div className={styles.endTimeWarCall}>
-              <span>E</span>
-              <span>N</span>
-              <span>D</span>
-              <span style={{ letterSpacing: 0 }} />
-              <span>T</span>
-              <span>I</span>
-              <span>M</span>
-              <span>E</span>
-            </div>
-            <div className={styles.armyAndBody}>HIS ARMY</div>
+            <h1 className={styles.armyAndBody}>HIS ARMY TO</h1>
+            <div className={styles.standAndFight}>FIGHT</div>
           </div>
         </div>
 
-        {/* RIGHT */}
+        {/* STRIPE 2 */}
         <div className={styles.stripe}>
           <div className={styles.inner}>
             <div className={styles.equipAndBuild}>BUILD</div>
-            <div className={styles.endTimeWarCall}>
-              <span style={{ color: 'red', fontWeight: 300 }}>W</span>
-              <span style={{ color: 'red', fontWeight: 300 }}>A</span>
-              <span style={{ color: 'red', fontWeight: 300 }}>R</span>
-              <span style={{ letterSpacing: 0 }} />
-              <span style={{ color: 'red', fontWeight: 300 }}>C</span>
-              <span style={{ color: 'red', fontWeight: 300 }}>A</span>
-              <span style={{ color: 'red', fontWeight: 300 }}>L</span>
-              <span style={{ color: 'red', fontWeight: 300 }}>L</span>
-            </div>
-            <div className={styles.armyAndBody}>HIS BODY</div>
+            <h1 className={styles.armyAndBody}>HIS BODY TO</h1>
+            <div className={styles.standAndFight}>STAND</div>
           </div>
         </div>
       </div>

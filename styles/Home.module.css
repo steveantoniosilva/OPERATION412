@@ -16,7 +16,7 @@
     width: 100%;
     background-image: url('/lion-of-judah.png');
     background-blend-mode: overlay;
-    background-color: rgba(1, 1, 1, .25);
+    background-color: rgba(100, 50, 0, .5);
     background-repeat: no-repeat;
     border-radius: 33px;
 
