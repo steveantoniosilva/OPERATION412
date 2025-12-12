@@ -11,7 +11,7 @@ export default function Navbar() {
 
   const navLinks = [
     { href: '/', label: 'BACK TO CAMP' },
-    { href: '/about', label: 'EPHESIANS 4:12' },
+    { href: '/about', label: 'OPERATION 412' },
     { href: '/books', label: 'FIELD MANUALS' },
     { href: '/comingSoon', label: 'COMING SOON' },
   ];

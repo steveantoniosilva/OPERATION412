@@ -61,16 +61,30 @@
 
 .navLink {
     text-decoration: none;
-    border-bottom: transparent;
-    border-top: .25px solid transparent;
-    border-bottom: .25px solid transparent;
-    font-weight: 300;
+    font-weight: 100;
     text-transform: uppercase;
     letter-spacing: 2px;
-    padding-left: 5px;
-    padding-bottom: 11px;
+
+    padding: .75em 1.5em;
+
+    border-left: 1px solid rgba(255, 255, 255, .5);
+    border-right: 1px solid rgba(255, 255, 255, .5);
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+
+    border-radius: 33px;
+
+    /* 🔑 smoothness */
+    transition:
+        border-color 0.35s ease,
+        box-shadow 0.35s ease,
+        background-color 0.35s ease;
 }
 
 .navLink:hover {
-    border-bottom: .25px solid rgba(255, 255, 255, .25);
+    border-top-color: rgba(255, 255, 255, .5);
+    border-bottom-color: rgba(255, 255, 255, .5);
+
+    /* optional subtle lift */
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.25);
 }
