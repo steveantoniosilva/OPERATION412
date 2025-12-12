@@ -112,13 +112,19 @@
         width: 100%;
         padding: 0 .4em;
         margin: .5em auto;
+        opacity: .5;
+        background: linear-gradient(to bottom, transparent, rgba(1,1,1,.5), transparent);
     }
 
-    .fourTwelve {
+    .equipAndBuild {
         font-size: clamp(1rem, calc(5vw + 5vh), 20rem);
         font-weight: 700;
         text-align: center;
-        color: #222;
+        color: rgba(255, 255, 255, .1);
+    }
+
+    .fourTwelve {
+        font-weight: 700;
     }
 
 

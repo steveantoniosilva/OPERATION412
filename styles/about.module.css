@@ -103,7 +103,8 @@
         margin-top: 1em;
         margin-bottom: 1.25em;
         letter-spacing: 0.1em;
-        background-color: black;
+        opacity: .5;
+        background: linear-gradient(to bottom, transparent, black, black, transparent);
     }
 
 

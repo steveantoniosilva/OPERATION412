@@ -20,7 +20,6 @@ const Home = () => {
         <div className={styles.desktopContainer}>
           <div className={styles.stripe}>
             <div className={styles.inner}>
-              <div className={styles.fourTwelve}>equip</div>
               <div className={styles.operation}>
                 <span>O</span>
                 <span>P</span>
@@ -32,7 +31,7 @@ const Home = () => {
 
           <div className={styles.stripe}>
             <div className={styles.inner}>
-              <div style={{color:'transparent'}} className={styles.fourTwelve}>1</div>
+
               <div className={styles.operation}>
                 <span>R</span>
                 <span>A</span>
@@ -44,7 +43,6 @@ const Home = () => {
 
           <div className={styles.stripe}>
             <div className={styles.inner}>
-              <div className={styles.fourTwelve}>build</div>
               <div className={styles.operation}>
                 <span>I</span>
                 <span>O</span>
