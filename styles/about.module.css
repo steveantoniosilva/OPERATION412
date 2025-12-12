@@ -1,8 +1,23 @@
 /* ------------------------------------------------ */
-/*      MOBILE: vertical split (4 / 12)              */
+/*   SHARED BASE                                    */
 /* ------------------------------------------------ */
 
-/* HIDE DESKTOP CONTENT ON MOBILE */
+.mobileContainer,
+.desktopContainer {
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url('/lion.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* ------------------------------------------------ */
+/*   MOBILE                                         */
+/* ------------------------------------------------ */
+
+/* Hide desktop-only content */
 .inner,
 .equipAndBuild,
 .endTimeWarCall,
@@ -11,8 +26,6 @@
 }
 
 .mobileContainer {
-    width: 100vw;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     gap: 1vh;
@@ -21,17 +34,11 @@
 
 .stripe {
     flex: 1;
-    width: 100%;
-    background-image:
-        linear-gradient(to bottom,
-            transparent,
-            rgba(111, 111, 111, .25),
-            rgba(1, 1, 1, .1),
-            rgba(1, 1, 1, 1)),
-        url('/lion.png');
-    background-repeat: no-repeat;
     border-radius: 33px;
-    background-color: black;
+
+    background-image: linear-gradient(to bottom,
+            transparent,
+            #111);
 
     display: flex;
     justify-content: center;
@@ -39,23 +46,10 @@
 
     font-size: clamp(3rem, 12vmin, 12rem);
     font-weight: 300;
-
-    /* MOBILE → top / bottom slicing */
-    background-size: auto 200%;
-}
-
-/* TOP HALF */
-.stripe:nth-of-type(1) {
-    background-position: 50% 0%;
-}
-
-/* BOTTOM HALF */
-.stripe:nth-of-type(2) {
-    background-position: 50% 100%;
 }
 
 /* ------------------------------------------------ */
-/*   DESKTOP LAYOUT                                  */
+/*   DESKTOP                                        */
 /* ------------------------------------------------ */
 
 @media (min-width: 888px) {
@@ -68,23 +62,15 @@
         grid-template-columns: 1fr 1fr;
         gap: 1vw;
         padding: 1vh 1vw;
-        width: 100vw;
-        height: 100vh;
     }
 
     .stripe {
         width: 100%;
         height: 100%;
-        background-repeat: no-repeat;
 
         display: flex;
         justify-content: center;
         align-items: center;
-
-        font-size: clamp(1rem, calc(3vw + 3vh), 10rem);
-
-        /* DESKTOP → left / right slicing */
-        background-size: 200% auto;
     }
 
     .inner,
@@ -96,51 +82,41 @@
 
     .inner {
         width: 100%;
-        display: flex;
+        height: 100%;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 100%;
     }
 
-
     .equipAndBuild {
-        font-size: clamp(1rem, calc(5vw + 5vh), 20rem);
+        font-size: clamp(2rem, calc(5vw + 5vh), 18rem);
         font-weight: 700;
-        text-align: center;
-        letter-spacing: .1em;
-        color: rgba(255, 255, 255, .9);
+        letter-spacing: 0.1em;
+        color: rgba(255, 255, 255, 0.9);
     }
 
     .endTimeWarCall {
-        margin-bottom: auto;
-        font-weight: 100;
+        margin: 1.25em 0;
+        width: 100%;
         display: flex;
         justify-content: space-evenly;
-        width: 100%;
-        padding: 0 .4em;
-        margin-top: 1em;
-        margin-bottom: 1.25em;
-        letter-spacing: 0.1em;
-        opacity: .35;
-        background: linear-gradient(to bottom, transparent, black, black, transparent);
-        font-size: clamp(2rem, calc(2vw + 2vh), 3rem);
-    }
 
+        font-size: clamp(2rem, calc(2vw + 2vh), 3rem);
+        font-weight: 100;
+        letter-spacing: 0.1em;
+        opacity: 0.35;
+
+        background: linear-gradient(to bottom,
+                transparent,
+                black,
+                black,
+                transparent);
+    }
 
     .armyAndBody {
-        font-weight: 200;
         font-size: clamp(2rem, calc(3vw + 3vh), 4rem);
-        letter-spacing: .1em;
-    }
-
-    /* LEFT HALF */
-    .stripe:nth-of-type(1) {
-        background-position: 0% 0%;
-    }
-
-    /* RIGHT HALF */
-    .stripe:nth-of-type(2) {
-        background-position: 100% 0%;
+        font-weight: 200;
+        letter-spacing: 0.1em;
+        color: rgba(255, 255, 255, 0.85);
     }
 }

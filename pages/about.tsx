@@ -19,7 +19,7 @@ const About = () => {
 
       {/* DESKTOP */}
       <div className={styles.desktopContainer}>
-        {/* LEFT PANEL — THE CALL */}
+        {/* LEFT */}
         <div className={styles.stripe}>
           <div className={styles.inner}>
             <div className={styles.equipAndBuild}>EQUIP</div>
@@ -27,7 +27,7 @@ const About = () => {
               <span>E</span>
               <span>N</span>
               <span>D</span>
-              <span style={{ letterSpacing: '0' }}></span>
+              <span style={{ letterSpacing: 0 }} />
               <span>T</span>
               <span>I</span>
               <span>M</span>
@@ -37,19 +37,19 @@ const About = () => {
           </div>
         </div>
 
-        {/* RIGHT PANEL — THE MISSION */}
+        {/* RIGHT */}
         <div className={styles.stripe}>
           <div className={styles.inner}>
             <div className={styles.equipAndBuild}>BUILD</div>
             <div className={styles.endTimeWarCall}>
-              <span style={{ color: 'red', fontWeight: '300' }}>W</span>
-              <span style={{ color: 'red', fontWeight: '300' }}>A</span>
-              <span style={{ color: 'red', fontWeight: '300' }}>R</span>
-              <span style={{ letterSpacing: '0' }}></span>
-              <span style={{ color: 'red', fontWeight: '300' }}>C</span>
-              <span style={{ color: 'red', fontWeight: '300' }}>A</span>
-              <span style={{ color: 'red', fontWeight: '300' }}>L</span>
-              <span style={{ color: 'red', fontWeight: '300' }}>L</span>
+              <span style={{ color: 'red', fontWeight: 300 }}>W</span>
+              <span style={{ color: 'red', fontWeight: 300 }}>A</span>
+              <span style={{ color: 'red', fontWeight: 300 }}>R</span>
+              <span style={{ letterSpacing: 0 }} />
+              <span style={{ color: 'red', fontWeight: 300 }}>C</span>
+              <span style={{ color: 'red', fontWeight: 300 }}>A</span>
+              <span style={{ color: 'red', fontWeight: 300 }}>L</span>
+              <span style={{ color: 'red', fontWeight: 300 }}>L</span>
             </div>
             <div className={styles.armyAndBody}>HIS BODY</div>
           </div>
@@ -60,95 +60,3 @@ const About = () => {
 };
 
 export default About;
-
-{
-  /* <h5 className={styles.verseText}>
-          <span className={styles.emphasis}>EQUIP</span> BELIEVERS FOR THE WORK OF MINISTRY and{' '}
-          <span className={styles.emphasis}>BUILD</span> UP THE BODY OF CHRIST.
-        </h5> */
-}
-{
-  /* 
-        <Paragraph paragraph='The Greek WORD FOR “EQUIP“ WAS historicaLLY USED TO DESCRIBE:' />
-        <br />
-        <WordPair
-          wordPairTitle='MENDING'
-          wordPairSubtitle='FISHING NETS'
-        />
-        <WordPair
-          wordPairTitle='SETTING'
-          wordPairSubtitle='DISLOCATED BONES'
-        />
-        <WordPair
-          wordPairTitle='RECONCILING'
-          wordPairSubtitle='RELATIONSHIPS'
-        />
-        <WordPair
-          wordPairTitle='FORMING'
-          wordPairSubtitle='BY EXERCISING'
-        />
-        <WordPair
-          wordPairTitle='READYING'
-          wordPairSubtitle='HOUSEHOLD COURTYARDS'
-        />
-        <WordPair
-          wordPairTitle='OUTFITTING'
-          wordPairSubtitle='NAVAL WARSHIPS'
-        />
-        <WordPair
-          wordPairTitle='PREPARING'
-          wordPairSubtitle='SLINGS'
-        />
-        <WordPair
-          wordPairTitle='RESTORING'
-          wordPairSubtitle='FALLEN SINNERS'
-        />
-        <WordPair
-          wordPairTitle='FRAMING'
-          wordPairSubtitle='THE UNIVERSE'
-        />
-        <WordPair
-          wordPairTitle='BRINGING'
-          wordPairSubtitle='ORDER TO CITIES'
-        />
-        <WordPair
-          wordPairTitle='EQUIPPING'
-          wordPairSubtitle='SHIPS WITH ROWERS'
-        />
-        <WordPair
-          wordPairTitle='POSITIONING'
-          wordPairSubtitle='ARMIES FOR BATTLE'
-        />
-
-        <br />
-        <span className={paragraphSpecialFont.and}>&</span>
-        <br />
-        <br />
-
-
-        <Paragraph paragraph='The Greek WORD FOR “BUILD UP“ WAS historicaLLY USED TO DESCRIBE:' />
-        <WordPair
-          wordPairTitle='FORTIFYING'
-          wordPairSubtitle='CITY WALLS'
-        />
-
-        <WordPair
-          wordPairTitle='REPAIRING'
-          wordPairSubtitle='TEMPLE STONES'
-        />
-
-        <WordPair
-          wordPairTitle='EXPANDING'
-          wordPairSubtitle='A HOUSEHOLD'
-        />
-
-        <WordPair
-          wordPairTitle='RESTORING'
-          wordPairSubtitle='A COLLAPSED STRUCTURE'
-        />
-
-        <WordPair
-          wordPairTitle='STRENGTHENING'
-          wordPairSubtitle='A FOUNDATION'
-        /> */
-}
