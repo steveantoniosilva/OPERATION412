@@ -1,7 +1,33 @@
 import Head from 'next/head';
+import { useEffect, useRef } from 'react';
+import VanillaTilt from 'vanilla-tilt';
 import styles from '../styles/about.module.css';
 
 const About = () => {
+  const stripesRef = useRef<HTMLDivElement[]>([]);
+
+  useEffect(() => {
+    stripesRef.current.forEach(el => {
+      if (!el) return;
+
+      VanillaTilt.init(el, {
+        max: 6,
+        speed: 600,
+        scale: 1.02,
+        perspective: 1000,
+
+        glare: true,
+        'max-glare': 0.35,
+      });
+    });
+
+    return () => {
+      stripesRef.current.forEach(el => {
+        (el as any)?.vanillaTilt?.destroy();
+      });
+    };
+  }, []);
+
   return (
     <>
       <Head>
@@ -13,7 +39,11 @@ const About = () => {
 
       <div className={styles.container}>
         {/* STRIPE 1 */}
-        <div className={styles.stripe}>
+        <div
+          ref={el => {
+            if (el) stripesRef.current[0] = el;
+          }}
+          className={styles.stripe}>
           <div className={styles.inner}>
             <div className={styles.equipAndBuild}>EQUIP</div>
             <div className={styles.armyAndBody}>HIS ARMY TO</div>
@@ -22,7 +52,11 @@ const About = () => {
         </div>
 
         {/* STRIPE 2 */}
-        <div className={styles.stripe}>
+        <div
+          ref={el => {
+            if (el) stripesRef.current[1] = el;
+          }}
+          className={styles.stripe}>
           <div className={styles.inner}>
             <div className={styles.equipAndBuild}>BUILD</div>
             <div className={styles.armyAndBody}>HIS BODY TO</div>
@@ -35,45 +69,3 @@ const About = () => {
 };
 
 export default About;
-
-// The Greek word for “EQUIP” was historically used to describe:
-
-// Then a sequence of verb → object pairs, like these:
-
-// MENDING — fishing nets
-
-// SETTING — dislocated bones
-
-// RECONCILING — relationships
-
-// FORMING — by exercising
-
-// READYING — household courtyards
-
-// OUTFITTING — naval warships
-
-// PREPARING — slings
-
-// RESTORING — fallen sinners
-
-// FRAMING — the universe
-
-// BRINGING — order to cities
-
-// POSITIONING — armies for battle
-
-// EQUIPPING — ships with rowers
-
-// Then you mirrored it with oikodome language:
-
-// The Greek word for “BUILD UP” was historically used to describe:
-
-// FORTIFYING — city walls
-
-// REPAIRING — temple stones
-
-// EXPANDING — a household
-
-// RESTORING — a collapsed structure
-
-// STRENGTHENING — a foundation
