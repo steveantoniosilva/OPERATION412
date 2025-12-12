@@ -108,11 +108,11 @@
 
     /* LEFT PANEL */
     .stripe:nth-of-type(1) {
-        background-position: 22% 30%;
+        background-position: 22% 50%;
     }
 
     /* RIGHT PANEL */
     .stripe:nth-of-type(2) {
-        background-position: 85% 30%;
+        background-position: 85% 50%;
     }
 }
