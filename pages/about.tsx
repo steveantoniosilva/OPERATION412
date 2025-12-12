@@ -17,7 +17,7 @@ const About = () => {
         perspective: 1000,
 
         glare: true,
-        'max-glare': 0.35,
+        'max-glare': 0.5,
       });
     });
 

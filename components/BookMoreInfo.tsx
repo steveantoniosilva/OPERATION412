@@ -1,5 +1,3 @@
-import Link from 'next/link';
-import styles from '../styles/bookMoreInfo.module.css';
 import BookTitle from '@/components/BookTitle';
 import BookDescription from './BookDescription';
 import Image from 'next/image';
@@ -39,10 +37,12 @@ const BookMoreInfo: React.FC<BookProps> = ({
     if (!tiltRef.current) return;
 
     VanillaTilt.init(tiltRef.current, {
-      max: 12,
-      speed: 500,
+      max: 6, // subtle, premium tilt
+      speed: 600, // smooth return
+      scale: 1.02, // just enough lift
+      perspective: 1000, // natural depth (key)
       glare: true,
-      'max-glare': 0.25,
+      'max-glare': 0.5, // realistic laminate shine
     });
 
     return () => {

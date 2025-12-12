@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useRef } from 'react';
 import VanillaTilt from 'vanilla-tilt';
-import bookCoverStyles from '../styles/book.module.css';
+import styles from '../styles/book.module.css';
 
 interface BookProps {
   bookImageUrl: string;
@@ -10,48 +10,48 @@ interface BookProps {
   alt: string;
 }
 
-const Book: React.FC<BookProps> = ({ bookImageUrl, bookMoreInfoUrl, alt }) => {
 interface TiltHTMLElement extends HTMLDivElement {
   vanillaTilt?: {
     destroy: () => void;
   };
 }
 
-const tiltRef = useRef<TiltHTMLElement | null>(null);
+const Book: React.FC<BookProps> = ({ bookImageUrl, bookMoreInfoUrl, alt }) => {
+  const tiltRef = useRef<TiltHTMLElement | null>(null);
 
-useEffect(() => {
-  if (!tiltRef.current) return;
+  useEffect(() => {
+    if (!tiltRef.current) return;
 
-  VanillaTilt.init(tiltRef.current, {
-    max: 12,
-    speed: 500,
-    glare: true,
-    'max-glare': 0.25,
-  });
+VanillaTilt.init(tiltRef.current, {
+  max: 6, // subtle, premium tilt
+  speed: 600, // smooth return
+  scale: 1.02, // just enough lift
+  perspective: 1000, // natural depth (key)
+  glare: true,
+  'max-glare': 0.5, // realistic laminate shine
+});
 
-  return () => {
-    tiltRef.current?.vanillaTilt?.destroy();
-  };
-}, []);
 
+    return () => {
+      tiltRef.current?.vanillaTilt?.destroy();
+    };
+  }, []);
 
   return (
-    <div className={bookCoverStyles.bookWrapper}>
-      <div
-        ref={tiltRef}
-        className={bookCoverStyles.book}>
-        <Link href={bookMoreInfoUrl}>
-          <div className={bookCoverStyles.cover}>
-            <Image
-              alt={alt}
-              src={bookImageUrl}
-              fill
-              className={bookCoverStyles.image}
-              priority
-            />
-          </div>
-        </Link>
-      </div>
+    <div className={styles.bookWrapper}>
+      <Link href={bookMoreInfoUrl}>
+        <div
+          ref={tiltRef}
+          className={styles.book}>
+          <Image
+            src={bookImageUrl}
+            alt={alt}
+            fill
+            className={styles.image}
+            priority
+          />
+        </div>
+      </Link>
     </div>
   );
 };
