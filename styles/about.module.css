@@ -2,6 +2,14 @@
 /*      MOBILE: vertical split (4 / 12)              */
 /* ------------------------------------------------ */
 
+/* HIDE DESKTOP CONTENT ON MOBILE */
+.inner,
+.equipAndBuild,
+.endTimeWarCall,
+.armyAndBody {
+    display: none;
+}
+
 .mobileContainer {
     width: 100vw;
     height: 100vh;
@@ -77,6 +85,13 @@
 
         /* DESKTOP → left / right slicing */
         background-size: 200% auto;
+    }
+
+    .inner,
+    .equipAndBuild,
+    .endTimeWarCall,
+    .armyAndBody {
+        display: flex;
     }
 
     .inner {
