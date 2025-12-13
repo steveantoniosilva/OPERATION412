@@ -34,7 +34,13 @@ const Home = () => {
             </div>
 
             <div className={styles.back}>
-              <Heading>EQUIP</Heading>
+              <Heading>
+                <span>EQUIP</span>
+                <br />
+                HIS
+                <br />
+                ARMY
+              </Heading>
             </div>
           </div>
         </div>
@@ -51,7 +57,13 @@ const Home = () => {
               <div className={styles.fourTwelve}>1</div>
             </div>
             <div className={styles.back}>
-              <Heading>BUILD</Heading>
+              <Heading>
+                <span>BUILD</span>
+                <br />
+                HIS
+                <br />
+                BODY
+              </Heading>
             </div>
           </div>
         </div>
@@ -68,7 +80,13 @@ const Home = () => {
               <div className={styles.fourTwelve}>2</div>
             </div>
             <div className={styles.back}>
-              <Heading>ADVANCE</Heading>
+              <Heading>
+                <span>FIRE</span>
+                <br />
+                HIS
+                <br />
+                ARROWS
+              </Heading>
             </div>
           </div>
         </div>

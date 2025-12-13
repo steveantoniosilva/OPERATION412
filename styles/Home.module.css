@@ -21,6 +21,7 @@
             rgba(50, 25, 0, 0.5)),
         url('/lion.png');
     background-blend-mode: overlay;
+    background-color: black;
     background-repeat: no-repeat;
     border-radius: 33px;
 
@@ -122,11 +123,12 @@
 
     .operation {
         margin-bottom: auto;
+        font-family: 'cormorant';
         font-weight: 100;
         display: flex;
         justify-content: space-between;
         width: 100%;
-        padding: 0 0.37em;
+        padding: 0 0.30em;
         margin: 0.5em auto;
         color: black;
         background: linear-gradient(to bottom,
@@ -136,6 +138,7 @@
     }
 
     .fourTwelve {
+        font-family: 'cormorant';
         font-weight: 700;
         font-size: clamp(1rem, calc(5vw + 5vh), 20rem);
         color: rgba(255, 255, 255, 0.12);

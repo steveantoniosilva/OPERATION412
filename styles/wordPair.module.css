@@ -7,7 +7,7 @@
     font-size: var(--heading-title-size);
     letter-spacing: var(--heading-title-letter-spacing);
     text-transform: uppercase;
-    color: #eaeaea;
+    color: white;
     margin-bottom: 0.5rem;
     font-weight: var(--heading-emphasis-weight);
 }
@@ -19,5 +19,4 @@
     letter-spacing: var(--heading-subtitle-letter-spacing);
     text-transform: uppercase;
     margin-top: 0.5rem;
-    text-shadow: 0 0 11px black;
 }

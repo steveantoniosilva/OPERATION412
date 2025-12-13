@@ -30,19 +30,19 @@ const Books = () => {
 
           <Heading level='subtitle'>THESE ARE</Heading>
 
-          <Heading>
+          <Heading fontFamily='cormorant'>
             <span>FIELD</span>
           </Heading>
 
-          <Heading>
+          <Heading fontFamily='cormorant'>
             <span>MANUALS</span>
           </Heading>
 
-          <Heading level='subtitle'>
+          <Heading level='subtitle' fontFamily='cormorant'>
             <span>TO</span>
           </Heading>
 
-          <Heading>
+          <Heading fontFamily='cormorant'>
             <span>EQUIP & BUILD</span>
           </Heading>
 
