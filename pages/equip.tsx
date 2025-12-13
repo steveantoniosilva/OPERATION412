@@ -15,7 +15,7 @@ const Equip = () => {
       </Head>
 
       <main className={styles.container}>
-        <Heading>
+        <Heading fontFamily='cormorant'>
           <span>EQUIP</span>
         </Heading>
         <Heading level='subtitle'>THE SAINTS FOR THE WORK OF MINISTRY</Heading>

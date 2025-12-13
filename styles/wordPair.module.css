@@ -5,19 +5,19 @@
 /* ACTION — uses TITLE size */
 .first {
     font-size: var(--heading-title-size);
-    font-weight: 700;
-    letter-spacing: 0.25em;
+    letter-spacing: var(--heading-title-letter-spacing);
     text-transform: uppercase;
     color: #eaeaea;
     margin-bottom: 0.5rem;
+    font-weight: var(--heading-emphasis-weight);
 }
 
 /* OBJECT — uses SUBTITLE size */
 .second {
     font-size: var(--heading-subtitle-size);
-    font-weight: 200;
-    letter-spacing: 0.2em;
+    font-weight: var(--heading-subtitle-weight);
+    letter-spacing: var(--heading-subtitle-letter-spacing);
     text-transform: uppercase;
-    opacity: 0.7;
     margin-top: 0.5rem;
+    text-shadow: 0 0 11px black;
 }

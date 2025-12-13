@@ -73,11 +73,12 @@
 
 .equipAndBuild {
     font-size: clamp(4rem, 7vw, 11rem);
-    font-weight: 700;
+    font-weight: 100;
     letter-spacing: 0.1em;
     text-align: center;
     color: silver;
     text-shadow: 0 0 33px #111;
+    font-family: cormorant;
 }
 
 .armyAndBody {

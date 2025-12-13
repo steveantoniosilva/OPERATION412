@@ -1,19 +1,20 @@
 .base {
     color: #eaeaea;
-    font-weight: 100;
-    letter-spacing: 0.35em;
+    font-weight: var(--heading-title-weight);
+    letter-spacing: var(--heading-title-letter-spacing);
     margin: 65px auto;
     text-shadow: 0 0 11px #000;
 }
 
 .title {
     font-size: var(--heading-title-size);
+    letter-spacing: var(--heading-title-letter-spacing);
 }
 
 .subtitle {
     font-size: var(--heading-subtitle-size);
-    letter-spacing: 0.25em;
-    font-weight: 200;
+    letter-spacing: var(--heading-subtitle-letter-spacing);
+    font-weight: var(--heading-subtitle-weight);
 }
 
 /* Font style control */
@@ -27,6 +28,6 @@
 
 /* Emphasis */
 .base span {
-    font-weight: 700;
-    letter-spacing: 0.15em;
+    font-weight: var(--heading-emphasis-weight);
+    letter-spacing: inherit;
 }

@@ -89,49 +89,15 @@ a {
     text-shadow: 0 0 1px #222;
 }
 
-/* --- Base Typography Reset --- */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    text-align: center;
-    line-height: 2em;
-    margin: 0 auto;
-    padding: 0 22px;
-    color: white;
-}
-
-
-/* --- Specific Base Styles --- */
-h1 {
-    line-height: 1.75em;
-    font-size: clamp(2rem, 2vw + 1rem, 2.75rem);
-}
-
-h2 {
-    font-size: clamp(1.75rem, 1.5vw + 1rem, 2.05rem);
-}
-
-h3 {
-    font-size: clamp(1.5rem, 1.25vw + 1rem, 1.8rem);
-}
-
-h4 {
-    font-size: clamp(1.25rem, 1vw + 1rem, 1.55rem);
-}
-
-h5 {
-    font-size: clamp(1rem, 0.75vw + 1rem, 1.3rem);
-}
-
-h6 {
-    font-size: clamp(0.75rem, 0.5vw + 0.75rem, 1.05rem);
-}
-
 
 :root {
     --heading-title-size: clamp(2rem, 2.6vw + 1.2vh, 3.75rem);
     --heading-subtitle-size: clamp(1.25rem, 1.2vw + 0.6vh, 2rem);
+
+    --heading-title-letter-spacing: clamp(0.15em, 0.35vw + 0.15vh, 0.35em);
+    --heading-subtitle-letter-spacing: clamp(0.10em, 0.25vw + 0.1vh, 0.25em);
+
+    --heading-title-weight: 100;
+    --heading-subtitle-weight: 200;
+    --heading-emphasis-weight: 700;
 }
