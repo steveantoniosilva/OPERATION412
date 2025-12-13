@@ -10,10 +10,10 @@ export default function Navbar() {
   const navRef = useRef(null);
 
   const navLinks = [
-    { href: '/', label: 'BACK TO CAMP' },
-    { href: '/about', label: 'OPERATION 412' },
-    { href: '/books', label: 'FIELD MANUALS' },
-    { href: '/comingSoon', label: 'STAGING AREA' },
+    { href: '/', label: 'HOME' },
+    { href: '/about', label: 'ABOUT' },
+    { href: '/books', label: 'BOOKS' },
+    { href: '/comingSoon', label: 'WRITE' },
   ];
 
   return (
