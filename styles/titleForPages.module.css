@@ -1,17 +1,35 @@
-.titleForPages {
-    color: #fff;
-    text-align: center;
-    font-weight: 200;
-    padding-left: 1em;
-    padding-right: 1em;
-    margin-bottom: 1em;
-    letter-spacing: 5px;
+.base {
+    font-size: clamp(1.25rem,
+            2.2vw + 1.2vh,
+            2.75rem);
+
+    font-weight: 100;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: #eaeaea;
+
     margin-top: 140px;
+    margin-bottom: 2.5rem;
 }
 
-
+/* Desktop adjustment */
 @media (min-width: 675px) {
-    .bookTitle {
+    .base {
         margin-top: 65px;
     }
+}
+
+/* Variants */
+.default {
+    /* inherits base */
+}
+
+.cursive {
+    /* font-family injected via next/font */
+}
+
+/* Emphasis */
+.base span {
+    font-weight: 700;
+    letter-spacing: 0.15em;
 }

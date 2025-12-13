@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Book from '@/components/Book';
 import { books } from '../data/books';
 import styles from '../styles/books.module.css';
+import TitleForPages from '@/components/TitleForPages';
 
 const Books = () => {
   const dreamBook = books.dreamBook;
@@ -19,7 +20,7 @@ const Books = () => {
       <div className='main'>
         <div className='container'>
           <div className={styles.topMargin}></div>
-          <h1>FIELD MANUALS</h1>
+          <TitleForPages>FIELD <span>MANUALS</span></TitleForPages>
           <Book
             alt={dreamBook.bookTitle}
             bookMoreInfoUrl={dreamBook.bookMoreInfoUrl}

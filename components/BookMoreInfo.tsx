@@ -1,10 +1,10 @@
-import BookTitle from '@/components/BookTitle';
-import BookDescription from './BookDescription';
 import Image from 'next/image';
 import { useEffect, useRef } from 'react';
 import VanillaTilt from 'vanilla-tilt';
 import bookCoverStyles from '../styles/book.module.css';
 import Button from './Button';
+import Paragraph from './Paragraph';
+import TitleForPages from './TitleForPages';
 
 interface TiltHTMLElement extends HTMLDivElement {
   vanillaTilt?: {
@@ -53,17 +53,16 @@ const BookMoreInfo: React.FC<BookProps> = ({
   return (
     <div className='main'>
       <div className='containerBookMoreInfo'>
-        <BookTitle
-          bookTitle={bookTitle}
-          bookTitleSpan={bookTitleSpan}
-        />
+        <TitleForPages>
+          {bookTitle} <span>{bookTitleSpan}</span>
+        </TitleForPages>
 
         <br />
         <hr className='hrBookMoreInfo' />
         <br />
         <br />
 
-        <BookDescription>{bookIntro}</BookDescription>
+        <Paragraph>{bookIntro}</Paragraph>
 
         <Button href={bookAmazonUrl}>FIND ON AMAZON</Button>
 
@@ -84,7 +83,7 @@ const BookMoreInfo: React.FC<BookProps> = ({
         </div>
       </div>
       {bookDescription.map((text, i) => (
-        <BookDescription key={i}>{text}</BookDescription>
+        <Paragraph key={i}>{text}</Paragraph>
       ))}
       <Button href={bookAmazonUrl}>FIND ON AMAZON</Button>
     </div>

@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/build.module.css';
-import ParagraphCentered from '@/components/ParagraphCentered';
-import ParagraphLeft from '@/components/ParagraphLeft';
+import Paragraph from '@/components/Paragraph';
 
 const Build = () => {
   return (
@@ -16,11 +15,11 @@ const Build = () => {
 
       <main className={styles.container}>
         <h1 className={styles.title}>BUILD HIS BODY</h1>
-        <ParagraphCentered>EPHESIANS 4:12 = OPERATION 412</ParagraphCentered>
-        <ParagraphCentered>Ephesians 4:12 called. Operation 412 answered:</ParagraphCentered>
-        <ParagraphCentered>Build up the Body of Christ.</ParagraphCentered>
-        <ParagraphLeft>Left</ParagraphLeft>
-        <ParagraphLeft>&larr; Go Back</ParagraphLeft>
+        <Paragraph>EPHESIANS 4:12 = OPERATION 412</Paragraph>
+        <Paragraph>Ephesians 4:12 called. Operation 412 answered:</Paragraph>
+        <Paragraph>Build up the Body of Christ.</Paragraph>
+        <Paragraph>Left</Paragraph>
+        <Paragraph>&larr; Go Back</Paragraph>
       </main>
     </>
   );
