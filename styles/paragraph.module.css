@@ -6,10 +6,24 @@
     color: #eaeaea;
 }
 
+/* Alignment */
 .left {
     text-align: left;
 }
 
 .center {
     text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+/* Font style control */
+.italic {
+    font-style: italic;
+}
+
+.normal {
+    font-style: normal;
 }

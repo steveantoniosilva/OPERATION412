@@ -1,8 +1,9 @@
 import Head from 'next/head';
-import BookCover from '@/components/BookCover';
 import { books } from '../data/books';
 import styles from '../styles/books.module.css';
-import TitleForPages from '@/components/TitleForPages';
+
+import BookCover from '@/components/BookCover';
+import Heading from '@/components/Heading';
 import Paragraph from '@/components/Paragraph';
 
 const Books = () => {
@@ -18,31 +19,47 @@ const Books = () => {
           content='Ephesians 4:12 called. Operation 412 answered: equip believers for the work of ministry; build up the Body of Christ.'
         />
       </Head>
+
       <div className='main'>
         <div className='container'>
           <div className={styles.topMargin}></div>
-          <TitleForPages>
-            THESE ARE <span>NOT</span>
-          </TitleForPages>
-          <TitleForPages>
+
+          <Heading level='subtitle'>THESE AREN&apos;T</Heading>
+
+          <Heading>
             <span>BOOKS</span>
-          </TitleForPages>
-          <TitleForPages>
-            <span>THEY'RE</span>
-          </TitleForPages>
-          <TitleForPages>
-            FIELD <span>MANUALS</span>
-          </TitleForPages>
+          </Heading>
+
+          <Heading level='subtitle'>THESE ARE</Heading>
+
+          <Heading>FIELD</Heading>
+
+          <Heading>
+            <span>MANUALS</span>
+          </Heading>
+
+          <Paragraph align='center'>To Equip You.</Paragraph>
+          <Paragraph align='center'>To Build You Up.</Paragraph>
+
           <Paragraph
             align='center'
-            font='cursive'>
-            To
+            fontFamily='cormorant'>
+            Ephesians 4:12 Called.
           </Paragraph>
+
+          <Paragraph
+            align='center'
+            fontFamily='cormorant'
+            fontStyle='italic'>
+            Operation 412 Answered.
+          </Paragraph>
+
           <BookCover
             alt={dreamBook.bookTitle}
             bookMoreInfoUrl={dreamBook.bookMoreInfoUrl}
             bookImageUrl={dreamBook.bookImageUrl}
           />
+
           <BookCover
             alt={soldierBook.bookTitle}
             bookMoreInfoUrl={soldierBook.bookMoreInfoUrl}

@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/build.module.css';
 import Paragraph from '@/components/Paragraph';
-import TitleForPages from '@/components/TitleForPages';
+import TitleForPages from '@/components/Heading';
 
 const Build = () => {
   return (

@@ -1,6 +1,6 @@
 import Button from './Button';
 import Paragraph from './Paragraph';
-import TitleForPages from './TitleForPages';
+import TitleForPages from './Heading';
 import BookCover from '@/components/BookCover';
 
 interface BookProps {

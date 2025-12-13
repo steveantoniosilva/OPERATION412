@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import TitleForPages from '@/components/TitleForPages';
+import Heading from '@/components/Heading';
 
 const Home = () => {
   return (
@@ -34,7 +34,7 @@ const Home = () => {
             </div>
 
             <div className={styles.back}>
-              <TitleForPages>EQUIP</TitleForPages>
+              <Heading>EQUIP</Heading>
             </div>
           </div>
         </div>
@@ -51,7 +51,7 @@ const Home = () => {
               <div className={styles.fourTwelve}>1</div>
             </div>
             <div className={styles.back}>
-              <TitleForPages>BUILD</TitleForPages>
+              <Heading>BUILD</Heading>
             </div>
           </div>
         </div>
@@ -68,7 +68,7 @@ const Home = () => {
               <div className={styles.fourTwelve}>2</div>
             </div>
             <div className={styles.back}>
-              <TitleForPages>ADVANCE</TitleForPages>
+              <Heading>ADVANCE</Heading>
             </div>
           </div>
         </div>

@@ -1,0 +1,25 @@
+.base {
+    color: #eaeaea;
+    font-weight: 100;
+    letter-spacing: 0.35em;
+    margin: 65px auto;
+}
+
+
+/* TITLE */
+.title {
+    font-size: clamp(2rem, 2.6vw + 1.2vh, 3.75rem);
+}
+
+/* SUBTITLE */
+.subtitle {
+    font-size: clamp(1.25rem, 1.2vw + 0.6vh, 2rem);
+    letter-spacing: 0.25em;
+    opacity: 0.75;
+}
+
+/* Emphasis */
+.base span {
+    font-weight: 700;
+    letter-spacing: 0.15em;
+}
