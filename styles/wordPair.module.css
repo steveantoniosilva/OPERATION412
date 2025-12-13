@@ -1,0 +1,23 @@
+.wordPair {
+    margin: 5rem 0;
+}
+
+/* ACTION — uses TITLE size */
+.first {
+    font-size: var(--heading-title-size);
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #eaeaea;
+    margin-bottom: 0.5rem;
+}
+
+/* OBJECT — uses SUBTITLE size */
+.second {
+    font-size: var(--heading-subtitle-size);
+    font-weight: 200;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin-top: 0.5rem;
+}

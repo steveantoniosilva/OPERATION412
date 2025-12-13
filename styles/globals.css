@@ -129,3 +129,9 @@ h5 {
 h6 {
     font-size: clamp(0.75rem, 0.5vw + 0.75rem, 1.05rem);
 }
+
+
+:root {
+    --heading-title-size: clamp(2rem, 2.6vw + 1.2vh, 3.75rem);
+    --heading-subtitle-size: clamp(1.25rem, 1.2vw + 0.6vh, 2rem);
+}

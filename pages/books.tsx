@@ -26,21 +26,25 @@ const Books = () => {
 
           <Heading level='subtitle'>THESE AREN&apos;T</Heading>
 
-          <Heading>
-            <span>BOOKS</span>
-          </Heading>
+          <Heading>BOOKS</Heading>
 
           <Heading level='subtitle'>THESE ARE</Heading>
 
-          <Heading>FIELD</Heading>
+          <Heading>
+            <span>FIELD</span>
+          </Heading>
 
           <Heading>
             <span>MANUALS</span>
           </Heading>
 
-          <Heading>TO</Heading>
+          <Heading level='subtitle'>
+            <span>TO</span>
+          </Heading>
 
-          <Heading level='subtitle'>EQUIP & BUILD</Heading>
+          <Heading>
+            <span>EQUIP & BUILD</span>
+          </Heading>
 
           <Heading level='subtitle'>
             <span>EPHESIANS 4:12</span>
