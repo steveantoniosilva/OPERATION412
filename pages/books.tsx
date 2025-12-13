@@ -48,9 +48,7 @@ const Books = () => {
           </Paragraph>
 
           <Paragraph
-            align='center'
-            fontFamily='cormorant'
-            fontStyle='italic'>
+            >
             Operation 412 Answered.
           </Paragraph>
 
