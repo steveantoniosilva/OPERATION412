@@ -1,0 +1,17 @@
+.titleForPages {
+    color: #fff;
+    text-align: center;
+    font-weight: 200;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-bottom: 1em;
+    letter-spacing: 5px;
+    margin-top: 140px;
+}
+
+
+@media (min-width: 675px) {
+    .bookTitle {
+        margin-top: 65px;
+    }
+}

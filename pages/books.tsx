@@ -19,6 +19,7 @@ const Books = () => {
       <div className='main'>
         <div className='container'>
           <div className={styles.topMargin}></div>
+          <h1>FIELD MANUALS</h1>
           <Book
             alt={dreamBook.bookTitle}
             bookMoreInfoUrl={dreamBook.bookMoreInfoUrl}
