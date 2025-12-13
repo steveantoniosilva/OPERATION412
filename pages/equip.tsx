@@ -16,7 +16,7 @@ const Equip = () => {
 
       <main className={styles.container}>
         <h1 className={styles.title}>EQUIP HIS ARMY</h1>
-        <ParagraphCentered>OPERATION 412 = EPHESIANS 4:12</ParagraphCentered>
+        <ParagraphCentered>EPHESIANS 4:12 = OPERATION 412</ParagraphCentered>
         <ParagraphCentered>Ephesians 4:12 called. Operation 412 answered:</ParagraphCentered>
         <ParagraphCentered>Equip believers for the work of ministry.</ParagraphCentered>
         <ParagraphLeft>Left</ParagraphLeft>
