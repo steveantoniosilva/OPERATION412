@@ -22,8 +22,6 @@ const Books = () => {
 
       <div className='main'>
         <div className='container'>
-          <div className={styles.topMargin}></div>
-
           <Heading level='subtitle'>THESE AREN&apos;T</Heading>
 
           <Heading>BOOKS</Heading>

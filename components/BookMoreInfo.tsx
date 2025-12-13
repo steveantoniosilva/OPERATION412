@@ -1,6 +1,6 @@
 import Button from './Button';
 import Paragraph from './Paragraph';
-import TitleForPages from './Heading';
+import Heading from './Heading';
 import BookCover from '@/components/BookCover';
 
 interface BookProps {
@@ -25,9 +25,9 @@ const BookMoreInfo: React.FC<BookProps> = ({
   return (
     <div className='main'>
       <div className='containerBookMoreInfo'>
-        <TitleForPages>
+        <Heading>
           {bookTitle} <span>{bookTitleSpan}</span>
-        </TitleForPages>
+        </Heading>
 
         <br />
         <hr className='hrBookMoreInfo' />
