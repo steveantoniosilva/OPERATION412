@@ -1,8 +1,7 @@
 import Head from 'next/head';
-import Book from '@/components/Book';
+import BookCover from '@/components/BookCover';
 import { books } from '../data/books';
 import styles from '../styles/books.module.css';
-
 
 const ComingSoon = () => {
   const soldierBook = books.soldierBook;
@@ -19,7 +18,7 @@ const ComingSoon = () => {
       <div className='main'>
         <div className='container'>
           <div className={styles.topMargin}></div>
-          <Book
+          <BookCover
             alt={soldierBook.bookTitle}
             bookMoreInfoUrl={soldierBook.bookMoreInfoUrl}
             bookImageUrl={soldierBook.bookImageUrl}

@@ -12,18 +12,17 @@
     padding-bottom: 3.25em;
 }
 
-/* THIS is the tilt surface */
 .book {
     position: relative;
     width: 100%;
     aspect-ratio: 2 / 3;
-
     border-radius: 12px;
-
-    /* 🔑 REQUIRED FOR GLARE */
     overflow: visible;
     transform-style: preserve-3d;
+    cursor: default;
+}
 
+.book[data-clickable='true'] {
     cursor: pointer;
 }
 

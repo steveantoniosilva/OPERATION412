@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Book from '@/components/Book';
+import BookCover from '@/components/BookCover';
 import { books } from '../data/books';
 import styles from '../styles/books.module.css';
 import TitleForPages from '@/components/TitleForPages';
@@ -20,13 +20,15 @@ const Books = () => {
       <div className='main'>
         <div className='container'>
           <div className={styles.topMargin}></div>
-          <TitleForPages>FIELD <span>MANUALS</span></TitleForPages>
-          <Book
+          <TitleForPages>
+            FIELD <span>MANUALS</span>
+          </TitleForPages>
+          <BookCover
             alt={dreamBook.bookTitle}
             bookMoreInfoUrl={dreamBook.bookMoreInfoUrl}
             bookImageUrl={dreamBook.bookImageUrl}
           />
-          <Book
+          <BookCover
             alt={soldierBook.bookTitle}
             bookMoreInfoUrl={soldierBook.bookMoreInfoUrl}
             bookImageUrl={soldierBook.bookImageUrl}

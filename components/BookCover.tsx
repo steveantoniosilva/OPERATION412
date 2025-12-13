@@ -1,0 +1,71 @@
+import Image from 'next/image';
+import Link from 'next/link';
+import { useEffect, useRef } from 'react';
+import VanillaTilt from 'vanilla-tilt';
+import styles from '../styles/book.module.css';
+
+interface TiltHTMLElement extends HTMLDivElement {
+  vanillaTilt?: {
+    destroy: () => void;
+  };
+}
+
+interface BookCoverProps {
+  bookImageUrl: string;
+  alt: string;
+  bookMoreInfoUrl?: string;
+  clickable?: boolean;
+  tilt?: boolean;
+}
+
+export default function BookCover({
+  bookImageUrl,
+  alt,
+  bookMoreInfoUrl,
+  clickable = true,
+  tilt = true,
+}: BookCoverProps) {
+  const tiltRef = useRef<TiltHTMLElement | null>(null);
+
+  useEffect(() => {
+    if (!tilt || !tiltRef.current) return;
+
+    VanillaTilt.init(tiltRef.current, {
+      max: 6,
+      speed: 600,
+      scale: 1.02,
+      perspective: 1000,
+      glare: true,
+      'max-glare': 0.5,
+    });
+
+    return () => {
+      tiltRef.current?.vanillaTilt?.destroy();
+    };
+  }, [tilt]);
+
+  const book = (
+    <div
+      ref={tiltRef}
+      className={styles.book}
+      data-clickable={clickable}>
+      <Image
+        src={bookImageUrl}
+        alt={alt}
+        fill
+        className={styles.image}
+        priority
+      />
+    </div>
+  );
+
+  if (clickable && bookMoreInfoUrl) {
+    return (
+      <div className={styles.bookWrapper}>
+        <Link href={bookMoreInfoUrl}>{book}</Link>
+      </div>
+    );
+  }
+
+  return <div className={styles.bookWrapper}>{book}</div>;
+}
