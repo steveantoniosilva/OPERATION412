@@ -20,6 +20,7 @@ const Build = () => {
         <ParagraphCentered>Ephesians 4:12 called. Operation 412 answered:</ParagraphCentered>
         <ParagraphCentered>Build up the Body of Christ.</ParagraphCentered>
         <ParagraphLeft>Left</ParagraphLeft>
+        <ParagraphLeft>&larr; Go Back</ParagraphLeft>
       </main>
     </>
   );

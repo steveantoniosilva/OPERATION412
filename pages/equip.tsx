@@ -20,6 +20,7 @@ const Equip = () => {
         <ParagraphCentered>Ephesians 4:12 called. Operation 412 answered:</ParagraphCentered>
         <ParagraphCentered>Equip believers for the work of ministry.</ParagraphCentered>
         <ParagraphLeft>Left</ParagraphLeft>
+        <ParagraphLeft>&larr; Go Back</ParagraphLeft>
       </main>
     </>
   );
