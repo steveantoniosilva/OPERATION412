@@ -3,20 +3,20 @@ import clsx from 'clsx';
 import styles from '../styles/paragraph.module.css';
 import { cormorant } from '@/library/fonts';
 
-type Align = 'left' | 'center' | 'justify';
+type TextAlign = 'left' | 'center' | 'justify';
 type FontFamily = 'default' | 'cormorant';
 type FontStyle = 'normal' | 'italic';
 
 interface ParagraphProps {
   children: ReactNode;
-  align?: Align;
+  textAlign?: TextAlign;
   fontFamily?: FontFamily;
   fontStyle?: FontStyle;
 }
 
 export default function Paragraph({
   children,
-  align = 'left',
+  textAlign = 'left',
   fontFamily = 'default',
   fontStyle = 'normal',
 }: ParagraphProps) {
@@ -24,9 +24,9 @@ export default function Paragraph({
     <p
       className={clsx(
         styles.base,
-        styles[align],
+        styles[textAlign],
         fontFamily === 'cormorant' && cormorant.className,
-        fontStyle === 'italic' && styles.italic
+        fontStyle === 'italic' ? styles.italic : styles.normal
       )}>
       {children}
     </p>

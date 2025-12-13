@@ -38,19 +38,18 @@ const Books = () => {
             <span>MANUALS</span>
           </Heading>
 
-          <Paragraph align='center'>To Equip You.</Paragraph>
-          <Paragraph align='center'>To Build You Up.</Paragraph>
+          <Heading>TO</Heading>
 
-          <Paragraph
-            align='center'
-            fontFamily='cormorant'>
-            Ephesians 4:12 Called.
-          </Paragraph>
+          <Heading level='subtitle'>EQUIP & BUILD</Heading>
 
-          <Paragraph
-            >
-            Operation 412 Answered.
-          </Paragraph>
+          <Heading level='subtitle'>
+            <span>EPHESIANS 4:12</span>
+            <br /> CALLED
+          </Heading>
+          <Heading level='subtitle'>
+            <span>OPERATION 412</span>
+            <br /> ANSWERED
+          </Heading>
 
           <BookCover
             alt={dreamBook.bookTitle}
