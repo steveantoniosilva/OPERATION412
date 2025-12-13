@@ -6,6 +6,7 @@ const Home = () => {
   return (
     <>
       <Head>
+        <title>OPERATION 412</title>
         <meta
           name='description'
           content='Ephesians 4:12 called. Operation 412 answered: equip believers for the work of ministry; build up the Body of Christ.'

@@ -8,18 +8,20 @@ const About = () => {
   const stripesRef = useRef<HTMLDivElement[]>([]);
 
   useEffect(() => {
-    stripesRef.current.forEach(el => {
-      if (!el) return;
+stripesRef.current.forEach(el => {
+  if (!el) return;
+  if ((el as any).vanillaTilt) return;
 
-      VanillaTilt.init(el, {
-        max: 6,
-        speed: 600,
-        scale: 1.02,
-        perspective: 1000,
-        glare: true,
-        'max-glare': 0.5,
-      });
-    });
+  VanillaTilt.init(el, {
+    max: 6,
+    speed: 600,
+    scale: 1.02,
+    perspective: 1000,
+    glare: true,
+    'max-glare': 0.5,
+  });
+});
+
 
     return () => {
       stripesRef.current.forEach(el => {

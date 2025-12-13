@@ -27,10 +27,12 @@ export default function BookCover({
 }: BookCoverProps) {
   const tiltRef = useRef<TiltHTMLElement | null>(null);
 
-  useEffect(() => {
-    if (!tilt || !tiltRef.current) return;
+useEffect(() => {
+  const el = tiltRef.current;
+  if (!tilt || !el) return;
 
-    VanillaTilt.init(tiltRef.current, {
+  if (!el.vanillaTilt) {
+    VanillaTilt.init(el, {
       max: 6,
       speed: 600,
       scale: 1.02,
@@ -38,11 +40,13 @@ export default function BookCover({
       glare: true,
       'max-glare': 0.5,
     });
+  }
 
-    return () => {
-      tiltRef.current?.vanillaTilt?.destroy();
-    };
-  }, [tilt]);
+  return () => {
+    el.vanillaTilt?.destroy();
+  };
+}, [tilt]);
+
 
   const book = (
     <div
