@@ -13,7 +13,7 @@ export default function Navbar() {
     { href: '/', label: 'BACK TO CAMP' },
     { href: '/about', label: 'OPERATION 412' },
     { href: '/books', label: 'FIELD MANUALS' },
-    { href: '/comingSoon', label: 'COMING SOON' },
+    { href: '/comingSoon', label: 'STAGING AREA' },
   ];
 
   return (

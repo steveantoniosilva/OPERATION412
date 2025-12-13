@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useRef } from 'react';
 import VanillaTilt from 'vanilla-tilt';
-import styles from '../styles/book.module.css';
+import styles from '../styles/bookCover.module.css';
 
 interface TiltHTMLElement extends HTMLDivElement {
   vanillaTilt?: {

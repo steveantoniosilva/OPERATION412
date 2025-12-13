@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import TitleForPages from '@/components/TitleForPages';
 
 const Home = () => {
   return (
@@ -11,15 +12,19 @@ const Home = () => {
         />
       </Head>
 
-      <>
-        <div className={styles.mobileContainer}>
-          <div className={styles.stripe}>4</div>
-          <div className={styles.stripe}>1</div>
-          <div className={styles.stripe}>2</div>
-        </div>
-        <div className={styles.desktopContainer}>
-          <div className={styles.stripe}>
-            <div className={styles.inner}>
+      {/* MOBILE */}
+      <div className={styles.mobileContainer}>
+        <div className={styles.stripe}>4</div>
+        <div className={styles.stripe}>1</div>
+        <div className={styles.stripe}>2</div>
+      </div>
+
+      {/* DESKTOP */}
+      <div className={styles.desktopContainer}>
+        {/* PANEL 1 */}
+        <div className={styles.stripe}>
+          <div className={styles.inner}>
+            <div className={styles.front}>
               <div className={styles.operation}>
                 <span>O</span>
                 <span>P</span>
@@ -27,10 +32,17 @@ const Home = () => {
               </div>
               <div className={styles.fourTwelve}>4</div>
             </div>
-          </div>
 
-          <div className={styles.stripe}>
-            <div className={styles.inner}>
+            <div className={styles.back}>
+              <TitleForPages>EQUIP</TitleForPages>
+            </div>
+          </div>
+        </div>
+
+        {/* PANEL 2 */}
+        <div className={styles.stripe}>
+          <div className={styles.inner}>
+            <div className={styles.front}>
               <div className={styles.operation}>
                 <span>R</span>
                 <span>A</span>
@@ -38,10 +50,16 @@ const Home = () => {
               </div>
               <div className={styles.fourTwelve}>1</div>
             </div>
+            <div className={styles.back}>
+              <TitleForPages>BUILD</TitleForPages>
+            </div>
           </div>
+        </div>
 
-          <div className={styles.stripe}>
-            <div className={styles.inner}>
+        {/* PANEL 3 */}
+        <div className={styles.stripe}>
+          <div className={styles.inner}>
+            <div className={styles.front}>
               <div className={styles.operation}>
                 <span>I</span>
                 <span>O</span>
@@ -49,9 +67,12 @@ const Home = () => {
               </div>
               <div className={styles.fourTwelve}>2</div>
             </div>
+            <div className={styles.back}>
+              <TitleForPages>ADVANCE</TitleForPages>
+            </div>
           </div>
         </div>
-      </>
+      </div>
     </>
   );
 };
