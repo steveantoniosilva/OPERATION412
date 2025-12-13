@@ -14,9 +14,13 @@
 .stripe {
     flex: 1;
     width: 100%;
-    background-image: url('/lion.png');
+    background-image:
+        linear-gradient(to top, black,
+            rgba(50, 25, 0, 0.5),
+            rgba(50, 25, 0, 0.5),
+            rgba(50, 25, 0, 0.5)),
+        url('/lion.png');
     background-blend-mode: overlay;
-    background-color: rgba(50, 25, 0, 0.5);
     background-repeat: no-repeat;
     border-radius: 33px;
 

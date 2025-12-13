@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/build.module.css';
 import Paragraph from '@/components/Paragraph';
+import TitleForPages from '@/components/TitleForPages';
 
 const Build = () => {
   return (
@@ -14,7 +15,7 @@ const Build = () => {
       </Head>
 
       <main className={styles.container}>
-        <h1 className={styles.title}>BUILD HIS BODY</h1>
+        <TitleForPages>BUILD HIS BODY</TitleForPages>
         <Paragraph>EPHESIANS 4:12 = OPERATION 412</Paragraph>
         <Paragraph>Ephesians 4:12 called. Operation 412 answered:</Paragraph>
         <Paragraph>Build up the Body of Christ.</Paragraph>

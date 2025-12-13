@@ -1,11 +1,10 @@
 .base {
     font-size: clamp(1.25rem,
-            2.2vw + 1.2vh,
+            2vw + 1vh,
             2.75rem);
 
     font-weight: 100;
     letter-spacing: 0.35em;
-    text-transform: uppercase;
     color: #eaeaea;
 
     margin-top: 140px;

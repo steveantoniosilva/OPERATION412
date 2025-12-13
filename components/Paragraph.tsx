@@ -1,27 +1,17 @@
+import { ReactNode } from 'react';
 import clsx from 'clsx';
 import styles from '../styles/paragraph.module.css';
-import { cursive } from '../library/fonts';
-import { ReactNode } from 'react';
+import { cursive } from '@/library/fonts';
 
-/* ---------- Types & constants ---------- */
-
-type ParagraphVariant = 'left' | 'center' | 'cursiveLeft' | 'cursiveCentered';
-
-const cursiveVariants: ParagraphVariant[] = ['cursiveLeft', 'cursiveCentered'];
-
-/* ---------- Component ---------- */
+type Align = 'left' | 'center';
+type Font = 'default' | 'cursive';
 
 interface ParagraphProps {
   children: ReactNode;
-  variant?: ParagraphVariant;
+  align?: Align;
+  font?: Font;
 }
 
-export default function Paragraph({ children, variant = 'left' }: ParagraphProps) {
-  const variantClass = styles[variant as keyof typeof styles];
-
-  return (
-    <p className={clsx(styles.base, variantClass, cursiveVariants.includes(variant) && cursive.className)}>
-      {children}
-    </p>
-  );
+export default function Paragraph({ children, align = 'left', font = 'default' }: ParagraphProps) {
+  return <p className={clsx(styles.base, styles[align], font === 'cursive' && cursive.className)}>{children}</p>;
 }

@@ -11,5 +11,5 @@ interface TitleForPagesProps {
 }
 
 export default function TitleForPages({ children, variant = 'default' }: TitleForPagesProps) {
-  return <h5 className={clsx(styles.base, styles[variant], variant === 'cursive' && cursive.className)}>{children}</h5>;
+  return <h1 className={clsx(styles.base, styles[variant], variant === 'cursive' && cursive.className)}>{children}</h1>;
 }

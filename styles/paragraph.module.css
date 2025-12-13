@@ -1,27 +1,15 @@
 .base {
-    font-size: clamp(1rem,
-            0.9vw + 0.6vh,
-            1.25rem);
-
+    font-size: clamp(1rem, 0.9vw + 0.6vh, 1.25rem);
     line-height: 1.7;
     letter-spacing: 0.04em;
     margin-bottom: 1.25em;
     color: #eaeaea;
 }
 
-/* Alignment only */
 .left {
     text-align: left;
 }
 
 .center {
-    text-align: center;
-}
-
-.cursiveLeft {
-    text-align: left;
-}
-
-.cursiveCentered {
     text-align: center;
 }
