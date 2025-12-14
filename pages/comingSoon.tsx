@@ -1,8 +1,9 @@
 import Head from 'next/head';
 import BookCover from '@/components/BookCover';
 import { books } from '../data/books';
-import styles from '../styles/books.module.css';
 import Heading from '@/components/Heading';
+import Paragraph from '@/components/Paragraph';
+import Spacer from '@/components/Spacer';
 
 const ComingSoon = () => {
   const soldierBook = books.soldierBook;
@@ -13,50 +14,40 @@ const ComingSoon = () => {
         <title>MY NEXT BOOK</title>
         <meta
           name='description'
-          content='Next Book—coming soon by Operation 412 Books.'
+          content='Next Book — Coming Soon by Operation 412 Books.'
         />
       </Head>
       <div className='main'>
         <div className='container'>
-          <Heading level='subtitle'>THE NEXT</Heading>
-
-          <Heading>BOOK</Heading>
-
-          <Heading level='subtitle'>IN MY</Heading>
-
-          <Heading fontFamily='cormorant'>
-            <span>“I AM“</span>
-          </Heading>
-
-          <Heading fontFamily='cormorant'>
-            <span>SERIES</span>
-          </Heading>
-
+          <Heading fontFamily='cormorant'>MY NEXT BOOK</Heading>
           <Heading
-            level='subtitle'
-            fontFamily='cormorant'>
-            <span>TO</span>
+            level='subtitle' fontStyle='italic'>
+            IN MY <span>I AM</span> SERIES
           </Heading>
 
-          <Heading fontFamily='cormorant'>
-            <span>EQUIP & BUILD</span>
-          </Heading>
+          <Spacer size={6} />
 
-          <Heading level='subtitle'>
-            <span>EPHESIANS 4:12</span>
-            <br /> CALLED
-          </Heading>
-          <Heading level='subtitle'>
-            <span>OPERATION 412</span>
-            <br /> ANSWERED
-          </Heading>
           <BookCover
             alt={soldierBook.bookTitle}
             bookMoreInfoUrl={soldierBook.bookMoreInfoUrl}
             bookImageUrl={soldierBook.bookImageUrl}
           />
+          <br />
+          <br />
+          <br />
+          <br />
+          <Paragraph
+            textAlign='center'
+            fontFamily='cormorant'>
+            by OPERATION 412 BOOKS
+          </Paragraph>
         </div>
-        <footer className={styles.footer}>&copy; Operation 412</footer>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+        <footer className='footer'>&copy; Operation 412 Books</footer>
       </div>
     </>
   );

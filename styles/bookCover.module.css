@@ -3,9 +3,7 @@
     max-width: 420px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.bookWrapper:last-child {
+    padding-top: 111px;
 }
 
 .book {
@@ -16,13 +14,7 @@
     overflow: visible;
     transform-style: preserve-3d;
     cursor: default;
-}
-
-@media screen and (min-width: 777px) {
-    .book {
-        width: 100%;
-        box-shadow: 0 0 0 33px rgba(255,255,255, 0.05);
-    }
+    border: 1px solid #222;
 }
 
 

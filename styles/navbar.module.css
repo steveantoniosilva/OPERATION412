@@ -2,8 +2,8 @@
 .hamburger {
     position: fixed;
     z-index: 111111111;
-    top: 11px;
-    right: 11px;
+    top: 1em;
+    right: 1.5em;
 
     display: flex;
     align-items: center;
@@ -71,6 +71,7 @@
     border-right: 1px solid rgba(255, 255, 255, .25);
     border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
+    border-radius: 33px;
 
 
     /* 🔑 smoothness */

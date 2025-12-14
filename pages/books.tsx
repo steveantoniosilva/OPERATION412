@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { books } from '../data/books';
 import BookCover from '@/components/BookCover';
 import Heading from '@/components/Heading';
+import Spacer from '@/components/Spacer';
 
 const Books = () => {
   const dreamBook = books.dreamBook;
@@ -13,14 +14,14 @@ const Books = () => {
         <title>OPERATION 412 BOOKS</title>
         <meta
           name='description'
-          content='Welcome to my "I AM" Series — Operation 412 Books.'
+          content='Welcome to the "I AM" Series — by Operation 412 Books.'
         />
       </Head>
 
       <div className='main'>
         <div className='container'>
           <Heading fontFamily='cormorant'>
-            <span>“I AM“</span> SERIES
+            THE <span>“I AM“</span> SERIES
           </Heading>
 
           <Heading
@@ -40,6 +41,7 @@ const Books = () => {
             bookMoreInfoUrl={soldierBook.bookMoreInfoUrl}
             bookImageUrl={soldierBook.bookImageUrl}
           />
+          <Spacer size={5} />
         </div>
       </div>
     </>

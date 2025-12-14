@@ -21,7 +21,6 @@
             rgba(50, 25, 0, 0.5)),
         url('/lion.png');
     background-blend-mode: overlay;
-    background-color: black;
     background-repeat: no-repeat;
     border-radius: 33px;
 

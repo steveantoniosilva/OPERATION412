@@ -36,11 +36,7 @@ const Home = () => {
 
             <div className={styles.back}>
               <Heading>
-                <span>EQUIP</span>
-                <br />
-                HIS
-                <br />
-                ARMY
+               <span>THE EQUIPPING</span> THE SAINTS
               </Heading>
             </div>
           </div>
@@ -59,7 +55,7 @@ const Home = () => {
             </div>
             <div className={styles.back}>
               <Heading>
-                <span>&</span>
+               FOR <span>THE WORK</span>
               </Heading>
             </div>
           </div>
@@ -78,11 +74,7 @@ const Home = () => {
             </div>
             <div className={styles.back}>
               <Heading>
-                <span>BUILD</span>
-                <br />
-                HIS
-                <br />
-                BODY
+               FOR <span>THE BUILDING</span> OF HIS BODY
               </Heading>
             </div>
           </div>
