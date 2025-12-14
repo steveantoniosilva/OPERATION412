@@ -8,8 +8,6 @@
 
 /* TITLE = size only */
 .title {
-    padding-top: 4.5em;
-    padding-bottom: 1em;
     font-size: var(--heading-title-size);
 }
 

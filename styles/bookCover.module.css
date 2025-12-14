@@ -3,12 +3,12 @@
     max-width: 420px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 111px;
+    border-radius: 33px;
 }
 
 .book {
     position: relative;
-    width: 90%;
+    width: 100%;
     aspect-ratio: 2 / 3;
     border-radius: 12px;
     overflow: visible;

@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Heading from '@/components/Heading';
+import Spacer from '@/components/Spacer';
 
 const Home = () => {
   return (
@@ -35,8 +36,18 @@ const Home = () => {
             </div>
 
             <div className={styles.back}>
-              <Heading>
-               <span>THE EQUIPPING</span> THE SAINTS
+              <Heading
+                level='subtitle'
+                fontFamily='cormorant'>
+                FOR THE
+              </Heading>
+              <Heading fontFamily='cormorant'>
+                <span>EQUIPPING</span>
+              </Heading>
+              <Heading
+                level='subtitle'
+                fontFamily='cormorant'>
+                OF THE SAINTS
               </Heading>
             </div>
           </div>
@@ -54,8 +65,18 @@ const Home = () => {
               <div className={styles.fourTwelve}>1</div>
             </div>
             <div className={styles.back}>
-              <Heading>
-               FOR <span>THE WORK</span>
+              <Heading
+                level='subtitle'
+                fontFamily='cormorant'>
+                FOR THE
+              </Heading>
+              <Heading fontFamily='cormorant'>
+                <span>WORK</span>
+              </Heading>
+              <Heading
+                level='subtitle'
+                fontFamily='cormorant'>
+                OF THE MINISTRY
               </Heading>
             </div>
           </div>
@@ -73,8 +94,18 @@ const Home = () => {
               <div className={styles.fourTwelve}>2</div>
             </div>
             <div className={styles.back}>
-              <Heading>
-               FOR <span>THE BUILDING</span> OF HIS BODY
+              <Heading fontFamily='cormorant'>
+                <Heading
+                  level='subtitle'
+                  fontFamily='cormorant'>
+                  FOR THE
+                </Heading>
+                <span>BUILDING</span>
+              </Heading>
+              <Heading
+                level='subtitle'
+                fontFamily='cormorant'>
+                OF THE BODY
               </Heading>
             </div>
           </div>

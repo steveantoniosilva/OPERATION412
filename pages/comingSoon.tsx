@@ -11,7 +11,7 @@ const ComingSoon = () => {
   return (
     <>
       <Head>
-        <title>MY NEXT BOOK</title>
+        <title>I AM WRITING</title>
         <meta
           name='description'
           content='Next Book — Coming Soon by Operation 412 Books.'
@@ -19,10 +19,8 @@ const ComingSoon = () => {
       </Head>
       <div className='main'>
         <div className='container'>
-          <Heading fontFamily='cormorant'>MY NEXT BOOK</Heading>
-          <Heading
-            level='subtitle' fontStyle='italic'>
-            IN MY <span>I AM</span> SERIES
+          <Heading fontFamily='cormorant'>
+            <span>I AM</span> WRITING
           </Heading>
 
           <Spacer size={6} />
@@ -32,22 +30,18 @@ const ComingSoon = () => {
             bookMoreInfoUrl={soldierBook.bookMoreInfoUrl}
             bookImageUrl={soldierBook.bookImageUrl}
           />
-          <br />
-          <br />
-          <br />
-          <br />
-          <Paragraph
-            textAlign='center'
+
+          <Spacer size={4} />
+          <Heading
+            level='subtitle'
+            fontStyle='italic'
             fontFamily='cormorant'>
-            by OPERATION 412 BOOKS
-          </Paragraph>
+            by Steve Antonio Silva
+          </Heading>
+          <Spacer size={5} />
         </div>
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-        <footer className='footer'>&copy; Operation 412 Books</footer>
+        
+        {/* <footer className='footer'>&copy; Operation 412 Books</footer> */}
       </div>
     </>
   );

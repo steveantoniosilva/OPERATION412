@@ -15,12 +15,17 @@
     flex: 1;
     width: 100%;
     background-image:
-        linear-gradient(to top, black,
-            rgba(50, 25, 0, 0.5),
-            rgba(50, 25, 0, 0.5),
-            rgba(50, 25, 0, 0.5)),
+        linear-gradient(to bottom,
+            rgba(1, 1, 1, .5),
+            rgba(22, 22, 22, .9),
+            rgba(22, 22, 22, .8),
+            rgba(22, 22, 22, .8),
+            rgba(22, 22, 22, .9),
+            rgba(50, 25, 5, .25),
+            rgba(50, 25, 5, .25),
+            rgba(50, 25, 5, .25),
+            rgba(1, 1, 1, .1)),
         url('/lion.png');
-    background-blend-mode: overlay;
     background-repeat: no-repeat;
     border-radius: 33px;
 
@@ -114,12 +119,12 @@
         align-items: center;
         justify-content: center;
     }
-
+    
     /* FRONT */
     .front {
         transform: rotateY(0deg);
     }
-
+    
     .operation {
         margin-bottom: auto;
         font-family: 'cormorant';
@@ -130,29 +135,34 @@
         padding: 0 0.30em;
         margin: 0.5em auto;
         color: black;
-        background: linear-gradient(to bottom,
-                transparent,
-                rgba(1, 1, 1, 0.5),
-                transparent);
     }
-
+    
     .fourTwelve {
         font-family: 'cormorant';
         font-weight: 700;
         font-size: clamp(1rem, calc(5vw + 5vh), 20rem);
-        color: rgba(255, 255, 255, 0.12);
+        color: rgba(255, 255, 255, 0.125);
     }
-
+    
     /* BACK */
     .back {
+        padding: 0 1em;
         transform: rotateY(180deg);
         font-size: clamp(1.5rem, calc(2vw + 2vh), 3.5rem);
         font-weight: 100;
         letter-spacing: 0.35em;
         color: rgba(255, 255, 255, 0.9);
-
+        
         background: radial-gradient(circle at center,
-                rgba(0, 0, 0, 0.35),
-                rgba(0, 0, 0, 0.75));
+        rgba(0, 0, 0, 0.35),
+        rgba(0, 0, 0, 0.75));
+    }
+
+    .ephesians {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
     }
 }

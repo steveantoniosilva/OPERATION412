@@ -11,7 +11,7 @@ const Books = () => {
   return (
     <>
       <Head>
-        <title>OPERATION 412 BOOKS</title>
+        <title>I AM SERIES</title>
         <meta
           name='description'
           content='Welcome to the "I AM" Series — by Operation 412 Books.'
@@ -21,14 +21,10 @@ const Books = () => {
       <div className='main'>
         <div className='container'>
           <Heading fontFamily='cormorant'>
-            THE <span>“I AM“</span> SERIES
+            <span>I AM</span> SERIES
           </Heading>
 
-          <Heading
-            level='subtitle'
-            fontFamily='cormorant'>
-            by OPERATION 412 BOOKS
-          </Heading>
+          <Spacer size={6} />
 
           <BookCover
             alt={dreamBook.bookTitle}
@@ -36,11 +32,13 @@ const Books = () => {
             bookImageUrl={dreamBook.bookImageUrl}
           />
 
-          <BookCover
-            alt={soldierBook.bookTitle}
-            bookMoreInfoUrl={soldierBook.bookMoreInfoUrl}
-            bookImageUrl={soldierBook.bookImageUrl}
-          />
+          <Spacer size={4} />
+          <Heading
+            level='subtitle'
+            fontStyle='italic'
+            fontFamily='cormorant'>
+            by 412 Books
+          </Heading>
           <Spacer size={5} />
         </div>
       </div>
