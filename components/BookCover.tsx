@@ -58,7 +58,7 @@ useEffect(() => {
         alt={alt}
         fill
         className={styles.image}
-        priority
+        priority={false}
       />
     </div>
   );

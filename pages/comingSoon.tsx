@@ -10,10 +10,10 @@ const ComingSoon = () => {
   return (
     <>
       <Head>
-        <title>OUR NEXT BOOK</title>
+        <title>MY NEXT BOOK</title>
         <meta
           name='description'
-          content='Ephesians 4:12 called. Operation 412 answered: equip believers for the work of ministry; build up the Body of Christ.'
+          content='Operation 412 Books: My next book—coming soon.'
         />
       </Head>
       <div className='main'>

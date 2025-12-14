@@ -1,5 +1,5 @@
 .container {
-    background-color: rgba(100, 50, 0, .75);
+    background-color: rgba(50, 25, 0, .75);
     background-image: url('/soldier.png');
     background-blend-mode: overlay;
     background-position: 55% 5%;

@@ -1,10 +1,7 @@
 import Head from 'next/head';
 import { books } from '../data/books';
-import styles from '../styles/books.module.css';
-
 import BookCover from '@/components/BookCover';
 import Heading from '@/components/Heading';
-import Paragraph from '@/components/Paragraph';
 
 const Books = () => {
   const dreamBook = books.dreamBook;
@@ -16,41 +13,22 @@ const Books = () => {
         <title>OPERATION 412 BOOKS</title>
         <meta
           name='description'
-          content='Ephesians 4:12 called. Operation 412 answered: equip believers for the work of ministry; build up the Body of Christ.'
+          content='Welcome to my "I AM" Series — Operation 412 Books.'
         />
       </Head>
 
       <div className='main'>
         <div className='container'>
-          <Heading level='subtitle'>THESE AREN&apos;T</Heading>
+          <Heading level='subtitle'>WELCOME TO</Heading>
 
-          <Heading>BOOKS</Heading>
-
-          <Heading level='subtitle'>THESE ARE</Heading>
+          <Heading>MY</Heading>
 
           <Heading fontFamily='cormorant'>
-            <span>FIELD</span>
+            <span>“I AM“</span>
           </Heading>
 
           <Heading fontFamily='cormorant'>
-            <span>MANUALS</span>
-          </Heading>
-
-          <Heading level='subtitle' fontFamily='cormorant'>
-            <span>TO</span>
-          </Heading>
-
-          <Heading fontFamily='cormorant'>
-            <span>EQUIP & BUILD</span>
-          </Heading>
-
-          <Heading level='subtitle'>
-            <span>EPHESIANS 4:12</span>
-            <br /> CALLED
-          </Heading>
-          <Heading level='subtitle'>
-            <span>OPERATION 412</span>
-            <br /> ANSWERED
+            <span>SERIES</span>
           </Heading>
 
           <BookCover

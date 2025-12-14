@@ -1,7 +1,8 @@
 import Head from 'next/head';
-import styles from '../styles/equip.module.css';
+import styles from '../styles/equipAndBuild.module.css';
 import Heading from '@/components/Heading';
 import WordPair from '@/components/WordPair';
+import Paragraph from '@/components/Paragraph';
 
 const Equip = () => {
   return (
@@ -10,16 +11,25 @@ const Equip = () => {
         <title>Equip His Army</title>
         <meta
           name='description'
-          content='Ephesians 4:12 called. Operation 412 answered: equip believers for the work of ministry; build up the Body of Christ.'
+          content='Equipping the saints for the work of ministry — Ephesians 4:12 (a).'
         />
       </Head>
 
       <main className={styles.container}>
         <Heading fontFamily='cormorant'>
-          <span>EQUIP</span>
+          <span>EQUIPPING</span>
         </Heading>
-        <Heading level='subtitle'>THE SAINTS FOR THE WORK OF MINISTRY</Heading>
-        <Heading level='subtitle'>— EPHESIANS 4:12 (a)</Heading>
+        <Heading
+          level='subtitle'
+          fontFamily='cormorant'>
+          THE SAINTS FOR THE WORK OF MINISTRY
+        </Heading>
+        <Paragraph
+          fontFamily='cormorant'
+          textAlign='center'
+          fontStyle='italic'>
+          — EPHESIANS 4:12 (a)
+        </Paragraph>{' '}
         <WordPair
           firstWord='MENDING'
           secondWord='FISHING NETS'
@@ -74,27 +84,3 @@ const Equip = () => {
 };
 
 export default Equip;
-
-
-// {/* EQUIP — katartizo / katartismos */}
-
-// <WordPair wordPairTitle="MENDING" wordPairSubtitle="FISHING NETS" />
-// <WordPair wordPairTitle="SETTING" wordPairSubtitle="DISLOCATED BONES" />
-// <WordPair wordPairTitle="RECONCILING" wordPairSubtitle="RELATIONSHIPS" />
-// <WordPair wordPairTitle="FORMING" wordPairSubtitle="BY EXERCISING" />
-// <WordPair wordPairTitle="READYING" wordPairSubtitle="HOUSEHOLD COURTYARDS" />
-// <WordPair wordPairTitle="OUTFITTING" wordPairSubtitle="NAVAL WARSHIPS" />
-// <WordPair wordPairTitle="PREPARING" wordPairSubtitle="SLINGS" />
-// <WordPair wordPairTitle="RESTORING" wordPairSubtitle="FALLEN SINNERS" />
-// <WordPair wordPairTitle="FRAMING" wordPairSubtitle="THE UNIVERSE" />
-// <WordPair wordPairTitle="BRINGING" wordPairSubtitle="ORDER TO CITIES" />
-// <WordPair wordPairTitle="EQUIPPING" wordPairSubtitle="SHIPS WITH ROWERS" />
-// <WordPair wordPairTitle="POSITIONING" wordPairSubtitle="ARMIES FOR BATTLE" />
-
-// {/* BUILD UP — oikodome */}
-
-// <WordPair wordPairTitle="FORTIFYING" wordPairSubtitle="CITY WALLS" />
-// <WordPair wordPairTitle="REPAIRING" wordPairSubtitle="TEMPLE STONES" />
-// <WordPair wordPairTitle="EXPANDING" wordPairSubtitle="A HOUSEHOLD" />
-// <WordPair wordPairTitle="RESTORING" wordPairSubtitle="A COLLAPSED STRUCTURE" />
-// <WordPair wordPairTitle="STRENGTHENING" wordPairSubtitle="A FOUNDATION" />

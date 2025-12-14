@@ -4,6 +4,8 @@
     /* 100 */
     letter-spacing: var(--heading-title-letter-spacing);
     margin: 65px auto;
+    padding: 0 1em;
+    line-height: 2;
 }
 
 /* TITLE = size only */
