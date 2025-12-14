@@ -17,9 +17,9 @@ const Home = () => {
 
       {/* MOBILE */}
       <div className={styles.mobileContainer}>
-        <div className={styles.stripe}>4</div>
-        <div className={styles.stripe}>1</div>
-        <div className={styles.stripe}>2</div>
+        <div className={styles.stripe}>I HEAR THE SOUND</div>
+        <div className={styles.stripe}>OF THE RAMS HORN</div>
+        <div className={styles.stripe}>BLOWING IN THE DISTANCE</div>
       </div>
 
       {/* DESKTOP */}
@@ -37,11 +37,7 @@ const Home = () => {
             </div>
 
             <div className={styles.back}>
-              <Paragraph fontFamily='cormorant'>FOR THE</Paragraph>
-              <Heading fontFamily='cormorant'>
-                <span>EQUIPPING</span>
-              </Heading>
-              <Paragraph fontFamily='cormorant'>OF THE SAINTS</Paragraph>
+              <Paragraph fontFamily='cormorant'>I hear the sound</Paragraph>
             </div>
           </div>
         </div>
@@ -58,12 +54,7 @@ const Home = () => {
               <div className={styles.fourTwelve}>1</div>
             </div>
             <div className={styles.back}>
-              <Paragraph fontFamily='cormorant'>FOR THE</Paragraph>
-
-              <Heading fontFamily='cormorant'>
-                <span>WORK</span>
-              </Heading>
-              <Paragraph fontFamily='cormorant'>OF THE MINISTRY</Paragraph>
+              <Paragraph fontFamily='cormorant'>of the rams horn</Paragraph>
             </div>
           </div>
         </div>
@@ -80,12 +71,7 @@ const Home = () => {
               <div className={styles.fourTwelve}>2</div>
             </div>
             <div className={styles.back}>
-              <Paragraph fontFamily='cormorant'>FOR THE</Paragraph>
-
-              <Heading fontFamily='cormorant'>
-                <span>BUILDING</span>
-              </Heading>
-              <Paragraph fontFamily='cormorant'>OF THE BODY</Paragraph>
+              <Paragraph fontFamily='cormorant'>blowing in the distance</Paragraph>
             </div>
           </div>
         </div>
