@@ -6,12 +6,11 @@ import Spacer from '@/components/Spacer';
 
 const Books = () => {
   const dreamBook = books.dreamBook;
-  const soldierBook = books.soldierBook;
 
   return (
     <>
       <Head>
-        <title>I AM SERIES</title>
+        <title>I AM Book Series</title>
         <meta
           name='description'
           content='Welcome to the "I AM" Series — by Operation 412 Books.'
@@ -20,6 +19,8 @@ const Books = () => {
 
       <div className='main'>
         <div className='container'>
+          <Spacer size={9} />
+
           <Heading fontFamily='cormorant'>
             <span>I AM</span> SERIES
           </Heading>

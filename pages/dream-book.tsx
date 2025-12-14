@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import BookMoreInfo from '@/components/BookMoreInfo';
 import { books } from '../data/books';
+import Spacer from '@/components/Spacer';
 
 const DreamBook = () => {
   const book = books.dreamBook;
@@ -16,6 +17,7 @@ const DreamBook = () => {
       </Head>
       <div className='main'>
         <div className='container'>
+          <Spacer size={16} />
           <BookMoreInfo
             bookTitle={book.bookTitle}
             bookTitleSpan={book.bookTitleSpan}

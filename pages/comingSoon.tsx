@@ -2,7 +2,6 @@ import Head from 'next/head';
 import BookCover from '@/components/BookCover';
 import { books } from '../data/books';
 import Heading from '@/components/Heading';
-import Paragraph from '@/components/Paragraph';
 import Spacer from '@/components/Spacer';
 
 const ComingSoon = () => {
@@ -11,14 +10,16 @@ const ComingSoon = () => {
   return (
     <>
       <Head>
-        <title>I AM WRITING</title>
+        <title>I Am Writing</title>
         <meta
           name='description'
           content='Next Book — Coming Soon by Operation 412 Books.'
         />
       </Head>
       <div className='main'>
-        <div className='container'>
+              <div className='container'>
+                            <Spacer size={9} />
+                  
           <Heading fontFamily='cormorant'>
             <span>I AM</span> WRITING
           </Heading>

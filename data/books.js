@@ -1,8 +1,8 @@
 export const books = {
   dreamBook: {
     id: 'dream-book',
-    bookTitle: 'I AM A',
-    bookTitleSpan: 'DREAMER',
+    bookTitle: 'I Am A',
+    bookTitleSpan: 'Dreamer',
     bookImageUrl: '/dreamer-bc.jpg',
     bookMoreInfoUrl: 'dream-book',
     bookAmazonUrl: '/',
@@ -28,8 +28,8 @@ export const books = {
   },
   soldierBook: {
     id: 'soldier-book',
-    bookTitle: 'I AM A',
-    bookTitleSpan: 'SOLDIER',
+    bookTitle: 'I Am A',
+    bookTitleSpan: 'Soldier',
     bookImageUrl: '/soldier.jpg',
     bookMoreInfoUrl: 'soldier-book',
     bookAmazonUrl: '/',

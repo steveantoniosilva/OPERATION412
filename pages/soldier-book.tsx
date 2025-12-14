@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import BookMoreInfo from '@/components/BookMoreInfo';
 import { books } from '../data/books';
+import Spacer from '@/components/Spacer';
 
 const SoldierBook = () => {
   const book = books.soldierBook;
@@ -16,6 +17,8 @@ const SoldierBook = () => {
       </Head>
       <div className='main'>
         <div className='container'>
+          <Spacer size={16} />
+
           <BookMoreInfo
             bookAmazonUrl='/'
             bookTitle={book.bookTitle}

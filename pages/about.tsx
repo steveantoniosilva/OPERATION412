@@ -8,20 +8,19 @@ const About = () => {
   const stripesRef = useRef<HTMLDivElement[]>([]);
 
   useEffect(() => {
-stripesRef.current.forEach(el => {
-  if (!el) return;
-  if ((el as any).vanillaTilt) return;
+    stripesRef.current.forEach(el => {
+      if (!el) return;
+      if ((el as any).vanillaTilt) return;
 
-  VanillaTilt.init(el, {
-    max: 6,
-    speed: 600,
-    scale: 1.02,
-    perspective: 1000,
-    glare: true,
-    'max-glare': 0.5,
-  });
-});
-
+      VanillaTilt.init(el, {
+        max: 6,
+        speed: 600,
+        scale: 1.02,
+        perspective: 1000,
+        glare: true,
+        'max-glare': 0.5,
+      });
+    });
 
     return () => {
       stripesRef.current.forEach(el => {
@@ -33,6 +32,8 @@ stripesRef.current.forEach(el => {
   return (
     <>
       <Head>
+        <title>About Operation 412</title>
+
         <meta
           name='description'
           content='Ephesians 4:12 called. Operation 412 answered: equip believers for the work of ministry; build up the Body of Christ.'

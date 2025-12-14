@@ -8,7 +8,7 @@ const Equip = () => {
   return (
     <>
       <Head>
-        <title>BUILD HIS BODY</title>
+        <title>Building The Body</title>
         <meta
           name='description'
           content='Equip the saints for the work of ministry — Ephesians 4:12 (b).'

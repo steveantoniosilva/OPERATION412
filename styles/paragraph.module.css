@@ -2,7 +2,6 @@
     font-size: clamp(1rem, 0.9vw + 0.6vh, 1.25rem);
     line-height: 3;
     letter-spacing: 0.13em;
-    margin-bottom: 2em;
     color: white;
     text-transform: uppercase;
     padding: 0 2em;

@@ -16,7 +16,7 @@
     width: 100%;
     background-image:
         linear-gradient(to bottom,
-            rgba(1, 1, 1, .5),
+            rgba(1, 1, 1, .01),
             rgba(22, 22, 22, .9),
             rgba(22, 22, 22, .8),
             rgba(22, 22, 22, .8),
@@ -118,13 +118,14 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+                padding: 0 .15em;
     }
-    
+
     /* FRONT */
     .front {
         transform: rotateY(0deg);
     }
-    
+
     .operation {
         margin-bottom: auto;
         font-family: 'cormorant';
@@ -136,26 +137,25 @@
         margin: 0.5em auto;
         color: black;
     }
-    
+
     .fourTwelve {
         font-family: 'cormorant';
         font-weight: 700;
         font-size: clamp(1rem, calc(5vw + 5vh), 20rem);
         color: rgba(255, 255, 255, 0.125);
     }
-    
+
     /* BACK */
     .back {
-        padding: 0 1em;
         transform: rotateY(180deg);
         font-size: clamp(1.5rem, calc(2vw + 2vh), 3.5rem);
         font-weight: 100;
         letter-spacing: 0.35em;
         color: rgba(255, 255, 255, 0.9);
-        
+
         background: radial-gradient(circle at center,
-        rgba(0, 0, 0, 0.35),
-        rgba(0, 0, 0, 0.75));
+                rgba(0, 0, 0, 0.35),
+                rgba(0, 0, 0, 0.75));
     }
 
     .ephesians {

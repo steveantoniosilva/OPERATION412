@@ -2,12 +2,13 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Heading from '@/components/Heading';
 import Spacer from '@/components/Spacer';
+import Paragraph from '@/components/Paragraph';
 
 const Home = () => {
   return (
     <>
       <Head>
-        <title>OPERATION 412</title>
+        <title>Operation 412</title>
         <meta
           name='description'
           content='Ephesians 4:12 called. Operation 412 answered: equip believers for the work of ministry; build up the Body of Christ.'
@@ -36,19 +37,11 @@ const Home = () => {
             </div>
 
             <div className={styles.back}>
-              <Heading
-                level='subtitle'
-                fontFamily='cormorant'>
-                FOR THE
-              </Heading>
+              <Paragraph fontFamily='cormorant'>FOR THE</Paragraph>
               <Heading fontFamily='cormorant'>
                 <span>EQUIPPING</span>
               </Heading>
-              <Heading
-                level='subtitle'
-                fontFamily='cormorant'>
-                OF THE SAINTS
-              </Heading>
+              <Paragraph fontFamily='cormorant'>OF THE SAINTS</Paragraph>
             </div>
           </div>
         </div>
@@ -65,19 +58,12 @@ const Home = () => {
               <div className={styles.fourTwelve}>1</div>
             </div>
             <div className={styles.back}>
-              <Heading
-                level='subtitle'
-                fontFamily='cormorant'>
-                FOR THE
-              </Heading>
+              <Paragraph fontFamily='cormorant'>FOR THE</Paragraph>
+
               <Heading fontFamily='cormorant'>
                 <span>WORK</span>
               </Heading>
-              <Heading
-                level='subtitle'
-                fontFamily='cormorant'>
-                OF THE MINISTRY
-              </Heading>
+              <Paragraph fontFamily='cormorant'>OF THE MINISTRY</Paragraph>
             </div>
           </div>
         </div>
@@ -94,19 +80,12 @@ const Home = () => {
               <div className={styles.fourTwelve}>2</div>
             </div>
             <div className={styles.back}>
+              <Paragraph fontFamily='cormorant'>FOR THE</Paragraph>
+
               <Heading fontFamily='cormorant'>
-                <Heading
-                  level='subtitle'
-                  fontFamily='cormorant'>
-                  FOR THE
-                </Heading>
                 <span>BUILDING</span>
               </Heading>
-              <Heading
-                level='subtitle'
-                fontFamily='cormorant'>
-                OF THE BODY
-              </Heading>
+              <Paragraph fontFamily='cormorant'>OF THE BODY</Paragraph>
             </div>
           </div>
         </div>
