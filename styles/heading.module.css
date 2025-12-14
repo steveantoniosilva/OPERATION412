@@ -6,6 +6,12 @@
     line-height: 2;
 }
 
+.huge {
+    font-size: clamp(3rem,
+            calc(5vw + 2vh),
+            5rem);
+}
+
 /* TITLE = size only */
 .title {
     font-size: var(--heading-title-size);

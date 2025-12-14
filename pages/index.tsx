@@ -17,9 +17,15 @@ const Home = () => {
 
       {/* MOBILE */}
       <div className={styles.mobileContainer}>
-        <div className={styles.stripe}>I HEAR THE SOUND</div>
-        <div className={styles.stripe}>OF THE RAMS HORN</div>
-        <div className={styles.stripe}>BLOWING IN THE DISTANCE</div>
+        <div className={styles.stripe}>
+          <Heading>OPERATION</Heading>
+        </div>
+        <div className={styles.stripe}>
+          <Heading level='huge'>4</Heading>
+        </div>
+        <div className={styles.stripe}>
+          <Heading level='huge'>12</Heading>
+        </div>
       </div>
 
       {/* DESKTOP */}
@@ -54,7 +60,7 @@ const Home = () => {
               <div className={styles.fourTwelve}>1</div>
             </div>
             <div className={styles.back}>
-              <Paragraph fontFamily='cormorant'>of the rams horn</Paragraph>
+              <Paragraph fontFamily='cormorant'>of the ram's horn</Paragraph>
             </div>
           </div>
         </div>

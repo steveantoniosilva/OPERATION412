@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import styles from '../styles/heading.module.css';
 import { cormorant } from '@/library/fonts';
 
-type Level = 'title' | 'subtitle';
+type Level = 'title' | 'subtitle' | 'huge';
 type FontFamily = 'default' | 'cormorant';
 type FontStyle = 'normal' | 'italic';
 
