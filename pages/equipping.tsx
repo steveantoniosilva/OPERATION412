@@ -3,27 +3,31 @@ import styles from '../styles/equipAndBuild.module.css';
 import Heading from '@/components/Heading';
 import WordPair from '@/components/WordPair';
 import Paragraph from '@/components/Paragraph';
+import Spacer from '@/components/Spacer';
 
-const Equip = () => {
+const Equipping = () => {
   return (
     <>
       <Head>
         <title>Equipping The Saints</title>
         <meta
           name='description'
-          content='Equipping the saints for the work of ministry — Ephesians 4:12 (a).'
+          content='Equipping the saints… — Ephesians 4:12 (a).'
         />
       </Head>
 
       <main className={styles.container}>
+        <Spacer size={11} />
         <Heading fontFamily='cormorant'>
           <span>EQUIPPING</span>
         </Heading>
+        <Spacer size={2} />
         <Heading
           level='subtitle'
           fontFamily='cormorant'>
-          THE SAINTS FOR THE WORK OF MINISTRY
+          THE SAINTS
         </Heading>
+        <Spacer size={2} />
         <Paragraph
           fontFamily='cormorant'
           textAlign='center'
@@ -83,4 +87,4 @@ const Equip = () => {
   );
 };
 
-export default Equip;
+export default Equipping;

@@ -45,60 +45,22 @@
     align-items: center;
     justify-content: center;
 
-    background-size: auto 200%;
+    .stripe {
+        background-size: auto 300%;
+    }
 }
 
-/* MOBILE SLICING */
+/* MOBILE SLICING — TRUE THIRDS */
 .link:nth-of-type(1) .stripe {
-    background-position: 50% 0%;
+    background-position: 50% 15%;
 }
 
 .link:nth-of-type(2) .stripe {
-    background-position: 50% 100%;
+    background-position: 50% 49%;
 }
 
-/* ------------------------------------------------ */
-/*   INNER CONTENT                                 */
-/* ------------------------------------------------ */
-
-.inner {
-    width: 100%;
-    height: 100%;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.equipAndBuild {
-    font-size: clamp(4rem, 7vw, 11rem);
-    font-weight: 100;
-    letter-spacing: 0.1em;
-    text-align: center;
-    color: silver;
-    text-shadow: 0 0 33px #111;
-    font-family: cormorant;
-}
-
-.armyAndBody {
-    margin: 1em 0 1.4em;
-    font-size: clamp(1.5rem, 3vw, 3rem);
-    font-weight: 300;
-    letter-spacing: 0.1em;
-    text-align: center;
-    color: gray;
-    text-shadow: 0 0 33px #111;
-}
-
-.standAndFight {
-    font-size: clamp(2rem, 3vw, 4rem);
-    font-weight: 700;
-    letter-spacing: 1em;
-    margin-left: 1em;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.9);
-    text-shadow: 0 0 33px #111;
+.link:nth-of-type(3) .stripe {
+    background-position: 50% 85%;
 }
 
 /* ------------------------------------------------ */
@@ -111,14 +73,18 @@
     }
 
     .stripe {
-        background-size: 260% auto;
+        background-size: 300% auto;
     }
 
     .link:nth-of-type(1) .stripe {
-        background-position: 22% 50%;
+        background-position: 0% 50%;
     }
 
     .link:nth-of-type(2) .stripe {
-        background-position: 85% 50%;
+        background-position: 50% 50%;
+    }
+
+    .link:nth-of-type(3) .stripe {
+        background-position: 100% 50%;
     }
 }

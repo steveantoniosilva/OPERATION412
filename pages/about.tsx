@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { useEffect, useRef } from 'react';
 import VanillaTilt from 'vanilla-tilt';
 import styles from '../styles/about.module.css';
+import Heading from '@/components/Heading';
+import Paragraph from '@/components/Paragraph';
 
 const About = () => {
   const stripesRef = useRef<HTMLDivElement[]>([]);
@@ -43,24 +45,20 @@ const About = () => {
       <div className={styles.container}>
         {/* STRIPE 1 */}
         <Link
-          href='/equip'
+          href='/equipping'
           className={styles.link}>
           <div
             ref={el => {
               if (el) stripesRef.current[0] = el;
             }}
             className={styles.stripe}>
-            <div className={styles.inner}>
-              <div className={styles.equipAndBuild}>EQUIP</div>
-              <div className={styles.armyAndBody}>HIS ARMY TO</div>
-              <div className={styles.standAndFight}>FIGHT</div>
-            </div>
+            <Paragraph>EQUIP HIS ARMY TO FIGHT</Paragraph>
           </div>
         </Link>
 
         {/* STRIPE 2 */}
         <Link
-          href='/build'
+          href='/building'
           className={styles.link}>
           <div
             ref={el => {
@@ -68,10 +66,21 @@ const About = () => {
             }}
             className={styles.stripe}>
             <div className={styles.inner}>
-              <div className={styles.equipAndBuild}>BUILD</div>
-              <div className={styles.armyAndBody}>HIS BODY TO</div>
-              <div className={styles.standAndFight}>STAND</div>
+              <Paragraph>BUILD HIS BODY TO STAND</Paragraph>
             </div>
+          </div>
+        </Link>
+
+        {/* STRIPE 3 */}
+        <Link
+          href='/working'
+          className={styles.link}>
+          <div
+            ref={el => {
+              if (el) stripesRef.current[2] = el;
+            }}
+            className={styles.stripe}>
+            <Paragraph>WORK THE WORKS OF JESUS</Paragraph>
           </div>
         </Link>
       </div>
