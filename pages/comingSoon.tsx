@@ -13,7 +13,7 @@ const ComingSoon = () => {
         <title>MY NEXT BOOK</title>
         <meta
           name='description'
-          content='Operation 412 Books: My next book—coming soon.'
+          content='Next Book—coming soon by Operation 412 Books.'
         />
       </Head>
       <div className='main'>

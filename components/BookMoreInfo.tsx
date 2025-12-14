@@ -25,16 +25,21 @@ const BookMoreInfo: React.FC<BookProps> = ({
   return (
     <div className='main'>
       <div className='containerBookMoreInfo'>
-        <Heading>
-          {bookTitle} <span>{bookTitleSpan}</span>
+        <Heading
+          level='subtitle'
+          fontFamily='cormorant'>
+          {bookTitle} {bookTitleSpan}
         </Heading>
 
-        <br />
         <hr className='hrBookMoreInfo' />
         <br />
         <br />
-
-        <Paragraph>{bookIntro}</Paragraph>
+        <br />
+        <Paragraph
+          textAlign='justify'
+          fontFamily='cormorant'>
+          {bookIntro}
+        </Paragraph>
 
         <Button href={bookAmazonUrl}>FIND ON AMAZON</Button>
 
@@ -45,10 +50,21 @@ const BookMoreInfo: React.FC<BookProps> = ({
           clickable={false}
         />
       </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
 
       {bookDescription.map((text, i) => (
-        <Paragraph key={i}>{text}</Paragraph>
+        <Paragraph
+          textAlign='justify'
+          fontFamily='cormorant'
+          key={i}>
+          {text}
+        </Paragraph>
       ))}
+      <br />
 
       <Button href={bookAmazonUrl}>FIND ON AMAZON</Button>
     </div>
