@@ -19,16 +19,10 @@ const Books = () => {
 
       <div className='main'>
         <div className='container'>
-          <Heading level='subtitle'>WELCOME TO</Heading>
-
-          <Heading>MY</Heading>
+          <Heading level='subtitle'>WELCOME TO MY</Heading>
 
           <Heading fontFamily='cormorant'>
-            <span>“I AM“</span>
-          </Heading>
-
-          <Heading fontFamily='cormorant'>
-            <span>SERIES</span>
+            <span>“I AM“</span> SERIES
           </Heading>
 
           <BookCover
