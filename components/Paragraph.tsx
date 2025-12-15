@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import { ReactNode, CSSProperties } from 'react';
 import clsx from 'clsx';
 import styles from '../styles/paragraph.module.css';
 
@@ -9,11 +9,14 @@ interface ParagraphProps {
   children: ReactNode;
   textAlign?: TextAlign;
   fontStyle?: FontStyle;
+  style?: CSSProperties;
 }
 
-export default function Paragraph({ children, textAlign = 'left', fontStyle = 'normal' }: ParagraphProps) {
+export default function Paragraph({ children, textAlign = 'left', fontStyle = 'normal', style }: ParagraphProps) {
   return (
-    <p className={clsx(styles.base, styles[textAlign], fontStyle === 'italic' ? styles.italic : styles.normal)}>
+    <p
+      className={clsx(styles.base, styles[textAlign], fontStyle === 'italic' ? styles.italic : styles.normal)}
+      style={style}>
       {children}
     </p>
   );

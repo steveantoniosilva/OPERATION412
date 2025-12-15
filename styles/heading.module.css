@@ -11,6 +11,7 @@
     font-size: clamp(3rem,
             calc(5vw + 2vh),
             5rem);
+            text-shadow: 0 0 33px white;
 }
 
 /* TITLE = size only */

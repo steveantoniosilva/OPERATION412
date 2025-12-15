@@ -58,7 +58,7 @@ const Home = () => {
           <Spacer size={0.6} />
           <div className={styles.lowerParagraph}>
             <Paragraph textAlign='center'>
-              I Heard <span style={{ fontStyle: 'italic' }}>A Mighty Sound</span> coming from the Blast of{' '}
+              I Heard <span style={{ fontStyle: 'italic' }}>A Mighty Sound</span> from the Blasting of{' '}
               <span style={{ fontStyle: 'italic' }}>A Mighty Ram's Horn</span>.
             </Paragraph>
           </div>
@@ -81,7 +81,7 @@ const Home = () => {
           <Spacer size={0.6} />
           <div className={styles.lowerParagraph}>
             <Paragraph textAlign='center'>
-              I Saw <span style={{ fontStyle: 'italic' }}>A Mighty Army</span> Being Gathered together in{' '}
+              I Saw <span style={{ fontStyle: 'italic' }}>A Mighty Army</span> Gathered in Battle Array in{' '}
               <span style={{ fontStyle: 'italic' }}>A Mighty Valley</span>.
             </Paragraph>
           </div>
@@ -90,9 +90,21 @@ const Home = () => {
         {/* PANEL 3 */}
         <div className={styles.stripe}>
           <div className={styles.operation}>
-            <Heading level='huge'>I</Heading>
-            <Heading level='huge'>O</Heading>
-            <Heading level='huge'>N</Heading>
+            <Heading
+              level='huge'
+              className={styles.glow}>
+              I
+            </Heading>
+            <Heading
+              level='huge'
+              className={styles.glow}>
+              O
+            </Heading>
+            <Heading
+              level='huge'
+              className={styles.glow}>
+              N
+            </Heading>
           </div>
           <div className={numbers.className}>
             <Heading
@@ -104,7 +116,7 @@ const Home = () => {
           <Spacer size={0.6} />
           <div className={styles.lowerParagraph}>
             <Paragraph textAlign='center'>
-              I Saw <span style={{ fontStyle: 'italic' }}>A Mighty Warrior</span> Leading this{' '}
+              I Saw <span style={{ fontStyle: 'italic' }}>A Mighty Warrior</span> Lead this{' '}
               <span style={{ fontStyle: 'italic' }}>Mighty Army</span> into{' '}
               <span style={{ fontStyle: 'italic' }}>A Mighty Battle</span>.
             </Paragraph>
