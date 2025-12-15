@@ -42,7 +42,8 @@ const Home = () => {
             </div>
 
             <div className={styles.back}>
-              <Paragraph fontFamily='cormorant'>I hear the sound</Paragraph>
+              <Heading>EQUIPPING</Heading>
+              <Paragraph>HIS SAINTS</Paragraph>
             </div>
           </div>
         </div>
@@ -59,7 +60,8 @@ const Home = () => {
               <div className={styles.fourTwelve}>1</div>
             </div>
             <div className={styles.back}>
-              <Paragraph fontFamily='cormorant'>of the ram's horn</Paragraph>
+              <Heading>WORKING</Heading>
+              <Paragraph>HIS WORKS</Paragraph>
             </div>
           </div>
         </div>
@@ -76,7 +78,8 @@ const Home = () => {
               <div className={styles.fourTwelve}>2</div>
             </div>
             <div className={styles.back}>
-              <Paragraph fontFamily='cormorant'>blowing in the distance</Paragraph>
+              <Heading>BUILDING</Heading>
+              <Paragraph>HIS BODY</Paragraph>
             </div>
           </div>
         </div>
