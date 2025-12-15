@@ -50,20 +50,46 @@ const About = () => {
         />
       </Head>
 
-      {/* MOBILE: SHOW ONLY HEADINGS */}
+      {/* MOBILE */}
       <div className={styles.mobileContainer}>
-        <div className={styles.stripe}>
-          <Heading>EQUIP</Heading>
-          <Paragraph>HIS SAINTS</Paragraph>
-        </div>
-        <div className={styles.stripe}>
-          <Heading>WORK</Heading>
-          <Paragraph>HIS WORKS</Paragraph>
-        </div>
-        <div className={styles.stripe}>
-          <Heading>BUILD</Heading>
-          <Paragraph>HIS BODY</Paragraph>
-        </div>
+        <Link
+          href='/equip'
+          className={styles.link}>
+          <div
+            ref={el => {
+              if (el) stripesRef.current[0] = el;
+            }}
+            className={styles.stripe}>
+            <Heading>EQUIP</Heading>
+            <Paragraph>HIS SAINTS</Paragraph>
+          </div>
+        </Link>
+
+        <Link
+          href='/work'
+          className={styles.link}>
+          <div
+            ref={el => {
+              if (el) stripesRef.current[1] = el;
+            }}
+            className={styles.stripe}>
+            <Heading>WORK</Heading>
+            <Paragraph>HIS WORKS</Paragraph>
+          </div>
+        </Link>
+
+        <Link
+          href='/build'
+          className={styles.link}>
+          <div
+            ref={el => {
+              if (el) stripesRef.current[2] = el;
+            }}
+            className={styles.stripe}>
+            <Heading>BUILD</Heading>
+            <Paragraph>HIS BODY</Paragraph>
+          </div>
+        </Link>
       </div>
 
       {/* DESKTOP */}
