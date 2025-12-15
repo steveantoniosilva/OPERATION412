@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import styles from '../styles/equipAndBuild.module.css';
+import styles from '../styles/equipAndBuildAndWork.module.css';
 import Heading from '@/components/Heading';
 import WordPair from '@/components/WordPair';
 import Paragraph from '@/components/Paragraph';
