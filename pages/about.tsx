@@ -5,6 +5,13 @@ import VanillaTilt from 'vanilla-tilt';
 import styles from '../styles/about.module.css';
 import Heading from '@/components/Heading';
 import Paragraph from '@/components/Paragraph';
+import { Crimson_Text } from 'next/font/google';
+
+const numbers = Crimson_Text({
+  subsets: ['latin'],
+  weight: ['400'],
+  style: ['normal'],
+});
 
 const About = () => {
   const stripesRef = useRef<HTMLDivElement[]>([]);
@@ -52,8 +59,28 @@ const About = () => {
               if (el) stripesRef.current[0] = el;
             }}
             className={styles.stripe}>
-            <Heading>EQUIPPING</Heading>
-            <Paragraph>HIS SAINTS</Paragraph>
+            <div className={styles.ephesians}>
+              <Heading level='huge'>
+                <span>E</span>
+              </Heading>
+              <Heading level='huge'>
+                <span>P</span>
+              </Heading>
+              <Heading level='huge'>
+                <span>H</span>
+              </Heading>
+            </div>
+            <div className={numbers.className}>
+              <Heading
+                style={{ opacity: 0.15 }}
+                level='huge'>
+                4
+              </Heading>
+            </div>
+            <div>
+              <Heading>EQUIP</Heading>
+              <Paragraph>HIS SAINTS</Paragraph>
+            </div>
           </div>
         </Link>
 
@@ -66,8 +93,26 @@ const About = () => {
               if (el) stripesRef.current[1] = el;
             }}
             className={styles.stripe}>
-            <div className={styles.inner}>
-              <Heading>WORKING</Heading>
+            <div className={styles.ephesians}>
+              <Heading level='huge'>
+                <span>E</span>
+              </Heading>
+              <Heading level='huge'>
+                <span>S</span>
+              </Heading>
+              <Heading level='huge'>
+                <span>I</span>
+              </Heading>
+            </div>
+            <div className={numbers.className}>
+              <Heading
+                style={{ opacity: 0.15 }}
+                level='huge'>
+                1
+              </Heading>
+            </div>
+            <div>
+              <Heading>WORK</Heading>
               <Paragraph>HIS WORKS</Paragraph>
             </div>
           </div>
@@ -82,8 +127,28 @@ const About = () => {
               if (el) stripesRef.current[2] = el;
             }}
             className={styles.stripe}>
-            <Heading>BUILDING</Heading>
-            <Paragraph>HIS BODY</Paragraph>
+            <div className={styles.ephesians}>
+              <Heading level='huge'>
+                <span>A</span>
+              </Heading>
+              <Heading level='huge'>
+                <span>N</span>
+              </Heading>
+              <Heading level='huge'>
+                <span>S</span>
+              </Heading>
+            </div>
+            <div className={numbers.className}>
+              <Heading
+                style={{ opacity: 0.15 }}
+                level='huge'>
+                2
+              </Heading>
+            </div>
+            <div>
+              <Heading>BUILD</Heading>
+              <Paragraph>HIS BODY</Paragraph>
+            </div>
           </div>
         </Link>
       </div>

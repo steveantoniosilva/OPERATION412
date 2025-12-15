@@ -98,7 +98,7 @@
         align-items: flex-end;
         padding: 0 .5em;
         width: 100%;
-        background: linear-gradient(to bottom, transparent, rgba(44,44,44, .5), transparent);
+        background: linear-gradient(to bottom, transparent, rgba(44, 44, 44, .6), transparent);
     }
 
     /* LEFT */
@@ -114,5 +114,18 @@
     /* RIGHT */
     .stripe:nth-of-type(3) {
         background-position: 100% 0%;
+    }
+
+    .lowerParagraph {
+        background: linear-gradient(to bottom, 
+        transparent, 
+        rgba(50, 25, 5, .25), 
+        rgba(50, 25, 5, .5), 
+        rgba(50, 25, 5, .25), 
+        transparent);
+        min-height: 1.75em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

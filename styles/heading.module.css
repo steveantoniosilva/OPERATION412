@@ -5,7 +5,6 @@
     letter-spacing: var(--heading-title-letter-spacing);
     line-height: 2;
     margin: 0;
-    padding: 0;
 }
 
 .huge {
@@ -33,11 +32,4 @@
 
 .italic {
     font-style: italic;
-}
-
-/* 🔑 Emphasis ALWAYS wins */
-.base span {
-    font-weight: var(--heading-emphasis-weight);
-    /* 700 */
-    letter-spacing: inherit;
 }

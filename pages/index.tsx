@@ -44,15 +44,9 @@ const Home = () => {
         {/* PANEL 1 */}
         <div className={styles.stripe}>
           <div className={styles.operation}>
-            <Heading level='huge'>
-              <span>O</span>
-            </Heading>
-            <Heading level='huge'>
-              <span>P</span>
-            </Heading>
-            <Heading level='huge'>
-              <span>E</span>
-            </Heading>
+            <Heading level='huge'>O</Heading>
+            <Heading level='huge'>P</Heading>
+            <Heading level='huge'>E</Heading>
           </div>
           <div className={numbers.className}>
             <Heading
@@ -62,23 +56,20 @@ const Home = () => {
             </Heading>
           </div>
           <Spacer size={0.6} />
-          <div>
-            <Heading level='subtitle'>THE SOUNDING</Heading>
+          <div className={styles.lowerParagraph}>
+            <Paragraph textAlign='center'>
+              I Heard <span style={{ fontStyle: 'italic' }}>A Mighty Sound</span> coming from the Blast of{' '}
+              <span style={{ fontStyle: 'italic' }}>A Mighty Ram's Horn</span>.
+            </Paragraph>
           </div>
         </div>
 
         {/* PANEL 2 */}
         <div className={styles.stripe}>
           <div className={styles.operation}>
-            <Heading level='huge'>
-              <span>R</span>
-            </Heading>
-            <Heading level='huge'>
-              <span>A</span>
-            </Heading>
-            <Heading level='huge'>
-              <span>T</span>
-            </Heading>
+            <Heading level='huge'>R</Heading>
+            <Heading level='huge'>A</Heading>
+            <Heading level='huge'>T</Heading>
           </div>
           <div className={numbers.className}>
             <Heading
@@ -88,23 +79,20 @@ const Home = () => {
             </Heading>
           </div>
           <Spacer size={0.6} />
-          <div>
-            <Heading level='subtitle'>OF THE</Heading>
+          <div className={styles.lowerParagraph}>
+            <Paragraph textAlign='center'>
+              I Saw <span style={{ fontStyle: 'italic' }}>A Mighty Army</span> Being Gathered together in{' '}
+              <span style={{ fontStyle: 'italic' }}>A Mighty Valley</span>.
+            </Paragraph>
           </div>
         </div>
 
         {/* PANEL 3 */}
         <div className={styles.stripe}>
           <div className={styles.operation}>
-            <Heading level='huge'>
-              <span>I</span>
-            </Heading>
-            <Heading level='huge'>
-              <span>O</span>
-            </Heading>
-            <Heading level='huge'>
-              <span>N</span>
-            </Heading>
+            <Heading level='huge'>I</Heading>
+            <Heading level='huge'>O</Heading>
+            <Heading level='huge'>N</Heading>
           </div>
           <div className={numbers.className}>
             <Heading
@@ -114,8 +102,12 @@ const Home = () => {
             </Heading>
           </div>
           <Spacer size={0.6} />
-          <div>
-            <Heading level='subtitle'>RAM'S HORN</Heading>
+          <div className={styles.lowerParagraph}>
+            <Paragraph textAlign='center'>
+              I Saw <span style={{ fontStyle: 'italic' }}>A Mighty Warrior</span> Leading this{' '}
+              <span style={{ fontStyle: 'italic' }}>Mighty Army</span> into{' '}
+              <span style={{ fontStyle: 'italic' }}>A Mighty Battle</span>.
+            </Paragraph>
           </div>
         </div>
       </div>
