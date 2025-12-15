@@ -18,18 +18,13 @@ const Working = () => {
 
       <main className={styles.container}>
         <Spacer size={11} />
-        <Heading fontFamily='cormorant'>
+        <Heading>
           <span>WORKING</span>
         </Heading>
         <Spacer size={2} />
-        <Heading
-          level='subtitle'
-          fontFamily='cormorant'>
-          THE WORK OF MINISTRY
-        </Heading>
+        <Heading level='subtitle'>THE WORK OF MINISTRY</Heading>
         <Spacer size={2} />
         <Paragraph
-          fontFamily='cormorant'
           textAlign='center'
           fontStyle='italic'>
           — EPHESIANS 4:12 (b)

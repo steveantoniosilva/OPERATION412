@@ -20,12 +20,10 @@ const ComingSoon = () => {
       <div className='main'>
         <div className='container'>
           <Spacer size={9} />
-          <Heading fontFamily='cormorant'>
+          <Heading>
             <span>Next Book</span>
           </Heading>
-          <Paragraph
-            textAlign='center'
-            fontFamily='cormorant'>
+          <Paragraph textAlign='center'>
             ( In the <span>I AM</span> Series )
           </Paragraph>
 
@@ -40,8 +38,7 @@ const ComingSoon = () => {
           <Spacer size={4} />
           <Heading
             level='subtitle'
-            fontStyle='italic'
-            fontFamily='cormorant'>
+            fontStyle='italic'>
             by Steve Antonio Silva
           </Heading>
           <Spacer size={5} />

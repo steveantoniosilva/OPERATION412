@@ -1,8 +1,8 @@
 export const books = {
   dreamBook: {
     id: 'dream-book',
-    bookTitle: 'I Am A',
-    bookTitleSpan: 'Dreamer',
+    bookTitle: 'I Am',
+    bookTitleSpan: 'A Dreamer',
     bookImageUrl: '/dreamer-bc.jpg',
     bookMoreInfoUrl: 'dream-book',
     bookAmazonUrl: '/',
@@ -22,8 +22,8 @@ export const books = {
   },
   soldierBook: {
     id: 'soldier-book',
-    bookTitle: 'I Am A',
-    bookTitleSpan: 'Soldier',
+    bookTitle: 'I Am',
+    bookTitleSpan: 'A Soldier',
     bookImageUrl: '/soldier.jpg',
     bookMoreInfoUrl: 'soldier-book',
     bookAmazonUrl: '/',
@@ -35,7 +35,8 @@ export const books = {
 
   prophetBook: {
     id: 'prophet-book',
-    bookTitle: 'I AM A PROPHET',
+    bookTitle: 'I Am',
+    bookTitleSpan: 'A Prophet',
     bookImageUrl: '/cave.png',
     bookMoreInfoUrl: 'soldier-book',
     bookAmazonUrl: '/',
@@ -45,7 +46,8 @@ export const books = {
 
   quarterbackBook: {
     id: 'quarterback-book',
-    bookTitle: 'I AM A QUARTERBACK',
+    bookTitle: 'I Am',
+    bookTitleSpan: 'A Quarterback',
     bookImageUrl: '/blank.png',
     bookMoreInfoUrl: 'quarterback-book',
     bookAmazonUrl: '/',
@@ -55,7 +57,8 @@ export const books = {
 
   businessmanBook: {
     id: 'businessman-book',
-    bookTitle: 'I AM A BUSINESSMAN',
+    bookTitle: 'I Am',
+    bookTitleSpan: 'A Businessman',
     bookImageUrl: '/blank.png',
     bookMoreInfoUrl: 'businessman-book',
     bookAmazonUrl: '/',
@@ -66,11 +69,11 @@ export const books = {
   // I Am A BATTLE HORSE - I WILL TURN SHEEP INTO MY BATTLE STEED - For the LORD of Hosts cares for His flock, the house of Judah; and He will make them like His majestic horse in battle.
 
   // I Am Equipped
-  
+
   // I Am A Watchman
-  
+
   // I Am An Investor
-  
+
   // I Am A Runner
 
   // I Am An Alien

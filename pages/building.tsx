@@ -18,18 +18,13 @@ const Building = () => {
 
       <main className={styles.container}>
         <Spacer size={11} />
-        <Heading fontFamily='cormorant'>
+        <Heading>
           <span>BUILDING</span>
         </Heading>
         <Spacer size={2} />
-        <Heading
-          level='subtitle'
-          fontFamily='cormorant'>
-          UP THE BODY OF CHRIST
-        </Heading>
+        <Heading level='subtitle'>UP THE BODY OF CHRIST</Heading>
         <Spacer size={2} />
         <Paragraph
-          fontFamily='cormorant'
           textAlign='center'
           fontStyle='italic'>
           — EPHESIANS 4:12 (c)

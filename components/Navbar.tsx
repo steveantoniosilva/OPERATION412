@@ -43,7 +43,7 @@ export default function Navbar() {
                 href={href}
                 className={`${styles.navLink} ${router.pathname === href ? styles.active : ''}`}
                 onClick={() => setOpen(false)}>
-                <Heading level='subtitle' fontFamily='cormorant'> {label}</Heading>
+                <Heading level='subtitle'> {label}</Heading>
               </Link>
             </li>
           ))}

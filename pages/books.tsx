@@ -21,10 +21,10 @@ const Books = () => {
       <div className='main'>
         <div className='container'>
           <Spacer size={9} />
-          <Heading fontFamily='cormorant'>
+          <Heading>
             <span>I AM</span>
           </Heading>
-          <Paragraph textAlign='center' fontFamily='cormorant'>( book series )</Paragraph>
+          <Paragraph textAlign='center'>( book series )</Paragraph>
 
           <Spacer size={6} />
 
@@ -37,8 +37,7 @@ const Books = () => {
           <Spacer size={4} />
           <Heading
             level='subtitle'
-            fontStyle='italic'
-            fontFamily='cormorant'>
+            fontStyle='italic'>
             by Steve Antonio Silva
           </Heading>
           <Spacer size={5} />

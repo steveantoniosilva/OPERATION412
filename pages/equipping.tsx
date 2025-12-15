@@ -18,18 +18,13 @@ const Equipping = () => {
 
       <main className={styles.container}>
         <Spacer size={11} />
-        <Heading fontFamily='cormorant'>
+        <Heading>
           <span>EQUIPPING</span>
         </Heading>
         <Spacer size={2} />
-        <Heading
-          level='subtitle'
-          fontFamily='cormorant'>
-          THE SAINTS
-        </Heading>
+        <Heading level='subtitle'>THE SAINTS</Heading>
         <Spacer size={2} />
         <Paragraph
-          fontFamily='cormorant'
           textAlign='center'
           fontStyle='italic'>
           — EPHESIANS 4:12 (a)

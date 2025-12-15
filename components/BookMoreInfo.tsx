@@ -25,7 +25,7 @@ const BookMoreInfo: React.FC<BookProps> = ({
   return (
     <div className='main'>
       <div className='containerBookMoreInfo'>
-        <Heading fontFamily='cormorant'>
+        <Heading>
           {bookTitle} <span>{bookTitleSpan}</span>
         </Heading>
 
@@ -34,8 +34,7 @@ const BookMoreInfo: React.FC<BookProps> = ({
         <br />
         <br />
         <Paragraph
-          textAlign='justify'
-          fontFamily='cormorant'>
+          textAlign='justify'>
           {bookIntro}
         </Paragraph>
 
@@ -57,7 +56,6 @@ const BookMoreInfo: React.FC<BookProps> = ({
       {bookDescription.map((text, i) => (
         <Paragraph
           textAlign='justify'
-          fontFamily='cormorant'
           key={i}>
           {text}
         </Paragraph>
