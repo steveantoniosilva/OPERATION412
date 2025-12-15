@@ -65,13 +65,13 @@ export const books = {
 
   // I Am A BATTLE HORSE - I WILL TURN SHEEP INTO MY BATTLE STEED - For the LORD of Hosts cares for His flock, the house of Judah; and He will make them like His majestic horse in battle.
 
-  // I Am A Runner
-
-  // I Am A Watchman
-
-  // I Am An Investor
-
   // I Am Equipped
+  
+  // I Am A Watchman
+  
+  // I Am An Investor
+  
+  // I Am A Runner
 
   // I Am An Alien
 

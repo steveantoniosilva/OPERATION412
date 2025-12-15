@@ -3,6 +3,7 @@ import BookCover from '@/components/BookCover';
 import { books } from '../data/books';
 import Heading from '@/components/Heading';
 import Spacer from '@/components/Spacer';
+import Paragraph from '@/components/Paragraph';
 
 const ComingSoon = () => {
   const soldierBook = books.soldierBook;
@@ -17,12 +18,16 @@ const ComingSoon = () => {
         />
       </Head>
       <div className='main'>
-              <div className='container'>
-                            <Spacer size={9} />
-                  
+        <div className='container'>
+          <Spacer size={9} />
           <Heading fontFamily='cormorant'>
-            <span>I AM</span> WRITING
+            <span>Next Book</span>
           </Heading>
+          <Paragraph
+            textAlign='center'
+            fontFamily='cormorant'>
+            ( In the <span>I AM</span> Series )
+          </Paragraph>
 
           <Spacer size={6} />
 
@@ -41,7 +46,7 @@ const ComingSoon = () => {
           </Heading>
           <Spacer size={5} />
         </div>
-        
+
         {/* <footer className='footer'>&copy; Operation 412 Books</footer> */}
       </div>
     </>

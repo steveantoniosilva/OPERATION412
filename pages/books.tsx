@@ -11,7 +11,7 @@ const Books = () => {
   return (
     <>
       <Head>
-        <title>I AM Book Series</title>
+        <title>I AM (book series)</title>
         <meta
           name='description'
           content='Welcome to the "I AM" Series — by Operation 412 Books.'
@@ -21,10 +21,10 @@ const Books = () => {
       <div className='main'>
         <div className='container'>
           <Spacer size={9} />
-
           <Heading fontFamily='cormorant'>
-            <span>I AM</span> SERIES
+            <span>I AM</span>
           </Heading>
+          <Paragraph textAlign='center' fontFamily='cormorant'>( book series )</Paragraph>
 
           <Spacer size={6} />
 

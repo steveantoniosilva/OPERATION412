@@ -25,9 +25,8 @@ const BookMoreInfo: React.FC<BookProps> = ({
   return (
     <div className='main'>
       <div className='containerBookMoreInfo'>
-        <Heading
-          fontFamily='cormorant'>
-          {bookTitle} {bookTitleSpan}
+        <Heading fontFamily='cormorant'>
+          {bookTitle} <span>{bookTitleSpan}</span>
         </Heading>
 
         <hr className='hrBookMoreInfo' />

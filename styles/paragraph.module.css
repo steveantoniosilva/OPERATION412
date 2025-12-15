@@ -30,3 +30,9 @@
 .normal {
     font-style: normal;
 }
+
+/* 🔑 Emphasis ALWAYS wins */
+.base span {
+    font-weight: 700;
+    letter-spacing: inherit;
+}
