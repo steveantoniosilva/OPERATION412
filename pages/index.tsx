@@ -90,21 +90,9 @@ const Home = () => {
         {/* PANEL 3 */}
         <div className={styles.stripe}>
           <div className={styles.operation}>
-            <Heading
-              level='huge'
-              className={styles.glow}>
-              I
-            </Heading>
-            <Heading
-              level='huge'
-              className={styles.glow}>
-              O
-            </Heading>
-            <Heading
-              level='huge'
-              className={styles.glow}>
-              N
-            </Heading>
+            <Heading level='huge'>I</Heading>
+            <Heading level='huge'>O</Heading>
+            <Heading level='huge'>N</Heading>
           </div>
           <div className={numbers.className}>
             <Heading

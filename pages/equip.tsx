@@ -5,11 +5,11 @@ import WordPair from '@/components/WordPair';
 import Paragraph from '@/components/Paragraph';
 import Spacer from '@/components/Spacer';
 
-const Equipping = () => {
+const Equip = () => {
   return (
     <>
       <Head>
-        <title>Equipping The Saints</title>
+        <title>Equip His Saints</title>
         <meta
           name='description'
           content='Equipping the saints… — Ephesians 4:12 (a).'
@@ -18,17 +18,23 @@ const Equipping = () => {
 
       <main className={styles.container}>
         <Spacer size={11} />
-        <Heading>
-          <span>EQUIPPING</span>
+        <Heading level='huge'>
+          <span style={{ fontWeight: '700' }}>EQUIP</span>
         </Heading>
-        <Spacer size={2} />
-        <Heading level='subtitle'>THE SAINTS</Heading>
-        <Spacer size={2} />
+        <Spacer size={3} />
+        <Heading level='subtitle'>HIS SAINTS</Heading>
+        <Spacer size={4} />
         <Paragraph
           textAlign='center'
           fontStyle='italic'>
-          — EPHESIANS 4:12 (a)
-        </Paragraph>{' '}
+          — Ephesians 4:12 (a)
+        </Paragraph>
+        <Spacer size={3} />
+        <Paragraph textAlign='center'>
+          The Greek words behind this mandate to <span style={{ fontStyle: 'italic' }}>equip</span> the saints is rich
+          with historical meaning and application — explore its usage below.
+        </Paragraph>
+        <Spacer size={1} />
         <WordPair
           firstWord='MENDING'
           secondWord='FISHING NETS'
@@ -82,4 +88,4 @@ const Equipping = () => {
   );
 };
 
-export default Equipping;
+export default Equip;

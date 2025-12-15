@@ -6,6 +6,7 @@ import styles from '../styles/about.module.css';
 import Heading from '@/components/Heading';
 import Paragraph from '@/components/Paragraph';
 import { Crimson_Text } from 'next/font/google';
+import Spacer from '@/components/Spacer';
 
 const numbers = Crimson_Text({
   subsets: ['latin'],
@@ -52,7 +53,7 @@ const About = () => {
       <div className={styles.container}>
         {/* STRIPE 1 */}
         <Link
-          href='/equipping'
+          href='/equip'
           className={styles.link}>
           <div
             ref={el => {
@@ -77,6 +78,7 @@ const About = () => {
                 4
               </Heading>
             </div>
+            <Spacer size={4} />
             <div>
               <Heading>EQUIP</Heading>
               <Paragraph>HIS SAINTS</Paragraph>
@@ -86,7 +88,7 @@ const About = () => {
 
         {/* STRIPE 2 */}
         <Link
-          href='/working'
+          href='/work'
           className={styles.link}>
           <div
             ref={el => {
@@ -112,6 +114,7 @@ const About = () => {
               </Heading>
             </div>
             <div>
+              <Spacer size={4} />
               <Heading>WORK</Heading>
               <Paragraph>HIS WORKS</Paragraph>
             </div>
@@ -120,7 +123,7 @@ const About = () => {
 
         {/* STRIPE 3 */}
         <Link
-          href='/building'
+          href='/build'
           className={styles.link}>
           <div
             ref={el => {
@@ -146,6 +149,7 @@ const About = () => {
               </Heading>
             </div>
             <div>
+              <Spacer size={4} />
               <Heading>BUILD</Heading>
               <Paragraph>HIS BODY</Paragraph>
             </div>

@@ -5,11 +5,11 @@ import WordPair from '@/components/WordPair';
 import Paragraph from '@/components/Paragraph';
 import Spacer from '@/components/Spacer';
 
-const Building = () => {
+const Build = () => {
   return (
     <>
       <Head>
-        <title>Building The Body</title>
+        <title>Build His Body</title>
         <meta
           name='description'
           content='…for the building up of the Body — Ephesians 4:12 (c).'
@@ -18,17 +18,23 @@ const Building = () => {
 
       <main className={styles.container}>
         <Spacer size={11} />
-        <Heading>
-          <span>BUILDING</span>
+        <Heading level='huge'>
+          <span style={{ fontWeight: '700' }}>BUILD</span>
         </Heading>
-        <Spacer size={2} />
-        <Heading level='subtitle'>UP THE BODY OF CHRIST</Heading>
-        <Spacer size={2} />
+        <Spacer size={3} />
+        <Heading level='subtitle'>HIS BODY</Heading>
+        <Spacer size={4} />
         <Paragraph
           textAlign='center'
           fontStyle='italic'>
-          — EPHESIANS 4:12 (c)
+          — Ephesians 4:12 (c)
         </Paragraph>
+        <Spacer size={3} />
+        <Paragraph textAlign='center'>
+          The Greek words behind this mandate to <span style={{ fontStyle: 'italic' }}>build</span> His Body is rich
+          with historical meaning and application — explore its usage below.
+        </Paragraph>
+        <Spacer size={1} />
         <WordPair
           firstWord='FORTIFYING'
           secondWord='CITY WALLS'
@@ -54,4 +60,4 @@ const Building = () => {
   );
 };
 
-export default Building;
+export default Build;

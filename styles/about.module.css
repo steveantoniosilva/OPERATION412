@@ -77,7 +77,7 @@
         background-size: 300% auto;
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
     }
 
     .link:nth-of-type(1) .stripe {
