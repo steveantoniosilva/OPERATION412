@@ -50,6 +50,23 @@ const About = () => {
         />
       </Head>
 
+      {/* MOBILE: SHOW ONLY HEADINGS */}
+      <div className={styles.mobileContainer}>
+        <div className={styles.stripe}>
+          <Heading>EQUIP</Heading>
+          <Paragraph>HIS SAINTS</Paragraph>
+        </div>
+        <div className={styles.stripe}>
+          <Heading>WORK</Heading>
+          <Paragraph>HIS WORKS</Paragraph>
+        </div>
+        <div className={styles.stripe}>
+          <Heading>BUILD</Heading>
+          <Paragraph>HIS BODY</Paragraph>
+        </div>
+      </div>
+
+      {/* DESKTOP */}
       <div className={styles.container}>
         {/* STRIPE 1 */}
         <Link
