@@ -14,7 +14,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     /* or contain depending on fit */
-    background-position: center;
+    background-position: 75% 55%;
 }
 
 .mobileContainer .stripe {
