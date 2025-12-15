@@ -3,9 +3,9 @@ import Navbar from '../components/Navbar';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 // import Logo from '@/components/Logo';
-import { Cormorant_Garamond } from 'next/font/google';
+import { Cormorant } from 'next/font/google';
 
-const siteFont = Cormorant_Garamond({
+const siteFont = Cormorant({
     subsets: ['latin'],
     weight: ['300', '700'],
 });

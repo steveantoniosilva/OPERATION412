@@ -2,6 +2,14 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Heading from '@/components/Heading';
 import Paragraph from '@/components/Paragraph';
+import Spacer from '@/components/Spacer';
+import { Lora } from 'next/font/google';
+
+const numbers = Lora({
+    subsets: ['latin'],
+    weight: ['400'],
+    style: ['normal']
+});
 
 const Home = () => {
   return (
@@ -14,7 +22,9 @@ const Home = () => {
         />
       </Head>
 
-      {/* MOBILE */}
+      {/* ----------------------------- */}
+      {/* MOBILE: HORIZONTAL STRIPES */}
+      {/* ----------------------------- */}
       <div className={styles.mobileContainer}>
         <div className={styles.stripe}>
           <Heading>OPERATION</Heading>
@@ -27,60 +37,76 @@ const Home = () => {
         </div>
       </div>
 
-      {/* DESKTOP */}
+      {/* ----------------------------- */}
+      {/* DESKTOP: VERTICAL STRIPES */}
+      {/* ----------------------------- */}
       <div className={styles.desktopContainer}>
         {/* PANEL 1 */}
         <div className={styles.stripe}>
-          <div className={styles.inner}>
-            <div className={styles.front}>
-              <div className={styles.operation}>
-                <span>O</span>
-                <span>P</span>
-                <span>E</span>
-              </div>
-              <div className={styles.fourTwelve}>4</div>
-            </div>
-
-            <div className={styles.back}>
-              <Heading>EQUIPPING</Heading>
-              <Paragraph>HIS SAINTS</Paragraph>
-            </div>
+          <div className={styles.operation}>
+            <Heading level='huge'>
+              <span>O</span>
+            </Heading>
+            <Heading level='huge'>
+              <span>P</span>
+            </Heading>
+            <Heading level='huge'>
+              <span>E</span>
+            </Heading>
+          </div>
+          <div className={numbers.className}>
+            <Heading level='huge'>4</Heading>
+          </div>
+          <Spacer size={0.5} />
+          <div>
+            <Heading>EQUIPPING</Heading>
+            <Paragraph>HIS SAINTS</Paragraph>
           </div>
         </div>
 
         {/* PANEL 2 */}
         <div className={styles.stripe}>
-          <div className={styles.inner}>
-            <div className={styles.front}>
-              <div className={styles.operation}>
-                <span>R</span>
-                <span>A</span>
-                <span>T</span>
-              </div>
-              <div className={styles.fourTwelve}>1</div>
-            </div>
-            <div className={styles.back}>
-              <Heading>WORKING</Heading>
-              <Paragraph>HIS WORKS</Paragraph>
-            </div>
+          <div className={styles.operation}>
+            <Heading level='huge'>
+              <span>R</span>
+            </Heading>
+            <Heading level='huge'>
+              <span>A</span>
+            </Heading>
+            <Heading level='huge'>
+              <span>T</span>
+            </Heading>
+          </div>
+          <div className={numbers.className}>
+            <Heading level='huge'>1</Heading>
+          </div>
+          <Spacer size={0.5} />
+          <div>
+            <Heading>WORKING</Heading>
+            <Paragraph>HIS WORKS</Paragraph>
           </div>
         </div>
 
         {/* PANEL 3 */}
         <div className={styles.stripe}>
-          <div className={styles.inner}>
-            <div className={styles.front}>
-              <div className={styles.operation}>
-                <span>I</span>
-                <span>O</span>
-                <span>N</span>
-              </div>
-              <div className={styles.fourTwelve}>2</div>
-            </div>
-            <div className={styles.back}>
-              <Heading>BUILDING</Heading>
-              <Paragraph>HIS BODY</Paragraph>
-            </div>
+          <div className={styles.operation}>
+            <Heading level='huge'>
+              <span>I</span>
+            </Heading>
+            <Heading level='huge'>
+              <span>O</span>
+            </Heading>
+            <Heading level='huge'>
+              <span>N</span>
+            </Heading>
+          </div>
+          <div className={numbers.className}>
+            <Heading level='huge'>2</Heading>
+          </div>
+          <Spacer size={0.5} />
+          <div>
+            <Heading>BUILDING</Heading>
+            <Paragraph>HIS BODY</Paragraph>
           </div>
         </div>
       </div>
