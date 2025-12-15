@@ -3,12 +3,12 @@ import styles from '../styles/Home.module.css';
 import Heading from '@/components/Heading';
 import Paragraph from '@/components/Paragraph';
 import Spacer from '@/components/Spacer';
-import { Lora } from 'next/font/google';
+import { Crimson_Text } from 'next/font/google';
 
-const numbers = Lora({
-    subsets: ['latin'],
-    weight: ['400'],
-    style: ['normal']
+const numbers = Crimson_Text({
+  subsets: ['latin'],
+  weight: ['400'],
+  style: ['normal'],
 });
 
 const Home = () => {
@@ -55,12 +55,15 @@ const Home = () => {
             </Heading>
           </div>
           <div className={numbers.className}>
-            <Heading level='huge'>4</Heading>
+            <Heading
+              style={{ opacity: 0.15 }}
+              level='huge'>
+              4
+            </Heading>
           </div>
-          <Spacer size={0.5} />
+          <Spacer size={0.6} />
           <div>
-            <Heading>EQUIPPING</Heading>
-            <Paragraph>HIS SAINTS</Paragraph>
+            <Heading level='subtitle'>THE SOUNDING</Heading>
           </div>
         </div>
 
@@ -78,12 +81,15 @@ const Home = () => {
             </Heading>
           </div>
           <div className={numbers.className}>
-            <Heading level='huge'>1</Heading>
+            <Heading
+              style={{ opacity: 0.15 }}
+              level='huge'>
+              1
+            </Heading>
           </div>
-          <Spacer size={0.5} />
+          <Spacer size={0.6} />
           <div>
-            <Heading>WORKING</Heading>
-            <Paragraph>HIS WORKS</Paragraph>
+            <Heading level='subtitle'>OF THE</Heading>
           </div>
         </div>
 
@@ -101,12 +107,15 @@ const Home = () => {
             </Heading>
           </div>
           <div className={numbers.className}>
-            <Heading level='huge'>2</Heading>
+            <Heading
+              style={{ opacity: 0.15 }}
+              level='huge'>
+              2
+            </Heading>
           </div>
-          <Spacer size={0.5} />
+          <Spacer size={0.6} />
           <div>
-            <Heading>BUILDING</Heading>
-            <Paragraph>HIS BODY</Paragraph>
+            <Heading level='subtitle'>RAM'S HORN</Heading>
           </div>
         </div>
       </div>
