@@ -3,6 +3,7 @@ import { useState, useRef } from 'react';
 import { Spin as Hamburger } from 'hamburger-react';
 import styles from '../styles/navbar.module.css';
 import { useRouter } from 'next/router';
+import Heading from '../components/Heading'
 
 export default function Navbar() {
   const router = useRouter();
@@ -43,7 +44,7 @@ export default function Navbar() {
                 href={href}
                 className={`${styles.navLink} ${router.pathname === href ? styles.active : ''}`}
                 onClick={() => setOpen(false)}>
-                {label}
+                <Heading level='subtitle' fontFamily='cormorant'> {label}</Heading>
               </Link>
             </li>
           ))}

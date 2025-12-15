@@ -7,23 +7,17 @@ export const books = {
     bookMoreInfoUrl: 'dream-book',
     bookAmazonUrl: '/',
     bookIntro:
-      'Dreams sent by God determined destinies, shifted nations, warned kings, protected families, directed prophets, and shaped the very course of human history until the point you and I call today.',
+      'Dreams. Wow. I think three little letters sums up dreams for me more than many books. A few years ago, like a water faucet turning on, dreams began to flow into my sleep.',
     bookDescription: [
-      'THE REASON I DECIDED TO WRITE THIS BOOK WAS TO HELP BELIEVERS UNDERSTAND THEIR DREAMS—WHY THEY HAVE THEM, WHAT THEY MEAN, HOW TO INTERPRET THEM, AND WHAT TO WATCH OUT FOR.',
-
-      'IT WAS JUST A FEW YEARS AGO THAT I BEGAN HAVING DREAMS—LIKE A WATER FAUCET THAT HAD BEEN CLOSED ALL OF A SUDDEN WAS TURNED ON. I FOUND MYSELF CONFUSED BY THIS FLOOD OF IMAGERY THAT CAME NIGHT AFTER NIGHT; IT WAS OVERWHELMING.',
-
-      'THIS IS REALLY WHAT SET ME ON A PATH TO UNDERSTAND MY DREAMS BY DISCOVERING WHAT THE BIBLE HAD TO SAY ABOUT DREAMS.',
-
-      'WHAT YOU HOLD IN YOUR HANDS IS THE RESULT OF MY PURSUIT TO FIND WHAT THE BIBLE HAS TO SAY ABOUT DREAMS.',
-
-      "IN SECTION ONE OF THE BOOK—I'VE GATHERED TOGETHER TWENTY-ONE DREAM ACCOUNTS—WHAT I BELIEVE TO BE EVERY DREAM IN THE BIBLE.",
-
-      "IN SECTION TWO OF THIS BOOK—WE MOVE FROM THE STORIES OF DREAMS TO LOOKING FOR THE WORD DREAM IN THE BIBLE. I'VE FOUND AND LISTED AN ADDITIONAL NINETEEN CITATIONS WHERE THE WORD DREAM IS USED, OUTSIDE THE ACTUAL DREAMS THEMSELVES.",
-
-      'LASTLY, I WILL SAY THAT THIS BOOK IS NOT A TRADITIONAL BOOK WHERE THE AUTHOR HAS A LOT TO SAY—FROM THE FIRST CHAPTER TO THE LAST—IT IS NOTHING BUT THE WORD OF GOD. MOST CHAPTERS WHERE A DREAM IS FOUND, I HAVE HARVESTED THE ENTIRE CHAPTER THAT THE DREAM IS SURROUNDED AND NESTLED IN.',
-
-      'THIS BOOK IS ABOUT MEDITATING ON HIS WORD, NOT MY OPINIONS. I WANTED TO CREATE SPACE FOR DREAMERS, LIKE MYSELF, TO SEEK GOD, READ HIS WORD, AND SEEK UNDERSTANDING FROM GOD HIMSELF ON HOW HE CHOOSES TO SPEAK TO US IN DREAMS.',
+      'Dreams sent by God determined destinies, shifted nations, warned kings, protected families, directed prophets, and shaped the very course of human history until the point you and I call today.',
+      'The reason I decided to write this book was to help believers understand their dreams—why they have them, what they mean, how to interpret them, and what to watch out for.',
+      'It was just a few years ago that I began having dreams—like a water faucet that had been closed all of a sudden was turned on. I found myself confused by this flood of imagery that came night after night; it was overwhelming.',
+      'This is really what set me on a path to understand my dreams by discovering what the Bible had to say about dreams.',
+      'What you hold in your hands is the result of my pursuit to find what the Bible has to say about dreams.',
+      "In section one of the book—I've gathered together twenty-one dream accounts—what I believe to be every dream in the Bible.",
+      "In section two of this book—we move from the stories of dreams to looking for the word dream in the Bible. I've found and listed an additional nineteen citations where the word dream is used, outside the actual dreams themselves.",
+      'Lastly, I will say that this book is not a traditional book where the author has a lot to say—from the first chapter to the last—it is nothing but the Word of God. Most chapters where a dream is found, I have harvested the entire chapter that the dream is surrounded and nestled in.',
+      'This book is about meditating on His Word, not my opinions. I wanted to create space for dreamers, like myself, to seek God, read His Word, and seek understanding from God Himself on how He chooses to speak to us in dreams.',
     ],
   },
   soldierBook: {
@@ -35,7 +29,7 @@ export const books = {
     bookAmazonUrl: '/',
     bookIntro: 'A good soldier of Jesus Christ',
     bookDescription: [
-      'For the LORD of Hosts cares for His flock, the house of Judah; and He will make them like His majestic horse in battle.',
+      'What does it mean to be a soldier of Christ? Paul said, endure suffering like a good soldier. In this book, what I prefer to call a field manual we will take a deeper look into what it means to be a soldier, and more importantly, what how being a soldier reveals what it means to be a soldier of Christ.',
     ],
   },
 
@@ -81,7 +75,7 @@ export const books = {
 
   // I Am An Alien
 
-  //I Am A MoneyMaker
+  //I Am A MoneyMaker - the modern minister has become a modern money maching
 
   // I Am A An Eagle
 

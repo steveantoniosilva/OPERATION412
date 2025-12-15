@@ -3,6 +3,7 @@ import { books } from '../data/books';
 import BookCover from '@/components/BookCover';
 import Heading from '@/components/Heading';
 import Spacer from '@/components/Spacer';
+import Paragraph from '@/components/Paragraph';
 
 const Books = () => {
   const dreamBook = books.dreamBook;
@@ -38,7 +39,7 @@ const Books = () => {
             level='subtitle'
             fontStyle='italic'
             fontFamily='cormorant'>
-            by 412 Books
+            by Steve Antonio Silva
           </Heading>
           <Spacer size={5} />
         </div>

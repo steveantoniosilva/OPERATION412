@@ -45,46 +45,19 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 11vh;
+    gap: 1vh;
     align-items: center;
 }
 
 .li {
-    font-size: clamp(1.1rem, 0.8vw + 0.5rem, 1.25rem);
-    color: white;
+    margin: 4vh 0;
+    padding: 0 2em;
+    border-right: 1px solid rgba(255,255,255,.35);
+    border-left: 1px solid rgba(255,255,255,.35);
+    border-radius: 33px;
 }
 
 .li:hover {
-    text-shadow: 0 0 33px white;
+    border-right: 1px solid rgba(255,255,255,.5);
+    border-left: 1px solid rgba(255,255,255,.5);
 }
-
-.navLink {
-    text-decoration: none;
-    font-weight: 100;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-
-    padding: .75em 1.5em;
-
-    border-left: 1px solid rgba(255, 255, 255, .25);
-    border-right: 1px solid rgba(255, 255, 255, .25);
-    border-top: 1px solid transparent;
-    border-bottom: 1px solid transparent;
-    border-radius: 33px;
-
-
-    /* 🔑 smoothness */
-    transition:
-        border-color 0.35s ease,
-        box-shadow 0.35s ease,
-        background-color 0.35s ease;
-}
-
-.navLink:hover {
-    border-top-color: rgba(255, 255, 255, .25);
-    border-bottom-color: rgba(255, 255, 255, .25);
-
-    /* optional subtle lift */
-    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.25);
-}
-

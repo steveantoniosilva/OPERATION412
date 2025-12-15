@@ -38,7 +38,7 @@ const About = () => {
 
         <meta
           name='description'
-          content='Ephesians 4:12 called. Operation 412 answered: equip believers for the work of ministry; build up the Body of Christ.'
+          content='The Mission of Operation 412 is the Commission of Ephesians 4:12—Equip His Saints, Work His Works and Build His Body.'
         />
       </Head>
 
@@ -52,13 +52,14 @@ const About = () => {
               if (el) stripesRef.current[0] = el;
             }}
             className={styles.stripe}>
-            <Paragraph>EQUIP HIS ARMY TO FIGHT</Paragraph>
+            <Heading>EQUIPPING</Heading>
+            <Paragraph>HIS SAINTS</Paragraph>
           </div>
         </Link>
 
         {/* STRIPE 2 */}
         <Link
-          href='/building'
+          href='/working'
           className={styles.link}>
           <div
             ref={el => {
@@ -66,21 +67,23 @@ const About = () => {
             }}
             className={styles.stripe}>
             <div className={styles.inner}>
-              <Paragraph>BUILD HIS BODY TO STAND</Paragraph>
+              <Heading>WORKING</Heading>
+              <Paragraph>HIS WORKS</Paragraph>
             </div>
           </div>
         </Link>
 
         {/* STRIPE 3 */}
         <Link
-          href='/working'
+          href='/building'
           className={styles.link}>
           <div
             ref={el => {
               if (el) stripesRef.current[2] = el;
             }}
             className={styles.stripe}>
-            <Paragraph>WORK THE WORKS OF JESUS</Paragraph>
+            <Heading>BUILDING</Heading>
+            <Paragraph>HIS BODY</Paragraph>
           </div>
         </Link>
       </div>
