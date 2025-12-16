@@ -44,20 +44,16 @@ const BookMoreInfo: React.FC<BookProps> = ({
           clickable={false}
         />
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <Spacer size={3} />
 
       {bookDescription.map((text, i) => (
-        <Paragraph
+          <Paragraph
           textAlign='justify'
           key={i}>
           {text}
         </Paragraph>
       ))}
-      <br />
+      <Spacer size={3} />
 
       <Button href={bookAmazonUrl}>FIND ON AMAZON</Button>
     </div>
