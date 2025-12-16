@@ -40,8 +40,8 @@ const Work = () => {
         </Paragraph>
         <Spacer size={1} />
         <WordPair
-          firstWord='...'
-          secondWord='...'
+          text='Repairing Temple Stones'
+          italicWord='Repairing'
         />
       </main>
     </>

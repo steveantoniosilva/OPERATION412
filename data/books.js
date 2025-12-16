@@ -100,5 +100,9 @@ export const books = {
 
   // I am gifted -wired for wonder as I'm writing
 
-  // I am a witch? I am into witchcraft? witchcraft is as the sin of rebellion? is as?
+    // I am a witch? I am into witchcraft? witchcraft is as the sin of rebellion? is as?
+  
+    // I am an equipper - Eph 4:12
+    // I am a worker - Eph 4:12
+  // I am a builder - Eph 4:12
 };
