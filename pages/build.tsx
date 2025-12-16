@@ -18,7 +18,7 @@ const Build = () => {
 
       <main className={styles.container}>
         <Spacer size={11} />
-        <Heading fontStyle='italic'>The Building</Heading>
+        <Heading fontStyle='italic'>for the Building</Heading>
         <Spacer size={3} />
         <Heading
           fontStyle='italic'
@@ -28,13 +28,14 @@ const Build = () => {
         <Spacer size={3} />
         <Paragraph
           textAlign='center'
-          fontStyle='italic'>
+          fontStyle='italic'
+          size='quote'>
           — Ephesians 4:12 (c)
         </Paragraph>
         <Spacer size={4} />
         <Paragraph textAlign='center'>
-          The Greek words behind this mandate to <span style={{ fontStyle: 'italic' }}>build</span> His Body is rich
-          with historical meaning and application — explore its usage below.
+          The Greek behind the mandate to <span style={{ fontStyle: 'italic' }}>build</span> His Body is rich with
+          historical meaning and application — explore its usage below.
         </Paragraph>
         <Spacer size={1} />
         <WordPair

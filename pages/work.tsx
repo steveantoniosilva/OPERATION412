@@ -18,8 +18,7 @@ const Work = () => {
 
       <main className={styles.container}>
         <Spacer size={11} />
-        <Heading fontStyle='italic'>The Working</Heading>
-
+        <Heading fontStyle='italic'>for the Work</Heading>
         <Spacer size={3} />
         <Heading
           fontStyle='italic'
@@ -29,7 +28,8 @@ const Work = () => {
         <Spacer size={3} />
         <Paragraph
           textAlign='center'
-          fontStyle='italic'>
+          fontStyle='italic'
+          size='quote'>
           — Ephesians 4:12 (b)
         </Paragraph>
         <Spacer size={4} />

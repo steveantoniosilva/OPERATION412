@@ -1,12 +1,19 @@
 .base {
-    font-size: clamp(1.1rem, 1vw + 1vh, 1.25rem);
     line-height: 3;
-    letter-spacing: 0.13em;
+    letter-spacing: 0.05em;
     color: white;
     padding: 0 2em;
     max-width: 777px;
     margin-left: auto;
     margin-right: auto;
+    font-size: clamp(1.1rem, 1vw + 1vh, 1.25rem);
+}
+
+.quote {
+    font-size: clamp(0.95rem, 0.9vw + 0.9vh, 1.05rem);
+    line-height: 2.2;
+    letter-spacing: 0.04em;
+    opacity: 0.85;
 }
 
 /* Alignment */

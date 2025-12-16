@@ -3,15 +3,21 @@ import Heading from '../components/Heading';
 import Paragraph from '../components/Paragraph';
 
 interface WordPairProps {
-  firstWord: string;
-  secondWord: string;
+  text: string; // full text with a marker for the italic part
+  italicWord: string; // the word or phrase to automatically italicize
 }
 
-export default function WordPair({ firstWord, secondWord }: WordPairProps) {
+export default function WordPair({ text, italicWord }: WordPairProps) {
+  // Split the text into parts: before, italic, after
+  const parts = text.split(italicWord);
+
   return (
     <div className={styles.wordPair}>
-      <Heading style={{ fontStyle: 'italic' }}>{firstWord}</Heading>
-      <Heading fontStyle='italic'>{secondWord}</Heading>
+      <Paragraph textAlign='center'>
+        {parts[0]}
+        <span className={styles.italicWord}>{italicWord}</span>
+        {parts[1]}
+      </Paragraph>
     </div>
   );
 }

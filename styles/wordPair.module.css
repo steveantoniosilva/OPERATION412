@@ -1,3 +1,10 @@
 .wordPair {
-    margin: 5rem 0;
+    text-align: center;
+    /* optional */
+    margin: 1em 0;
+}
+
+.wordPair .italicWord {
+    font-style: italic;
+    font-size: var(--heading-title-size);
 }
