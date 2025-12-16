@@ -36,24 +36,24 @@ const Build = () => {
         </Paragraph>
         <Spacer size={1} />
         <WordPair
-          firstWord='FORTIFYING'
-          secondWord='CITY WALLS'
+          firstWord='Fortifying'
+          secondWord='City Walls'
         />
         <WordPair
-          firstWord='REPAIRING'
-          secondWord='TEMPLE STONES'
+          firstWord='Repairing'
+          secondWord='Temple Stones'
         />
         <WordPair
-          firstWord='EXPANDING'
-          secondWord='A HOUSEHOLD'
+          firstWord='Expanding'
+          secondWord='A Household'
         />
         <WordPair
-          firstWord='RESTORING'
-          secondWord='A COLLAPSED STRUCTURE'
+          firstWord='Restoring'
+          secondWord='A Collapsed Structure'
         />
         <WordPair
-          firstWord='REINFORCING'
-          secondWord='A FOUNDATION'
+          firstWord='Reinforcing'
+          secondWord='A Foundation'
         />
       </main>
     </>

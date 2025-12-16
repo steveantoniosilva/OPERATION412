@@ -18,11 +18,9 @@ const Equip = () => {
 
       <main className={styles.container}>
         <Spacer size={11} />
-        <Heading level='huge'>
-          <span style={{ fontWeight: '700' }}>EQUIP</span>
-        </Heading>
+        <Heading fontStyle='italic'>The Equipping</Heading>
         <Spacer size={3} />
-        <Heading level='subtitle'>HIS SAINTS</Heading>
+        <Heading level='subtitle'>of His Saints</Heading>
         <Spacer size={4} />
         <Paragraph
           textAlign='center'
@@ -36,52 +34,52 @@ const Equip = () => {
         </Paragraph>
         <Spacer size={1} />
         <WordPair
-          firstWord='MENDING'
-          secondWord='FISHING NETS'
+          firstWord='The Mending'
+          secondWord='Fishing Nets'
         />
         <WordPair
-          firstWord='SETTING'
-          secondWord='DISLOCATED BONES'
+          firstWord='The Setting'
+          secondWord='Dislocated Bones'
         />
         <WordPair
-          firstWord='RECONCILING'
-          secondWord='RELATIONSHIPS'
+          firstWord='The Reconciling'
+          secondWord='Relationships'
         />
         <WordPair
-          firstWord='FORMING'
-          secondWord='BY EXERCISING'
+          firstWord='The Forming'
+          secondWord='By Exercising'
         />
         <WordPair
-          firstWord='READYING'
-          secondWord='HOUSEHOLD COURTYARDS'
+          firstWord='The Readying'
+          secondWord='Household Courtyards'
         />
         <WordPair
-          firstWord='OUTFITTING'
-          secondWord='NAVAL WARSHIPS'
+          firstWord='The Outfitting'
+          secondWord='Naval Warships'
         />
         <WordPair
-          firstWord='PREPARING'
-          secondWord='SLINGS'
+          firstWord='The Preparing'
+          secondWord='Slings'
         />
         <WordPair
-          firstWord='RESTORING'
-          secondWord='FALLEN SINNERS'
+          firstWord='The Restoring'
+          secondWord='Fallen Sinners'
         />
         <WordPair
-          firstWord='FRAMING'
-          secondWord='THE UNIVERSE'
+          firstWord='The Framing'
+          secondWord='The Universe'
         />
         <WordPair
-          firstWord='BRINGING'
-          secondWord='ORDER TO CITIES'
+          firstWord='The Bringing'
+          secondWord='Order To Cities'
         />
         <WordPair
-          firstWord='EQUIPPING'
-          secondWord='SHIPS WITH ROWERS'
+          firstWord='The Equipping'
+          secondWord='Ships With Rowers'
         />
         <WordPair
-          firstWord='POSITIONING'
-          secondWord='ARMIES FOR BATTLE'
+          firstWord='The Positioning'
+          secondWord='Armies For Battle'
         />
       </main>
     </>

@@ -57,8 +57,8 @@ const About = () => {
           href='/equip'
           className={styles.link}>
           <div className={styles.stripe}>
-            <Heading>EQUIP</Heading>
-            <Paragraph>HIS SAINTS</Paragraph>
+            <Heading>The Equipping</Heading>
+            <Paragraph>of His Saints</Paragraph>
           </div>
         </Link>
 
@@ -66,8 +66,8 @@ const About = () => {
           href='/work'
           className={styles.link}>
           <div className={styles.stripe}>
-            <Heading>WORK</Heading>
-            <Paragraph>HIS WORKS</Paragraph>
+            <Heading>The Working</Heading>
+            <Paragraph>of His Ministry</Paragraph>
           </div>
         </Link>
 
@@ -75,8 +75,8 @@ const About = () => {
           href='/build'
           className={styles.link}>
           <div className={styles.stripe}>
-            <Heading>BUILD</Heading>
-            <Paragraph>HIS BODY</Paragraph>
+            <Heading>The Building</Heading>
+            <Paragraph>of His Body</Paragraph>
           </div>
         </Link>
       </div>
@@ -112,8 +112,8 @@ const About = () => {
             </div>
             <Spacer size={4} />
             <div>
-              <Heading>EQUIP</Heading>
-              <Paragraph>HIS SAINTS</Paragraph>
+              <Heading>The Equipping</Heading>
+              <Paragraph>of His Saints</Paragraph>
             </div>
           </div>
         </Link>
@@ -147,8 +147,8 @@ const About = () => {
             </div>
             <div>
               <Spacer size={4} />
-              <Heading>WORK</Heading>
-              <Paragraph>HIS WORKS</Paragraph>
+              <Heading>The Working</Heading>
+              <Paragraph>of His Ministry</Paragraph>
             </div>
           </div>
         </Link>
@@ -182,8 +182,8 @@ const About = () => {
             </div>
             <div>
               <Spacer size={4} />
-              <Heading>BUILD</Heading>
-              <Paragraph>HIS BODY</Paragraph>
+              <Heading>The Building</Heading>
+              <Paragraph>of His Body</Paragraph>
             </div>
           </div>
         </Link>

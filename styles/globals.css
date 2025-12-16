@@ -92,9 +92,9 @@ a {
 
 :root {
     --heading-title-size: clamp(1.5rem, 2.4vw + 1.2vh, 2rem);
-    --heading-subtitle-size: clamp(1.25rem, 1.2vw + 0.6vh, 1.75rem);
+    --heading-subtitle-size: clamp(1.25rem, 1.3vw + 0.7vh, 1.75rem);
 
-    --heading-title-letter-spacing: clamp(0.1em, 0.1vw + 0.1vh, 0.35em);
+    --heading-title-letter-spacing: clamp(0.05em, 0.1vw + 0.05vh, 0.2em);
     --heading-subtitle-letter-spacing: clamp(0.01em, 0.25vw + 0.1vh, 0.25em);
 
     --heading-title-weight: 100;

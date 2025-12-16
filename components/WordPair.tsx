@@ -10,7 +10,7 @@ interface WordPairProps {
 export default function WordPair({ firstWord, secondWord }: WordPairProps) {
   return (
     <div className={styles.wordPair}>
-      <Heading style={{ fontWeight: '700' }}>{firstWord}</Heading>
+      <Heading style={{ fontStyle: 'italic' }}>{firstWord}</Heading>
       <Paragraph textAlign='center'>{secondWord}</Paragraph>
     </div>
   );

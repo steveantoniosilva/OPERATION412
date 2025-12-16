@@ -43,25 +43,10 @@ const Work = () => {
         </Paragraph>
         <Spacer size={1} />
         <WordPair
-          firstWord='FORTIFYING'
-          secondWord='CITY WALLS'
+          firstWord='...'
+          secondWord='...'
         />
-        <WordPair
-          firstWord='REPAIRING'
-          secondWord='TEMPLE STONES'
-        />
-        <WordPair
-          firstWord='EXPANDING'
-          secondWord='A HOUSEHOLD'
-        />
-        <WordPair
-          firstWord='RESTORING'
-          secondWord='A COLLAPSED STRUCTURE'
-        />
-        <WordPair
-          firstWord='REINFORCING'
-          secondWord='A FOUNDATION'
-        />
+
       </main>
     </>
   );
