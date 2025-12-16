@@ -54,6 +54,12 @@ const Home = () => {
               level='huge'>
               4
             </Heading>
+            <Spacer size={1} />
+            <Heading
+              style={{ opacity: '.5' }}
+              level='subtitle'>
+              THE SOUNDING
+            </Heading>
           </div>
         </div>
 
@@ -71,6 +77,12 @@ const Home = () => {
               1
             </Heading>
           </div>
+          <Spacer size={1} />
+          <Heading
+            style={{ opacity: '.5' }}
+            level='subtitle'>
+            OF A
+          </Heading>
         </div>
 
         {/* PANEL 3 */}
@@ -87,6 +99,12 @@ const Home = () => {
               2
             </Heading>
           </div>
+          <Spacer size={1} />
+          <Heading
+            style={{ opacity: '.5' }}
+            level='subtitle'>
+            RAM'S HORN
+          </Heading>
         </div>
       </div>
     </>
