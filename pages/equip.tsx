@@ -3,10 +3,9 @@ import ThreeSections from '@/components/ThreeSections';
 const Equip = () => {
   return (
     <ThreeSections
-      pageTitle='The Equipping'
+      pageTitle='The Equipping of His Saints'
       metaDescription='for the equipping of the saints… — Ephesians 4:12 (a).'
-      headingTop='The Equipping'
-      headingBottom='of His Saints'
+      heading='The Equipping of His Saints'
       verse='— Ephesians 4:12 (a)'
       introParagraphs={[
         <>
@@ -26,7 +25,10 @@ const Equip = () => {
       ]}
       wordPairs={[
         { text: 'When Fishing Nets are Mending', italicWord: 'Mending' },
-        { text: 'If a bone is dislocated, or out of place, a physician will Set it back into proper position and alignment.', italicWord: 'Set' },
+        {
+          text: 'If a bone is dislocated, or out of place, a physician will Set it back into proper position and alignment.',
+          italicWord: 'Set',
+        },
         { text: 'The Reconciling of Relationships', italicWord: 'Reconciling' },
         { text: 'To Form by Exercise', italicWord: 'Form' },
         { text: 'The Readying of Household Courtyards', italicWord: 'Readying' },

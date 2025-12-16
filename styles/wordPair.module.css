@@ -6,6 +6,5 @@
 }
 
 .wordPair .italicWord {
-    font-style: italic;
     font-size: var(--heading-title-size);
 }

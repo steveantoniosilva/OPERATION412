@@ -6,6 +6,10 @@ import WordPair from '@/components/WordPair';
 import Paragraph from '@/components/Paragraph';
 import Spacer from '@/components/Spacer';
 
+/* ============================================================================
+   TYPES
+   ============================================================================ */
+
 type WordPairItem = {
   text: string;
   italicWord: string;
@@ -14,24 +18,30 @@ type WordPairItem = {
 type ThreeSectionsProps = {
   pageTitle: string;
   metaDescription: string;
-  headingTop: string;
-  headingBottom: string;
+  heading: string;
   verse: string;
   introParagraphs: ReactNode[];
   wordPairs: WordPairItem[];
 };
 
+/* ============================================================================
+   THREE SECTIONS TEMPLATE
+   Shared layout for: Equip / Work / Build
+   ============================================================================ */
+
 const ThreeSections = ({
   pageTitle,
   metaDescription,
-  headingTop,
-  headingBottom,
+  heading,
   verse,
   introParagraphs,
   wordPairs,
 }: ThreeSectionsProps) => {
   return (
     <>
+      {/* ------------------------------------------------------------------------
+         DOCUMENT HEAD
+         ------------------------------------------------------------------------ */}
       <Head>
         <title>{pageTitle}</title>
         <meta
@@ -41,26 +51,21 @@ const ThreeSections = ({
       </Head>
 
       <main className={styles.container}>
-        {/* Top offset */}
+        {/* ----------------------------------------------------------------------
+           TOP OFFSET / PAGE ENTRY
+           ---------------------------------------------------------------------- */}
         <Spacer size={11} />
 
-        {/* Heading top */}
-        <Heading fontStyle='italic'>{headingTop}</Heading>
+        {/* ----------------------------------------------------------------------
+           PRIMARY HEADING
+           ---------------------------------------------------------------------- */}
+        <Heading>{heading}</Heading>
 
-        {/* Heading separation */}
         <Spacer size={3} />
 
-        {/* Heading bottom */}
-        <Heading
-          fontStyle='italic'
-          level='subtitle'>
-          {headingBottom}
-        </Heading>
-
-        {/* Verse separation */}
-        <Spacer size={3} />
-
-        {/* Verse */}
+        {/* ----------------------------------------------------------------------
+           SCRIPTURE VERSE
+           ---------------------------------------------------------------------- */}
         <Paragraph
           textAlign='center'
           fontStyle='italic'
@@ -68,10 +73,11 @@ const ThreeSections = ({
           {verse}
         </Paragraph>
 
-        {/* Intro block separation */}
+        {/* ----------------------------------------------------------------------
+           INTRODUCTION BLOCK
+           ---------------------------------------------------------------------- */}
         <Spacer size={4} />
 
-        {/* Intro paragraphs */}
         {introParagraphs.map((content, index) => (
           <React.Fragment key={index}>
             <Paragraph textAlign='center'>{content}</Paragraph>
@@ -79,9 +85,14 @@ const ThreeSections = ({
           </React.Fragment>
         ))}
 
+        {/* ----------------------------------------------------------------------
+           SECTION DIVIDER
+           ---------------------------------------------------------------------- */}
         <hr className='hrWide' />
 
-        {/* WordPairs */}
+        {/* ----------------------------------------------------------------------
+           WORD PAIRS
+           ---------------------------------------------------------------------- */}
         {wordPairs.map((pair, index) => (
           <WordPair
             key={index}
