@@ -1,7 +1,8 @@
 .wordPair {
     text-align: center;
     /* optional */
-    margin: 1em 0;
+    margin: 3em auto;
+    max-width: 444px;
 }
 
 .wordPair .italicWord {

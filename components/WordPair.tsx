@@ -1,5 +1,4 @@
 import styles from '../styles/wordPair.module.css';
-import Heading from '../components/Heading';
 import Paragraph from '../components/Paragraph';
 
 interface WordPairProps {

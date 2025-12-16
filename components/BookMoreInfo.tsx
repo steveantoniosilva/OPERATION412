@@ -2,6 +2,7 @@ import Button from './Button';
 import Paragraph from './Paragraph';
 import Heading from './Heading';
 import BookCover from '@/components/BookCover';
+import Spacer from '../components/Spacer';
 
 interface BookProps {
   bookTitle: string;
@@ -28,15 +29,11 @@ const BookMoreInfo: React.FC<BookProps> = ({
         <Heading>
           {bookTitle} <span>{bookTitleSpan}</span>
         </Heading>
+        <Spacer size={3} />
 
-        <hr className='hrBookMoreInfo' />
-        <br />
-        <br />
-        <br />
-        <Paragraph
-          textAlign='justify'>
-          {bookIntro}
-        </Paragraph>
+        <hr className='hrWide' />
+        <Spacer size={3} />
+        <Paragraph textAlign='justify'>{bookIntro}</Paragraph>
 
         <Button href={bookAmazonUrl}>FIND ON AMAZON</Button>
 

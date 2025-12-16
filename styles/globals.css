@@ -71,15 +71,26 @@ body::-webkit-scrollbar {
     /* Firefox */
 }
 
-.hrBookMoreInfo {
+.hrWide {
     border: 0;
     height: .1px;
     background: white;
-    margin-top: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22%;
+    min-width: 222px;
+    max-width: 555px;
+}
+
+.hrNarrow {
+    border: 0;
+    height: .1px;
+    background: white;
     margin-left: auto;
     margin-right: auto;
     width: 11%;
-    max-width: 555px;
+    min-width: 111px;
+    max-width: 333px;
 }
 
 

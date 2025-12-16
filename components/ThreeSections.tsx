@@ -1,5 +1,6 @@
+import React, { ReactNode } from 'react';
 import Head from 'next/head';
-import styles from '../styles/equipAndBuildAndWork.module.css';
+import styles from '../styles/equippingWorkingBuilding.module.css';
 import Heading from '@/components/Heading';
 import WordPair from '@/components/WordPair';
 import Paragraph from '@/components/Paragraph';
@@ -13,20 +14,20 @@ type WordPairItem = {
 type ThreeSectionsProps = {
   pageTitle: string;
   metaDescription: string;
-  title: string;
-  subtitle: string;
+  headingTop: string;
+  headingBottom: string;
   verse: string;
-  intro?: string;
+  introParagraphs: ReactNode[];
   wordPairs: WordPairItem[];
 };
 
 const ThreeSections = ({
   pageTitle,
   metaDescription,
-  title,
-  subtitle,
+  headingTop,
+  headingBottom,
   verse,
-  intro,
+  introParagraphs,
   wordPairs,
 }: ThreeSectionsProps) => {
   return (
@@ -40,22 +41,26 @@ const ThreeSections = ({
       </Head>
 
       <main className={styles.container}>
+        {/* Top offset */}
         <Spacer size={11} />
 
-        <Heading fontStyle='italic'>
-          <span className='mini'>for the</span> {title}
-        </Heading>
+        {/* Heading top */}
+        <Heading fontStyle='italic'>{headingTop}</Heading>
 
+        {/* Heading separation */}
         <Spacer size={3} />
 
+        {/* Heading bottom */}
         <Heading
           fontStyle='italic'
           level='subtitle'>
-          <span className='mini'>of His</span> {subtitle}
+          {headingBottom}
         </Heading>
 
+        {/* Verse separation */}
         <Spacer size={3} />
 
+        {/* Verse */}
         <Paragraph
           textAlign='center'
           fontStyle='italic'
@@ -63,15 +68,20 @@ const ThreeSections = ({
           {verse}
         </Paragraph>
 
-        {intro && (
-          <>
-            <Spacer size={4} />
-            <Paragraph textAlign='center'>{intro}</Paragraph>
-          </>
-        )}
+        {/* Intro block separation */}
+        <Spacer size={4} />
 
-        <Spacer size={1} />
+        {/* Intro paragraphs */}
+        {introParagraphs.map((content, index) => (
+          <React.Fragment key={index}>
+            <Paragraph textAlign='center'>{content}</Paragraph>
+            <Spacer size={2} />
+          </React.Fragment>
+        ))}
 
+        <hr className='hrWide' />
+
+        {/* WordPairs */}
         {wordPairs.map((pair, index) => (
           <WordPair
             key={index}
