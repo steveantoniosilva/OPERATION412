@@ -50,16 +50,13 @@ const About = () => {
         />
       </Head>
 
-      {/* MOBILE */}
+      {/* ================= MOBILE ================= */}
+      {/* No VanillaTilt. Just links. */}
       <div className={styles.mobileContainer}>
         <Link
           href='/equip'
           className={styles.link}>
-          <div
-            ref={el => {
-              if (el) stripesRef.current[0] = el;
-            }}
-            className={styles.stripe}>
+          <div className={styles.stripe}>
             <Heading>EQUIP</Heading>
             <Paragraph>HIS SAINTS</Paragraph>
           </div>
@@ -68,11 +65,7 @@ const About = () => {
         <Link
           href='/work'
           className={styles.link}>
-          <div
-            ref={el => {
-              if (el) stripesRef.current[1] = el;
-            }}
-            className={styles.stripe}>
+          <div className={styles.stripe}>
             <Heading>WORK</Heading>
             <Paragraph>HIS WORKS</Paragraph>
           </div>
@@ -81,11 +74,7 @@ const About = () => {
         <Link
           href='/build'
           className={styles.link}>
-          <div
-            ref={el => {
-              if (el) stripesRef.current[2] = el;
-            }}
-            className={styles.stripe}>
+          <div className={styles.stripe}>
             <Heading>BUILD</Heading>
             <Paragraph>HIS BODY</Paragraph>
           </div>
