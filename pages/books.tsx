@@ -24,7 +24,7 @@ const Books = () => {
           <Heading>
             <span>I AM</span>
           </Heading>
-          <Paragraph textAlign='center'>( book series )</Paragraph>
+          <Paragraph textAlign='center'>( a new book series )</Paragraph>
 
           <Spacer size={6} />
 

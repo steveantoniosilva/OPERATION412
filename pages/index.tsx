@@ -50,15 +50,16 @@ const Home = () => {
           </div>
           <div className={numbers.className}>
             <Heading
-              style={{ opacity: 0.15 }}
+              style={{ opacity: 0.5 }}
               level='huge'>
               4
             </Heading>
             <Spacer size={1} />
             <Heading
-              style={{ opacity: '.5' }}
+              fontStyle='italic'
+              style={{ opacity: '.3' }}
               level='subtitle'>
-              THE SOUNDING
+              The Sounding
             </Heading>
           </div>
         </div>
@@ -72,16 +73,17 @@ const Home = () => {
           </div>
           <div className={numbers.className}>
             <Heading
-              style={{ opacity: 0.15 }}
+              style={{ opacity: 0.5 }}
               level='huge'>
               1
             </Heading>
           </div>
           <Spacer size={1} />
           <Heading
-            style={{ opacity: '.5' }}
+            fontStyle='italic'
+            style={{ opacity: '.3' }}
             level='subtitle'>
-            OF A
+            of a
           </Heading>
         </div>
 
@@ -94,16 +96,17 @@ const Home = () => {
           </div>
           <div className={numbers.className}>
             <Heading
-              style={{ opacity: 0.15 }}
+              style={{ opacity: 0.5 }}
               level='huge'>
               2
             </Heading>
           </div>
           <Spacer size={1} />
           <Heading
-            style={{ opacity: '.5' }}
+            fontStyle='italic'
+            style={{ opacity: '.3' }}
             level='subtitle'>
-            RAM'S HORN
+            Ram's Horn
           </Heading>
         </div>
       </div>
