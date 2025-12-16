@@ -18,17 +18,14 @@ const Work = () => {
 
       <main className={styles.container}>
         <Spacer size={11} />
-        <div style={{ display: 'inline-block', verticalAlign: 'middle' }}>
-          <span>THE </span>
-          <Heading
-            level='huge'
-            style={{ display: 'inline-block', fontWeight: 700 }}>
-            WORK
-          </Heading>
-        </div>
+        <Heading fontStyle='italic'>The Working</Heading>
 
         <Spacer size={3} />
-        <Heading level='subtitle'>OF THE MINISTRY</Heading>
+        <Heading
+          fontStyle='italic'
+          level='subtitle'>
+          of His Ministry
+        </Heading>
         <Spacer size={3} />
         <Paragraph
           textAlign='center'
@@ -46,7 +43,6 @@ const Work = () => {
           firstWord='...'
           secondWord='...'
         />
-
       </main>
     </>
   );

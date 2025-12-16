@@ -11,7 +11,7 @@ export default function WordPair({ firstWord, secondWord }: WordPairProps) {
   return (
     <div className={styles.wordPair}>
       <Heading style={{ fontStyle: 'italic' }}>{firstWord}</Heading>
-      <Paragraph textAlign='center'>{secondWord}</Paragraph>
+      <Heading fontStyle='italic'>{secondWord}</Heading>
     </div>
   );
 }

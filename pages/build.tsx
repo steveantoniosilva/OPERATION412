@@ -18,18 +18,20 @@ const Build = () => {
 
       <main className={styles.container}>
         <Spacer size={11} />
-        <Heading level='huge'>
-          <span style={{ fontWeight: '700' }}>BUILD</span>
+        <Heading fontStyle='italic'>The Building</Heading>
+        <Spacer size={3} />
+        <Heading
+          fontStyle='italic'
+          level='subtitle'>
+          of His Body
         </Heading>
         <Spacer size={3} />
-        <Heading level='subtitle'>HIS BODY</Heading>
-        <Spacer size={4} />
         <Paragraph
           textAlign='center'
           fontStyle='italic'>
           — Ephesians 4:12 (c)
         </Paragraph>
-        <Spacer size={3} />
+        <Spacer size={4} />
         <Paragraph textAlign='center'>
           The Greek words behind this mandate to <span style={{ fontStyle: 'italic' }}>build</span> His Body is rich
           with historical meaning and application — explore its usage below.

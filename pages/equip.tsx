@@ -12,7 +12,7 @@ const Equip = () => {
         <title>Equip His Saints</title>
         <meta
           name='description'
-          content='Equipping the saints… — Ephesians 4:12 (a).'
+          content='for the equipping of the saints… — Ephesians 4:12 (a).'
         />
       </Head>
 
@@ -20,14 +20,14 @@ const Equip = () => {
         <Spacer size={11} />
         <Heading fontStyle='italic'>The Equipping</Heading>
         <Spacer size={3} />
-        <Heading level='subtitle'>of His Saints</Heading>
-        <Spacer size={4} />
+        <Heading fontStyle='italic' level='subtitle'>of His Saints</Heading>
+        <Spacer size={3} />
         <Paragraph
           textAlign='center'
           fontStyle='italic'>
           — Ephesians 4:12 (a)
         </Paragraph>
-        <Spacer size={3} />
+        <Spacer size={4} />
         <Paragraph textAlign='center'>
           The Greek words behind this mandate to <span style={{ fontStyle: 'italic' }}>equip</span> the saints is rich
           with historical meaning and application — explore its usage below.
@@ -39,19 +39,19 @@ const Equip = () => {
         />
         <WordPair
           firstWord='The Setting'
-          secondWord='Dislocated Bones'
+          secondWord='of Dislocated Bones'
         />
         <WordPair
           firstWord='The Reconciling'
-          secondWord='Relationships'
+          secondWord='of Relationships'
         />
         <WordPair
-          firstWord='The Forming'
-          secondWord='By Exercising'
+          firstWord='To Form'
+          secondWord='by Exercise'
         />
         <WordPair
           firstWord='The Readying'
-          secondWord='Household Courtyards'
+          secondWord='of Household Courtyards'
         />
         <WordPair
           firstWord='The Outfitting'
@@ -59,7 +59,7 @@ const Equip = () => {
         />
         <WordPair
           firstWord='The Preparing'
-          secondWord='Slings'
+          secondWord='of Slings'
         />
         <WordPair
           firstWord='The Restoring'
@@ -67,11 +67,11 @@ const Equip = () => {
         />
         <WordPair
           firstWord='The Framing'
-          secondWord='The Universe'
+          secondWord='of the Universe'
         />
         <WordPair
           firstWord='The Bringing'
-          secondWord='Order To Cities'
+          secondWord='of Order to Cities'
         />
         <WordPair
           firstWord='The Equipping'
