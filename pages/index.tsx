@@ -55,13 +55,6 @@ const Home = () => {
               4
             </Heading>
           </div>
-          <Spacer size={0.6} />
-          <div className={styles.lowerParagraph}>
-            <Paragraph textAlign='center'>
-              I Heard <span style={{ fontStyle: 'italic' }}>A Mighty Sound</span> from the Blasting of{' '}
-              <span style={{ fontStyle: 'italic' }}>A Mighty Ram's Horn</span>.
-            </Paragraph>
-          </div>
         </div>
 
         {/* PANEL 2 */}
@@ -78,13 +71,6 @@ const Home = () => {
               1
             </Heading>
           </div>
-          <Spacer size={0.6} />
-          <div className={styles.lowerParagraph}>
-            <Paragraph textAlign='center'>
-              I Saw <span style={{ fontStyle: 'italic' }}>A Mighty Army</span> Gathered in Battle Array in{' '}
-              <span style={{ fontStyle: 'italic' }}>A Mighty Valley</span>.
-            </Paragraph>
-          </div>
         </div>
 
         {/* PANEL 3 */}
@@ -100,14 +86,6 @@ const Home = () => {
               level='huge'>
               2
             </Heading>
-          </div>
-          <Spacer size={0.6} />
-          <div className={styles.lowerParagraph}>
-            <Paragraph textAlign='center'>
-              I Saw <span style={{ fontStyle: 'italic' }}>A Mighty Warrior</span> Lead this{' '}
-              <span style={{ fontStyle: 'italic' }}>Mighty Army</span> into{' '}
-              <span style={{ fontStyle: 'italic' }}>A Mighty Battle</span>.
-            </Paragraph>
           </div>
         </div>
       </div>

@@ -123,6 +123,7 @@
         transparent);
         min-height: 1.75em;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }

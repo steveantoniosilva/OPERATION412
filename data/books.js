@@ -104,5 +104,7 @@ export const books = {
   
     // I am an equipper - Eph 4:12
     // I am a worker - Eph 4:12
-  // I am a builder - Eph 4:12
+    // I am a builder - Eph 4:12
+  
+  // I am a rapper
 };
