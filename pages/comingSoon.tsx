@@ -21,7 +21,7 @@ const ComingSoon = () => {
       <div className='main'>
         <div className='container'>
           <Spacer size={9} />
-          <Heading>Coming Soon</Heading>
+          <Heading>My Next Book</Heading>
           <Paragraph textAlign='center'>Currently In The 🔥</Paragraph>
 
           <Spacer size={6} />
