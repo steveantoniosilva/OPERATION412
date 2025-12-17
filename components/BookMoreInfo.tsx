@@ -27,7 +27,7 @@ const BookMoreInfo: React.FC<BookProps> = ({
     <div className='main'>
       <div className='containerBookMoreInfo'>
         <Heading>
-          {bookTitle} <span>{bookTitleSpan}</span>
+          {bookTitle} <span style={{fontWeight: '700'}}>{bookTitleSpan}</span>
         </Heading>
         <Spacer size={3} />
 
@@ -35,7 +35,9 @@ const BookMoreInfo: React.FC<BookProps> = ({
         <Spacer size={3} />
         <Paragraph textAlign='justify'>{bookIntro}</Paragraph>
 
+        <Spacer size={4} />
         <Button href={bookAmazonUrl}>FIND ON AMAZON</Button>
+        <Spacer size={6} />
 
         {/* SAME BOOK, NO INTERACTION */}
         <BookCover

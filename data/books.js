@@ -7,7 +7,7 @@ export const books = {
     bookMoreInfoUrl: 'dream-book',
     bookAmazonUrl: '/',
     bookIntro:
-      'Dreams. Wow. I think three little letters sums up dreams for me more than many books. A few years ago, like a water faucet turning on, dreams began to flow into my sleep.',
+      'A few years ago, like a water faucet turning on, dreams began pouring into my sleep. I used to think of Dreams as just a random part of sleep, not as a portal of revelation. I began having vivid, intense dream encounters. This is what drove me to study dreams, specifically, every dream in the Bible.',
     bookDescription: [
       'Dreams sent by God determined destinies, shifted nations, warned kings, protected families, directed prophets, and shaped the very course of human history until the point you and I call today.',
       'The reason I decided to write this book was to help believers understand their dreams—why they have them, what they mean, how to interpret them, and what to watch out for.',

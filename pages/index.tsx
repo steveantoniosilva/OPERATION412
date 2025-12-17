@@ -50,17 +50,15 @@ const Home = () => {
           </div>
           <div className={numbers.className}>
             <Heading
-              style={{ opacity: 0.5 }}
               level='huge'>
               4
             </Heading>
-            <Spacer size={1} />
-            <Heading
+            <Spacer size={.6} />
+            <Paragraph
               fontStyle='italic'
-              style={{ opacity: '.3' }}
-              level='subtitle'>
-              The Sounding
-            </Heading>
+              style={{ opacity: '.5' }}>
+              Ephesians 4:12 Called
+            </Paragraph>
           </div>
         </div>
 
@@ -73,18 +71,16 @@ const Home = () => {
           </div>
           <div className={numbers.className}>
             <Heading
-              style={{ opacity: 0.5 }}
               level='huge'>
               1
             </Heading>
+            <Spacer size={.6} />
+            <Paragraph
+              fontStyle='italic'
+              style={{ opacity: '.5' }}>
+              Operation 412 Answered
+            </Paragraph>
           </div>
-          <Spacer size={1} />
-          <Heading
-            fontStyle='italic'
-            style={{ opacity: '.3' }}
-            level='subtitle'>
-            of a
-          </Heading>
         </div>
 
         {/* PANEL 3 */}
@@ -96,18 +92,16 @@ const Home = () => {
           </div>
           <div className={numbers.className}>
             <Heading
-              style={{ opacity: 0.5 }}
               level='huge'>
               2
             </Heading>
+            <Spacer size={.6} />
+            <Paragraph
+              fontStyle='italic'
+              style={{ opacity: '.5' }}>
+              Books for the Call
+            </Paragraph>
           </div>
-          <Spacer size={1} />
-          <Heading
-            fontStyle='italic'
-            style={{ opacity: '.3' }}
-            level='subtitle'>
-            Ram's Horn
-          </Heading>
         </div>
       </div>
     </>

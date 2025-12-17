@@ -99,6 +99,7 @@
         padding: 0 .5em;
         width: 100%;
         background: linear-gradient(to bottom, transparent, rgba(44, 44, 44, .6), transparent);
+        opacity: .5;
     }
 
     /* LEFT */
