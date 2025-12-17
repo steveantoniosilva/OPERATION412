@@ -66,8 +66,8 @@ const About = () => {
           href='/work'
           className={styles.link}>
           <div className={styles.stripe}>
-            <Heading>The Work</Heading>
-            <Paragraph>of His Ministry</Paragraph>
+            <Heading>The Working</Heading>
+            <Paragraph>of His Works</Paragraph>
           </div>
         </Link>
 
@@ -85,7 +85,7 @@ const About = () => {
       <div className={styles.container}>
         {/* STRIPE 1 */}
         <Link
-          href='/equip'
+          href='/theEquipping'
           className={styles.link}>
           <div
             ref={el => {
@@ -116,7 +116,7 @@ const About = () => {
 
         {/* STRIPE 2 */}
         <Link
-          href='/work'
+          href='/theWorking'
           className={styles.link}>
           <div
             ref={el => {
@@ -139,15 +139,15 @@ const About = () => {
             </div>
             <div style={{ opacity: '.5' }}>
               <Spacer size={4} />
-              <Heading style={{ fontStyle: 'italic' }}>The Work</Heading>
-              <Paragraph style={{ fontStyle: 'italic' }}>of His Ministry</Paragraph>
+              <Heading style={{ fontStyle: 'italic' }}>The Working</Heading>
+              <Paragraph style={{ fontStyle: 'italic' }}>of His Works</Paragraph>
             </div>
           </div>
         </Link>
 
         {/* STRIPE 3 */}
         <Link
-          href='/build'
+          href='/theBuilding'
           className={styles.link}>
           <div
             ref={el => {

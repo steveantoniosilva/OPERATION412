@@ -1,6 +1,6 @@
 import ThreeSections from '@/components/ThreeSections';
 
-const Equip = () => {
+const TheEquipping = () => {
   return (
     <ThreeSections
       pageTitle='The Equipping of His Saints'
@@ -44,4 +44,4 @@ const Equip = () => {
   );
 };
 
-export default Equip;
+export default TheEquipping;

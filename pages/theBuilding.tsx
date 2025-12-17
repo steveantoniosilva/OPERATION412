@@ -1,6 +1,6 @@
 import ThreeSections from '@/components/ThreeSections';
 
-const Build = () => {
+const TheBuilding = () => {
   return (
     <ThreeSections
       pageTitle='Build His Body'
@@ -24,4 +24,4 @@ const Build = () => {
   );
 };
 
-export default Build;
+export default TheBuilding;

@@ -27,6 +27,9 @@ const Books = () => {
           <Paragraph textAlign='center'>BOOKS TO BUILD.</Paragraph>
           <Paragraph textAlign='center'>BOOKS FOR THE CALL.</Paragraph>
 
+          <Spacer size={6} />
+
+          <Paragraph textAlign='center'>The First Book in the <span style={{fontWeight: '700'}}>I AM</span> Series</Paragraph>
 
           <Spacer size={6} />
 
