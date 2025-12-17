@@ -50,11 +50,27 @@ export default function Navbar() {
                 href={href}
                 className={`${styles.navLink} ${numbers.className} ${router.pathname === href ? styles.active : ''}`}
                 onClick={() => setOpen(false)}>
-                <Paragraph fontStyle='italic' textAlign='center'> {label}</Paragraph>
+                <Paragraph
+                  fontStyle='italic'
+                  textAlign='center'>
+                  {' '}
+                  {label}
+                </Paragraph>
               </Link>
             </li>
           ))}
         </ul>
+      </nav>
+      {/* DESKTOP NAV */}
+      <nav className={styles.desktopNav}>
+        {navLinks.map(({ href, label }) => (
+          <Link
+            key={href}
+            href={href}
+            className={`${styles.desktopLink} ${numbers.className} ${router.pathname === href ? styles.active : ''}`}>
+            <Paragraph fontStyle='italic'>{label}</Paragraph>
+          </Link>
+        ))}
       </nav>
     </div>
   );
