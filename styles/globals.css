@@ -107,7 +107,7 @@ a {
     --heading-title-size: clamp(1.5rem, 2.4vw + 1.2vh, 2rem);
     --heading-subtitle-size: clamp(1.25rem, 1.3vw + 0.7vh, 1.75rem);
 
-    --heading-title-letter-spacing: clamp(0.05em, 0.1vw + 0.05vh, 0.2em);
+    --heading-title-letter-spacing: clamp(0.025em, 0.025vw + 0.05vh, 0.05em);
     --heading-subtitle-letter-spacing: clamp(0.01em, 0.1vw + 0.1vh, 0.1em);
 
     --heading-title-weight: 100;

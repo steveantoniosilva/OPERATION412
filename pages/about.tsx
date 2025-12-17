@@ -107,9 +107,9 @@ const About = () => {
               <Heading level='huge'>4</Heading>
             </div>
             <Spacer size={4} />
-            <div>
-              <Heading>The Equipping</Heading>
-              <Paragraph style={{ opacity: '.5' }}>of His Saints</Paragraph>
+            <div style={{ opacity: '.5' }}>
+              <Heading style={{ fontStyle: 'italic' }}>The Equipping</Heading>
+              <Paragraph style={{ fontStyle: 'italic' }}>of His Saints</Paragraph>
             </div>
           </div>
         </Link>
@@ -137,10 +137,10 @@ const About = () => {
             <div className={numbers.className}>
               <Heading level='huge'>1</Heading>
             </div>
-            <div>
+            <div style={{ opacity: '.5' }}>
               <Spacer size={4} />
-              <Heading>The Work</Heading>
-              <Paragraph style={{ opacity: '.5' }}>of His Ministry</Paragraph>
+              <Heading style={{ fontStyle: 'italic' }}>The Work</Heading>
+              <Paragraph style={{ fontStyle: 'italic' }}>of His Ministry</Paragraph>
             </div>
           </div>
         </Link>
@@ -168,10 +168,10 @@ const About = () => {
             <div className={numbers.className}>
               <Heading level='huge'>2</Heading>
             </div>
-            <div>
+            <div style={{ opacity: '.5' }}>
               <Spacer size={4} />
-              <Heading>The Building</Heading>
-              <Paragraph style={{ opacity: '.5' }}>of His Body</Paragraph>
+              <Heading style={{ fontStyle: 'italic' }}>The Building</Heading>
+              <Paragraph style={{ fontStyle: 'italic' }}>of His Body</Paragraph>
             </div>
           </div>
         </Link>
