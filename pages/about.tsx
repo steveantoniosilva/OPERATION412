@@ -106,8 +106,16 @@ const About = () => {
             <div className={numbers.className}>
               <Heading level='huge'>4</Heading>
             </div>
+            <Spacer size={2} />
+            <div className={styles.operatingSystem}>
+              <Paragraph
+                textAlign='center'
+                style={{ fontStyle: 'italic' }}>
+                The
+              </Paragraph>
+            </div>
             <Spacer size={4} />
-            <div style={{ opacity: '.5' }}>
+            <div style={{ opacity: '.625' }}>
               <Heading style={{ fontStyle: 'italic' }}>The Equipping</Heading>
               <Paragraph style={{ fontStyle: 'italic' }}>of the Saints</Paragraph>
             </div>
@@ -137,8 +145,17 @@ const About = () => {
             <div className={numbers.className}>
               <Heading level='huge'>1</Heading>
             </div>
-            <div style={{ opacity: '.5' }}>
-              <Spacer size={4} />
+            <Spacer size={2} />
+            <div
+              className={styles.operatingSystem}>
+              <Paragraph
+                textAlign='center'
+                style={{ fontStyle: 'italic' }}>
+                Call
+              </Paragraph>
+            </div>
+            <Spacer size={4} />
+            <div style={{ opacity: '.625' }}>
               <Heading style={{ fontStyle: 'italic' }}>The Work</Heading>
               <Paragraph style={{ fontStyle: 'italic' }}>of the Ministry</Paragraph>
             </div>
@@ -168,8 +185,17 @@ const About = () => {
             <div className={numbers.className}>
               <Heading level='huge'>2</Heading>
             </div>
-            <div style={{ opacity: '.5' }}>
-              <Spacer size={4} />
+            <Spacer size={2} />
+            <div
+              className={styles.operatingSystem}>
+              <Paragraph
+                textAlign='center'
+                style={{ fontStyle: 'italic' }}>
+                is…
+              </Paragraph>
+            </div>
+            <Spacer size={4} />
+            <div style={{ opacity: '.625' }}>
               <Heading style={{ fontStyle: 'italic' }}>The Building</Heading>
               <Paragraph style={{ fontStyle: 'italic' }}>of the Body</Paragraph>
             </div>

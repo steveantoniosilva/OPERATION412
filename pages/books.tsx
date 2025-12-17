@@ -19,7 +19,7 @@ const Books = () => {
   return (
     <>
       <Head>
-        <title>412 Books</title>
+        <title>Operation 412 Books</title>
         <meta
           name='description'
           content='Welcome to 412 Books — by Operation 412.'
@@ -29,16 +29,14 @@ const Books = () => {
       <div className='main'>
         <div className='container'>
           <Spacer size={9} />
+          <Heading>
+            Operation 412 Books
+          </Heading>
+          <Spacer size={4} />
           <Paragraph textAlign='center'>BOOKS TO EQUIP.</Paragraph>
           <Paragraph textAlign='center'>BOOKS FOR THE WORK.</Paragraph>
           <Paragraph textAlign='center'>BOOKS TO BUILD.</Paragraph>
           <Paragraph textAlign='center'>BOOKS FOR THE CALL.</Paragraph>
-
-          <Spacer size={5} />
-
-          <div className={numbers.className}>
-            <Heading>412 Books</Heading>
-          </div>
 
           <Spacer size={6} />
 

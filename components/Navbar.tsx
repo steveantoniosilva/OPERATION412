@@ -19,7 +19,7 @@ export default function Navbar() {
 
   const navLinks = [
     { href: '/', label: 'OPERATION 412 HOME' },
-    { href: '/about', label: 'MY BOOKS ARE ABOUT' },
+    { href: '/about', label: 'EPHESIANS 4:12 CALL' },
     { href: '/books', label: 'BOOKS FOR THE CALL' },
     { href: '/comingSoon', label: 'THIS IS MY NEXT BOOK' },
   ];
