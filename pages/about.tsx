@@ -66,7 +66,7 @@ const About = () => {
           href='/work'
           className={styles.link}>
           <div className={styles.stripe}>
-            <Heading>The Working</Heading>
+            <Heading>The Work</Heading>
             <Paragraph>of His Ministry</Paragraph>
           </div>
         </Link>
