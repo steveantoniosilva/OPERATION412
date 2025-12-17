@@ -4,6 +4,7 @@ import Heading from './Heading';
 import BookCover from '@/components/BookCover';
 import Spacer from '../components/Spacer';
 import React from 'react';
+import Author from './Author';
 
 interface BookProps {
   bookTitle: string;
@@ -53,7 +54,9 @@ const BookMoreInfo: React.FC<BookProps> = ({
         />
       </div>
 
-      <Spacer size={3} />
+      <Spacer size={4} />
+      <Author />
+      <Spacer size={5} />
     </div>
   );
 };

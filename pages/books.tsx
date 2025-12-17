@@ -4,6 +4,7 @@ import BookCover from '@/components/BookCover';
 import Heading from '@/components/Heading';
 import Spacer from '@/components/Spacer';
 import Paragraph from '@/components/Paragraph';
+import Author from '@/components/Author';
 
 const Books = () => {
   const dreamBook = books.dreamBook;
@@ -35,11 +36,7 @@ const Books = () => {
           />
 
           <Spacer size={4} />
-          <Heading
-            level='subtitle'
-            fontStyle='italic'>
-            by Steve Antonio Silva
-          </Heading>
+          <Author/>
           <Spacer size={5} />
         </div>
       </div>

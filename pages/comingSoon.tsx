@@ -4,6 +4,7 @@ import { books } from '../data/books';
 import Heading from '@/components/Heading';
 import Spacer from '@/components/Spacer';
 import Paragraph from '@/components/Paragraph';
+import Author from '@/components/Author';
 
 const ComingSoon = () => {
   const soldierBook = books.soldierBook;
@@ -36,11 +37,7 @@ const ComingSoon = () => {
           />
 
           <Spacer size={4} />
-          <Heading
-            level='subtitle'
-            fontStyle='italic'>
-            by Steve Antonio Silva
-          </Heading>
+          <Author />
           <Spacer size={5} />
         </div>
 
