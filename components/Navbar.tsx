@@ -4,6 +4,13 @@ import { Spin as Hamburger } from 'hamburger-react';
 import styles from '../styles/navbar.module.css';
 import { useRouter } from 'next/router';
 import Paragraph from '../components/Paragraph'
+import { Crimson_Text } from 'next/font/google';
+
+const numbers = Crimson_Text({
+  subsets: ['latin'],
+  weight: ['400'],
+  style: ['normal'],
+});
 
 export default function Navbar() {
   const router = useRouter();
@@ -11,10 +18,10 @@ export default function Navbar() {
   const navRef = useRef(null);
 
   const navLinks = [
-    { href: '/', label: 'HOME' },
-    { href: '/about', label: 'ABOUT' },
+    { href: '/', label: 'OPERATION 412 HOME' },
+    { href: '/about', label: 'MY BOOKS ARE ABOUT' },
     { href: '/books', label: 'BOOKS FOR THE CALL' },
-    { href: '/comingSoon', label: 'SOON' },
+    { href: '/comingSoon', label: 'THIS IS MY NEXT BOOK' },
   ];
 
   return (
@@ -41,9 +48,9 @@ export default function Navbar() {
               className={styles.li}>
               <Link
                 href={href}
-                className={`${styles.navLink} ${router.pathname === href ? styles.active : ''}`}
+                className={`${styles.navLink} ${numbers.className} ${router.pathname === href ? styles.active : ''}`}
                 onClick={() => setOpen(false)}>
-                <Paragraph fontStyle='italic'> {label}</Paragraph>
+                <Paragraph fontStyle='italic' textAlign='center'> {label}</Paragraph>
               </Link>
             </li>
           ))}

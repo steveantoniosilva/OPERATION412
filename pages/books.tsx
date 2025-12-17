@@ -22,10 +22,11 @@ const Books = () => {
       <div className='main'>
         <div className='container'>
           <Spacer size={9} />
-          <Heading>
-            <span>I AM</span>
-          </Heading>
-          <Paragraph textAlign='center'>( a new book series )</Paragraph>
+          <Paragraph textAlign='center'>BOOKS TO EQUIP.</Paragraph>
+          <Paragraph textAlign='center'>BOOKS FOR THE WORK.</Paragraph>
+          <Paragraph textAlign='center'>BOOKS TO BUILD.</Paragraph>
+          <Paragraph textAlign='center'>BOOKS FOR THE CALL.</Paragraph>
+
 
           <Spacer size={6} />
 
@@ -36,7 +37,7 @@ const Books = () => {
           />
 
           <Spacer size={4} />
-          <Author/>
+          <Author />
           <Spacer size={5} />
         </div>
       </div>

@@ -104,16 +104,12 @@ const About = () => {
               </Heading>
             </div>
             <div className={numbers.className}>
-              <Heading
-                style={{ opacity: 0.15 }}
-                level='huge'>
-                4
-              </Heading>
+              <Heading level='huge'>4</Heading>
             </div>
             <Spacer size={4} />
             <div>
               <Heading>The Equipping</Heading>
-              <Paragraph>of His Saints</Paragraph>
+              <Paragraph style={{ opacity: '.5' }}>of His Saints</Paragraph>
             </div>
           </div>
         </Link>
@@ -139,16 +135,12 @@ const About = () => {
               </Heading>
             </div>
             <div className={numbers.className}>
-              <Heading
-                style={{ opacity: 0.15 }}
-                level='huge'>
-                1
-              </Heading>
+              <Heading level='huge'>1</Heading>
             </div>
             <div>
               <Spacer size={4} />
-              <Heading>The Working</Heading>
-              <Paragraph>of His Ministry</Paragraph>
+              <Heading>The Work</Heading>
+              <Paragraph style={{ opacity: '.5' }}>of His Ministry</Paragraph>
             </div>
           </div>
         </Link>
@@ -174,16 +166,12 @@ const About = () => {
               </Heading>
             </div>
             <div className={numbers.className}>
-              <Heading
-                style={{ opacity: 0.15 }}
-                level='huge'>
-                2
-              </Heading>
+              <Heading level='huge'>2</Heading>
             </div>
             <div>
               <Spacer size={4} />
               <Heading>The Building</Heading>
-              <Paragraph>of His Body</Paragraph>
+              <Paragraph style={{ opacity: '.5' }}>of His Body</Paragraph>
             </div>
           </div>
         </Link>

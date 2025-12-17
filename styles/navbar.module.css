@@ -49,13 +49,4 @@
 
 .li {
     margin: 4vh 0;
-    padding: 0 .25em;
-    border-right: 1px solid rgba(255, 255, 255, .35);
-    border-left: 1px solid rgba(255, 255, 255, .35);
-    border-radius: 33px;
-}
-
-.li:hover {
-    border-right: 1px solid rgba(255, 255, 255, .5);
-    border-left: 1px solid rgba(255, 255, 255, .5);
 }
