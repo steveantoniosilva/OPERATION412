@@ -85,7 +85,7 @@ const About = () => {
       <div className={styles.container}>
         {/* STRIPE 1 */}
         <Link
-          href='/theEquipping'
+          href='/the-equipping'
           className={styles.link}>
           <div
             ref={el => {
@@ -109,14 +109,14 @@ const About = () => {
             <Spacer size={4} />
             <div style={{ opacity: '.5' }}>
               <Heading style={{ fontStyle: 'italic' }}>The Equipping</Heading>
-              <Paragraph style={{ fontStyle: 'italic' }}>of His Saints</Paragraph>
+              <Paragraph style={{ fontStyle: 'italic' }}>of the Saints</Paragraph>
             </div>
           </div>
         </Link>
 
         {/* STRIPE 2 */}
         <Link
-          href='/theWorking'
+          href='/the-work'
           className={styles.link}>
           <div
             ref={el => {
@@ -139,15 +139,15 @@ const About = () => {
             </div>
             <div style={{ opacity: '.5' }}>
               <Spacer size={4} />
-              <Heading style={{ fontStyle: 'italic' }}>The Working</Heading>
-              <Paragraph style={{ fontStyle: 'italic' }}>of His Works</Paragraph>
+              <Heading style={{ fontStyle: 'italic' }}>The Work</Heading>
+              <Paragraph style={{ fontStyle: 'italic' }}>of the Ministry</Paragraph>
             </div>
           </div>
         </Link>
 
         {/* STRIPE 3 */}
         <Link
-          href='/theBuilding'
+          href='/the-building'
           className={styles.link}>
           <div
             ref={el => {
@@ -171,7 +171,7 @@ const About = () => {
             <div style={{ opacity: '.5' }}>
               <Spacer size={4} />
               <Heading style={{ fontStyle: 'italic' }}>The Building</Heading>
-              <Paragraph style={{ fontStyle: 'italic' }}>of His Body</Paragraph>
+              <Paragraph style={{ fontStyle: 'italic' }}>of the Body</Paragraph>
             </div>
           </div>
         </Link>

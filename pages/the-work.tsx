@@ -1,9 +1,9 @@
 import ThreeSections from '@/components/ThreeSections';
 
-const TheWorking = () => {
+const TheWork = () => {
   return (
     <ThreeSections
-      pageTitle='The Working of His Works'
+      pageTitle='The Work of His Ministry'
       metaDescription='…for the work of the ministry… — Ephesians 4:12 (b).'
       heading='The Work of His Ministry'
       verse='— Ephesians 4:12 (b)'
@@ -19,4 +19,4 @@ const TheWorking = () => {
   );
 };
 
-export default TheWorking;
+export default TheWork;

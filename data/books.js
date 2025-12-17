@@ -3,11 +3,17 @@ export const books = {
     id: 'dream-book',
     bookTitle: 'I Am',
     bookTitleSpan: 'A Dreamer',
-    bookImageUrl: '/dreamer-bc.jpg',
+    bookImageUrl: '/dbc.png',
     bookMoreInfoUrl: 'dream-book',
     bookAmazonUrl: '/',
     bookDescription: [
-      'A few years ago I started having dreams — like a water faucet turning on — they began flooding my sleep. I previously thought of dreams as simply a random part of sleep, no rhyme no reason, much less a portal of revelation.',
+      'As a computer programmer, I know that all it takes to give a computer a new capability is a software download. We are of course all humans—no revelation there—but it is to say that our hardware is all the same—two feet, 1 nose, a brain, and so on and son. On the contrary, our software is different. Daniel was given the ability to interpret dreams—or we could say—he received a software download from the app developer to be able to interpret dreams.',
+
+      "I'm not talking 1's and 0's—the language of computers—I'm talking the embedding of hidden messages in imagery. This is what's known as steganography—one of the ancient languages that God created and men have only imitated.",
+
+      'A few years ago I started having dreams — like a water faucet turning on — they began flooding my sleep.',
+
+      'I previously thought of dreams as simply a random part of sleep, no rhyme no reason, much less a portal of revelation.',
 
       "Although I was having dreams, they were a mystery to me—they were like riddles I couldn't solve.",
 

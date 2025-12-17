@@ -5,6 +5,7 @@ import Spacer from '@/components/Spacer';
 import Paragraph from '@/components/Paragraph';
 import Author from '@/components/Author';
 import { Crimson_Text } from 'next/font/google';
+import Heading from '@/components/Heading';
 
 const numbers = Crimson_Text({
   subsets: ['latin'],
@@ -18,10 +19,10 @@ const Books = () => {
   return (
     <>
       <Head>
-        <title>I AM (book series)</title>
+        <title>412 Books</title>
         <meta
           name='description'
-          content='Welcome to the "I AM" Series — by Operation 412 Books.'
+          content='Welcome to 412 Books — by Operation 412.'
         />
       </Head>
 
@@ -33,9 +34,11 @@ const Books = () => {
           <Paragraph textAlign='center'>BOOKS TO BUILD.</Paragraph>
           <Paragraph textAlign='center'>BOOKS FOR THE CALL.</Paragraph>
 
-          <Spacer size={6} />
+          <Spacer size={5} />
 
-          <Paragraph textAlign='center'>The First Book in the <span className={numbers.className} style={{fontWeight: '700'}}>412</span> Series</Paragraph>
+          <div className={numbers.className}>
+            <Heading>412 Books</Heading>
+          </div>
 
           <Spacer size={6} />
 
