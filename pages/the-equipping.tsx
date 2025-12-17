@@ -5,7 +5,7 @@ const TheEquipping = () => {
     <ThreeSections
       pageTitle='The Equipping of His Saints'
       metaDescription='for the equipping of the saints… — Ephesians 4:12 (a).'
-      heading='The Equipping of His Saints'
+      heading='The Equipping of the Saints'
       verse='— Ephesians 4:12 (a)'
       introParagraphs={[
         <>

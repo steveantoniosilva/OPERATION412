@@ -5,7 +5,7 @@ const TheWork = () => {
     <ThreeSections
       pageTitle='The Work of His Ministry'
       metaDescription='…for the work of the ministry… — Ephesians 4:12 (b).'
-      heading='The Work of His Ministry'
+      heading='The Work of the Ministry'
       verse='— Ephesians 4:12 (b)'
       introParagraphs={[
         <>

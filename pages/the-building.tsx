@@ -5,7 +5,7 @@ const TheBuilding = () => {
     <ThreeSections
       pageTitle='Build His Body'
       metaDescription='…for the building up of the Body — Ephesians 4:12 (c).'
-      heading='The Building of His Body'
+      heading='The Building of the Body'
       verse='— Ephesians 4:12 (c)'
       introParagraphs={[
         <>
