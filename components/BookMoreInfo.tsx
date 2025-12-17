@@ -3,11 +3,11 @@ import Paragraph from './Paragraph';
 import Heading from './Heading';
 import BookCover from '@/components/BookCover';
 import Spacer from '../components/Spacer';
+import React from 'react';
 
 interface BookProps {
   bookTitle: string;
   bookTitleSpan: string;
-  bookIntro: string;
   bookDescription: string[];
   bookAmazonUrl: string;
   alt: string;
@@ -18,7 +18,6 @@ const BookMoreInfo: React.FC<BookProps> = ({
   bookTitle,
   bookTitleSpan,
   bookDescription,
-  bookIntro,
   bookAmazonUrl,
   alt,
   bookImageUrl,
@@ -27,15 +26,22 @@ const BookMoreInfo: React.FC<BookProps> = ({
     <div className='main'>
       <div className='containerBookMoreInfo'>
         <Heading>
-          {bookTitle} <span style={{fontWeight: '700'}}>{bookTitleSpan}</span>
+          {bookTitle} {bookTitleSpan}
         </Heading>
-        <Spacer size={3} />
-
-        <hr className='hrWide' />
-        <Spacer size={3} />
-        <Paragraph textAlign='justify'>{bookIntro}</Paragraph>
 
         <Spacer size={4} />
+
+        <hr className='hrNarrow' />
+        <Spacer size={4} />
+        {bookDescription.map((text, i) => (
+          <React.Fragment key={i}>
+            <Paragraph textAlign='justify'>{text}</Paragraph>
+            {i !== bookDescription.length - 1 && <Spacer size={2} />}
+          </React.Fragment>
+        ))}
+
+        <Spacer size={4} />
+
         <Button href={bookAmazonUrl}>FIND ON AMAZON</Button>
         <Spacer size={6} />
 
@@ -46,18 +52,8 @@ const BookMoreInfo: React.FC<BookProps> = ({
           clickable={false}
         />
       </div>
-      <Spacer size={3} />
 
-      {bookDescription.map((text, i) => (
-          <Paragraph
-          textAlign='justify'
-          key={i}>
-          {text}
-        </Paragraph>
-      ))}
       <Spacer size={3} />
-
-      <Button href={bookAmazonUrl}>FIND ON AMAZON</Button>
     </div>
   );
 };

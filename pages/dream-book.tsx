@@ -23,7 +23,6 @@ const DreamBook = () => {
             bookTitleSpan={book.bookTitleSpan}
             bookAmazonUrl='/'
             bookDescription={book.bookDescription}
-            bookIntro={book.bookIntro}
             alt={book.bookTitle}
             bookImageUrl={book.bookImageUrl}
           />

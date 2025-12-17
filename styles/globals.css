@@ -80,6 +80,7 @@ body::-webkit-scrollbar {
     width: 22%;
     min-width: 222px;
     max-width: 555px;
+    opacity: .25;
 }
 
 .hrNarrow {
@@ -91,6 +92,7 @@ body::-webkit-scrollbar {
     width: 11%;
     min-width: 111px;
     max-width: 333px;
+    opacity: .25;
 }
 
 

@@ -24,7 +24,6 @@ const SoldierBook = () => {
             bookTitle={book.bookTitle}
             bookTitleSpan={book.bookTitleSpan}
             bookDescription={book.bookDescription}
-            bookIntro={book.bookIntro}
             alt={book.bookTitle}
             bookImageUrl={book.bookImageUrl}
           />
