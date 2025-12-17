@@ -1,10 +1,16 @@
 import Head from 'next/head';
 import { books } from '../data/books';
 import BookCover from '@/components/BookCover';
-import Heading from '@/components/Heading';
 import Spacer from '@/components/Spacer';
 import Paragraph from '@/components/Paragraph';
 import Author from '@/components/Author';
+import { Crimson_Text } from 'next/font/google';
+
+const numbers = Crimson_Text({
+  subsets: ['latin'],
+  weight: ['400'],
+  style: ['normal'],
+});
 
 const Books = () => {
   const dreamBook = books.dreamBook;
@@ -29,7 +35,7 @@ const Books = () => {
 
           <Spacer size={6} />
 
-          <Paragraph textAlign='center'>The First Book in the <span style={{fontWeight: '700'}}>I AM</span> Series</Paragraph>
+          <Paragraph textAlign='center'>The First Book in the <span className={numbers.className} style={{fontWeight: '700'}}>412</span> Series</Paragraph>
 
           <Spacer size={6} />
 

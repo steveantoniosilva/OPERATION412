@@ -18,7 +18,7 @@ const Home = () => {
         <title>Operation 412</title>
         <meta
           name='description'
-          content='The Mission of Operation 412 is the Commission of Ephesians 4:12—Equip His Saints, Work His Works and Build His Body.'
+          content='Ephesians 4:12 Called. Operation 412 Answered. Books for the Call.'
         />
       </Head>
 
