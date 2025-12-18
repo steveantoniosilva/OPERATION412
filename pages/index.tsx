@@ -44,64 +44,61 @@ const Home = () => {
         {/* PANEL 1 */}
         <div className={styles.stripe}>
           <div className={styles.operation}>
-            <Heading level='huge'>O</Heading>
-            <Heading level='huge'>P</Heading>
             <Heading level='huge'>E</Heading>
+            <Heading level='huge'>P</Heading>
+            <Heading level='huge'>H</Heading>
           </div>
           <div className={numbers.className}>
             <Heading level='huge'>4</Heading>
-            <Spacer size={0.6} />
-            <div className={styles.operation412Description}>
-              <Paragraph
-                textAlign='center'
-                fontStyle='italic'
-                style={{ opacity: '.5' }}>
-                Operation: A Coordinated Mission.
-              </Paragraph>
-            </div>
+          </div>
+          <div className={styles.operation412Description}>
+            <Paragraph
+              textAlign='center'
+              fontStyle='italic'
+              style={{ opacity: '.5' }}>
+              equipping the saints
+            </Paragraph>
           </div>
         </div>
 
         {/* PANEL 2 */}
         <div className={styles.stripe}>
           <div className={styles.operation}>
-            <Heading level='huge'>R</Heading>
-            <Heading level='huge'>A</Heading>
-            <Heading level='huge'>T</Heading>
+            <Heading level='huge'>E</Heading>
+            <Heading level='huge'>S</Heading>
+            <Heading level='huge'>I</Heading>
           </div>
           <div className={numbers.className}>
             <Heading level='huge'>1</Heading>
-            <Spacer size={0.6} />
-            <div className={styles.operation412Description}>
-              <Paragraph
-                textAlign='center'
-                fontStyle='italic'
-                style={{ opacity: '.5' }}>
-                412: The Call of Ephesians 4:12.
-              </Paragraph>
-            </div>
+          </div>
+          <div className={styles.operation412Description}>
+            <Paragraph
+              textAlign='center'
+              fontStyle='italic'
+              style={{ opacity: '.5' }}>
+              for works of ministry
+            </Paragraph>
           </div>
         </div>
 
         {/* PANEL 3 */}
         <div className={styles.stripe}>
           <div className={styles.operation}>
-            <Heading level='huge'>I</Heading>
-            <Heading level='huge'>O</Heading>
+            <Heading level='huge'>A</Heading>
             <Heading level='huge'>N</Heading>
+            <Heading level='huge'>S</Heading>
           </div>
           <div className={numbers.className}>
             <Heading level='huge'>2</Heading>
-            <Spacer size={0.6} />
+                </div>
             <div className={styles.operation412Description}>
               <Paragraph
                 textAlign='center'
                 fontStyle='italic'
                 style={{ opacity: '.5' }}>
-                I Write Books For The Call
+                so the Body is built up
               </Paragraph>
             </div>
-          </div>
         </div>
       </div>
     </>
