@@ -4,6 +4,9 @@ import Heading from '@/components/Heading';
 import Paragraph from '@/components/Paragraph';
 import Spacer from '@/components/Spacer';
 import { Crimson_Text } from 'next/font/google';
+import Link from 'next/link';
+import { useEffect, useRef } from 'react';
+import VanillaTilt from 'vanilla-tilt';
 
 const numbers = Crimson_Text({
   subsets: ['latin'],
@@ -12,6 +15,30 @@ const numbers = Crimson_Text({
 });
 
 const Home = () => {
+  const stripesRef = useRef<HTMLDivElement[]>([]);
+
+  useEffect(() => {
+    stripesRef.current.forEach(el => {
+      if (!el) return;
+      if ((el as any).vanillaTilt) return;
+
+      VanillaTilt.init(el, {
+        max: 6,
+        speed: 600,
+        scale: 1.02,
+        perspective: 1000,
+        glare: true,
+        'max-glare': 0.5,
+      });
+    });
+
+    return () => {
+      stripesRef.current.forEach(el => {
+        (el as any)?.vanillaTilt?.destroy();
+      });
+    };
+  }, []);
+
   return (
     <>
       <Head>
@@ -42,55 +69,84 @@ const Home = () => {
       {/* ----------------------------- */}
       <div className={styles.desktopContainer}>
         {/* PANEL 1 */}
-        <div className={styles.stripe}>
-          <div className={styles.operation}>
-            <Heading level='huge'>E</Heading>
-            <Heading level='huge'>P</Heading>
-            <Heading level='huge'>H</Heading>
+        <Link
+          href='/the-equipping'
+          className={styles.link}>
+          <div
+            ref={el => {
+              if (el) stripesRef.current[0] = el;
+            }}
+            className={styles.stripe}>
+            <div className={styles.operation}>
+              <Heading level='huge'>E</Heading>
+              <Heading level='huge'>P</Heading>
+              <Heading level='huge'>H</Heading>
+            </div>
+
+            <div className={numbers.className}>
+              <Heading level='huge'>4</Heading>
+            </div>
+
+            <div className={styles.operation412Description}>
+              <Paragraph
+                textAlign='center'
+                fontStyle='italic'
+                style={{ opacity: '.5' }}>
+                equipping the saints
+              </Paragraph>
+            </div>
           </div>
-          <div className={numbers.className}>
-            <Heading level='huge'>4</Heading>
-          </div>
-          <div className={styles.operation412Description}>
-            <Paragraph
-              textAlign='center'
-              fontStyle='italic'
-              style={{ opacity: '.5' }}>
-              equipping the saints
-            </Paragraph>
-          </div>
-        </div>
+        </Link>
 
         {/* PANEL 2 */}
-        <div className={styles.stripe}>
-          <div className={styles.operation}>
-            <Heading level='huge'>E</Heading>
-            <Heading level='huge'>S</Heading>
-            <Heading level='huge'>I</Heading>
+        <Link
+          href='/the-work'
+          className={styles.link}>
+          <div
+            ref={el => {
+              if (el) stripesRef.current[1] = el;
+            }}
+            className={styles.stripe}>
+            <div className={styles.operation}>
+              <Heading level='huge'>E</Heading>
+              <Heading level='huge'>S</Heading>
+              <Heading level='huge'>I</Heading>
+            </div>
+
+            <div className={numbers.className}>
+              <Heading level='huge'>1</Heading>
+            </div>
+
+            <div className={styles.operation412Description}>
+              <Paragraph
+                textAlign='center'
+                fontStyle='italic'
+                style={{ opacity: '.5' }}>
+                for works of ministry
+              </Paragraph>
+            </div>
           </div>
-          <div className={numbers.className}>
-            <Heading level='huge'>1</Heading>
-          </div>
-          <div className={styles.operation412Description}>
-            <Paragraph
-              textAlign='center'
-              fontStyle='italic'
-              style={{ opacity: '.5' }}>
-              for works of ministry
-            </Paragraph>
-          </div>
-        </div>
+        </Link>
 
         {/* PANEL 3 */}
-        <div className={styles.stripe}>
-          <div className={styles.operation}>
-            <Heading level='huge'>A</Heading>
-            <Heading level='huge'>N</Heading>
-            <Heading level='huge'>S</Heading>
-          </div>
-          <div className={numbers.className}>
-            <Heading level='huge'>2</Heading>
-                </div>
+        <Link
+          href='/the-building'
+          className={styles.link}>
+          <div
+            ref={el => {
+              if (el) stripesRef.current[2] = el;
+            }}
+            className={styles.stripe}>
+            <div className={styles.operation}>
+              <Heading level='huge'>A</Heading>
+              <Heading level='huge'>N</Heading>
+              <Heading level='huge'>S</Heading>
+            </div>
+
+            <div className={numbers.className}>
+              <Heading level='huge'>2</Heading>
+            </div>
+
             <div className={styles.operation412Description}>
               <Paragraph
                 textAlign='center'
@@ -99,7 +155,8 @@ const Home = () => {
                 so the Body is built up
               </Paragraph>
             </div>
-        </div>
+          </div>
+        </Link>
       </div>
     </>
   );
