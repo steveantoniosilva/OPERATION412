@@ -107,7 +107,9 @@ const About = () => {
             </div>
             <Spacer size={3} />
             <div style={{ opacity: '.625' }}>
-              <Heading style={{ fontStyle: 'italic' }}>The Equipping</Heading>
+              <Heading style={{ fontStyle: 'italic' }}>
+                <span className='mini'>for the</span> Equipping
+              </Heading>
               <Paragraph style={{ fontStyle: 'italic' }}>of the Saints</Paragraph>
             </div>
           </div>
@@ -138,7 +140,9 @@ const About = () => {
             </div>
             <Spacer size={3} />
             <div style={{ opacity: '.625' }}>
-              <Heading style={{ fontStyle: 'italic' }}>The Work</Heading>
+              <Heading style={{ fontStyle: 'italic' }}>
+                <span className='mini'>for the</span> Work
+              </Heading>
               <Paragraph style={{ fontStyle: 'italic' }}>of the Ministry</Paragraph>
             </div>
           </div>
@@ -169,7 +173,9 @@ const About = () => {
             </div>
             <Spacer size={3} />
             <div style={{ opacity: '.625' }}>
-              <Heading style={{ fontStyle: 'italic' }}>The Building</Heading>
+              <Heading style={{ fontStyle: 'italic' }}>
+                <span className='mini'>for the</span> Building
+              </Heading>
               <Paragraph style={{ fontStyle: 'italic' }}>of the Body</Paragraph>
             </div>
           </div>
