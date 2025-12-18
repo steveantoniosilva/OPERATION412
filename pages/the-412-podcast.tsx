@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { useEffect, useRef } from 'react';
 import VanillaTilt from 'vanilla-tilt';
-import styles from '../styles/about.module.css';
+import styles from '../styles/the412Podcast.module.css';
 import Heading from '@/components/Heading';
 import Paragraph from '@/components/Paragraph';
 import { Crimson_Text } from 'next/font/google';
@@ -14,7 +14,7 @@ const numbers = Crimson_Text({
   style: ['normal'],
 });
 
-const About = () => {
+const The412Podcast = () => {
   const stripesRef = useRef<HTMLDivElement[]>([]);
 
   useEffect(() => {
@@ -53,29 +53,26 @@ const About = () => {
       {/* No VanillaTilt. Just links. */}
       <div className={styles.mobileContainer}>
         <Link
-          href='/equip'
+          href='/the-equipping'
           className={styles.link}>
           <div className={styles.stripe}>
-            <Heading>The Equipping</Heading>
-            <Paragraph>of His Saints</Paragraph>
+            <Paragraph style={{ fontStyle: 'italic' }}>equip the saints</Paragraph>
           </div>
         </Link>
 
         <Link
-          href='/work'
+          href='/the-work'
           className={styles.link}>
           <div className={styles.stripe}>
-            <Heading>The Working</Heading>
-            <Paragraph>of His Works</Paragraph>
+            <Paragraph style={{ fontStyle: 'italic' }}>for works of Ministry</Paragraph>
           </div>
         </Link>
 
         <Link
-          href='/build'
+          href='/the-building'
           className={styles.link}>
           <div className={styles.stripe}>
-            <Heading>The Building</Heading>
-            <Paragraph>of His Body</Paragraph>
+            <Paragraph style={{ fontStyle: 'italic' }}>and to build the Body</Paragraph>
           </div>
         </Link>
       </div>
@@ -110,12 +107,9 @@ const About = () => {
               </Heading>
             </div>
             <Spacer size={3} />
-            <div>
-              <Heading style={{ fontStyle: 'italic' }}>
-                for the equipping
-              </Heading>
-              <Paragraph style={{ fontStyle: 'italic' }}>of the Saints</Paragraph>
-            </div>
+            <Paragraph style={{ fontStyle: 'italic' }}>
+              <span className='mini'>Equip the Saints</span>
+            </Paragraph>{' '}
           </div>
         </Link>
 
@@ -147,12 +141,9 @@ const About = () => {
               </Heading>
             </div>
             <Spacer size={3} />
-            <div>
-              <Heading style={{ fontStyle: 'italic' }}>
-                for the work
-              </Heading>
-              <Paragraph style={{ fontStyle: 'italic' }}>of the Ministry</Paragraph>
-            </div>
+            <Paragraph style={{ fontStyle: 'italic' }}>
+              <span className='mini'>for Works oF Ministry</span>
+            </Paragraph>{' '}
           </div>
         </Link>
 
@@ -184,12 +175,9 @@ const About = () => {
               </Heading>
             </div>
             <Spacer size={3} />
-            <div>
-              <Heading style={{ fontStyle: 'italic' }}>
-                for the building
-              </Heading>
-              <Paragraph style={{ fontStyle: 'italic' }}>of the Body</Paragraph>
-            </div>
+            <Paragraph style={{ fontStyle: 'italic' }}>
+              <span className='mini'>and to Build the Body</span>
+            </Paragraph>
           </div>
         </Link>
       </div>
@@ -197,4 +185,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default The412Podcast;

@@ -79,7 +79,7 @@ export const books = {
 
   //I Am A MoneyMaker - the modern minister has become a modern money maching
 
-  // I Am A An Eagle
+  // Built Like A An Eagle
 
   // I Am A Lion / Built Like A lion?
 
@@ -107,5 +107,7 @@ export const books = {
 
     // I am a rapper
   
-  // GOD'S OPERATING SYSTEM?????
+    // GOD'S OPERATING SYSTEM?????
+  
+  // I'm building a company
 };

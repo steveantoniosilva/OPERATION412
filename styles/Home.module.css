@@ -117,10 +117,10 @@
         background-position: 100% 0%;
     }
 
-    .lowerParagraph {
+    .operation412Description {
         background: linear-gradient(to bottom, 
         transparent, 
-        rgba(50, 25, 5, .35), 
+        rgba(50, 25, 5, 1), 
         transparent);
         min-height: 1.75em;
         display: flex;

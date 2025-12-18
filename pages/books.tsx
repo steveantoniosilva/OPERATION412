@@ -30,13 +30,21 @@ const Books = () => {
         <div className='container'>
           <Spacer size={9} />
           <Heading>
-            412 Books
+            AS BELIEVERS
           </Heading>
           <Spacer size={4} />
-          <Paragraph textAlign='center'>BOOKS TO EQUIP.</Paragraph>
-          <Paragraph textAlign='center'>BOOKS FOR THE WORK.</Paragraph>
-          <Paragraph textAlign='center'>BOOKS TO BUILD.</Paragraph>
-          <Paragraph textAlign='center'>BOOKS FOR THE CALL.</Paragraph>
+
+          <Spacer size={6} />
+          <Heading>
+            WELCOME TO
+          </Heading>
+
+          <Spacer size={1} />
+          <Heading>
+            412 <s>Books</s> Field Manuals
+          </Heading>
+          <Paragraph textAlign='center'>WE HAV</Paragraph>
+          <Spacer size={4} />
 
           <Spacer size={6} />
 

@@ -18,10 +18,10 @@ export default function Navbar() {
   const navRef = useRef(null);
 
   const navLinks = [
-    { href: '/', label: 'Home: Operation 412' },
-    { href: '/about', label: 'The Ephesians 4:12 Call' },
-    { href: '/books', label: 'I write Books for the Call' },
-    { href: '/comingSoon', label: 'View My Upcoming Book' },
+    { href: '/', label: 'Home' },
+    { href: '/books', label: '412 Books' },
+    { href: '/comingSoon', label: 'My Next Book' },
+    { href: '/the-412-podcast', label: 'The 412 Podcast' },
   ];
 
   return (
