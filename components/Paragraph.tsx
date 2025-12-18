@@ -17,7 +17,7 @@ interface ParagraphProps {
 
 export default function Paragraph({
   children,
-  textAlign = 'left',
+  textAlign = 'justify',
   fontStyle = 'normal',
   size = 'base',
   style,

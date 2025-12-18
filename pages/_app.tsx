@@ -15,14 +15,14 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Operation 412</title>
+        <title>412 Books</title>
         <meta
           name='viewport'
           content='width=device-width, initial-scale=1'
         />
         <meta
           name='description'
-          content='Ephesians 4:12 called. Operation 412 answered: equip believers for the work of ministry; build up the Body of Christ.'
+          content='Ephesians 4:12 Called. 412 Books Answered. Books for the Call—Equip the Saints for Works of Ministry and to Build up the Body of Christ.'
         />
 
         <link

@@ -29,24 +29,6 @@ const Books = () => {
       <div className='main'>
         <div className='container'>
           <Spacer size={9} />
-          <Heading>
-            AS BELIEVERS
-          </Heading>
-          <Spacer size={4} />
-
-          <Spacer size={6} />
-          <Heading>
-            WELCOME TO
-          </Heading>
-
-          <Spacer size={1} />
-          <Heading>
-            412 <s>Books</s> Field Manuals
-          </Heading>
-          <Paragraph textAlign='center'>WE HAV</Paragraph>
-          <Spacer size={4} />
-
-          <Spacer size={6} />
 
           <BookCover
             alt={dreamBook.bookTitle}

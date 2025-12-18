@@ -14,33 +14,33 @@ const ComingSoon = () => {
         <title>My Next Book</title>
         <meta
           name='description'
-          content='Next Book — Coming Soon by Operation 412 Books.'
+          content='Next Book — Coming Soon — View our digital bookshelf at 412 Books.com.'
         />
       </Head>
       <div className='main'>
         <div className='container'>
           <Spacer size={9} />
-          <Paragraph textAlign='center'>
+          <Paragraph>
             The Apostle Paul wrote to Timothy saying, “Join me in suffering, like a good soldier of Christ Jesus. A
             soldier refrains from entangling himself in civilian affairs, in order to please the one who enlisted him.”
           </Paragraph>
 
           <Spacer size={1} />
 
-          <Paragraph textAlign='center'>
+          <Paragraph>
             His loyalty is undivided. His orders are clear. He lives to please the One who enlisted him.
           </Paragraph>
 
           <Spacer size={1} />
 
-          <Paragraph textAlign='center'>
+          <Paragraph>
             This book is a field manual. It is not commentary. It is a call to arms. Each chapter isolates a defining
             trait of the soldier—discipline, obedience, endurance, readiness. Once enlisted, civilian life is forfeited.
           </Paragraph>
 
           <Spacer size={1} />
 
-          <Paragraph textAlign='center'>
+          <Paragraph>
             When Gideon assembled his army, the Lord let each soldier choose his fate, “Anyone who trembles with fear
             may turn back and leave…” Twenty-two thousand turned back. Ten thousand remained. The army was not weakened.
             It was refined.
@@ -48,16 +48,15 @@ const ComingSoon = () => {
 
           <Spacer size={1} />
 
-          <Paragraph textAlign='center'>This isn't for the thousands who tremble and are fearful.</Paragraph>
+          <Paragraph>This isn't for the thousands who tremble and are fearful.</Paragraph>
 
           <Spacer size={1} />
 
-          <Paragraph textAlign='center'>This is for the 300.</Paragraph>
+          <Paragraph>This is for the 300.</Paragraph>
           <Spacer size={1} />
 
           <Paragraph
-            fontStyle='italic'
-            textAlign='center'>
+            fontStyle='italic'>
             Semper Paratus
           </Paragraph>
 
