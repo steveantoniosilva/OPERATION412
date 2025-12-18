@@ -30,7 +30,7 @@ const Books = () => {
         <div className='container'>
           <Spacer size={9} />
           <Heading>
-            Operation 412 / Books
+            412 Books
           </Heading>
           <Spacer size={4} />
           <Paragraph textAlign='center'>BOOKS TO EQUIP.</Paragraph>

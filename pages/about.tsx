@@ -42,11 +42,10 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>About Operation 412</title>
-
+        <title>The Ephesians 4:12 Call</title>
         <meta
           name='description'
-          content='The Mission of Operation 412 is the Commission of Ephesians 4:12—Equip His Saints, Work His Works and Build His Body.'
+          content='The Ephesians 4:12 Call to Equip the Saints for the Work of the ministry and build up the Body is the mission of Operation 412.'
         />
       </Head>
 

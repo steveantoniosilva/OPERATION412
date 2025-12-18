@@ -18,10 +18,10 @@ export default function Navbar() {
   const navRef = useRef(null);
 
   const navLinks = [
-    { href: '/', label: 'HOME' },
-    { href: '/about', label: 'THE 4:12 CALL' },
-    { href: '/books', label: 'BOOKS FOR THE CALL' },
-    { href: '/comingSoon', label: 'THIS IS MY NEXT BOOK' },
+    { href: '/', label: 'Home: Operation 412' },
+    { href: '/about', label: 'The Ephesians 4:12 Call' },
+    { href: '/books', label: 'I write Books for the Call' },
+    { href: '/comingSoon', label: 'View My Upcoming Book' },
   ];
 
   return (
