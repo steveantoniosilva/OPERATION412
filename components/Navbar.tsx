@@ -18,8 +18,8 @@ export default function Navbar() {
   const navRef = useRef(null);
 
   const navLinks = [
-    { href: '/', label: 'OPERATION 412 HOME' },
-    { href: '/about', label: 'EPHESIANS 4:12 CALL' },
+    { href: '/', label: 'HOME' },
+    { href: '/about', label: 'THE 4:12 CALL' },
     { href: '/books', label: 'BOOKS FOR THE CALL' },
     { href: '/comingSoon', label: 'THIS IS MY NEXT BOOK' },
   ];
