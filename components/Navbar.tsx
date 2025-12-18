@@ -21,7 +21,7 @@ export default function Navbar() {
     { href: '/', label: 'Home' },
     { href: '/books', label: '412 Books' },
     { href: '/comingSoon', label: 'My Next Book' },
-    { href: '/the-412-podcast', label: 'The 412 Podcast' },
+    { href: '/the-412-pod', label: 'The 412 Pod' },
   ];
 
   return (

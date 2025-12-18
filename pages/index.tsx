@@ -92,7 +92,7 @@ const Home = () => {
                 textAlign='center'
                 fontStyle='italic'
                 style={{ opacity: '.5' }}>
-                equipping the saints
+                the equipping of the saints
               </Paragraph>
             </div>
           </div>
@@ -122,7 +122,7 @@ const Home = () => {
                 textAlign='center'
                 fontStyle='italic'
                 style={{ opacity: '.5' }}>
-                for works of ministry
+                for the work of ministry
               </Paragraph>
             </div>
           </div>
@@ -152,7 +152,7 @@ const Home = () => {
                 textAlign='center'
                 fontStyle='italic'
                 style={{ opacity: '.5' }}>
-                so the Body is built up
+                and to build up the Body
               </Paragraph>
             </div>
           </div>

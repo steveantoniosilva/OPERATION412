@@ -90,26 +90,18 @@ const The412Podcast = () => {
             className={styles.stripe}>
             <div className={styles.ephesians}>
               <Heading level='huge'>
-                <span>E</span>
-              </Heading>
-              <Heading level='huge'>
-                <span>P</span>
+                <span>T</span>
               </Heading>
               <Heading level='huge'>
                 <span>H</span>
               </Heading>
-            </div>
-            <div className={numbers.className}>
-              <Heading
-                style={{ opacity: '.2' }}
-                level='huge'>
-                4
+              <Heading level='huge'>
+                <span>E</span>
               </Heading>
             </div>
-            <Spacer size={3} />
             <Paragraph style={{ fontStyle: 'italic' }}>
-              <span className='mini'>Equip the Saints</span>
-            </Paragraph>{' '}
+              <span className='mini'>the equipping of the saints</span>
+            </Paragraph>
           </div>
         </Link>
 
@@ -122,28 +114,20 @@ const The412Podcast = () => {
               if (el) stripesRef.current[1] = el;
             }}
             className={styles.stripe}>
-            <div className={styles.ephesians}>
+            <div className={` ${styles.ephesians} ${numbers.className} `}>
               <Heading level='huge'>
-                <span>E</span>
+                <span>4</span>
               </Heading>
               <Heading level='huge'>
-                <span>S</span>
+                <span>1</span>
               </Heading>
               <Heading level='huge'>
-                <span>I</span>
+                <span>2</span>
               </Heading>
             </div>
-            <div className={numbers.className}>
-              <Heading
-                style={{ opacity: '.2' }}
-                level='huge'>
-                1
-              </Heading>
-            </div>
-            <Spacer size={3} />
             <Paragraph style={{ fontStyle: 'italic' }}>
-              <span className='mini'>for Works oF Ministry</span>
-            </Paragraph>{' '}
+              <span className='mini'>for the work of ministry</span>
+            </Paragraph>
           </div>
         </Link>
 
@@ -158,25 +142,17 @@ const The412Podcast = () => {
             className={styles.stripe}>
             <div className={styles.ephesians}>
               <Heading level='huge'>
-                <span>A</span>
+                <span>P</span>
               </Heading>
               <Heading level='huge'>
-                <span>N</span>
+                <span>O</span>
               </Heading>
               <Heading level='huge'>
-                <span>S</span>
+                <span>D</span>
               </Heading>
             </div>
-            <div className={numbers.className}>
-              <Heading
-                style={{ opacity: '.2' }}
-                level='huge'>
-                2
-              </Heading>
-            </div>
-            <Spacer size={3} />
             <Paragraph style={{ fontStyle: 'italic' }}>
-              <span className='mini'>and to Build the Body</span>
+              <span className='mini'>and to build up the Body</span>
             </Paragraph>
           </div>
         </Link>
