@@ -103,12 +103,16 @@ const About = () => {
               </Heading>
             </div>
             <div className={numbers.className}>
-              <Heading level='huge'>4</Heading>
+              <Heading
+                style={{ opacity: '.2' }}
+                level='huge'>
+                4
+              </Heading>
             </div>
             <Spacer size={3} />
-            <div style={{ opacity: '.625' }}>
+            <div>
               <Heading style={{ fontStyle: 'italic' }}>
-                <span className='mini'>for the</span> Equipping
+                for the equipping
               </Heading>
               <Paragraph style={{ fontStyle: 'italic' }}>of the Saints</Paragraph>
             </div>
@@ -136,12 +140,16 @@ const About = () => {
               </Heading>
             </div>
             <div className={numbers.className}>
-              <Heading level='huge'>1</Heading>
+              <Heading
+                style={{ opacity: '.2' }}
+                level='huge'>
+                1
+              </Heading>
             </div>
             <Spacer size={3} />
-            <div style={{ opacity: '.625' }}>
+            <div>
               <Heading style={{ fontStyle: 'italic' }}>
-                <span className='mini'>for the</span> Work
+                for the work
               </Heading>
               <Paragraph style={{ fontStyle: 'italic' }}>of the Ministry</Paragraph>
             </div>
@@ -169,12 +177,16 @@ const About = () => {
               </Heading>
             </div>
             <div className={numbers.className}>
-              <Heading level='huge'>2</Heading>
+              <Heading
+                style={{ opacity: '.2' }}
+                level='huge'>
+                2
+              </Heading>
             </div>
             <Spacer size={3} />
-            <div style={{ opacity: '.625' }}>
+            <div>
               <Heading style={{ fontStyle: 'italic' }}>
-                <span className='mini'>for the</span> Building
+                for the building
               </Heading>
               <Paragraph style={{ fontStyle: 'italic' }}>of the Body</Paragraph>
             </div>
