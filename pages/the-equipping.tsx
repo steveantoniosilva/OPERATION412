@@ -6,10 +6,10 @@ const TheEquipping = () => {
       pageTitle='The Equipping of His Saints'
       metaDescription='for the equipping of the saints… — Ephesians 4:12 (a).'
       heading='The Equipping of the Saints'
-      verse='— Ephesians 4:12 (a)'
+      verse='(a)'
       introParagraphs={[
         <>
-          Like a child, I began with a simple question—what does it mean to be{' '}
+          I began with a simple question—what does it mean to be{' '}
           <span style={{ fontStyle: 'italic' }}>equipped?</span> What does{' '}
           <span style={{ fontStyle: 'italic' }}>equipping</span> look like? What I discovered didn't change how I
           thought about Ephesians 4:12, it transformed it.

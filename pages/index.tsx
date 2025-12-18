@@ -54,13 +54,25 @@ const Home = () => {
       {/* ----------------------------- */}
       <div className={styles.mobileContainer}>
         <div className={styles.stripe}>
-          <Heading>OPERATION</Heading>
+          <Heading
+            level='huge'
+            fontStyle='italic'>
+            Equip
+          </Heading>
         </div>
         <div className={styles.stripe}>
-          <Heading level='huge'>4</Heading>
+          <Heading
+            level='huge'
+            fontStyle='italic'>
+            Work
+          </Heading>
         </div>
         <div className={styles.stripe}>
-          <Heading level='huge'>12</Heading>
+          <Heading
+            level='huge'
+            fontStyle='italic'>
+            Build
+          </Heading>
         </div>
       </div>
 
@@ -78,23 +90,24 @@ const Home = () => {
             }}
             className={styles.stripe}>
             <div className={styles.operation}>
-              <Heading level='huge'>E</Heading>
+              <Heading level='huge'>O</Heading>
               <Heading level='huge'>P</Heading>
-              <Heading level='huge'>H</Heading>
+              <Heading level='huge'>E</Heading>
             </div>
 
             <div className={numbers.className}>
-              <Heading level='huge'>4</Heading>
+              <Heading
+                style={{ opacity: '.25' }}
+                level='huge'>
+                4
+              </Heading>
             </div>
 
-            <div className={styles.operation412Description}>
-              <Paragraph
-                textAlign='center'
-                fontStyle='italic'
-                style={{ opacity: '.5' }}>
-                the equipping of the saints
-              </Paragraph>
-            </div>
+            <Heading
+              level='huge'
+              fontStyle='italic'>
+              Equip
+            </Heading>
           </div>
         </Link>
 
@@ -108,23 +121,24 @@ const Home = () => {
             }}
             className={styles.stripe}>
             <div className={styles.operation}>
-              <Heading level='huge'>E</Heading>
-              <Heading level='huge'>S</Heading>
-              <Heading level='huge'>I</Heading>
+              <Heading level='huge'>R</Heading>
+              <Heading level='huge'>A</Heading>
+              <Heading level='huge'>T</Heading>
             </div>
 
             <div className={numbers.className}>
-              <Heading level='huge'>1</Heading>
+              <Heading
+                style={{ opacity: '.25' }}
+                level='huge'>
+                1
+              </Heading>
             </div>
 
-            <div className={styles.operation412Description}>
-              <Paragraph
-                textAlign='center'
-                fontStyle='italic'
-                style={{ opacity: '.5' }}>
-                for the work of ministry
-              </Paragraph>
-            </div>
+            <Heading
+              level='huge'
+              fontStyle='italic'>
+              Work
+            </Heading>
           </div>
         </Link>
 
@@ -138,23 +152,23 @@ const Home = () => {
             }}
             className={styles.stripe}>
             <div className={styles.operation}>
-              <Heading level='huge'>A</Heading>
+              <Heading level='huge'>I</Heading>
+              <Heading level='huge'>O</Heading>
               <Heading level='huge'>N</Heading>
-              <Heading level='huge'>S</Heading>
             </div>
 
             <div className={numbers.className}>
-              <Heading level='huge'>2</Heading>
+              <Heading
+                style={{ opacity: '.25' }}
+                level='huge'>
+                2
+              </Heading>
             </div>
-
-            <div className={styles.operation412Description}>
-              <Paragraph
-                textAlign='center'
-                fontStyle='italic'
-                style={{ opacity: '.5' }}>
-                and to build up the Body
-              </Paragraph>
-            </div>
+            <Heading
+              level='huge'
+              fontStyle='italic'>
+              Build
+            </Heading>
           </div>
         </Link>
       </div>

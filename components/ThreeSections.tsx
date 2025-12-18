@@ -60,18 +60,14 @@ const ThreeSections = ({
            PRIMARY HEADING
            ---------------------------------------------------------------------- */}
         <Heading>{heading}</Heading>
-
-        <Spacer size={3} />
-
         {/* ----------------------------------------------------------------------
            SCRIPTURE VERSE
            ---------------------------------------------------------------------- */}
-        <Paragraph
-          textAlign='center'
-          fontStyle='italic'
-          size='quote'>
-          {verse}
-        </Paragraph>
+        <Heading
+          level='subtitle'
+          fontStyle='italic'>
+          — Ephesians <span className='huge'>4:12</span> {verse}
+        </Heading>
 
         {/* ----------------------------------------------------------------------
            INTRODUCTION BLOCK
@@ -88,8 +84,9 @@ const ThreeSections = ({
         {/* ----------------------------------------------------------------------
            SECTION DIVIDER
            ---------------------------------------------------------------------- */}
+        <Spacer size={3} />
         <hr className='hrWide' />
-
+        <Spacer size={1} />
         {/* ----------------------------------------------------------------------
            WORD PAIRS
            ---------------------------------------------------------------------- */}

@@ -12,6 +12,7 @@
             calc(5vw + 2vh),
             5rem);
     text-shadow: 0 0 33px whitesmoke;
+    font-weight: 700;
 }
 
 /* TITLE = size only */

@@ -115,6 +115,13 @@ a {
     --heading-emphasis-weight: 700;
 }
 
+.huge {
+    font-size: clamp(3rem,
+            calc(5vw + 2vh),
+            5rem);
+    text-shadow: 0 0 33px whitesmoke;
+}
+
 .mini {
     font-size: clamp(0.95rem, 0.9vw + 0.9vh, 1.05rem);
     line-height: 2.2;

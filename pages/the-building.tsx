@@ -6,7 +6,7 @@ const TheBuilding = () => {
       pageTitle='Build His Body'
       metaDescription='…for the building up of the Body — Ephesians 4:12 (c).'
       heading='The Building of the Body'
-      verse='— Ephesians 4:12 (c)'
+      verse='(c)'
       introParagraphs={[
         <>
           The Greek behind the mandate to <span style={{ fontStyle: 'italic' }}>build</span> His Body is rich with

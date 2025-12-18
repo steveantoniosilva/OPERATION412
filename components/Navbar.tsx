@@ -19,9 +19,8 @@ export default function Navbar() {
 
   const navLinks = [
     { href: '/', label: 'Home' },
-    { href: '/books', label: '412 Books' },
-    { href: '/comingSoon', label: 'My Next Book' },
-    { href: '/the-412-pod', label: 'The 412 Pod' },
+    { href: '/books', label: 'Books' },
+    { href: '/comingSoon', label: 'Next' },
   ];
 
   return (
