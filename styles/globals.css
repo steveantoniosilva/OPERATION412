@@ -23,7 +23,6 @@ body::-webkit-scrollbar {
     padding: 0;
     text-align: center;
     font-optical-sizing: auto;
-    color: white;
 }
 
 .backgroundImage {
@@ -116,9 +115,9 @@ a {
 }
 
 .huge {
-    font-size: clamp(3rem,
-            calc(5vw + 2vh),
-            5rem);
+    font-size: clamp(6rem,
+            calc(3vw + 3vh),
+            6rem);
     text-shadow: 0 0 33px whitesmoke;
 }
 

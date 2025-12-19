@@ -9,10 +9,10 @@
 
 .huge {
     font-size: clamp(3rem,
-            calc(5vw + 2vh),
+            calc(6vw + 3vh),
             5rem);
     font-weight: 700;
-    opacity: .1;
+    text-shadow: 0 0. 33px white;
 }
 
 /* TITLE = size only */

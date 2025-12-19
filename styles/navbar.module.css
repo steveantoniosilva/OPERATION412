@@ -56,7 +56,7 @@
     margin: 4vh 0;
 }
 
-/* @media (min-width: 777px) {
+@media (min-width: 777px) {
 
     .hamburger {
         display: none;
@@ -72,24 +72,36 @@
         left: 0;
         width: 100vw;
         height: 77px;
-
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         z-index: 9999;
     }
-
+    
     .desktopLink {
-        text-decoration: none;
-        white-space: nowrap;
         transition: opacity 0.25s ease;
+        opacity: .7;
+        font-size: 16px;
     }
-
-.desktopLink.active {
-    border-bottom: .1px solid white;
-}
-
+    
     .desktopLink:hover {
-        opacity: 0.7;
+        opacity: 1;
     }
-} */
+
+        .desktopLink {
+            transition: opacity 0.25s ease;
+            font-size: 16px;
+            text-decoration: none;
+            color: white;
+        }
+    
+        .desktopLink:hover {
+            opacity: .7;
+        }
+    
+        /* CURRENT PAGE */
+        .desktopLink.active {
+            color: tan;
+            pointer-events: none;
+        }
+}

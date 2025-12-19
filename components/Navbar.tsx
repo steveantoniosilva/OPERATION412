@@ -65,8 +65,10 @@ export default function Navbar() {
           <Link
             key={href}
             href={href}
-            className={`${styles.desktopLink} ${numbers.className} ${router.pathname === href ? styles.active : ''}`}>
-            <Paragraph fontStyle='italic'>{label}</Paragraph>
+            className={`${styles.desktopLink} ${router.pathname === href ? styles.active : ''}`}>
+            <div>
+              <h3>{label}</h3>
+            </div>
           </Link>
         ))}
       </nav>
