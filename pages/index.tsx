@@ -42,7 +42,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Operation 412</title>
+        <title>412 Books</title>
         <meta
           name='description'
           content='Ephesians 4:12 Called. Operation 412 Answered. Books for the Call.'

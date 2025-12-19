@@ -21,44 +21,44 @@ const ComingSoon = () => {
         <div className='container'>
           <Spacer size={9} />
           <Paragraph>
-            The Apostle Paul wrote to Timothy saying, “Join me in suffering, like a good soldier of Christ Jesus. A
-            soldier refrains from entangling himself in civilian affairs, in order to please the one who enlisted him.”
+            Paul wrote to Timothy, “join me in suffering, like a good soldier of Christ Jesus. A soldier refrains from
+            entangling himself in civilian affairs, in order to please the one who enlisted him.”
           </Paragraph>
 
           <Spacer size={1} />
 
           <Paragraph>
-            His loyalty is undivided. His orders are clear. He lives to please the One who enlisted him.
+            What does it mean to be a Soldier of Christ? For me this is more than a book. This is a field manual. It's
+            not commentary, it's a call to arms.
           </Paragraph>
 
           <Spacer size={1} />
 
           <Paragraph>
-            This book is a field manual. It is not commentary. It is a call to arms. Each chapter isolates a defining
-            trait of the soldier—discipline, obedience, endurance, readiness. Once enlisted, civilian life is forfeited.
+            When Gideon assembled an army, the Lord let each soldier decide whether to fight or not, “Anyone who
+            trembles with fear may turn back and leave…” Twenty-two thousand turned back. Ten thousand remained. The
+            army was not weakened. It was purified.
           </Paragraph>
 
+          <Spacer size={1} />
+
+          <Paragraph>Will you be like the 22,000 and turn back?</Paragraph>
+
+          <Spacer size={1} />
+
+          <Paragraph>Or will you be like the 300?</Paragraph>
           <Spacer size={1} />
 
           <Paragraph>
-            When Gideon assembled his army, the Lord let each soldier choose his fate, “Anyone who trembles with fear
-            may turn back and leave…” Twenty-two thousand turned back. Ten thousand remained. The army was not weakened.
-            It was refined.
+            If you're like Gideon, you know the Lord has already gone before you to terrorize your enemies and deliver
+            them into your hands.
           </Paragraph>
-
           <Spacer size={1} />
 
-          <Paragraph>This isn't for the thousands who tremble and are fearful.</Paragraph>
-
+          <Paragraph>This isn't a book. This is a battle-cry. This is where God transforms the bleating of His sheep into the battle-cry of His army.</Paragraph>
           <Spacer size={1} />
 
-          <Paragraph>This is for the 300.</Paragraph>
-          <Spacer size={1} />
-
-          <Paragraph
-            fontStyle='italic'>
-            Semper Paratus
-          </Paragraph>
+          <Paragraph fontStyle='italic'>Semper Paratus</Paragraph>
 
           <Spacer size={6} />
 

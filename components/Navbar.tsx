@@ -20,7 +20,7 @@ export default function Navbar() {
   const navLinks = [
     { href: '/', label: 'Home' },
     { href: '/books', label: 'Books' },
-    { href: '/next-book', label: 'Next Book' },
+    { href: '/next-book', label: 'Ahead' },
   ];
 
   return (
@@ -52,7 +52,6 @@ export default function Navbar() {
                 <Paragraph
                   fontStyle='italic'
                   textAlign='center'>
-                  {' '}
                   {label}
                 </Paragraph>
               </Link>
