@@ -54,13 +54,13 @@ const Home = () => {
       {/* ----------------------------- */}
       <div className={styles.mobileContainer}>
         <div className={styles.stripe}>
-          <Heading>OPERATION</Heading>
+          <Paragraph textAlign='center'>Ephesians 4:12 Called.</Paragraph>
         </div>
         <div className={styles.stripe}>
-          <Heading level='huge'>4</Heading>
+          <Paragraph textAlign='center'>412 Books Answered.</Paragraph>
         </div>
         <div className={styles.stripe}>
-          <Heading level='huge'>12</Heading>
+          <Paragraph textAlign='center'>Books for the Call.</Paragraph>
         </div>
       </div>
 
@@ -77,26 +77,7 @@ const Home = () => {
               if (el) stripesRef.current[0] = el;
             }}
             className={styles.stripe}>
-            <div className={styles.operation412Description}>
-              <Heading
-                level='subtitle'
-                fontStyle='italic'
-                style={{ opacity: '.5' }}>
-                The Sounding
-              </Heading>
-            </div>
-
-            <div className={numbers.className}>
-              <Heading level='huge'>412</Heading>
-            </div>
-            <div className={styles.operation412Description}>
-              <Paragraph
-                textAlign='center'
-                fontStyle='italic'
-                style={{ opacity: '.5' }}>
-                Ephesians 4:12 Called.
-              </Paragraph>
-            </div>
+            <Paragraph textAlign='center'>Ephesians 4:12 Called.</Paragraph>
           </div>
         </Link>
 
@@ -109,27 +90,7 @@ const Home = () => {
               if (el) stripesRef.current[1] = el;
             }}
             className={styles.stripe}>
-            <div className={styles.operation412Description}>
-              <Heading
-                level='subtitle'
-                fontStyle='italic'
-                style={{ opacity: '.5' }}>
-                of a
-              </Heading>
-            </div>
-
-            <div className={numbers.className}>
-              <Heading level='huge'>Books</Heading>
-            </div>
-
-            <div className={styles.operation412Description}>
-              <Paragraph
-                textAlign='center'
-                fontStyle='italic'
-                style={{ opacity: '.5' }}>
-                412 Books Answered.
-              </Paragraph>
-            </div>
+            <Paragraph textAlign='center'>412 Books Answered.</Paragraph>
           </div>
         </Link>
 
@@ -142,27 +103,7 @@ const Home = () => {
               if (el) stripesRef.current[2] = el;
             }}
             className={styles.stripe}>
-            <div className={styles.operation412Description}>
-              <Heading
-                level='subtitle'
-                fontStyle='italic'
-                style={{ opacity: '.5' }}>
-                Ram's Horn
-              </Heading>
-            </div>
-
-            <div className={numbers.className}>
-              <Heading level='huge'>.com</Heading>
-            </div>
-
-            <div className={styles.operation412Description}>
-              <Paragraph
-                textAlign='center'
-                fontStyle='italic'
-                style={{ opacity: '.5' }}>
-                Books for the Call
-              </Paragraph>
-            </div>
+            <Paragraph textAlign='center'>Books for the Call.</Paragraph>
           </div>
         </Link>
       </div>
