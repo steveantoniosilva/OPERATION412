@@ -5,8 +5,8 @@
         align-items: center;
         width: 100vw;
         height: 100vh;
-        background-image: url('/clay.png');
-        background-position: 60% 55%;
+        background-image: url('/form.png');
+        background-color: rgba(1,1,1,.75);
+        background-position: 55% 0%;
         background-blend-mode: overlay;
-        background-color: rgba(1,1,1,.25);
     }

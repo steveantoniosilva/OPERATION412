@@ -5,13 +5,13 @@ import Spacer from '@/components/Spacer';
 import Paragraph from '@/components/Paragraph';
 import Author from '@/components/Author';
 
-const ComingSoon = () => {
+const Ahead = () => {
   const soldierBook = books.soldierBook;
 
   return (
     <>
       <Head>
-        <title>My Next Book</title>
+        <title>Ahead</title>
         <meta
           name='description'
           content='Next Book — Coming Soon — View our digital bookshelf at 412 Books.com.'
@@ -80,4 +80,4 @@ const ComingSoon = () => {
   );
 };
 
-export default ComingSoon;
+export default Ahead;

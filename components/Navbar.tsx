@@ -20,7 +20,7 @@ export default function Navbar() {
   const navLinks = [
     { href: '/', label: 'Home' },
     { href: '/books', label: 'Books' },
-    { href: '/next-book', label: 'Ahead' },
+    { href: '/ahead', label: 'Ahead' },
   ];
 
   return (
