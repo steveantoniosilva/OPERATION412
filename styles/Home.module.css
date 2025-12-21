@@ -5,8 +5,8 @@
         align-items: center;
         width: 100vw;
         height: 100vh;
-        background-image: url('/form.png');
+        background-image: url('/p.png');
         background-color: rgba(1,1,1,.75);
-        background-position: 55% 0%;
+        background-position: 39% 55%;
         background-blend-mode: overlay;
     }

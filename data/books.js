@@ -65,6 +65,8 @@ export const books = {
     bookDescription: [''],
   },
 
+  // I AM A TREE????
+
   // I Am A BATTLE HORSE - I WILL TURN SHEEP INTO MY BATTLE STEED - For the LORD of Hosts cares for His flock, the house of Judah; and He will make them like His majestic horse in battle.
 
   // I Am Equipped
@@ -105,9 +107,11 @@ export const books = {
   // I am a worker - Eph 4:12
   // I am a builder - Eph 4:12
 
-    // I am a rapper
+  // I am a rapper
+
+  // GOD'S OPERATING SYSTEM?????
+
+    // I'm building a company
   
-    // GOD'S OPERATING SYSTEM?????
-  
-  // I'm building a company
+  // America's Got TALENT? talent?
 };
