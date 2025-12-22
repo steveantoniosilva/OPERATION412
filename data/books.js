@@ -1,17 +1,18 @@
 export const books = {
   quarterbackBook: {
     id: 'quarterback-book',
-    bookTitle: 'I Am',
-    bookTitleSpan: 'A Quarterback',
-        bookImageUrl: '/quarter.png',
-    bookMoreInfoUrl: 'quarterback-book',
+    bookTitle: 'Quarterback',
+    bookImageUrl: '/quarter.png',
+    bookMoreInfoUrl: '/',
     bookAmazonUrl: '/',
-    bookDescription: [''],
+        bookDescription: ["This wasn't a book I was longing to write. This wasn't a great idea that came in the middle of the day. It came in the middle of the night. The idea for this book came in a dream from God.",
+        
+            ""
+    ],
   },
   soldierBook: {
     id: 'soldier-book',
     bookTitle: 'I Am',
-    bookTitleSpan: 'A Soldier',
     bookImageUrl: '/soldier.jpg',
     bookMoreInfoUrl: 'soldier-book',
     bookAmazonUrl: '/',
@@ -23,7 +24,6 @@ export const books = {
   prophetBook: {
     id: 'prophet-book',
     bookTitle: 'I Am',
-    bookTitleSpan: 'A Prophet',
     bookImageUrl: '/cave.png',
     bookMoreInfoUrl: 'soldier-book',
     bookAmazonUrl: '/',
@@ -33,7 +33,6 @@ export const books = {
   businessmanBook: {
     id: 'businessman-book',
     bookTitle: 'I Am',
-    bookTitleSpan: 'A Businessman',
     bookImageUrl: '/blank.png',
     bookMoreInfoUrl: 'businessman-book',
     bookAmazonUrl: '/',

@@ -4,15 +4,15 @@ import { books } from '../data/books';
 import Spacer from '@/components/Spacer';
 
 const DreamBook = () => {
-  const book = books.dreamBook;
+  const book = books.quarterbackBook;
 
   return (
     <>
       <Head>
-        <title>{`${book.bookTitle} ${book.bookTitleSpan}`}</title>
+        <title>{book.bookTitle}</title>
         <meta
           name='description'
-          content={`${book.bookTitle} ${book.bookTitleSpan}`}
+          content={book.bookTitle}
         />
       </Head>
       <div className='main'>
@@ -20,7 +20,6 @@ const DreamBook = () => {
           <Spacer size={16} />
           <BookMoreInfo
             bookTitle={book.bookTitle}
-            bookTitleSpan={book.bookTitleSpan}
             bookAmazonUrl='/'
             bookDescription={book.bookDescription}
             alt={book.bookTitle}

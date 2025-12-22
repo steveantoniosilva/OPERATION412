@@ -20,7 +20,7 @@ const Books = () => {
         <title>412 Books</title>
         <meta
           name='description'
-          content='Welcome to 412 Books — by Operation 412.'
+          content='Welcome to 412 Books.'
         />
       </Head>
 

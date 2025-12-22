@@ -8,32 +8,22 @@ import Author from './Author';
 
 interface BookProps {
   bookTitle: string;
-  bookTitleSpan: string;
   bookDescription: string[];
   bookAmazonUrl: string;
   alt: string;
   bookImageUrl: string;
 }
 
-const BookMoreInfo: React.FC<BookProps> = ({
-  bookTitle,
-  bookTitleSpan,
-  bookDescription,
-  bookAmazonUrl,
-  alt,
-  bookImageUrl,
-}) => {
+const BookMoreInfo: React.FC<BookProps> = ({ bookTitle, bookDescription, bookAmazonUrl, alt, bookImageUrl }) => {
   return (
     <div className='main'>
       <div className='containerBookMoreInfo'>
-        <Heading>
-          {bookTitle} {bookTitleSpan}
-        </Heading>
+        <Heading>{bookTitle}</Heading>
 
         <Spacer size={4} />
 
         <hr className='hrNarrow' />
-        <Spacer size={4} />
+        <Spacer size={5} />
         {bookDescription.map((text, i) => (
           <React.Fragment key={i}>
             <Paragraph textAlign='justify'>{text}</Paragraph>
