@@ -1,8 +1,3 @@
-/* DESKTOP NAV (HIDDEN BY DEFAULT) */
-.desktopNav {
-    display: none;
-}
-
 /* HAMBURGER BUTTON */
 .hamburger {
     position: fixed;
@@ -27,7 +22,6 @@
 }
 
 
-/* MOBILE NAV — USED AT ALL SIZES */
 .nav {
     position: fixed;
     inset: 0;
@@ -55,42 +49,4 @@
 
 .li {
     margin: 4vh 0;
-}
-
-@media (min-width: 777px) {
-
-    .hamburger {
-        display: none;
-    }
-
-    .nav {
-        display: none;
-    }
-
-    .desktopNav {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 77px;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        z-index: 9999;
-    }
-
-    .desktopLink {
-        transition: opacity 0.25s ease;
-        text-decoration: none;
-        color: white;
-        opacity: .7;
-    }
-
-    .desktopLink:hover {
-        opacity: 1;
-    }
-    
-    /* CURRENT PAGE */
-    .desktopLink.active {
-    }
 }

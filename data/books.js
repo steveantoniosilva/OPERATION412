@@ -1,27 +1,12 @@
 export const books = {
-  dreamBook: {
-    id: 'dream-book',
+  quarterbackBook: {
+    id: 'quarterback-book',
     bookTitle: 'I Am',
-    bookTitleSpan: 'A Dreamer',
-    bookImageUrl: '/dbc.png',
-    bookMoreInfoUrl: 'dream-book',
+    bookTitleSpan: 'A Quarterback',
+        bookImageUrl: '/quarter.png',
+    bookMoreInfoUrl: 'quarterback-book',
     bookAmazonUrl: '/',
-    bookDescription: [
-      'As a computer programmer, I know that all it takes to give a computer a new capability is a software download. We are of course all humans—no revelation there—but it is to say that our hardware is all the same—two feet, 1 nose, a brain, and so on and son. On the contrary, our software is different. Daniel was given the ability to interpret dreams—or we could say—he received a software download from the app developer to be able to interpret dreams.',
-
-      "I'm not talking 1's and 0's—the language of computers—I'm talking the embedding of hidden messages in imagery. This is what's known as steganography—one of the ancient languages that God created and men have only imitated.",
-
-      'A few years ago I started having dreams — like a water faucet turning on — they began flooding my sleep.',
-
-      'I previously thought of dreams as simply a random part of sleep, no rhyme no reason, much less a portal of revelation.',
-
-      "Although I was having dreams, they were a mystery to me—they were like riddles I couldn't solve.",
-
-      'This is what drove me to study dreams, specifically, every dream in the Bible.',
-
-      'Dreams sent by God determined destinies, shifted nations, warned kings, protected families, directed prophets, and shaped the very course of human history until the point you and I call today.',
-      'The reason I decided to write this book was to help believers understand their dreams—why they have them, what they mean, how to interpret them, and what to watch out for.',
-    ],
+    bookDescription: [''],
   },
   soldierBook: {
     id: 'soldier-book',
@@ -41,16 +26,6 @@ export const books = {
     bookTitleSpan: 'A Prophet',
     bookImageUrl: '/cave.png',
     bookMoreInfoUrl: 'soldier-book',
-    bookAmazonUrl: '/',
-    bookDescription: [''],
-  },
-
-  quarterbackBook: {
-    id: 'quarterback-book',
-    bookTitle: 'I Am',
-    bookTitleSpan: 'A Quarterback',
-    bookImageUrl: '/blank.png',
-    bookMoreInfoUrl: 'quarterback-book',
     bookAmazonUrl: '/',
     bookDescription: [''],
   },
@@ -111,7 +86,7 @@ export const books = {
 
   // GOD'S OPERATING SYSTEM?????
 
-    // I'm building a company
-  
+  // I'm building a company
+
   // America's Got TALENT? talent?
 };

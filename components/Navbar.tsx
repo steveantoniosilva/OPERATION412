@@ -20,7 +20,7 @@ export default function Navbar() {
   const navLinks = [
     { href: '/', label: 'Home' },
     { href: '/books', label: 'Books' },
-    { href: '/ahead', label: 'Ahead' },
+    // { href: '/ahead', label: 'Ahead' },
   ];
 
   return (
@@ -34,7 +34,8 @@ export default function Navbar() {
           toggle={setOpen}
           size={33}
           duration={0.75}
-          color='white'
+                  color='white'
+                  distance='lg'
         />
       </div>
 
@@ -60,7 +61,7 @@ export default function Navbar() {
         </ul>
       </nav>
       {/* DESKTOP NAV */}
-      <nav className={styles.desktopNav}>
+      {/* <nav className={styles.desktopNav}>
         {navLinks.map(({ href, label }) => (
           <Link
             key={href}
@@ -71,7 +72,7 @@ export default function Navbar() {
             </div>
           </Link>
         ))}
-      </nav>
+      </nav> */}
     </div>
   );
 }

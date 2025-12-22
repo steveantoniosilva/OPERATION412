@@ -2,10 +2,8 @@ import Head from 'next/head';
 import { books } from '../data/books';
 import BookCover from '@/components/BookCover';
 import Spacer from '@/components/Spacer';
-import Paragraph from '@/components/Paragraph';
 import Author from '@/components/Author';
 import { Crimson_Text } from 'next/font/google';
-import Heading from '@/components/Heading';
 
 const numbers = Crimson_Text({
   subsets: ['latin'],
@@ -14,7 +12,7 @@ const numbers = Crimson_Text({
 });
 
 const Books = () => {
-  const dreamBook = books.dreamBook;
+  const dreamBook = books.quarterbackBook;
 
   return (
     <>
