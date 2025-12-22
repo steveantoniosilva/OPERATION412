@@ -3,16 +3,16 @@ import BookMoreInfo from '@/components/BookMoreInfo';
 import { books } from '../data/books';
 import Spacer from '@/components/Spacer';
 
-const SoldierBook = () => {
-  const book = books.soldierBook;
+const ProphetBook = () => {
+  const book = books.prophetBook;
 
   return (
     <>
       <Head>
-        <title>{`${book.bookTitle} ${book.bookTitleSpan}`}</title>
+        <title>{book.bookTitle}</title>
         <meta
           name='description'
-          content={`${book.bookTitle} ${book.bookTitleSpan}`}
+          content={book.bookTitle}
         />
       </Head>
       <div className='main'>
@@ -22,7 +22,6 @@ const SoldierBook = () => {
           <BookMoreInfo
             bookAmazonUrl='/'
             bookTitle={book.bookTitle}
-            bookTitleSpan={book.bookTitleSpan}
             bookDescription={book.bookDescription}
             alt={book.bookTitle}
             bookImageUrl={book.bookImageUrl}
@@ -33,4 +32,4 @@ const SoldierBook = () => {
   );
 };
 
-export default SoldierBook;
+export default ProphetBook;

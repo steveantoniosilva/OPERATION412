@@ -1,31 +1,21 @@
 export const books = {
   quarterbackBook: {
     id: 'quarterback-book',
-    bookTitle: 'Quarterback',
-    bookImageUrl: '/quarter.png',
-    bookMoreInfoUrl: '/',
+    bookTitle: 'quarterback',
+    bookImageUrl: '/thequarterback.png',
+    bookMoreInfoUrl: 'quarterback-book',
     bookAmazonUrl: '/',
         bookDescription: ["This wasn't a book I was longing to write. This wasn't a great idea that came in the middle of the day. It came in the middle of the night. The idea for this book came in a dream from God.",
         
             ""
     ],
   },
-  soldierBook: {
-    id: 'soldier-book',
-    bookTitle: 'I Am',
-    bookImageUrl: '/soldier.jpg',
-    bookMoreInfoUrl: 'soldier-book',
-    bookAmazonUrl: '/',
-    bookDescription: [
-      'What does it mean to be a soldier of Christ? Paul said, endure suffering like a good soldier. In this book, what I prefer to call a field manual we will take a deeper look into what it means to be a soldier, and more importantly, what how being a soldier reveals what it means to be a soldier of Christ.',
-    ],
-  },
 
   prophetBook: {
     id: 'prophet-book',
-    bookTitle: 'I Am',
-    bookImageUrl: '/cave.png',
-    bookMoreInfoUrl: 'soldier-book',
+    bookTitle: 'prophet',
+    bookImageUrl: '/cave-dwelling.png',
+    bookMoreInfoUrl: 'prophet-book',
     bookAmazonUrl: '/',
     bookDescription: [''],
   },
@@ -37,7 +27,9 @@ export const books = {
     bookMoreInfoUrl: 'businessman-book',
     bookAmazonUrl: '/',
     bookDescription: [''],
-  },
+    },
+  
+  // I am a soldier
 
   // I AM A TREE????
 
