@@ -15,7 +15,7 @@ const Home = () => {
 
       <div className={styles.container}>
         <Heading>
-          <span className='huge'>412</span> Books
+          A Lamb's Pen
         </Heading>
       </div>
     </>

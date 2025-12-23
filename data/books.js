@@ -2,7 +2,7 @@ export const books = {
   quarterbackBook: {
     id: 'quarterback-book',
     bookTitle: 'quarterback',
-    bookImageUrl: '/thequarterback.png',
+    bookImageUrl: '/qb-3.png',
     bookMoreInfoUrl: 'quarterback-book',
     bookAmazonUrl: '/',
         bookDescription: ["This wasn't a book I was longing to write. This wasn't a great idea that came in the middle of the day. It came in the middle of the night. The idea for this book came in a dream from God.",
@@ -14,7 +14,7 @@ export const books = {
   prophetBook: {
     id: 'prophet-book',
     bookTitle: 'prophet',
-    bookImageUrl: '/cave-dwelling.png',
+    bookImageUrl: '/prophet-3.png',
     bookMoreInfoUrl: 'prophet-book',
     bookAmazonUrl: '/',
     bookDescription: [''],
