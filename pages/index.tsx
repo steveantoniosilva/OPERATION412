@@ -15,7 +15,7 @@ const Home = () => {
 
       <div className={styles.container}>
         <Heading>
-          A Lamb's Pen
+          Scrolls for Lambs
         </Heading>
       </div>
     </>
