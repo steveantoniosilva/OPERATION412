@@ -12,8 +12,9 @@ const numbers = Crimson_Text({
 });
 
 const Books = () => {
-    const quarterBack = books.quarterbackBook;
-    const prophet = books.prophetBook;
+  const quarterBack = books.quarterbackBook;
+  const prophet = books.prophetBook;
+  const soldier = books.soldierBook;
 
   return (
     <>
@@ -41,6 +42,14 @@ const Books = () => {
             alt={prophet.bookTitle}
             bookMoreInfoUrl={prophet.bookMoreInfoUrl}
             bookImageUrl={prophet.bookImageUrl}
+          />
+
+          <Spacer size={15} />
+
+          <BookCover
+            alt={soldier.bookTitle}
+            bookMoreInfoUrl={soldier.bookMoreInfoUrl}
+            bookImageUrl={soldier.bookImageUrl}
           />
 
           <Spacer size={15} />

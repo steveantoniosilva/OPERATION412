@@ -14,8 +14,8 @@ const Home = () => {
       </Head>
 
       <div className={styles.container}>
-        <Heading>
-          Scrolls for Lambs
+        <Heading style={{opacity: '.5'}}>
+          <span className={styles.fourTwelve}>412</span> Books
         </Heading>
       </div>
     </>
