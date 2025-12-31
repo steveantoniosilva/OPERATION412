@@ -38,7 +38,7 @@ const Books = () => {
 
           <Spacer size={15} />
 
-          <BookCover
+          {/* <BookCover
             alt={prophet.bookTitle}
             bookMoreInfoUrl={prophet.bookMoreInfoUrl}
             bookImageUrl={prophet.bookImageUrl}
@@ -52,7 +52,7 @@ const Books = () => {
             bookImageUrl={soldier.bookImageUrl}
           />
 
-          <Spacer size={15} />
+          <Spacer size={15} /> */}
         </div>
       </div>
     </>
