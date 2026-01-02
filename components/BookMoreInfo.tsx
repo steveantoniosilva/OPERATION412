@@ -18,6 +18,8 @@ const BookMoreInfo: React.FC<BookProps> = ({ bookTitle, bookDescription, bookAma
   return (
     <div className='main'>
       <div className='containerBookMoreInfo'>
+        <Spacer size={6} />
+
         <Heading>{bookTitle}</Heading>
 
         <Spacer size={4} />

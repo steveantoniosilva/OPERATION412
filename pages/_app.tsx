@@ -14,7 +14,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Torch & Trumpet Books</title>
+        <title>Battle Cry Books</title>
         <meta
           name='viewport'
           content='width=device-width, initial-scale=1'

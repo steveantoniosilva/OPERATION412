@@ -19,7 +19,6 @@ const Books = () => {
   return (
     <>
       <Head>
-        <title>412 Books</title>
         <meta
           name='description'
           content='Welcome to 412 Books.'
@@ -28,7 +27,7 @@ const Books = () => {
 
       <div className='main'>
         <div className='container'>
-          <Spacer size={9} />
+          <Spacer size={6} />
 
           <BookCover
             alt={quarterBack.bookTitle}
@@ -36,7 +35,7 @@ const Books = () => {
             bookImageUrl={quarterBack.bookImageUrl}
           />
 
-          <Spacer size={15} />
+          <Spacer size={5} />
 
           {/* <BookCover
             alt={prophet.bookTitle}

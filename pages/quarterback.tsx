@@ -17,7 +17,6 @@ const DreamBook = () => {
       </Head>
       <div className='main'>
         <div className='container'>
-          <Spacer size={16} />
           <BookMoreInfo
             bookTitle={book.bookTitle}
             bookAmazonUrl='/'

@@ -6,7 +6,6 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>412 Books</title>
         <meta
           name='description'
           content='412 Books.'
@@ -14,7 +13,7 @@ const Home = () => {
       </Head>
 
       <div className={styles.container}>
-        <Heading>Paper & Presence Books</Heading>
+        <Heading>Battle Cry Books</Heading>
       </div>
     </>
   );
