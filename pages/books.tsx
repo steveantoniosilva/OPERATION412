@@ -21,7 +21,7 @@ const Books = () => {
       <Head>
         <meta
           name='description'
-          content='Welcome to 412 Books.'
+          content='BATTLE CRY BOOKS.'
         />
       </Head>
 

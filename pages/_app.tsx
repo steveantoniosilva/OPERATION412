@@ -3,18 +3,18 @@ import Navbar from '../components/Navbar';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 // import Logo from '@/components/Logo';
-import { Spectral } from 'next/font/google';
+import { Poppins } from 'next/font/google';
 
-const siteFont = Spectral({
+const siteFont = Poppins({
   subsets: ['latin'],
-  weight: ['300', '700'],
+  weight: ['200', '700'],
 });
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Battle Cry Books</title>
+        <title>BATTLE CRY BOOKS</title>
         <meta
           name='viewport'
           content='width=device-width, initial-scale=1'

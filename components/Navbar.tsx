@@ -3,8 +3,7 @@ import { useState, useRef } from 'react';
 import { Spin as Hamburger } from 'hamburger-react';
 import styles from '../styles/navbar.module.css';
 import { useRouter } from 'next/router';
-import Paragraph from '../components/Paragraph'
-
+import Paragraph from '../components/Paragraph';
 
 export default function Navbar() {
   const router = useRouter();
@@ -12,9 +11,9 @@ export default function Navbar() {
   const navRef = useRef(null);
 
   const navLinks = [
-    { href: '/', label: 'Home' },
-    { href: '/books', label: 'Books' },
-    // { href: '/ahead', label: 'Ahead' },
+    { href: '/', label: 'HOME' },
+    { href: '/books', label: 'BOOKS' },
+    { href: '/ahead', label: 'AHEAD' },
   ];
 
   return (
@@ -28,8 +27,8 @@ export default function Navbar() {
           toggle={setOpen}
           size={33}
           duration={0.75}
-                  color='whitesmoke'
-                  distance='lg'
+          color='whitesmoke'
+          distance='lg'
         />
       </div>
 
@@ -44,10 +43,7 @@ export default function Navbar() {
                 href={href}
                 className={`${styles.navLink} ${router.pathname === href ? styles.active : ''}`}
                 onClick={() => setOpen(false)}>
-                <Paragraph
-                  textAlign='center'>
-                  {label}
-                </Paragraph>
+                <Paragraph textAlign='center'>{label}</Paragraph>
               </Link>
             </li>
           ))}

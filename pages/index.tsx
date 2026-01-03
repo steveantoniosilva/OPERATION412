@@ -9,13 +9,15 @@ const Home = () => {
       <Head>
         <meta
           name='description'
-          content='412 Books.'
+          content='BATTLE CRY BOOKS.'
         />
       </Head>
 
-          <div className={styles.container}>
-              <Spacer size={8} />
-        <Heading>Battle Cry Books</Heading>
+      <div className={styles.container}>
+        <Spacer size={8} />
+        <Heading>
+          <span style={{ fontWeight: '700' }}>BATTLE CRY</span> BOOKS
+        </Heading>
       </div>
     </>
   );
