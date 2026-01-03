@@ -46,9 +46,7 @@ const BookMoreInfo: React.FC<BookProps> = ({ bookTitle, bookDescription, bookAma
         />
       </div>
 
-      <Spacer size={4} />
-      <Author />
-      <Spacer size={5} />
+      <Spacer size={11} />
     </div>
   );
 };
