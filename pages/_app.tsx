@@ -3,9 +3,9 @@ import Navbar from '../components/Navbar';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 // import Logo from '@/components/Logo';
-import { Cormorant } from 'next/font/google';
+import { Spectral } from 'next/font/google';
 
-const siteFont = Cormorant({
+const siteFont = Spectral({
   subsets: ['latin'],
   weight: ['300', '700'],
 });
