@@ -40,6 +40,9 @@ const Ahead = () => {
           <Paragraph>
             As I study history, I see that there is a death assignment against prophets — there is a strategic, coordinated effort to expel them.
           </Paragraph>
+          <Paragraph>
+            The source of this voice is not biblical — it's diabolical.
+          </Paragraph>
 
           <Spacer size={6} />
 
@@ -51,8 +54,6 @@ const Ahead = () => {
           />
 
           <Spacer size={4} />
-          <Author />
-          <Spacer size={5} />
         </div>
 
         {/* <footer className='footer'>&copy; Operation 412 Books</footer> */}
