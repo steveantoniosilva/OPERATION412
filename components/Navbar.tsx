@@ -28,7 +28,7 @@ export default function Navbar() {
           size={33}
           duration={0.75}
           color='whitesmoke'
-          distance='lg'
+          distance='sm'
         />
       </div>
 

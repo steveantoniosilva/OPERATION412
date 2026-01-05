@@ -2,7 +2,7 @@ import '@/styles/globals.css';
 import Navbar from '../components/Navbar';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
-// import Logo from '@/components/Logo';
+import Logo from '@/components/Logo';
 import { Poppins } from 'next/font/google';
 
 const siteFont = Poppins({
