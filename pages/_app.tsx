@@ -3,11 +3,11 @@ import Navbar from '../components/Navbar';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import Logo from '@/components/Logo';
-import { Poppins } from 'next/font/google';
+import { Cormorant_Infant } from 'next/font/google';
 
-const siteFont = Poppins({
+const siteFont = Cormorant_Infant({
   subsets: ['latin'],
-  weight: ['200', '700'],
+  weight: ['700'],
 });
 
 export default function App({ Component, pageProps }: AppProps) {

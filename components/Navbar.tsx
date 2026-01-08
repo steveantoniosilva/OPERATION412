@@ -4,6 +4,7 @@ import { Spin as Hamburger } from 'hamburger-react';
 import styles from '../styles/navbar.module.css';
 import { useRouter } from 'next/router';
 import Paragraph from '../components/Paragraph';
+import Heading from '../components/Heading'
 
 export default function Navbar() {
   const router = useRouter();
@@ -43,7 +44,7 @@ export default function Navbar() {
                 href={href}
                 className={`${styles.navLink} ${router.pathname === href ? styles.active : ''}`}
                 onClick={() => setOpen(false)}>
-                <Paragraph textAlign='center'>{label}</Paragraph>
+                <Heading>{label}</Heading>
               </Link>
             </li>
           ))}

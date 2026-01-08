@@ -16,8 +16,10 @@ const Home = () => {
       <div className={styles.container}>
         <div className={styles.headingDiv}>
           <Heading>
-            <span className={styles.span}>BATTLE CRY</span> BOOKS
+           BATTLE
           </Heading>
+          <Heading>CRY</Heading>
+          <Heading>BOOKS</Heading>
         </div>
       </div>
     </>

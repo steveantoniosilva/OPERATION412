@@ -5,23 +5,26 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
-background-image:
+    background-image:
         /* SOLID OVERLAY (topmost) */
-        linear-gradient(rgba(44,44,44, 1),
-            rgba(44,44,44, 1)),
+        linear-gradient(rgba(44,44,44,1),
+            rgba(44,44,44,1)),
 
         /* YOUR EXISTING GRADIENT */
         linear-gradient(to bottom,
-        transparent,
-        transparent,
-        transparent,
-        rgba(100, 0, 0, 0.5),
-        rgba(111, 22, 24, 0.5),
-        rgba(1,1,1,.25),
-        transparent,
-        transparent,
-        transparent,
-        rgba(22, 22, 24, 0.75)),
+            transparent,
+            transparent,
+            transparent,
+            rgba(100, 0, 0, 0.75),
+            rgba(222, 22, 24, 0.75),
+            rgba(1, 1, 1, .5),
+            rgba(100, 0, 0, 0.75),
+            rgba(222, 22, 24, 0.75),
+            rgba(1, 1, 1, .5),
+            transparent,
+            transparent,
+            transparent,
+            rgba(1, 1, 1, 1)),
 
         /* IMAGE */
         url('/leon-final.png');
@@ -34,8 +37,8 @@ background-image:
 .headingDiv h1 {
     letter-spacing: 11px;
     font-weight: 700;
-}
-
-.span {
-    font-weight: 100;
+    width: 100vw;
+    background: linear-gradient(to bottom, transparent, rgba(1, 1, 1, .25), transparent);
+    margin-top: 1em;
+    text-shadow: 0 0 5px black;
 }
