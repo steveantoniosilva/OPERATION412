@@ -9,7 +9,7 @@ body {
     scroll-behavior: smooth;
     -ms-overflow-style: none;
     scrollbar-width: none;
-    background-color: rgb(11, 11, 15);
+    background-color: rgb(11, 11, 13);
 }
 
 html::-webkit-scrollbar,

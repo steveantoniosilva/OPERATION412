@@ -14,10 +14,11 @@ const Home = () => {
       </Head>
 
       <div className={styles.container}>
-        <Spacer size={8} />
-        <Heading>
-          <span style={{ fontWeight: '700' }}>BATTLE CRY</span> BOOKS
-        </Heading>
+        <div className={styles.headingDiv}>
+          <Heading>
+            <span className={styles.span}>BATTLE CRY</span> BOOKS
+          </Heading>
+        </div>
       </div>
     </>
   );
