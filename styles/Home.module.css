@@ -7,8 +7,8 @@
     height: 100vh;
     background-image:
         /* SOLID OVERLAY (topmost) */
-        linear-gradient(rgba(44,44,44,1),
-            rgba(44,44,44,1)),
+        linear-gradient(rgb(80, 40, 60),
+            rgb(80, 40, 60)),
 
         /* YOUR EXISTING GRADIENT */
         linear-gradient(to bottom,
