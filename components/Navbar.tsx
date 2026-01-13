@@ -44,7 +44,7 @@ export default function Navbar() {
                 href={href}
                 className={`${styles.navLink} ${router.pathname === href ? styles.active : ''}`}
                 onClick={() => setOpen(false)}>
-                <Heading>{label}</Heading>
+                <h1>{label}</h1>
               </Link>
             </li>
           ))}

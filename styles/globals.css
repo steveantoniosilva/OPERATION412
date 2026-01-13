@@ -98,38 +98,5 @@ a {
     text-decoration: none;
     cursor: pointer;
     text-shadow: 0 0 1px #222;
-}
-
-
-:root {
-    --heading-title-size: clamp(1.5rem, 2.4vw + 1.2vh, 2rem);
-    --heading-subtitle-size: clamp(1.25rem, 1.3vw + 0.7vh, 1.75rem);
-
-    --heading-title-letter-spacing: clamp(0.025em, 0.025vw + 0.05vh, 0.05em);
-    --heading-subtitle-letter-spacing: clamp(0.01em, 0.1vw + 0.1vh, 0.1em);
-
-    --heading-title-weight: 100;
-    --heading-subtitle-weight: 200;
-    --heading-emphasis-weight: 700;
-}
-
-.huge {
-    font-size: clamp(6rem,
-            calc(3vw + 3vh),
-            6rem);
-    text-shadow: 0 0 33px whitesmoke;
-}
-
-.mini {
-    font-size: clamp(0.95rem, 0.9vw + 0.9vh, 1.05rem);
-    line-height: 2.2;
-    letter-spacing: 0.04em;
-    opacity: 0.85;
-}
-
-.footer {
-    padding: 4em 0;
-    opacity: 1;
-    font-weight: 200;
-
+    color: white;
 }
