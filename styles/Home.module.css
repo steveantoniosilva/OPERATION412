@@ -9,33 +9,17 @@
         linear-gradient(rgba(1, 1, 1, 1),
             rgba(1, 1, 1, .25)),
         url('/leon-final.png');
-    background-position: 48% 55%;
+    background-position: 48% 0;
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.headingDiv h1 {
+.headingDiv {
     letter-spacing: 2px;
     font-weight: 100;
     width: 100vw;
     background: linear-gradient(to bottom, transparent, rgba(1, 1, 1, .25), transparent);
     margin-top: 1em;
     text-shadow: 0 0 5px black;
-}
-
-@media (min-width: 777px) {
-    .container {
-        background-position: 22% 55%;
-    }
-}
-@media (min-width: 999px) {
-    .container {
-        background-position: 11% 55%;
-    }
-}
-@media (min-width: 1111px) {
-    .container {
-        background-position: 1% 55%;
-    }
 }
