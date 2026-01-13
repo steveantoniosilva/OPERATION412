@@ -26,8 +26,7 @@ const Books = () => {
       </Head>
 
       <div className='main'>
-        <div className='container'>
-          <Spacer size={6} />
+        <div className='containerFlexCentered'>
 
           <BookCover
             alt={quarterBack.bookTitle}
@@ -35,7 +34,6 @@ const Books = () => {
             bookImageUrl={quarterBack.bookImageUrl}
           />
 
-          <Spacer size={5} />
 
           {/* <BookCover
             alt={prophet.bookTitle}
