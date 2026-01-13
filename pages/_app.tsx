@@ -2,12 +2,12 @@ import '@/styles/globals.css';
 import Navbar from '../components/Navbar';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
-import Logo from '@/components/Logo';
-import { Cormorant_Infant } from 'next/font/google';
+import { Old_Standard_TT } from 'next/font/google';
 
-const siteFont = Cormorant_Infant({
+const siteFont = Old_Standard_TT({
   subsets: ['latin'],
-  weight: ['700'],
+  style: ['normal', 'italic'],
+  weight: ['400', '700'],
 });
 
 export default function App({ Component, pageProps }: AppProps) {

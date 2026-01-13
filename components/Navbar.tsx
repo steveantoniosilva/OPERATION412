@@ -12,9 +12,9 @@ export default function Navbar() {
   const navRef = useRef(null);
 
   const navLinks = [
-    { href: '/', label: 'HOME' },
-    { href: '/books', label: 'BOOKS' },
-    { href: '/ahead', label: 'AHEAD' },
+    { href: '/', label: 'Home' },
+    { href: '/books', label: 'Books' },
+    { href: '/ahead', label: 'Ahead' },
   ];
 
   return (

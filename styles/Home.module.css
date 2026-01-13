@@ -6,39 +6,36 @@
     width: 100vw;
     height: 100vh;
     background-image:
-        /* SOLID OVERLAY (topmost) */
-        linear-gradient(rgb(80, 40, 60),
-            rgb(80, 40, 60)),
-
-        /* YOUR EXISTING GRADIENT */
-        linear-gradient(to bottom,
-            transparent,
-            transparent,
-            transparent,
-            rgba(100, 0, 0, 0.75),
-            rgba(222, 22, 24, 0.75),
-            rgba(1, 1, 1, .5),
-            rgba(100, 0, 0, 0.75),
-            rgba(222, 22, 24, 0.75),
-            rgba(1, 1, 1, .5),
-            transparent,
-            transparent,
-            transparent,
-            rgba(1, 1, 1, 1)),
-
-        /* IMAGE */
+        linear-gradient(rgba(1, 1, 1, 1),
+            rgba(1, 1, 1, .25)),
         url('/leon-final.png');
-    background-position: 55% 22%;
+    background-position: 48% 55%;
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .headingDiv h1 {
-    letter-spacing: 11px;
-    font-weight: 700;
+    letter-spacing: 2px;
+    font-weight: 100;
     width: 100vw;
     background: linear-gradient(to bottom, transparent, rgba(1, 1, 1, .25), transparent);
     margin-top: 1em;
     text-shadow: 0 0 5px black;
+}
+
+@media (min-width: 777px) {
+    .container {
+        background-position: 22% 55%;
+    }
+}
+@media (min-width: 999px) {
+    .container {
+        background-position: 11% 55%;
+    }
+}
+@media (min-width: 1111px) {
+    .container {
+        background-position: 1% 55%;
+    }
 }
