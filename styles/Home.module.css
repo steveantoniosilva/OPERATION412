@@ -15,9 +15,16 @@
 
 .headingDiv {
     letter-spacing: 2px;
-    font-weight: 100;
     width: 100vw;
     background: linear-gradient(to bottom, transparent, rgba(1, 1, 1, .25), transparent);
-    margin-top: 1em;
     text-shadow: 0 0 5px black;
+}
+
+.title {
+    font-size: clamp(3rem, 2vw + 2vh, 4rem);
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    line-height: 2em;
+    text-shadow: 0 0 11px #000;
 }

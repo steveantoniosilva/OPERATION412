@@ -15,9 +15,9 @@ const Home = () => {
 
       <div className={styles.container}>
         <div className={styles.headingDiv}>
-          <Heading>
-            <span style={{ fontWeight: '700', }}>Battle Cry</span> Books
-          </Heading>
+          <h1 className={styles.title}>
+            <span style={{ fontWeight: '100', }}>Battle Cry</span> Books
+          </h1>
         </div>
       </div>
     </>
