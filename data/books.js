@@ -2,7 +2,7 @@ export const books = {
   quarterbackBook: {
     id: 'quarterback-book',
     bookTitle: 'quarterback',
-    bookImageUrl: '/qb-final-1.png',
+    bookImageUrl: '/satan.png',
     bookMoreInfoUrl: 'quarterback',
     bookAmazonUrl: '/',
     bookDescription: [
