@@ -1,9 +1,9 @@
 export const books = {
-  quarterbackBook: {
-    id: 'quarterback-book',
-    bookTitle: 'quarterback',
+  yourAdversaryTheDevilBook: {
+    id: 'your-adversary-the-devil-book',
+    bookTitle: 'Your Adversary the Devil',
     bookImageUrl: '/lion-11.png',
-    bookMoreInfoUrl: 'quarterback',
+    bookMoreInfoUrl: 'your-adversary-the-devil',
     bookAmazonUrl: '/',
     bookDescription: [
       "This wasn't a book I was longing to write. This wasn't a great idea that came in the middle of the day. It came in the middle of the night. The idea for this book came in a dream from God.",
@@ -29,11 +29,12 @@ export const books = {
     bookDescription: ['book description'],
   },
 
+  // SELF-CONTROL???????????????????????
   // BUSINESSMAN
   // soldier
   // Equipped
   // Watchman
-  // Investor
+  // INVESTOR - but really your more like a wealth fund manager - which involves being an investor - but it's important to remember that you didn't create the wealth your managing and investing - your just a steward of it.
   // Runner
   // Alien
 
