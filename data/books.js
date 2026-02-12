@@ -12,11 +12,10 @@ export const books = {
     ],
   },
 
-  
   //SOLDIER
   // PROPHET
   // SELF-CONTROL???????????????????????
-    // I MUST BE ABOUT MY FATHERS' BUSINESS - I MUST BE ABOUT MY FATHERS BUSINESS - APPRENTICE - NOW REPLACE BUSINESS WITH BUSYNESS
+  // I MUST BE ABOUT MY FATHERS' BUSINESS - I MUST BE ABOUT MY FATHERS BUSINESS - APPRENTICE - NOW REPLACE BUSINESS WITH BUSYNESS
   // WHAT IS A DISCIPLE??????
   // soldier
   // Equipped
@@ -35,7 +34,7 @@ export const books = {
   // Ambassador
   // shofar
   // I am gifted -wired for wonder as I'm writing
-  // witchcraft? witchcraft is as the sin of rebellion? is as?
+  // witchcraft? witchcraft is as the sin of rebellion? is as? Noah Webster says, witchcraft = intercourse with the devil
   // equipper - Eph 4:12
   // worker - Eph 4:12
   //builder - Eph 4:12
