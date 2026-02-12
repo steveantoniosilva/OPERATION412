@@ -12,6 +12,7 @@
     overflow: visible;
     transform-style: preserve-3d;
     cursor: default;
+    border-radius: 33px;
 }
 
 

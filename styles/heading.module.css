@@ -1,9 +1,10 @@
 .title {
-    font-size: clamp(3rem, 2vw + 2vh, 4rem);
+    font-size: clamp(2rem, 2vw + 2vh, 3rem);
     color: white;
     margin-top: 3em;
     padding-left: 1em;
     padding-right: 1em;
     line-height: 2em;
     text-shadow: 0 0 11px #000;
+    font-weight: 100;
 }
