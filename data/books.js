@@ -2,7 +2,7 @@ export const books = {
   yourAdversaryTheDevil: {
     id: 'your-adversary-the-devil',
     bookTitle: 'Your Adversary the Devil',
-    bookImageUrl: '/lion-11.png',
+    bookImageUrl: '/yatd.png',
     bookMoreInfoUrl: 'your-adversary-the-devil',
     bookAmazonUrl: '/',
     bookDescription: [
@@ -16,7 +16,7 @@ export const books = {
   //SOLDIER
   // PROPHET
   // SELF-CONTROL???????????????????????
-    // BUSINESS - I MUST BE ABOUT MY FATHERS BUSINESS - APPRENTICE - NOW REPLACE BUSINESS WITH BUSYNESS
+    // I MUST BE ABOUT MY FATHERS' BUSINESS - I MUST BE ABOUT MY FATHERS BUSINESS - APPRENTICE - NOW REPLACE BUSINESS WITH BUSYNESS
   // WHAT IS A DISCIPLE??????
   // soldier
   // Equipped
