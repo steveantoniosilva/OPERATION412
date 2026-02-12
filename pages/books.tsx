@@ -1,14 +1,8 @@
 import Head from 'next/head';
 import { books } from '../data/books';
 import BookCover from '@/components/BookCover';
-import { Crimson_Text } from 'next/font/google';
-import YourAdversaryTheDevil from './your-adversary-the-devil';
 
-const numbers = Crimson_Text({
-  subsets: ['latin'],
-  weight: ['400'],
-  style: ['normal'],
-});
+
 
 const Books = () => {
   const yourAdversaryTheDevil = books.yourAdversaryTheDevil;
@@ -30,23 +24,6 @@ const Books = () => {
             bookMoreInfoUrl={yourAdversaryTheDevil.bookMoreInfoUrl}
             bookImageUrl={yourAdversaryTheDevil.bookImageUrl}
           />
-
-
-          {/* <BookCover
-            alt={prophet.bookTitle}
-            bookMoreInfoUrl={prophet.bookMoreInfoUrl}
-            bookImageUrl={prophet.bookImageUrl}
-          />
-
-          <Spacer size={15} />
-
-          <BookCover
-            alt={soldier.bookTitle}
-            bookMoreInfoUrl={soldier.bookMoreInfoUrl}
-            bookImageUrl={soldier.bookImageUrl}
-          />
-
-          <Spacer size={15} /> */}
         </div>
       </div>
     </>
