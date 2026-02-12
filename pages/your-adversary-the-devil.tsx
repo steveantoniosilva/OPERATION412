@@ -1,10 +1,9 @@
 import Head from 'next/head';
 import BookMoreInfo from '@/components/BookMoreInfo';
 import { books } from '../data/books';
-import Spacer from '@/components/Spacer';
 
-const DreamBook = () => {
-  const book = books.quarterbackBook;
+const YourAdversaryTheDevil = () => {
+  const book = books.yourAdversaryTheDevil;
 
   return (
     <>
@@ -30,4 +29,4 @@ const DreamBook = () => {
   );
 };
 
-export default DreamBook;
+export default YourAdversaryTheDevil;

@@ -1,6 +1,6 @@
 export const books = {
-  yourAdversaryTheDevilBook: {
-    id: 'your-adversary-the-devil-book',
+  yourAdversaryTheDevil: {
+    id: 'your-adversary-the-devil',
     bookTitle: 'Your Adversary the Devil',
     bookImageUrl: '/lion-11.png',
     bookMoreInfoUrl: 'your-adversary-the-devil',

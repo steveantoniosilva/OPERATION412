@@ -1,9 +1,8 @@
 import Head from 'next/head';
 import { books } from '../data/books';
 import BookCover from '@/components/BookCover';
-import Spacer from '@/components/Spacer';
-import Author from '@/components/Author';
 import { Crimson_Text } from 'next/font/google';
+import YourAdversaryTheDevil from './your-adversary-the-devil';
 
 const numbers = Crimson_Text({
   subsets: ['latin'],
@@ -12,16 +11,14 @@ const numbers = Crimson_Text({
 });
 
 const Books = () => {
-  const quarterBack = books.quarterbackBook;
-  const prophet = books.prophetBook;
-  const soldier = books.soldierBook;
+  const yourAdversaryTheDevil = books.yourAdversaryTheDevil;
 
   return (
     <>
       <Head>
         <meta
           name='description'
-          content='BATTLE CRY BOOKS.'
+          content='412 BOOKS.'
         />
       </Head>
 
@@ -29,9 +26,9 @@ const Books = () => {
         <div className='containerFlexCentered'>
 
           <BookCover
-            alt={quarterBack.bookTitle}
-            bookMoreInfoUrl={quarterBack.bookMoreInfoUrl}
-            bookImageUrl={quarterBack.bookImageUrl}
+            alt={yourAdversaryTheDevil.bookTitle}
+            bookMoreInfoUrl={yourAdversaryTheDevil.bookMoreInfoUrl}
+            bookImageUrl={yourAdversaryTheDevil.bookImageUrl}
           />
 
 
