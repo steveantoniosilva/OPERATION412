@@ -18,25 +18,9 @@ export const books = {
   // I MUST BE ABOUT MY FATHERS' BUSINESS - I MUST BE ABOUT MY FATHERS BUSINESS - APPRENTICE - NOW REPLACE BUSINESS WITH BUSYNESS
   // WHAT IS A DISCIPLE??????
   // soldier
-  // Equipped
   // Watchman
-  // INVESTOR - but really your more like a wealth fund manager - which involves being an investor - but it's important to remember that you didn't create the wealth your managing and investing - your just a steward of it.
+  // INVESTOR - but really your more like a wealth fund manager - which involves being an investor - but it's important to remember that you didn't create the wealth your managing and investing - your just a steward of it - talents - he invested talents in us - what are we doing with it?
   // Runner
-  // Alien
-
-  //I Am A MoneyMaker - the modern minister has become a modern money machine
-
-  // Eagle
-  // Visioner
-  // ant
-  // clay
-  // sheep
-  // Ambassador
-  // I am gifted -wired for wonder as I'm writing
+  // Broken
   // witchcraft? witchcraft is as the sin of rebellion? is as? Noah Webster says, witchcraft = intercourse with the devil
-  // equipped - what does it mean??? Eph 4:12
-  //rapper
-  // GOD'S OPERATING SYSTEM?????
-  // I'm building a company
-  // talent?
 };

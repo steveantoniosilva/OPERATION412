@@ -23,7 +23,7 @@
 .image {
     object-fit: cover;
     border-radius: 33px;
-    border: 1px solid #111;
+    border: 2px solid #222;
 }
 
 /* 🔑 FORCE GLARE ABOVE IMAGE */
@@ -32,5 +32,5 @@
 }
 
 .book :global(.js-tilt-glare-inner) {
-    background: rgba(255, 255, 255, 0.65);
+    background: '#000';
 }
