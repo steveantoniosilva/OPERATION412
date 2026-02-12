@@ -32,12 +32,9 @@ export const books = {
   // clay
   // sheep
   // Ambassador
-  // shofar
   // I am gifted -wired for wonder as I'm writing
   // witchcraft? witchcraft is as the sin of rebellion? is as? Noah Webster says, witchcraft = intercourse with the devil
-  // equipper - Eph 4:12
-  // worker - Eph 4:12
-  //builder - Eph 4:12
+  // equipped - what does it mean??? Eph 4:12
   //rapper
   // GOD'S OPERATING SYSTEM?????
   // I'm building a company
