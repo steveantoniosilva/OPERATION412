@@ -24,3 +24,9 @@ export const books = {
   // Broken
   // witchcraft? witchcraft is as the sin of rebellion? is as? Noah Webster says, witchcraft = intercourse with the devil
 };
+
+// WOLF:
+// WOLF - WOLF IN SHEEP'S CLOTHING - MATT 7:15
+// VERSES ABOUT WOLVES
+// WHEAT & TARES - WHAT IS A TARE? A TARE LOOKS LIKE WHEAT BUT ITS NOT WHEAT.
+// WHAT IS A WOLF - WHAT ARE THEIR CHARACTERISTICS
