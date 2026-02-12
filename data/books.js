@@ -12,23 +12,9 @@ export const books = {
     ],
   },
 
-  prophetBook: {
-    id: 'prophet-book',
-    bookTitle: 'prophet',
-    bookImageUrl: '/prophet-final.png',
-    bookMoreInfoUrl: 'prophet',
-    bookAmazonUrl: '/',
-    bookDescription: [''],
-  },
-  soldierBook: {
-    id: 'soldier-book',
-    bookTitle: 'soldier',
-    bookImageUrl: '/soldier-final.png',
-    bookMoreInfoUrl: 'soldier',
-    bookAmazonUrl: '/',
-    bookDescription: ['book description'],
-  },
-
+  
+  //SOLDIER
+  // PROPHET
   // SELF-CONTROL???????????????????????
     // BUSINESS - I MUST BE ABOUT MY FATHERS BUSINESS - APPRENTICE - NOW REPLACE BUSINESS WITH BUSYNESS
   // WHAT IS A DISCIPLE??????
