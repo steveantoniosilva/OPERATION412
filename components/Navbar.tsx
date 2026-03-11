@@ -13,7 +13,7 @@ export default function Navbar() {
 
   const navLinks = [
     // { href: '/', label: 'home page' },
-    { href: '/books', label: 'field manuals' },
+    { href: '/books', label: 'FIELD MANUALS' },
     // { href: '/ahead', label: 'Ahead' },
   ];
 

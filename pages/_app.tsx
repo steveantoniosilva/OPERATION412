@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import { Poppins } from 'next/font/google';
+import Logo from '@/components/Logo';
 
 const siteFont = Poppins({
   subsets: ['latin'],
@@ -61,7 +62,7 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
 
       <div className={siteFont.className}>
-        {/* <Logo /> */}
+        <Logo />
         <Navbar />
         <Component {...pageProps} />
       </div>

@@ -1,12 +1,16 @@
 .logoContainer {
     position: fixed;
-    top: 1px;
+    top: 25px;
     left: 35px;
-    z-index: 111111;
-    transform: rotate(45deg);
+    z-index: 111;
 }
 
-@media (min-width: 555px) {
+.logo {
+    font-weight: 100;
+    letter-spacing: 11px;
+}
+
+/* @media (min-width: 555px) {
     .logoContainer {
         top: 20px;
     }
@@ -28,4 +32,4 @@
     .logoContainer {
         top: 20px;
     }
-}
+} */
