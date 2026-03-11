@@ -14,7 +14,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Tiny Field Manuals | Field Manuals for Believers</title>
+        <title>tiny FIELD MANUALS</title>
 
         <meta
           name='viewport'
@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
         <meta
           name='description'
-          content='Tiny Field Manuals for believers. Each manual focuses on one targets one topic in the Bible, and each chapter unpacks one bible verse.'
+          content='tiny FIELD MANUALS | Field Manuals for Believers. Each manual is on a specific topic in the Bible and each chapter on a specific verse.'
         />
 
         <meta
@@ -33,12 +33,12 @@ export default function App({ Component, pageProps }: AppProps) {
 
         <meta
           property='og:title'
-          content='Tiny Field Manuals | Field Manuals for Believers'
+          content='tiny FIELD MANUALS'
         />
 
         <meta
           property='og:description'
-          content='Tiny field manuals for believers. Each manual targets one topic in the Bible. Each chapter unpacks one Bible verse.'
+          content='tiny FIELD MANUALS | Field Manuals for Believers. Each manual is on a specific topic in the Bible and each chapter on a specific verse.'
         />
 
         <meta
