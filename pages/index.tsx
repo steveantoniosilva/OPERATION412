@@ -9,14 +9,14 @@ const Home = () => {
       <Head>
         <meta
           name='description'
-          content='BATTLE CRY BOOKS.'
+          content='tiny FIELD MANUALS'
         />
       </Head>
 
       <div className={styles.container}>
         <div className={styles.headingDiv}>
           <h1 className={styles.title}>
-            <span style={{ fontWeight: '100' }}>4 1 2</span> Books
+            <span style={{ fontWeight: '100' }}>tiny</span> FIELD MANUALS
           </h1>
         </div>
       </div>
