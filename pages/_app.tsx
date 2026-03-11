@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
         <meta
           name='description'
-          content='tiny FIELD MANUALS | Field Manuals for Believers. Each manual is on a specific topic in the Bible and each chapter on a specific verse.'
+          content='tiny FIELD MANUALS | Field Manuals for Believers. Each manual targets a specific topic in the Bible and each chapter unpacks a specific verse.'
         />
 
         <meta
@@ -38,7 +38,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
         <meta
           property='og:description'
-          content='tiny FIELD MANUALS | Field Manuals for Believers. Each manual is on a specific topic in the Bible and each chapter on a specific verse.'
+          content='tiny FIELD MANUALS | Field Manuals for Believers. Each manual targets a specific topic in the Bible and each chapter unpacks a specific verse.'
         />
 
         <meta
