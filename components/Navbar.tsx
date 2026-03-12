@@ -4,7 +4,7 @@ import { Spin as Hamburger } from 'hamburger-react';
 import styles from '../styles/navbar.module.css';
 import { useRouter } from 'next/router';
 import Paragraph from '../components/Paragraph';
-import Heading from '../components/Heading'
+import Heading from '../components/Heading';
 
 export default function Navbar() {
   const router = useRouter();
@@ -30,6 +30,7 @@ export default function Navbar() {
           duration={0.75}
           color='whitesmoke'
           distance='sm'
+          direction='right'
         />
       </div>
 

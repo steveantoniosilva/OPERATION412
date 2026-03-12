@@ -19,7 +19,7 @@
 }
 
 .title {
-    font-size: clamp(3rem, 2vw + 2vh, 4rem);
+    font-size: clamp(2rem, 2vw + 2vh, 2.5rem);
     color: white;
     padding-left: 1em;
     padding-right: 1em;

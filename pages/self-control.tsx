@@ -2,8 +2,8 @@ import Head from 'next/head';
 import BookMoreInfo from '@/components/BookMoreInfo';
 import { books } from '../data/books';
 
-const YourAdversaryTheDevil = () => {
-  const book = books.yourAdversaryTheDevil;
+const SelfControl = () => {
+  const book = books.selfControl;
 
   return (
     <>
@@ -29,4 +29,4 @@ const YourAdversaryTheDevil = () => {
   );
 };
 
-export default YourAdversaryTheDevil;
+export default SelfControl;

@@ -5,7 +5,7 @@ import BookCover from '@/components/BookCover';
 
 
 const Books = () => {
-  const yourAdversaryTheDevil = books.yourAdversaryTheDevil;
+  const selfControl = books.selfControl;
 
   return (
     <>
@@ -20,9 +20,9 @@ const Books = () => {
         <div className='containerFlexCentered'>
 
           <BookCover
-            alt={yourAdversaryTheDevil.bookTitle}
-            bookMoreInfoUrl={yourAdversaryTheDevil.bookMoreInfoUrl}
-            bookImageUrl={yourAdversaryTheDevil.bookImageUrl}
+            alt={selfControl.bookTitle}
+            bookMoreInfoUrl={selfControl.bookMoreInfoUrl}
+            bookImageUrl={selfControl.bookImageUrl}
           />
         </div>
       </div>

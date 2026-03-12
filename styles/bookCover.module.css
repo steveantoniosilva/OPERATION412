@@ -13,7 +13,6 @@
     overflow: visible;
     transform-style: preserve-3d;
     cursor: default;
-    border-radius: 33px;
 }
 
 
@@ -23,8 +22,6 @@
 
 .image {
     object-fit: cover;
-    border-radius: 33px;
-    border: 2px solid #222;
 }
 
 /* 🔑 FORCE GLARE ABOVE IMAGE */

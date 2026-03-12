@@ -1,9 +1,9 @@
 export const books = {
-  yourAdversaryTheDevil: {
-    id: 'your-adversary-the-devil',
-    bookTitle: 'Your Adversary, The Devil',
-    bookImageUrl: '/yatd-2.png',
-    bookMoreInfoUrl: 'your-adversary-the-devil',
+  selfControl: {
+    id: 'self-control',
+    bookTitle: 'Self-Control',
+    bookImageUrl: '/tfm-test-4.png',
+    bookMoreInfoUrl: 'self-control',
     bookAmazonUrl: '/',
     bookDescription: [
       "This wasn't a book I was longing to write. This wasn't a great idea that came in the middle of the day. It came in the middle of the night. The idea for this book came in a dream from God.",
