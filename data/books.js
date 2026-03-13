@@ -2,7 +2,7 @@ export const books = {
   selfControl: {
     id: 'self-control',
     bookTitle: 'Self-Control',
-    bookImageUrl: '/tfm-test-4.png',
+    bookImageUrl: '/tfm-1-book-cover-v1.png',
     bookMoreInfoUrl: 'self-control',
     bookAmazonUrl: '/',
     bookDescription: [
