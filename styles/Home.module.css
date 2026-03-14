@@ -5,8 +5,8 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
-background-image: url('/eagle-head-large.png');
-background-position: 50% 43%;
+    background-image: url('/eagle-head-large.png');
+    background-position: 50% 43%;
     background-size: cover;
     background-color: rgba(1, 1, 1, .925);
     background-blend-mode: overlay;
